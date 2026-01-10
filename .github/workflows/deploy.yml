@@ -21,12 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install jupyter-book ghp-import
+          pip install -r requirements.txt
 
       - name: Build Jupyter Book # Change this to new repo name
         run: |
-          cd tempBook5
-          jupyter-book build .
+          jupyter-book clean tempBook5 --all || true
+          jupyter-book build tempBook5
+          ls -R tempBook5/_build/html
 
       - name: Deploy to GitHub Pages # Change this to new repo name
         run: |
