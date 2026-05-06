@@ -4,5 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-  - file: test.md
-    title: "Test File"
+  - file: intro.md
+    title: "Introduction"
+  - file: Class1_Understanding_AI.md
+    title: "Understanding AI"
