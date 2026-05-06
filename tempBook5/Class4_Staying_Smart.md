@@ -73,7 +73,6 @@ Professional emails, summaries for colleagues, documents you will share, social 
 Anything medical, legal, financial, or factual that others will rely on. Never use AI output for important decisions without independently checking key claims through authoritative sources.
 
 | Stakes Level | Examples | What to Do |
-| :--- | :--- | :--- |
 | **Low** | Personal use, creative drafts, informal messages | Read and edit; spot-check tone and accuracy |
 | **Medium** | Professional communications, shared documents | Verify all facts; ensure content represents you accurately |
 | **High** | Medical, legal, financial, or policy decisions | Independently verify with authoritative sources; consult a professional |
@@ -105,7 +104,6 @@ Perplexity.ai, Copilot, or ChatGPT with web search enabled can retrieve current 
 **Apply the five-point quality check** (from Class 2):
 
 | Criterion | Question |
-| :--- | :--- |
 | **Relevance** | Does the response actually address what I asked? |
 | **Completeness** | Did it cover all the aspects I needed? |
 | **Clarity** | Is it clear, readable, and well-structured? |
@@ -138,7 +136,6 @@ For each claim, spend one to two minutes searching for independent confirmation.
 **Step 4 — Record your findings:**
 
 | AI's Claim | True / False / Partly True / Unverifiable | Source You Used |
-| :--- | :--- | :--- |
 | | | |
 | | | |
 | | | |
@@ -161,7 +158,6 @@ This does not mean AI tools are dangerous. It means they require the same though
 **What to keep private — always:**
 
 | Category | Examples |
-| :--- | :--- |
 | **Personal identification** | Social Security numbers, passport numbers, driver's license numbers |
 | **Financial information** | Bank account details, credit card numbers, PINs, financial passwords |
 | **Login credentials** | Passwords, security questions and answers |
@@ -190,7 +186,6 @@ ChatGPT and some other platforms offer a mode where conversations are not saved.
 **Where to find your privacy settings:**
 
 | Platform | Where to Find It |
-| :--- | :--- |
 | **ChatGPT** | Settings → Data Controls → Improve the model for everyone |
 | **Claude** | Settings → Privacy → Conversation history |
 | **Gemini** | Gemini Apps Activity → Activity controls |
@@ -259,7 +254,6 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **General AI chatbots — your everyday starting point:**
 
 | Tool | Best For | Free Tier? |
-| :--- | :--- | :--- |
 | **ChatGPT** (chat.openai.com) | Versatile tasks; great for brainstorming, drafting, image generation (DALL·E), and data analysis | ✅ Yes |
 | **Claude** (claude.ai) | Long documents; nuanced writing; thoughtful, careful responses | ✅ Yes |
 | **Gemini** (gemini.google.com) | Google Workspace users; integration with Gmail, Docs, and Sheets | ✅ Yes |
@@ -269,7 +263,6 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **Creative tools — for specific creative tasks:**
 
 | Task | Recommended Tool |
-| :--- | :--- |
 | Image generation | DALL·E (inside ChatGPT), Adobe Firefly, Canva AI |
 | Presentation building | Gamma (gamma.app), Canva AI |
 | Music generation | Suno (suno.com), Udio |
@@ -279,7 +272,6 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **Productivity integrations — AI built into tools you already use:**
 
 | If You Use... | AI Is Already There |
-| :--- | :--- |
 | Microsoft 365 (Word, Excel, Outlook) | Copilot (requires Microsoft 365 subscription with Copilot add-on) |
 | Google Workspace (Gmail, Docs, Sheets) | Gemini (available in Workspace accounts) |
 | Canva | Magic Write, Magic Media (AI image generation) |
@@ -371,29 +363,29 @@ This is the capstone activity of the entire program. Take it seriously — a wri
 
 **My Personal AI Action Plan**
 
-*Name:* ___________________________  
-*Date:* ___________________________
+*Name:*  
+*Date:* 
 
 **The one AI tool I will use as my primary tool:**  
-......................................................
+
 **Three tasks from my real life where I will use AI in the next 7 days:**
 
-1. ......................................................
-2. ......................................................
-3. ......................................................
+1. 
+2. 
+3. 
 **One thing I will NEVER input into a public AI tool:**  
-......................................................
+
 **My plan for verifying AI outputs before I use them:**  
-......................................................
+
 **One AI skill I want to get better at in the next 30 days:**  
-......................................................
+
 **Three AI habits I am committing to starting this week:**
 
-1. ......................................................
-2. ......................................................
-3. ......................................................
+1. 
+2. 
+3. 
 **One person I will share something I learned in this program with:**  
-......................................................
+
 > 💡 **Keep this plan somewhere you will see it** — a sticky note on your monitor, a photo on your phone, or the first page of a notebook. Revisit it in 30 days and see how you are doing.
 
 ## Part V — Program Wrap-Up and Reflection
@@ -420,14 +412,14 @@ That is a complete arc — from curiosity to capability, from confusion to confi
 
 By completing this program, you now have:
 
-- 📚 **AI literacy** — a solid, honest understanding of what AI is and what it is not.
-- 🗣️ **Prompt fluency** — the ability to communicate effectively with AI tools across a wide range of tasks.
-- 🛠️ **A personal Prompt Library** — tested, reusable prompts tailored to your real needs.
-- 🎨 **Creative AI skills** — the ability to generate images, presentations, music, and more.
-- ✅ **A verification habit** — the practice of reviewing and checking AI outputs before acting on them.
-- 🔒 **A privacy framework** — clear rules for what to share and what to protect.
-- 🗺️ **A personal AI toolkit** — the right two or three tools set up and ready to use.
-- 🎯 **A Personal AI Action Plan** — a written commitment to the habits that will sustain your growth.
+- **AI literacy** — a solid, honest understanding of what AI is and what it is not.
+- **Prompt fluency** — the ability to communicate effectively with AI tools across a wide range of tasks.
+- **A personal Prompt Library** — tested, reusable prompts tailored to your real needs.
+- **Creative AI skills** — the ability to generate images, presentations, music, and more.
+- **A verification habit** — the practice of reviewing and checking AI outputs before acting on them.
+- **A privacy framework** — clear rules for what to share and what to protect.
+- **A personal AI toolkit** — the right two or three tools set up and ready to use.
+- **A Personal AI Action Plan** — a written commitment to the habits that will sustain your growth.
 
 These are not abstract skills. They are practical, transferable, and immediately useful — today, in the life you are actually living.
 
@@ -459,7 +451,7 @@ AI is evolving fast. The tools available today will look different in six months
 - **Share what you learn** — Teaching is the fastest way to deepen your own understanding. The person you named in your Action Plan is a great place to start.
 - **Stay connected to the Dendritic Institute** — Visit [fgcu.edu/eng/dendritic-institute](https://www.fgcu.edu/eng/dendritic-institute) for upcoming workshops, events, and resources.
 
-## 📋 Class 4 and Program Summary Checklist
+## Class 4 and Program Summary Checklist
 
 Before you close this book, confirm that you can do the following:
 
