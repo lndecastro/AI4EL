@@ -1,0 +1,14 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: Class1_Understanding_AI
+    title: "Class 1: Understanding AI Without the Fear"
+  - file: Class2_Daily_Assistant
+    title: "Class 2: AI as Your Daily Assistant"
+  - file: Class3_AI_Gets_Creative
+    title: "Class 3: AI Gets Creative"
+  - file: Class4_Staying_Smart
+    title: "Class 4: Staying Smart with AI"
