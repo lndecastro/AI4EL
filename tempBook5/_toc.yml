@@ -2,13 +2,13 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: intro.md
 chapters:
-  - file: Class1_Understanding_AI
+  - file: Class1_Understanding_AI.md
     title: "Class 1: Understanding AI Without the Fear"
-  - file: Class2_Daily_Assistant
+  - file: Class2_Daily_Assistant.md
     title: "Class 2: AI as Your Daily Assistant"
-  - file: Class3_AI_Gets_Creative
+  - file: Class3_AI_Gets_Creative.md
     title: "Class 3: AI Gets Creative"
-  - file: Class4_Staying_Smart
+  - file: Class4_Staying_Smart.md
     title: "Class 4: Staying Smart with AI"
