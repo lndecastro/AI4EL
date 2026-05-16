@@ -463,9 +463,195 @@ If a prompt scores poorly on any criterion, refine it and test again before savi
 
 **Step 5:** Save your three final prompts somewhere accessible — a notes app, a document, or a dedicated folder. You now have the beginning of a Prompt Library.
 
-## Part V — Reflection and Wrap-Up
+## Part V — AI for Your Career: Professional Pages, CVs, and Cover Letters
 
-### 5.1 The Verification-First Mindset
+The skills you have built in this class — drafting documents, working with pasted content, and using prompt templates — come together powerfully when applied to career tasks. In this section, you will use AI to create two high-value professional outputs: a personal professional page and a tailored CV with a cover letter.
+
+Both activities use your **LinkedIn profile as a starting point**, so AI has your real background to work with — no need to type everything from scratch.
+
+> **Why LinkedIn PDF?** Your LinkedIn profile is likely the most complete, up-to-date record of your professional life. Exporting it as a PDF gives AI a structured, rich input that it can transform into polished professional outputs.
+
+---
+
+### 5.1 How to Export Your LinkedIn Profile as a PDF
+
+Before starting either activity in this section, you need to save your LinkedIn profile as a PDF. Here is how:
+
+1. Go to [linkedin.com](https://linkedin.com) and sign in.
+2. Click your profile photo or your name to open **your profile page**.
+3. Click the **"More"** button (or **"Resources"** on some versions) just below your name and headline.
+4. In the dropdown menu, select **"Save to PDF"**.
+5. Your browser will download a PDF file of your complete LinkedIn profile — typically named something like `Profile.pdf`.
+6. Save this file somewhere you can find it easily (your Desktop or Downloads folder).
+
+> 💡 **Tip:** The LinkedIn PDF includes your summary, work experience, education, skills, and any recommendations or certifications. The more complete your LinkedIn profile, the better the AI outputs will be. Take a few minutes to update it before exporting.
+
+> ⚠️ **Privacy note:** You will be uploading this PDF to an AI tool. Avoid using AI tools on shared or public computers for this task. Review the privacy settings of the tool you choose — most major platforms (ChatGPT, Claude, Gemini) do not use uploaded documents to train their models, but it is always good practice to verify.
+
+---
+
+### 5.2 🛠️ Activity 6: Create Your Personal Professional Page
+
+**Goal:** Use AI to transform your LinkedIn PDF into a polished, formatted personal professional page — suitable as a personal website, a PDF bio, or a professional portfolio introduction.
+
+A **personal professional page** is a single-page document (or webpage) that presents you clearly and compellingly to potential clients, collaborators, employers, or community partners. Think of it as a curated "about me" — more narrative and personal than a CV, but more structured and professional than a social media profile.
+
+---
+
+**Step 1 — Export your LinkedIn PDF** (see Section 5.1 above)
+
+**Step 2 — Upload the PDF to an AI tool**
+
+Open [chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai), or [gemini.google.com](https://gemini.google.com). Use the file upload button (usually a paperclip or attachment icon in the chat input) to attach your LinkedIn PDF.
+
+> 💡 **Free tiers work for this task.** All three tools listed support PDF uploads on their free tiers. If you do not see a file upload option, try the web version rather than the mobile app.
+
+**Step 3 — Use this prompt template:**
+
+```
+I have uploaded my LinkedIn profile as a PDF. 
+Please use it to create a personal professional page for me.
+
+The page should include:
+1. A compelling professional headline (one sentence that captures who I am and what I do)
+2. A short professional summary (3–4 sentences, written in first person, warm and confident)
+3. My key areas of expertise (3–5 bullet points, one sentence each)
+4. A brief career highlights section (3–4 of my most significant roles or achievements)
+5. My education (concise, just institution and degree/field)
+6. A short "what I'm currently focused on" or "what I'm looking for" closing section
+7. My contact information placeholder (e.g., "[email]", "[LinkedIn URL]")
+
+Tone: Professional, warm, and human. Not overly formal. 
+Format: Clean and readable, suitable for a one-page website or professional portfolio.
+Length: No longer than one page when formatted normally.
+```
+
+**Step 4 — Review and personalize**
+
+Read through the AI-generated page carefully:
+- Does the summary actually sound like you?
+- Are there any inaccuracies or details that were misread from the PDF?
+- Is there anything important about you that AI missed?
+
+Make at least three edits to bring your own voice into the content.
+
+**Step 5 — Optional: Request an HTML version**
+
+If you want a webpage you can share or host, try this follow-up prompt:
+```
+Now please format this as a clean, modern HTML page I can open in a browser.
+Use a simple, professional design with a white background, readable fonts, 
+and soft accent colors. No external dependencies — everything inline.
+```
+
+**Reflect:**
+- How accurate was AI's interpretation of your professional background?
+- What did it emphasize that you would not have thought to highlight yourself?
+- How long did this take compared to writing a professional bio from scratch?
+
+---
+
+### 5.3 🛠️ Activity 7: Tailor Your CV and Write a Cover Letter for a Specific Job
+
+**Goal:** Use your LinkedIn PDF and a real job posting to have AI produce a tailored CV and a polished cover letter email — ready to review and send.
+
+This is one of the highest-value career applications of AI. Generic CVs and cover letters rarely stand out. AI can analyze both your background and the specific requirements of a job posting, then craft documents that align the two — in minutes.
+
+---
+
+**Step 1 — Export your LinkedIn PDF** (see Section 5.1 if you have not already done so)
+
+**Step 2 — Find and download a job posting**
+
+Find a real job posting you are interested in — or a realistic example role. 
+
+- Copy the **full text** of the job posting (job title, responsibilities, required skills, qualifications, and any other details).
+- Save it in a text document or keep it ready to paste into the AI chat.
+
+> 💡 **Where to find job postings:** LinkedIn Jobs, Indeed, Glassdoor, your company's own careers page, or any sector-specific job board. For this activity, even a sample posting works — the key is practicing the process.
+
+**Step 3 — Upload your LinkedIn PDF and paste the job posting**
+
+In your AI chat, upload your LinkedIn PDF, then use this prompt:
+
+```
+I have uploaded my LinkedIn profile as a PDF. 
+Below I am also pasting the full text of a job posting I want to apply for.
+
+Please do the following:
+
+TASK 1 — TAILORED CV
+Create a tailored CV that highlights the parts of my background most relevant 
+to this specific role. 
+- Use a clean, professional format with clear sections: 
+  Summary, Key Skills, Work Experience, Education, and Certifications (if any).
+- In the Summary section, write 2–3 sentences that connect my background 
+  directly to the role's requirements.
+- In the Skills section, mirror the language and keywords from the job posting 
+  wherever they are genuinely reflected in my experience.
+- In the Experience section, emphasize achievements and responsibilities 
+  that align with what this role requires.
+- Do not invent or exaggerate anything. Only use what is in my profile.
+
+TASK 2 — COVER LETTER (EMAIL FORMAT)
+Write a professional cover letter in email format, ready to paste into an 
+email application.
+- Subject line: clear and professional, referencing the role and my name.
+- Opening paragraph: hook the reader with a strong, specific reason 
+  why I am a compelling fit for this role.
+- Middle paragraph(s): connect 2–3 specific aspects of my background 
+  to the key requirements of the role. Be specific, not generic.
+- Closing paragraph: express genuine enthusiasm, confirm availability, 
+  and include a clear call to action (e.g., inviting an interview).
+- Tone: confident, professional, and human. Not stiff or overly formal.
+- Length: 3–4 short paragraphs. Under 300 words total.
+
+Here is the job posting:
+[PASTE THE FULL JOB POSTING TEXT HERE]
+```
+
+**Step 4 — Review both documents carefully**
+
+This step is critical. Before using either document:
+
+- **Check every claim.** AI should only include things from your actual background, but verify that dates, titles, and descriptions are accurate.
+- **Read the cover letter aloud.** Does it sound like a real person wrote it? Does it sound like *you*?
+- **Look for keyword alignment.** The CV should use terminology from the job posting where it genuinely matches your experience.
+- **Check the tone.** Is it confident without being arrogant? Professional without being stiff?
+
+**Step 5 — Refine with follow-up prompts**
+
+Use these follow-up prompts to improve specific sections:
+
+```
+The cover letter opening feels too generic. 
+Please rewrite it with a more specific, compelling hook that references 
+[something specific about the company or the role].
+```
+
+```
+The Skills section in the CV is too long. 
+Please trim it to the 8 most relevant skills for this role.
+```
+
+```
+Rewrite the Work Experience bullets for my most recent role to be 
+more achievement-focused (using numbers or outcomes where possible).
+```
+
+**Reflect:**
+- How well did AI identify the alignment between your background and the role?
+- What did it include that you would not have thought to highlight?
+- What did it get wrong or overstate that you had to correct?
+- How does this compare to writing a CV and cover letter from scratch?
+
+> ⚠️ **Important reminder:** Always review and edit AI-generated application materials before submitting them. You are responsible for the accuracy of everything in your CV. AI is your drafting assistant — you are the one whose name goes on the document.
+
+---
+
+## Part VI — Reflection and Wrap-Up
+
+### 6.1 The Verification-First Mindset
 
 Everything we practiced today — emails, summaries, spreadsheet analysis — produces AI output that is a **starting point**, not a finished product.
 
@@ -478,7 +664,7 @@ Before you use any AI-generated content:
 
 This mindset — verify before you act — is not about distrust. It is about staying in control, which is exactly where you belong.
 
-### 5.2 Reflection
+### 6.2 Reflection
 
 > Which of today's use cases — emails, documents, or spreadsheets — do you think will save you the most time in the next month?  
 > Has anything we practiced today changed how you think about the role of writing and communication in your work?  
@@ -486,7 +672,7 @@ This mindset — verify before you act — is not about distrust. It is about st
 
 There are no wrong answers. These are the kinds of questions thoughtful AI users return to regularly as the technology becomes a bigger part of daily life.
 
-### 5.3 What Is Coming in Class 3
+### 6.3 What Is Coming in Class 3
 
 In our next class, we step into the creative side of AI. You will:
 
@@ -509,6 +695,8 @@ Before you move on, confirm that you can do the following:
 - [ ] Use AI to analyze a simple table of data and extract plain-language insights.
 - [ ] Apply the five-point quality check to evaluate an AI output.
 - [ ] Save at least three tested prompts to a personal Prompt Library.
+- [ ] Export your LinkedIn profile as a PDF and use it as input for an AI professional page.
+- [ ] Use AI to tailor a CV to a specific job posting and generate a cover letter email.
 
 ## 📘 Further Reading
 
