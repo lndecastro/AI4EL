@@ -26,8 +26,11 @@ By completing this program, you will be able to:
 - Use **prompt engineering** techniques to get better results from AI tools.
 - Apply AI to **written communication**: drafting and improving emails, documents, and reports.
 - Use AI to **analyze and simplify spreadsheet data** without needing to know formulas.
+- Use AI to create a **personal professional page** and a **tailored CV and cover letter** from your LinkedIn profile.
 - Create **AI-generated images** for personal and professional use.
 - Build **AI-assisted presentations** faster and more effectively.
+- Design a **digital event invitation** as an interactive webpage using AI.
+- Plan the core components of a **company or organization** with AI, then build its **brand identity and website**.
 - Experiment with **AI music and avatar tools** for content creation.
 - Apply a **verification-first mindset** to evaluate AI outputs critically.
 - Protect your **privacy and data** when using AI tools.
@@ -40,8 +43,8 @@ The AI4EL Program is structured as a **hands-on, progressive learning experience
 | Class | Theme | Focus |
 | :----: | :-------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
 | **1** | _Understanding AI Without the Fear_ | What AI is, how it works in plain language, and your very first hands-on experience with a chatbot. |
-| **2** | _AI as Your Daily Assistant_ | Using AI for emails, documents, and spreadsheets — the tasks you face every single day. |
-| **3** | _AI Gets Creative_ | Generating images, building presentations, exploring AI music and avatars — AI as a creative partner. |
+| **2** | _AI as Your Daily Assistant_ | Using AI for emails, documents, spreadsheets, professional pages, tailored CVs, and cover letters. |
+| **3** | _AI Gets Creative_ | Generating images, building presentations, creating digital invitations, designing brand identities, and building company websites — AI as a creative partner. |
 | **4** | _Staying Smart with AI_ | Verifying AI outputs, protecting your privacy, and building an AI toolkit and habits that last. |
 
 ## How to Use This Jupyter Book
@@ -91,8 +94,8 @@ Key principles guiding this program include:
 The program follows a clear and practical progression:
 
 1. **Class 1** — Demystifying AI and your first prompt conversation  
-2. **Class 2** — AI for emails, documents, and spreadsheets  
-3. **Class 3** — AI for images, presentations, music, and avatars  
+2. **Class 2** — AI for emails, documents, spreadsheets, professional pages, CVs, and cover letters  
+3. **Class 3** — AI for images, presentations, music, avatars, digital invitations, brand identity, and websites  
 4. **Class 4** — Verification, privacy, and building your personal AI toolkit  
 
 By the end of the program, you will have practiced AI across the most common use cases in everyday and professional life — and you will leave with a personal action plan to keep growing.
