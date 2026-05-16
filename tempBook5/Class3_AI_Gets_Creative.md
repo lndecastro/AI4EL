@@ -442,9 +442,253 @@ Visit [elevenlabs.io](https://elevenlabs.io) (free tier available).
 - What are two legitimate uses of this technology you can imagine?
 - What is one misuse scenario that concerns you?
 
-## Part VI — Putting Creative AI in Perspective
+## Part VI — AI for Real-Life Creative Projects
 
-### 6.1 What Distinguishes Human Creativity from AI Generation?
+Everything you have practiced in this class — generating images, building presentations, creating music, and exploring avatars — comes together when you apply it to real, meaningful projects. In this section, you will work on two hands-on creative challenges that many people encounter in everyday and professional life: a digital event invitation and building a brand from scratch.
+
+These activities are more open-ended than earlier ones. There is no single right answer. The goal is for you to practice directing AI through a multi-step creative project — and to experience the full creative loop of **Generate → Evaluate → Refine**.
+
+---
+
+### 6.1 🛠️ Activity 5: Create a Digital Birthday Party Invitation
+
+**Goal:** Use AI to design and produce a beautiful, interactive digital birthday party invitation — ready to share via link, email, or social media.
+
+A digital invitation is a perfect creative AI project: it has a clear purpose, a real audience, a specific set of content (date, time, place, RSVP), and room for personality and visual creativity. You can choose to create this as an **interactive webpage**, a **designed graphic**, or a **structured document** — whichever best suits your needs.
+
+---
+
+**Step 1 — Define the invitation details**
+
+Before prompting AI, decide on the basics:
+- **Whose birthday is it?** (Use a real name, a nickname, or make one up for practice.)
+- **What is the theme or vibe?** (Elegant, tropical, kids' party, cozy gathering, surprise party, outdoor barbecue, etc.)
+- **What are the key details?** Date, time, location, dress code (if any), RSVP contact.
+- **What format do you want?** A styled HTML webpage, a printable card graphic, or a social media post?
+
+> 💡 **Tip:** Having clear answers to these questions before you start will dramatically improve your AI outputs. Do not skip this step — it is the "director's brief" that guides everything that follows.
+
+---
+
+**Step 2 — Generate a written invitation text**
+
+Start by asking AI to write the invitation copy:
+
+```
+Please write a fun, warm, and creative birthday party invitation for the following event:
+
+Name: [Name]
+Theme/vibe: [e.g., tropical luau, elegant garden party, surprise 80s party]
+Date: [Date]
+Time: [Time]
+Location: [Address or venue name]
+RSVP: [Contact method — phone, email, or "None for practice"]
+Special note: [e.g., "Surprise party — please don't tell!", "Kids welcome", "Casual dress"]
+
+Write the invitation in a tone that matches the theme. 
+Include a catchy headline, the key event details, 
+and a fun closing line that encourages people to come.
+```
+
+---
+
+**Step 3 — Generate the interactive digital invitation as a webpage**
+
+Once you have the text, use this prompt to create a fully designed, interactive HTML invitation:
+
+```
+Using the invitation text below, please create a complete, 
+beautiful HTML webpage for a digital birthday party invitation.
+
+Design requirements:
+- Visually match the theme: [describe your theme again — colors, mood, imagery style]
+- Include animated or decorative elements appropriate to the theme 
+  (e.g., floating confetti, subtle sparkle effect, or a festive background pattern)
+- Display all event details clearly: name, date, time, location, RSVP
+- Include a simple RSVP section with "Yes, I'll be there! 🎉" and 
+  "Sorry, I can't make it 😢" buttons that show a friendly confirmation message when clicked
+- Mobile-friendly layout (works well on both phone and desktop)
+- No external images required — use CSS, emoji, and inline design only
+- Everything should be in one self-contained HTML file
+
+Invitation text:
+[PASTE YOUR INVITATION TEXT FROM STEP 2]
+```
+
+> 💡 **What you get:** A single `.html` file you can open in any browser, share as an attachment, or host on a free platform like GitHub Pages, Netlify Drop, or Google Sites.
+
+---
+
+**Step 4 — Optionally generate a matching visual**
+
+Use an image generation tool (DALL·E in ChatGPT, Adobe Firefly, or Canva AI) to create a matching banner or background image for your invitation:
+
+```
+Create a festive illustration for a birthday party invitation with a [theme] theme.
+Style: [watercolor / flat design / photorealistic / cartoon]
+Colors: [describe the palette that matches your invitation]
+Include: [any specific elements — balloons, flowers, tropical plants, vintage patterns, etc.]
+No text in the image. Horizontal format, suitable as a website banner.
+```
+
+---
+
+**Step 5 — Review and personalize**
+
+Open the HTML file in your browser. Ask yourself:
+- Does it feel right for the person and the occasion?
+- Is all the information accurate and clearly readable?
+- Does the design match the theme you had in mind?
+
+Make at least two edits — change a color, adjust the wording, or add a personal touch.
+
+**Reflect:**
+- How long did the full process take?
+- What did AI get right about the theme and design without being told?
+- What would you have done differently with the design if AI had not been involved?
+- Can you think of other events where a quick AI-generated digital invitation would save you significant time?
+
+---
+
+### 6.2 🛠️ Activity 6: Plan a Company with AI — Brand Identity and Website
+
+**Goal:** Use AI to move through three stages of building a new business or organization: strategic planning, visual identity, and website creation.
+
+This activity is one of the most expansive in the program — and one of the most practical. Whether you are dreaming of starting a business, building a side project, launching a community organization, or just exploring what is possible, AI can take you from a simple idea to a complete brand and online presence in a single session.
+
+You will work through three stages: **Plan → Brand → Build.**
+
+> 💡 **This activity is deliberately open-ended.** Use a real business idea you have been thinking about, a passion project, a community initiative, or a completely imagined concept. The process is the same regardless.
+
+---
+
+#### Stage 1 — Plan: Define the Core Components of Your Company
+
+**Start with this prompt:**
+
+```
+I want to start a [type of business or organization]. 
+Here is what I have in mind so far: [1–3 sentences describing your idea].
+
+Please help me define the following foundational components:
+
+1. Business name: Suggest 5 creative, memorable name options that reflect 
+   the nature and values of this business. For each, explain the reasoning.
+2. Mission statement: One sentence that captures what the business does 
+   and why it matters.
+3. Vision statement: One sentence about the long-term impact or aspiration.
+4. Core values: 3–5 values with a one-line explanation each.
+5. Target audience: Who are the ideal customers or clients? 
+   Describe them in plain terms (age range, needs, lifestyle, goals).
+6. Key products or services: List 3–5 core offerings with a one-line description each.
+7. Unique value proposition: In one sentence, what makes this business 
+   different from others in the same space?
+```
+
+Review the output, pick the name you like best, and move to Stage 2.
+
+---
+
+#### Stage 2 — Brand: Create the Visual Identity
+
+With your business concept defined, use AI to develop a complete **visual identity** — the look, feel, and visual language of your brand.
+
+**Prompt 1 — Brand personality and color palette:**
+```
+Based on this business concept: [paste your mission, audience, and value proposition from Stage 1]
+
+Please create a complete brand personality and visual identity guide including:
+
+1. Brand personality: Describe the brand in 5 adjectives and explain 
+   what they mean for how the brand should look and communicate.
+2. Color palette: Suggest a primary color, a secondary color, 
+   and an accent color. For each, provide the hex code, the name, 
+   and explain why it fits this brand.
+3. Typography suggestion: Recommend a heading font and a body text font 
+   (use Google Fonts options). Explain the choice.
+4. Logo concept: Describe in words a logo concept that fits this brand — 
+   the symbol or mark, the style, and how the name would appear alongside it.
+5. Visual style guide: In 3–4 sentences, describe the overall visual direction 
+   (photography style, illustration style, layout feel) for this brand.
+```
+
+**Prompt 2 — Generate a logo concept image:**
+
+Take the logo description from the AI's response and use it to generate a visual with an image tool:
+
+```
+Create a minimalist logo for a company called "[Your Business Name]".
+[Paste the logo concept description from the AI's brand guide.]
+Clean white background. Professional, modern style.
+Include the company name in the logo in [your chosen font style].
+```
+
+> 💡 **Note on AI logos:** AI image tools sometimes struggle with precise text in logos. If the text does not render correctly, generate the icon/symbol separately and add the business name using Canva, Google Slides, or any basic design tool.
+
+---
+
+#### Stage 3 — Build: Create the Company Website
+
+With your brand identity in place, use AI to build a complete one-page company website.
+
+**Prompt:**
+```
+Using the brand information below, please create a complete, 
+professional one-page company website as a single HTML file.
+
+Brand information:
+- Business name: [name]
+- Mission: [mission statement]
+- Target audience: [description]
+- Products/services: [list]
+- Unique value proposition: [statement]
+- Color palette: Primary: [hex], Secondary: [hex], Accent: [hex]
+- Brand personality: [adjectives]
+
+Website sections to include:
+1. Hero section — business name, tagline, and a prominent call-to-action button
+2. About section — who we are and what we stand for (2–3 sentences)
+3. Services/Products section — the 3–5 key offerings with a short description each
+4. Why Us section — 3 short points highlighting the unique value proposition
+5. Contact section — a simple contact form (name, email, message fields) 
+   and placeholder contact details
+6. Footer — business name, copyright year, and navigation links
+
+Design requirements:
+- Use the brand colors throughout (header, buttons, accents)
+- Clean, modern, mobile-responsive layout
+- Professional typography matching the brand personality
+- Smooth scroll navigation
+- All in one self-contained HTML file — no external dependencies
+```
+
+**Review and refine:**
+- Does the website accurately represent the business idea?
+- Does the design feel consistent with the brand personality?
+- What would you change, add, or remove?
+
+Use follow-up prompts to make specific adjustments:
+```
+Please add a customer testimonials section between the Services and Why Us sections.
+Make the hero section background use a subtle gradient of our primary and secondary colors.
+```
+
+---
+
+**Full Activity Reflection:**
+- What surprised you about how quickly AI could produce a business concept and brand?
+- Which stage — planning, branding, or building — did AI handle most impressively?
+- Which stage required the most of your own judgment and editing?
+- How would this compare to hiring a freelancer or agency to do the same work?
+- What are the risks of using AI-generated brand materials without involving a professional designer?
+
+> ⚠️ **A note on professional use:** For a real business, AI-generated brand materials are an excellent starting point — but professional designers bring strategic thinking, cultural nuance, and refinement that AI cannot fully replicate. Use AI to explore and prototype; bring in professionals when it really counts.
+
+---
+
+## Part VII — Putting Creative AI in Perspective
+
+### 7.1 What Distinguishes Human Creativity from AI Generation?
 
 This is one of the most important questions of our time — and there is no single right answer. But it is worth thinking about carefully.
 
@@ -463,7 +707,7 @@ What AI cannot produce — at least not yet, and perhaps not ever — is:
 
 > The most powerful creative uses of AI are the ones where your intention is clear, your judgment shapes the output, and the final result carries your voice — even if AI generated the first draft.
 
-### 6.2 A Practical Creative AI Ethics Checklist
+### 7.2 A Practical Creative AI Ethics Checklist
 
 Before sharing any AI-generated creative content — publicly, professionally, or personally — run through this quick check:
 
@@ -476,7 +720,7 @@ Before sharing any AI-generated creative content — publicly, professionally, o
 
 If you can check all six boxes with a clear conscience, you are using creative AI responsibly.
 
-### 6.3 Reflection
+### 7.3 Reflection
 
 > What surprised you most about what AI can create today?  
 > Where do you see yourself using any of these creative tools in the next month — personally or professionally?  
@@ -485,7 +729,7 @@ If you can check all six boxes with a clear conscience, you are using creative A
 
 These are not abstract philosophical questions — they are practical ones that more and more professionals, educators, artists, and organizations are wrestling with right now. Developing your own thoughtful position on them is part of becoming a confident, responsible AI user.
 
-### 6.4 What Is Coming in Class 4
+### 7.4 What Is Coming in Class 4
 
 Our final class brings everything together — and adds one critical layer that ties the whole program together: **knowing when to trust AI, how to protect yourself, and how to build habits that last**.
 
@@ -506,6 +750,10 @@ Before you move on, confirm that you can do the following:
 - [ ] Describe at least two legitimate use cases for AI avatars or synthetic voice tools.
 - [ ] Apply the six-point creative AI ethics checklist before sharing AI-generated content.
 - [ ] Articulate in your own words what distinguishes human creative intent from AI generation.
+- [ ] Use AI to create a themed, interactive digital invitation as a self-contained HTML webpage.
+- [ ] Use AI to define the core components of a business (name, mission, values, audience, services).
+- [ ] Use AI to generate a brand identity guide including color palette, typography, and logo concept.
+- [ ] Use AI to build a complete one-page company website from a brand brief.
 
 ## 📘 Further Reading
 
