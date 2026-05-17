@@ -121,38 +121,42 @@ AI excels at repetitive, pattern-based tasks. What it cannot replicate is your j
 
 Now that you understand what AI is, let us look at the specific tools you will be working with throughout this program.
 
+> **Note:** Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.
+
 ### 2.1 The AI Tool Landscape
 
-There are many AI chatbots and tools available today. The good news is that they work in very similar ways — if you learn to use one, you will adapt quickly to the others.
+There are many general-purpose AI apps and tools available today. The good news is that they work in very similar ways and if you learn to use one, you will adapt quickly to the others. Furthermore, if you know how to perform a task using general-purpose models, you can use any specialized AI tool that you want, it is just a matter of learning how to operate them. 
 
-**The major AI chatbot platforms:**
+**The major general-purpose AI platforms:**
 
-| Tool | Made By | Access | Best Known For |
+| Platform | Made By | Access | Best Known For |
 | :--- | :--- | :--- | :--- |
 | **ChatGPT** | OpenAI | Free / Paid (Plus) | Most widely used; versatile; strong general tasks |
 | **Claude** | Anthropic | Free / Paid (Pro) | Long documents; thoughtful, nuanced responses |
 | **Gemini** | Google | Free / Paid | Integration with Google Workspace (Docs, Gmail) |
 | **Copilot** | Microsoft | Free / Paid | Integration with Microsoft 365 (Word, Excel, Outlook) |
 | **Perplexity** | Perplexity AI | Free / Paid | Web search + AI answers with cited sources |
+| **Grok** | x.ai | Free / Paid | Images and videos; integrated with X |
 
-> 💡 **Which one should you use?** For this program, any of the free versions of ChatGPT, Claude, or Gemini will work perfectly. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
+> 💡 **Which one should you use?** For this program, any of the free versions of the general-purpose models will work. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
 
-### 2.2 What is a Prompt?
+### 2.2 Basics of Prompt Engineering
 
 A **prompt** is simply what you type to an AI. It is your instruction, question, or request.
 
 Think of it like talking to a very knowledgeable assistant who has just started working with you today. They have never met you, they do not know your preferences, and they take your words literally. The more clearly you explain what you need, the better the result.
 
-**The four ingredients of a strong prompt:**
+**The five ingredients of a strong prompt:**
 
 | Ingredient | What it Does | Example |
 | :--- | :--- | :--- |
 | **Role** | Tells AI who to act as | *"Act as a friendly travel agent..."* |
 | **Context** | Gives background information | *"I am planning a 5-day trip to Portugal with my elderly mother..."* |
-| **Task** | Specifies exactly what to do | *"...create a day-by-day itinerary..."* |
+| **Instruction** | Specifies exactly what to do | *"...create a day-by-day itinerary..."* |
+| **Input Data** | The content the model will work with | *"Here is a list of places we would like to visit"* |
 | **Format** | Describes how to present the answer | *"...organized by day, with morning, afternoon, and evening suggestions."* |
 
-You do not always need all four — but the more of them you include, the better the AI's response will be.
+You do not always need all of them, but the more you include, the better the AI's response tend to be.
 
 **Weak prompt vs. strong prompt — a comparison:**
 
@@ -171,37 +175,314 @@ suggestions for each evening. Format it as a daily plan with morning,
 afternoon, and evening sections.
 ```
 
-The second prompt gives the AI a role, context, a specific task, and a format. The output will be dramatically more useful.
+The second prompt gives the AI a role, context, a specific task, input data, and a format. The output will be dramatically more useful and assertive.
 
-### 2.3 🛠️ Hands-On Activity 1: AI as a Travel Planner
+### 2.3 The AI Workspace: Your Personal Learning Environment
 
-**Goal:** Write your first real prompt and observe how the quality of your input shapes the quality of the output.
+One of the most powerful, and most overlooked, features of modern AI platforms is the ability to create a **persistent AI Workspace**: a dedicated space where your AI assistant remembers who you are, what you are working on, and what you have already done together across multiple conversations.
 
-**Step 1 — Open any AI chatbot**  
-Go to [chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai), or [gemini.google.com](https://gemini.google.com). Create a free account if you have not already.
+Think of it this way:
 
-**Step 2 — Start with a weak prompt**  
-Type the following exactly:
+> A generic AI chat is like calling a helpline and starting from scratch every time. An AI Workspace is like having a knowledgeable friend you have been talking with for long, one who remembers your preferences, knows your situation, and picks up exactly where you left off.
+
+In this program, you will set up your **AI Workspace** at the beginning of Class 1 and use it across all classes. As you complete each activity and build your personal AI toolkit, you will bring that context into your Workspace. So, by the last class, your AI Workspace knows your goals, your preferred tools, your prompt library, and your learning journey.
+
+#### Setting Up Your AI Workspace
+
+Different AI platforms offer this feature under different names, but they all work the same way:
+
+| Platform | Workspace Feature | How to Access |
+|---|---|---|
+| Claude (Anthropic) | Projects | claude.ai → New Project |
+| ChatGPT (OpenAI) | Projects | chatgpt.com → Projects |
+| Perplexity | Spaces | perplexity.com → Spaces |
+| Grok (X.ai) | Projects | x.ai → Projects |
+| Copilot (Microsoft) | Projects | copilot.microsoft.com → Projects |
+
+Regardless of the platform you choose, the setup follows the same simple logic:
+
+1. **Create a new Workspace** and give it a meaningful name, such as "My AI Learning Space" or "AI for Everyday Life — [Your Name]."
+
+2. **Write a short introduction about yourself.** This is a brief paragraph, two to four sentences, that tells the AI who you are, what you are hoping to learn, and how you plan to use it. You will draft this in the first hands-on activity of this class.
+
+3. **Add context as you go.** After each class, bring your notes, your best prompts, and your key takeaways back into the Workspace. The AI will build on what you have already shared.
+
+4. **Run all program activities inside this Workspace**, not in a generic chat window. Start a new conversation (thread) for each class or topic, and give it a descriptive name. This is what keeps your experience organized and makes the AI genuinely useful over time, rather than just a one-off tool.
+
+**Why this matters:**
+
+> A generic AI chat has no memory of you and starts fresh every time. Your AI Workspace does not. The difference between a frustrating AI experience and a genuinely helpful one is context, and you are going to build that context deliberately, class by class.
+
+By the end of this program, your Workspace will contain your personal introduction, your preferred communication style, your most useful prompts, and a set of everyday AI habits that work for your life. That is not just a learning exercise, it is a practical tool you will keep using long after the program ends.
+
+## Worked Example 1 — Planning a Family Trip with AI
+
+In this exercise, you will learn how to use a Generative AI tool to plan a complex family trip through Europe. Rather than asking a single question and hoping for the best, you will work through a **multi-step conversation** that builds your trip plan progressively, just like briefing a knowledgeable travel agent over several meetings.
+
+By the end of this exercise, you will have produced a complete, personalised trip itinerary, and learned a prompting approach you can apply to almost any complex task.
+
+### Learning Objectives
+
+By completing this exercise, you will be able to:
+
+- Construct a **multi-turn AI conversation** that builds on itself step by step
+- Use **context-setting prompts** to get more relevant, personalised responses
+- Ask the AI to focus on **specific sub-groups** within a broader task
+- Use AI to **critique its own output** and identify risks
+- Turn a planning conversation into a **shareable, practical artefact**
+
+### Before You Begin
+
+:::{note}
+Run all ten prompts in a **single, ongoing conversation**. Do not start a new chat between steps. The AI remembers everything said earlier in the thread — that continuity is the whole point.
+:::
+
+**The scenario:** You are helping plan a 3-week family trip through Europe for the following group:
+
+| Traveller | Age / Notes |
+|---|---|
+| Two adults (parents) | Comfortable with moderate walking; flexible planners |
+| Sofia | Age 10 — loves animals, art, and hands-on experiences |
+| Lucas | Age 15 — into history, street food, and photography |
+| Two grandparents | Ages 72 and 75; one uses a walking stick; both tire easily |
+
+**Key wishes:** France, the Netherlands, Germany or Switzerland, and Italy. Mix of AirBnbs and hotels. Variety of transport including trains, boats, and a short flight.
+
+### Phase 1 — Set the Stage
+
+The first prompt is the most important. Think of it like briefing a travel agent on day one: the more context you give upfront, the better every response that follows will be.
+
+**Prompt 1 — Introduce Your Group**
+
+Copy this prompt into your AI chat window:
+
 ```
-Plan a trip for me.
+I need your help planning a 3-week family trip through Europe.
+Before suggesting anything, I want to tell you about our group so
+you can keep everyone in mind throughout our whole conversation.
+
+Our travel party:
+- Two adults (the parents), comfortable with moderate walking and
+  flexible with plans
+- One girl, age 10, loves animals, art, and anything hands-on or
+  interactive
+- One teenager, age 15, interested in history, street food, and
+  photography
+- Two elderly grandparents, ages 72 and 75; one uses a walking
+  stick, both tire easily, need to avoid very long days or excessive
+  stairs
+
+We want a mix of iconic sights and off-the-beaten-path experiences.
+We're not on an ultra-tight budget, but we're not splurging either,
+call it "comfortable mid-range."
+
+Don't plan anything yet. Just confirm you understand our group and
+ask me the 3–5 most important questions you need answered before
+we start building the trip.
 ```
-Read the response. Notice how vague and generic it is.
 
-**Step 3 — Try a stronger prompt**  
-Now type a detailed version using the four ingredients. Include:
-- A real or imaginary destination you would love to visit
-- Who is traveling (just you? family? friends?)
-- Your travel style (relaxed, adventurous, cultural, food-focused?)
-- Any special needs or preferences (budget, mobility, dietary, etc.)
-- How many days
+:::{tip}
+**What to notice:** A good AI will ask clarifying questions before diving in, just like a good human consultant. If it jumps straight to planning, you can still run Prompt 2 to steer it back.
+:::
 
-**Step 4 — Observe and reflect**
-- How different were the two responses?
-- What assumptions did the AI make in the second response?
-- Would you change anything about the itinerary? Why?
-- Would you trust this plan enough to book a trip based on it?
+**Prompt 2 — Answer the AI's Questions**
 
-> ⚠️ **Watch Out:** AI travel suggestions can include outdated prices, closed venues, or incorrect business hours. Always verify bookings directly with the source.
+After the AI responds with its questions, reply accordingly. Here we have an example set of answers which may be related with the AI questions (adjust accordingly):
+
+```
+Great questions. Here are my answers:
+
+- Travel dates: Late June through mid-July (school is out,
+  grandparents are available)
+- Flying from: Miami, Florida
+- Countries we'd love to include: France, the Netherlands,
+  Switzerland or Germany, and Italy
+- Things to avoid: Very crowded tourist traps, extreme heat
+  (grandparents struggle), anything requiring lots of stairs
+  with no elevator alternative
+- Special wishes: At least one boat ride, one scenic train
+  journey, and we'd love to try AirBnbs in at least 2 or 3
+  places for a more "local" feel and also to stay together as a family
+
+Now suggest a high-level route, just the countries and cities,
+no details yet, that makes geographic sense and flows well
+for our group.
+```
+
+### Phase 2 — Build the Skeleton
+
+Now we go layer by layer. A good plan is not built all at once, it starts as a framework and gets filled in step by step.
+
+**Prompt 3 — Lock In the Route**
+
+```
+I like this route. Let's lock it in. Now build a 3-week
+framework showing how many nights we spend in each place.
+Consider:
+- Travel days where we won't arrive until afternoon
+- The grandparents need at least one full rest day per week
+- We should avoid moving locations more than every 2–3 days
+
+Show it as a simple table: City | Nights | Notes
+```
+
+### Prompt 4 — Add the Daily Outline
+
+```
+Now take that framework and give me a day-by-day outline,
+just one or two bullet points per day showing the main
+activity or theme. Don't go deep yet, just give me the
+shape of each day so I can see if the pacing feels right.
+
+Flag any day that might be too intense for the grandparents.
+```
+
+### Phase 3 — Fill In the Details
+
+Now we zoom in. This phase shows how AI can move from "big picture" to "practical detail" on command.
+
+**Prompt 5 — Transportation Layer**
+
+```
+Now let's plan how we get between each city. For each leg
+of the journey, suggest the best mode of transport for our
+group, keeping in mind:
+- The grandparents' mobility limitations
+- We have 7 people total including luggage
+- We want variety: trains, a boat ride, short flights,
+  a car rental stretch, and local public transit all sound
+  appealing
+- Scenic routes are a bonus
+
+Give me a transport plan as a table:
+From → To | Transport Type | Approx Duration | Why It Works for Us
+```
+
+**Prompt 6 — Accommodation Layer**
+
+```
+Now let's plan where we stay. For each destination,
+recommend the best accommodation type for our group
+(AirBnb, hotel, or a mix) and explain why. Keep in mind:
+- We need enough bedrooms for: 2 adults, 2 kids,
+  and 2 grandparents (ideally 3 bedrooms or 2 units
+  nearby each other)
+- Grandparents need elevator access or a ground-floor
+  option; no climbing stairs to reach the room
+- AirBnbs work well in places where we stay 3+ nights
+  and want to cook some meals
+- For 1–2 night stays, a hotel is probably easier
+
+Format: City | Accommodation Type | Key Requirements |
+Neighbourhood to Target
+```
+
+### Phase 4 — Personalize and Enrich
+
+This is where AI earns its keep. You now ask for layers of detail tailored to specific people in your group.
+
+**Prompt 7 — The Kids' Highlight Reel**
+
+```
+For each city on our itinerary, suggest one activity
+specifically chosen for our 10-year-old (loves animals,
+hands-on experiences, art) and one for our 15-year-old
+(into history, street food, photography).
+
+These should be real, specific places or experiences,
+not generic suggestions like "visit a museum."
+```
+
+**Prompt 8 — The Grandparents' Checklist**
+
+```
+Now create a "Grandparent Accessibility Checklist" for
+our trip. For each city, tell me:
+- The one sight that is absolutely worth the effort
+  (and confirm it's accessible)
+- One thing to skip or modify for them
+- The best time of day to visit main attractions
+  (to avoid heat and crowds)
+- Any local transport tips that make their day easier
+  (e.g., trams over walking, river taxis, etc.)
+```
+
+### Phase 5 — Challenge the Plan
+
+This is one of the most valuable skills in working with AI: asking it to **critique its own output**.
+
+**Prompt 9 — The Devil's Advocate**
+
+```
+Play devil's advocate. Look at the full itinerary we've
+built and tell me:
+- Which 2 or 3 days are most likely to feel exhausting
+  or overwhelming for our group?
+- What are the top 3 logistical risks we should plan for?
+- Is there anything we've included that's likely to
+  disappoint a 10-year-old or a 15-year-old?
+- Suggest one "Plan B" alternative for any day that
+  might not go as planned.
+```
+
+:::{tip}
+**What to notice:** Asking AI to challenge its own recommendations often surfaces blind spots that a single forward-looking prompt would miss. This technique works for business plans, essays, project proposals, and more.
+:::
+
+### Phase 6 — Generate a Shareable Artefact
+
+The final step turns your planning conversation into something the whole family can use during the trip.
+
+**Prompt 10 — Request the Trip Companion**
+
+```
+We've done an amazing job planning this trip together.
+Now I want you to build an interactive trip companion
+that our whole family can use during the journey.
+
+It should include:
+- A day-by-day itinerary view
+- Accommodation and transport details for each leg
+- A "Who's going to love this?" tag for each activity
+  (kids, teens, grandparents, everyone)
+- A running packing checklist organised by category
+- A quick-reference card with emergency numbers, key
+  phrases in each language, and useful apps
+
+Make it visual, easy to navigate, and something we
+could pull up on a phone or tablet on the go with a shareable link.
+```
+
+Sample artifact created in this exercise: 
+
+### Key Takeaways
+
+:::{important}
+**The most important lessons from this exercise:**
+
+- **Context is everything.** The AI gives back what you put in. A vague prompt gets a generic answer; a specific one gets a useful one.
+- **Go layer by layer.** Break complex tasks into phases: overview → skeleton → details → personalisation → review.
+- **AI works best as a collaborator, not an oracle.** Treat it like a knowledgeable colleague you brief, question, and push back on.
+- **Ask it to challenge itself.** Prompt 9 (devil's advocate) is a technique you can apply to any major plan or decision.
+- **The conversation is the product.** By the end of a well-structured AI conversation, you have created something genuinely useful.
+- **Watch Out:** AI travel suggestions can include outdated prices, closed venues, or incorrect business hours. Always verify bookings directly with the source.
+:::
+
+## Prompting Cheat Sheet
+
+| Technique | What It Means | Example from This Exercise |
+|---|---|---|
+| **Context-setting** | Tell the AI who is involved and what matters to them before asking for anything | Prompt 1 — Describe the full travel group |
+| **Layered building** | Get a skeleton first, then fill in details | Prompts 3 → 4 → 5 → 6 |
+| **Persona targeting** | Ask separately about each sub-group | Prompts 7 and 8 |
+| **Constraint-giving** | Tell the AI what to avoid, not just what you want | "No stairs, no extreme heat, no tourist traps" |
+| **Devil's advocate** | Ask the AI to critique its own output | Prompt 9 |
+| **Artefact request** | Ask the AI to convert a conversation into a usable output | Prompt 10 |
+
+
+
+
+
 
 ### 2.4 🛠️ Hands-On Activity 2: Teach AI to Know You
 
