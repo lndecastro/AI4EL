@@ -1,8 +1,8 @@
 # Class 1: Understanding AI Without the Fear
 
-You have probably heard a lot about Artificial Intelligence lately — in the news, at work, from family, or on social media. Some of what you have heard may feel exciting. Some of it may feel overwhelming or even a little scary. This first class is designed to cut through the noise, replace confusion with clarity, and replace fear with curiosity.
+You have probably heard a lot about Artificial Intelligence lately, in the news, at work, from family, or on social media. Some of what you have heard may feel exciting. Some of it may feel overwhelming or even a little scary. This first class is designed to cut through the noise, replace confusion with clarity, and replace fear with curiosity.
 
-By the end of this class, you will understand what AI actually is, how it works in plain everyday language, where it already shows up in your life, and what it genuinely cannot do. Most importantly, you will have your very first real conversation with an AI tool — and you will have done it confidently, on your own.
+By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.
 
 > **The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense are all you need.
 
@@ -12,7 +12,7 @@ By the end of this class, you will be able to:
 
 1. Identify AI tools and systems you already interact with in daily life.
 2. Explain what Artificial Intelligence is in plain, jargon-free language.
-3. Describe how AI works at a high level — without any math or coding.
+3. Describe how AI works at a high level, without any math or coding.
 4. Distinguish between different types of AI, particularly Generative AI.
 5. Name the most common AI chatbot tools and describe what each is used for.
 6. Write and refine your first AI prompt to complete a real-world task.
@@ -24,14 +24,14 @@ Before we define AI, let us start somewhere more personal: your own daily routin
 
 ### 1.1 You Are Already an AI User
 
-Most people who say "I have never used AI" are surprised to discover they use it every single day — they just did not know it had a name.
+Most people who say "I have never used AI" are surprised to discover they use it every single day, they just did not know it had a name.
 
 Consider a typical morning:
 
 - You wake up and check the **weather app** → AI predicted that forecast.
 - You open **email** and notice that spam never reaches your inbox → AI filtered it out.
 - You search for something on **Google or Bing** → AI ranked those results for you.
-- You open **Spotify or Netflix** → AI selected those recommendations based on what you have watched or listened to before.
+- You open **Spotify, YouTube or Netflix** → AI selected those recommendations based on what you have watched or listened to before.
 - You use **Google Maps** to avoid traffic → AI calculated the fastest route in real time.
 - You ask **Siri, Alexa, or Google** a question → AI understood your voice and generated an answer.
 
@@ -45,35 +45,35 @@ Here is the simplest honest definition:
 
 > **Artificial Intelligence (AI) is software that learns from examples and uses what it learned to make decisions, answer questions, or create new content.**
 
-That is it. No magic. No consciousness. No feelings. Just very sophisticated pattern recognition.
+That is it. No magic. No consciousness. No feelings. Just very sophisticated learning machines.
 
-Think of it this way: when you were a child learning to recognize cats, someone showed you many pictures and said "cat" or "not a cat." Over time, you learned to spot a cat anywhere — even cartoon cats, tiny cats, cats in the dark. AI learns the same way, except instead of years of childhood experience, it processes millions or billions of examples in a matter of weeks.
+Think of it this way: when you were a child learning to recognize cats, someone showed you many pictures and said "cat" or "not a cat." Over time, you learned to spot a cat anywhere, even cartoon cats, tiny cats, cats in the dark. This is one of the many ways we can learn, and AI can learn the same way.
 
 **What makes AI different from regular software?**
 
 | Regular Software | Artificial Intelligence |
 | :--- | :--- |
-| Follows rules written by a programmer | Learns rules from data and examples |
-| Does exactly what it is told | Adapts and improves over time |
+| Is programmed to do something specific | Learns what it should do based on examples or interactions with the environment |
+| Does exactly what it is told | Can adapt and improve over time |
 | Cannot handle situations it was not programmed for | Can generalize to new, unseen situations |
 | Output is fixed and predictable | Output can vary and surprise even its creators |
 
-A calculator, for example, is not AI — it follows precise rules every time. A spam filter that learns which emails are junk based on your behavior *is* AI.
+A calculator, for example, is not AI, it follows precise rules every time. A spam filter that learns which emails are junk based on your behavior *is* AI.
 
 ### 1.3 How AI Works: The Big Picture
 
 You do not need to understand the math. Here is the three-step process that describes how almost every AI system works:
 
-**Step 1 — We give it examples (data)**  
-AI systems are trained on enormous amounts of information: text, images, sounds, numbers, or any other kind of data. This is called *training data*. The more representative the data, the better the AI learns.
+**Step 1 — We give it inputs (signals, examples or data)**  
+AI systems are trained on input data: text, images, sounds, numbers, etc. This is called *training data*. The more representative the data, the better the AI learns.
 
 **Step 2 — AI finds patterns**  
-Algorithms — the instructions at the heart of AI — scan all those examples and identify patterns, similarities, and relationships. This happens automatically and at incredible scale.
+Algorithms scan all those examples and identify patterns, similarities, and relationships. This happens automatically and at incredible scale.
 
 **Step 3 — AI applies what it learned**  
 When you ask AI a question or give it a task, it uses the patterns it learned during training to generate a response, make a decision, or create content.
 
-> ⚠️ **Important:** AI is making its best guess based on patterns — it is not accessing the internet in real time (unless specifically told to), it is not thinking, and it does not "know" things the way humans do. This is why it can be wrong, and why your judgment always matters.
+> ⚠️ **Important:** AI is making its best guess based on patterns, it is not accessing the internet in real time (unless specifically told to), it is not thinking, and it does not "know" things the way humans do. It can be wrong and thus your judgment always matters.
 
 ### 1.4 Types of AI: A Simple Map
 
@@ -82,31 +82,31 @@ The word "AI" covers many different technologies. Here are the ones most relevan
 **Narrow AI (most AI you encounter today)**  
 Designed to do one specific task very well. Examples: facial recognition in your phone, the algorithm that sorts your email, a chess-playing program. Narrow AI is extremely good at its one job but cannot do anything outside of it.
 
-**Generative AI (the newest wave — what this program focuses on)**  
-A type of AI that can *create* new content: text, images, music, video, code, and more. When you hear about ChatGPT, Claude, Gemini, or Copilot — these are all Generative AI tools. Instead of just analyzing or classifying, they generate something new in response to what you ask.
+**Generative AI (the newest wave and what this program focuses on)**  
+A type of AI that can *create* new content: text, images, music, video, code, and more. When you hear about ChatGPT, Claude, Gemini, or Copilot, these are all Generative AI tools. Instead of just analyzing, segmenting or classifying, they generate something new in response to what you ask.
 
 **General AI (does not exist yet)**  
-A hypothetical AI that could reason across any domain the way a human can — flexibly, with common sense, and across wildly different situations. This remains a research goal, not a current reality.
+A hypothetical AI that could reason across any domain the way a human can, with flexibly, common sense, and across wildly different situations. This remains a research goal, not a current reality.
 
-> 💡 **What this means for you:** For this program, we are focused almost entirely on **Generative AI** — specifically the AI chatbots and creative tools you can access today, for free or at low cost, without any technical background.
+> 💡 **What this means for you:** For this program, we are focused almost entirely on **Generative AI**, specifically the AI models and creative tools you can access today, for free or at low cost, without any technical background.
 
 ### 1.5 What AI Is Not
 
-As important as understanding what AI is, is understanding what it is not. Several common beliefs about AI are simply wrong — and those misunderstandings are the source of most unnecessary fear.
+As important as understanding what AI is, is understanding what it is not. Several common beliefs about AI are simply wrong, and those misunderstandings are the source of most unnecessary fear.
 
 **AI is not conscious or self-aware.**  
-There is no awareness, no feelings, and no inner experience inside an AI system. When ChatGPT says "I think..." or "I feel...", it is generating text that sounds human — because it was trained on human writing. It is not actually thinking or feeling anything.
+There is no awareness, no feelings, and no inner experience inside an AI system. When ChatGPT says "I think..." or "I feel...", it is generating text that sounds human because it was trained on human writing. It is not actually thinking or feeling anything.
 
 **AI is not always right.**  
 This is one of the most important things to internalize. AI can produce confident-sounding answers that are completely wrong. This phenomenon even has a name: *hallucination*. We will practice spotting and verifying AI output throughout this program.
 
 **AI is not reading your mind.**  
-AI responds to exactly what you type — nothing more. If your question is vague, the answer will be vague. If your question is specific and well-structured, the answer will be far more useful. This is why learning to communicate well with AI matters.
+AI responds to exactly what you type. If your question is vague, the answer may be vague. If your question is specific and well-structured, the answer may be far more useful. This is why learning to communicate well with AI matters.
 
 **AI is not going to replace you.**  
-AI excels at repetitive, pattern-based tasks. What it cannot replicate is your judgment, your lived experience, your relationships, your creativity, and your ethical reasoning. The realistic picture is AI as a powerful assistant — not a replacement.
+AI excels at repetitive, pattern-based tasks. What it cannot replicate is your judgment, your lived experience, your relationships, your creativity, and your ethical reasoning. The realistic picture is AI as a powerful assistant, not a replacement.
 
-### 1.6 Common Myths About AI — Busted
+### 1.6 Common Myths About AI - Busted
 
 | The Myth | The Reality |
 | :--- | :--- |
@@ -115,7 +115,7 @@ AI excels at repetitive, pattern-based tasks. What it cannot replicate is your j
 | "AI is always objective and unbiased." | AI learns from human-generated data, which contains human biases. AI can and does reflect those biases. |
 | "AI is dangerous and out of control." | Current AI tools are software applications with significant limitations. They require human input and oversight. |
 | "AI will make my job disappear overnight." | Change is gradual. AI is more likely to change *how* you work than to eliminate the need for you entirely. |
-| "If AI said it, it must be true." | Never. Always verify important AI outputs before acting on them. |
+| "If AI said it, it must be true." | Not always. Always verify important AI outputs before acting on them. |
 
 ## Part II — Meeting the Tools: Your AI Toolkit
 
