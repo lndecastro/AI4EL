@@ -4,7 +4,9 @@ You have probably heard a lot about Artificial Intelligence lately, in the news,
 
 By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.
 
-> **The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense are all you need.
+:::{note}
+**The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense are all you need.
+:::
 
 ## Learning Objectives
 
@@ -37,7 +39,9 @@ Consider a typical morning:
 
 None of this required you to understand AI. You were already benefiting from it.
 
-> 💡 **Key insight:** AI is not a single thing that lives in a robot. It is a set of technologies woven quietly into the tools you already use every day.
+:::{info}
+💡 **Key insight:** AI is not a single thing that lives in a robot. It is a set of technologies woven quietly into the tools you already use every day.
+:::
 
 ### 1.2 What is Artificial Intelligence? A Plain Language Definition
 
@@ -73,7 +77,9 @@ Algorithms scan all those examples and identify patterns, similarities, and rela
 **Step 3 — AI applies what it learned**  
 When you ask AI a question or give it a task, it uses the patterns it learned during training to generate a response, make a decision, or create content.
 
-> ⚠️ **Important:** AI is making its best guess based on patterns, it is not accessing the internet in real time (unless specifically told to), it is not thinking, and it does not "know" things the way humans do. It can be wrong and thus your judgment always matters.
+:::{important}
+AI is making its best guess based on patterns, it is not accessing the internet in real time (unless specifically told to), it is not thinking, and it does not "know" things the way humans do. It can be wrong and thus your judgment always matters.
+:::
 
 ### 1.4 Types of AI: A Simple Map
 
@@ -88,7 +94,9 @@ A type of AI that can *create* new content: text, images, music, video, code, an
 **General AI (does not exist yet)**  
 A hypothetical AI that could reason across any domain the way a human can, with flexibly, common sense, and across wildly different situations. This remains a research goal, not a current reality.
 
-> 💡 **What this means for you:** For this program, we are focused almost entirely on **Generative AI**, specifically the AI models and creative tools you can access today, for free or at low cost, without any technical background.
+:::{info}
+💡 **What this means for you:** For this program, we are focused almost entirely on **Generative AI**, specifically the AI models and creative tools you can access today, for free or at low cost, without any technical background.
+:::
 
 ### 1.5 What AI Is Not
 
@@ -121,7 +129,9 @@ AI excels at repetitive, pattern-based tasks. What it cannot replicate is your j
 
 Now that you understand what AI is, let us look at the specific tools you will be working with throughout this program.
 
-> **Note:** Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.
+:::{note}
+Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.
+:::
 
 ### 2.1 The AI Tool Landscape
 
@@ -138,7 +148,9 @@ There are many general-purpose AI apps and tools available today. The good news 
 | **Perplexity** | Perplexity AI | Free / Paid | Web search + AI answers with cited sources |
 | **Grok** | x.ai | Free / Paid | Images and videos; integrated with X |
 
-> 💡 **Which one should you use?** For this program, any of the free versions of the general-purpose models will work. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
+:::{info}
+💡 **Which one should you use?** For this program, any of the free versions of the general-purpose models will work. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
+:::
 
 ### 2.2 Basics of Prompt Engineering
 
