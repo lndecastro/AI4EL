@@ -453,7 +453,7 @@ Make it visual, easy to navigate, and something we
 could pull up on a phone or tablet on the go with a shareable link.
 ```
 
-Sample artifact created in this exercise: 
+Sample artifact created in ChatGPT with this exercise: https://chatgpt.com/canvas/shared/6a09f9c377088191a2cc66ad20793cae  
 
 ### Key Takeaways
 
