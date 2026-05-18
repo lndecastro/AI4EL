@@ -1,10 +1,10 @@
 # Class 2: AI as Your Daily Assistant — Emails, Documents & Spreadsheets
 
-In Class 1, you learned what AI is, how it works, and wrote your first prompts. You discovered that the quality of your input shapes the quality of the output. Now it is time to put that understanding to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, and navigating spreadsheet data without needing to be a data expert.
+In Class 1, you learned what AI is, how it works, and wrote your first prompts. You discovered that the quality of your input shapes the quality of the output. Now it is time to put that understanding to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, navigating spreadsheet data without needing to be a data expert, tailoring your CV to a specific job opportunity, writing a cover letter, and creating a personal page.
 
-By the end of this class, you will have used AI to complete tasks you face every week — and you will walk away with a personal **Prompt Library** of tested, ready-to-use templates.
+By the end of this class, you will have used AI to complete tasks you face every week, and you will walk away with a personal **Prompt Library** of tested, ready-to-use templates.
 
-> **The central idea of this class:** AI is not a magic button. It is a skilled assistant that responds to how clearly you communicate. The better you get at expressing your needs, the more value AI delivers — every single time.
+> **The central idea of this class:** AI is not a magic button. It is a skilled assistant that responds to how clearly you communicate. The better you get at expressing your needs, the more value AI delivers.
 
 ## Learning Objectives
 
@@ -20,11 +20,11 @@ By the end of this class, you will be able to:
 
 ## Part I — Prompt Literacy: Communicating Like a Pro
 
-In Class 1, you learned the four ingredients of a strong prompt: **Role, Context, Task, and Format**. Now we go one level deeper — into the *patterns* of prompting that give you consistent, high-quality results across any task.
+In Class 1, you learned the main ingredients of a strong prompt: **Role, Context, Task, Input data, and Output format**. Now we go one level deeper into the *patterns* of prompting that give you consistent, high-quality results across any task.
 
 ### 1.1 Prompt Patterns: Choosing the Right Approach
 
-A **prompt pattern** is a reusable structure you can adapt to different situations. Think of them like sentence templates for communicating with AI. You do not need to memorize all of them — you just need to know which one fits the job.
+A **prompt pattern** is a reusable structure you can adapt to different situations. Think of them like sentence templates for communicating with AI. You do not need to memorize all of them, you just need to know which one fits the job.
 
 **The five most useful prompt patterns for everyday tasks:**
 
@@ -36,11 +36,13 @@ A **prompt pattern** is a reusable structure you can adapt to different situatio
 | **Few-Shot** | You want the AI to match a specific style or format | *"Here is an example of the tone I want: [example]. Now write a similar email for this situation: [situation]."* |
 | **Iterative** | You want to refine the output through conversation | Start with a draft, then: *"Make it shorter." / "Change the tone to be warmer." / "Add a call to action."* |
 
-> 💡 **Key insight:** You do not need to pick just one pattern. The most powerful prompts often combine several — for example, a *role-based* prompt with *chain-of-thought* reasoning and a specific *output format*.
+:::{tip}
+💡 **Key insight:** You do not need to pick just one pattern. The most powerful prompts often combine several, for example, a *role-based* prompt with *chain-of-thought* reasoning and a specific *output format*.
+:::
 
 ### 1.2 Context Engineering: Giving AI the Full Picture
 
-**Prompt engineering** is about how you phrase your instruction. **Context engineering** goes further — it is about everything that *surrounds* your instruction: the role you assign, the background you provide, the audience you define, and the constraints you set.
+**Prompt engineering** is about how you phrase your instruction. **Context engineering** goes further, it is about everything that *surrounds* your instruction: the role you assign, the background you provide, the audience you define, and the constraints you set.
 
 Think of the difference this way:
 
@@ -54,7 +56,7 @@ Think of the difference this way:
 | **Role** | Defines who the AI is acting as | *"You are a patient and professional customer service representative..."* |
 | **Audience** | Defines who will read the output | *"...writing to a frustrated customer who has been waiting two weeks for a refund."* |
 | **Purpose** | Clarifies the goal | *"The goal is to acknowledge the issue, apologize sincerely, and offer a clear next step."* |
-| **Tone** | Sets the emotional register | *"Keep the tone warm, empathetic, and professional — never defensive."* |
+| **Tone** | Sets the emotional register | *"Keep the tone warm, empathetic, and professional, never defensive."* |
 | **Constraints** | Sets limits on length, content, or style | *"Keep the email to three short paragraphs. Do not promise a specific timeline."* |
 
 **Context engineering in action — a before and after:**
@@ -77,13 +79,40 @@ Write a professional, warm, and sincere apology email that:
 - Is no longer than three short paragraphs
 ```
 
-The second version gives the AI everything it needs to produce something genuinely useful — not just a generic apology.
+The second version gives the AI everything it needs to produce something genuinely useful, not just a generic apology.
 
-### 1.3 Meta-Prompting: Let AI Improve Your Prompts
+### 1.3 Meta-Prompting: Let AI Create and/or Improve Your Prompts
 
-One of the most powerful — and underused — techniques is **meta-prompting**: asking AI to help you write or improve a prompt before you use it.
+One of the most powerful and underused techniques is **meta-prompting**: asking AI to help you write or improve a prompt before you use it.
 
 This is especially helpful when you know what you want to accomplish but are not sure how to phrase it.
+
+**Meta-Prompt Template — Create a Prompt from Scratch:**
+```
+I want to use AI to help me with the following goal:
+[DESCRIBE WHAT YOU WANT TO ACCOMPLISH]
+
+My audience is: [WHO WILL READ OR BENEFIT FROM THE OUTPUT]
+The tone should be: [FORMAL / FRIENDLY / PERSUASIVE / INFORMATIVE / ETC.]
+The format I need is: [EMAIL / LIST / PLAN / SUMMARY / SOCIAL POST / ETC.]
+Any important details or constraints: [LENGTH, STYLE, THINGS TO INCLUDE OR AVOID]
+
+Based on this, write me a strong, ready-to-use prompt I can give to an AI tool.
+```
+
+**Example**: A small business owner wants to use AI to announce a new product on social media but doesn't know how to start.
+
+**Using the meta-prompt**:
+```
+I want to use AI to help me write a prompt with the following goal:
+Announce a new product on social media.
+
+My audience is: local customers in Southwest Florida, mostly 30–55 years old
+The tone should be: excited, friendly, and a little playful
+The format I need is: a short social media post (Instagram/Facebook)
+Any important details or constraints: the product is a new tropical fruit smoothie at
+my café, I want to include a call to action, keep it under 100 words, and use 2–3 emojis
+```
 
 **Meta-Prompt Template — Improve a Weak Prompt:**
 ```
@@ -116,9 +145,11 @@ with a donation link placeholder, and a warm, grateful closing.
 Tone: heartfelt, urgent but not pushy. Length: 250–300 words.
 ```
 
-The meta-prompt transformed a one-line instruction into a fully engineered prompt — and the resulting email was ready to use with minimal editing.
+The meta-prompt transformed a one-line instruction into a fully engineered prompt, and the resulting email was ready to use with minimal editing.
 
-> 💡 **Try this:** Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
+:::{tip}
+💡 **Try this:** Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
+:::
 
 ### 1.4 🛠️ Activity 1: Prompt Pattern Practice
 
