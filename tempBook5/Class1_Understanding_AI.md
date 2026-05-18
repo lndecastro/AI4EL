@@ -246,7 +246,7 @@ By completing this exercise, you will be able to:
 ### Before You Begin
 
 :::{note}
-Run all ten prompts in a **single, ongoing conversation**. Do not start a new chat between steps. The AI remembers everything said earlier in the thread — that continuity is the whole point.
+Run all ten prompts in a **single, ongoing conversation**. Do not start a new chat between steps. The AI remembers everything said earlier in the thread, and that continuity is the whole point.
 :::
 
 **The scenario:** You are helping plan a 3-week family trip through Europe for the following group:
