@@ -37,7 +37,7 @@ A **prompt pattern** is a reusable structure you can adapt to different situatio
 | **Iterative** | You want to refine the output through conversation | Start with a draft, then: *"Make it shorter." / "Change the tone to be warmer." / "Add a call to action."* |
 
 :::{tip}
-💡 **Key insight:** You do not need to pick just one pattern. The most powerful prompts often combine several, for example, a *role-based* prompt with *chain-of-thought* reasoning and a specific *output format*.
+You do not need to pick just one pattern. The most powerful prompts often combine several, for example, a *role-based* prompt with *chain-of-thought* reasoning and a specific *output format*.
 :::
 
 ### 1.2 Context Engineering: Giving AI the Full Picture
@@ -148,7 +148,7 @@ Tone: heartfelt, urgent but not pushy. Length: 250–300 words.
 The meta-prompt transformed a one-line instruction into a fully engineered prompt, and the resulting email was ready to use with minimal editing.
 
 :::{tip}
-💡 **Try this:** Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
+Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
 :::
 
 ### 1.4 🛠️ Activity 1: Prompt Pattern Practice
@@ -257,9 +257,11 @@ Email:
 [PASTE EMAIL]
 ```
 
-> ⚠️ **Watch Out:** Always re-read AI-generated emails before sending. Check for anything that does not sound like you, any factual details the AI may have invented, or any commitments you did not intend to make. You are responsible for what you send — AI is the drafter, not the decision-maker.
+:::{important}
+Always re-read AI-generated emails before sending. Check for anything that does not sound like you, any factual details the AI may have invented, or any commitments you did not intend to make. You are responsible for what you send. AI is the drafter, not the decision-maker.
+:::
 
-### 2.3 🛠️ Activity 2: Draft a Real Email
+### 2.3 Activity 2: Draft a Real Email
 
 **Goal:** Use AI to complete an actual email task from your life.
 
@@ -282,7 +284,37 @@ Email:
 - What did it get wrong or miss?
 - How many rounds of refinement did it take to get something you would actually use?
 
-### 2.4 AI for Documents: Reading, Summarizing, and Creating
+### 2.4 AI Tools for Email Management
+
+Managing a busy inbox can feel overwhelming, but AI tools are making it much easier. Whether you want to quickly summarize a long email thread, get help writing a reply, or automatically sort out the messages that actually matter, there is now a tool designed to do exactly that. The options range from AI assistants already built into Gmail and Outlook (so nothing new to install) to dedicated apps that completely transform how you experience email. The table below gives you a side-by-side look at the most popular tools available, so you can find the best fit for your needs and comfort level.
+
+## Comparison Table
+
+| Tool | Website | Best For | Works With | Key Features | Free Option | Approx. Cost |
+|------|---------|----------|------------|--------------|-------------|--------------|
+| **Google Gemini** | [gemini.google.com](https://gemini.google.com) | Gmail users who want AI built in | Gmail | Thread summarization, reply drafting, inbox organization | ✅ Yes (included with Gmail) | Free / Google One AI Premium ~$20/mo |
+| **Microsoft Copilot** | [copilot.microsoft.com](https://copilot.microsoft.com) | Outlook & Microsoft 365 users | Outlook, Teams, Word | Email drafting, thread summaries, tone coaching, cross-app context | ✅ Yes (basic) | Included in Microsoft 365 plans |
+| **Superhuman** | [superhuman.com](https://superhuman.com) | Professionals with high email volume | Gmail, Outlook | Fast inbox triage, AI reply drafting in your tone, auto follow-ups, mobile app | ❌ No | ~$30/month |
+| **Shortwave** | [shortwave.com](https://shortwave.com) | Gmail users wanting a cleaner experience | Gmail only | Auto-bundles threads by topic, prioritizes urgent emails, AI writing assistant, scheduled sending | ✅ Limited free plan | From ~$9/month |
+| **SaneBox** | [sanebox.com](https://sanebox.com) | Anyone overwhelmed by inbox clutter | Any email client (IMAP) | Smart sender filtering, SaneLater folder, SaneBlackHole (block senders), no-reply reminders, daily digest | ❌ No | From ~$3.49/month |
+| **Unboxd** | [unboxd.ai](https://unboxd.ai) | People who want a daily email briefing | Gmail, Outlook, IMAP | Categorizes emails into Action Items / Highlights / FYIs, daily priority briefing, deadline extraction | ❌ No | Paid (pricing on site) |
+| **Clean Email** | [clean.email](https://clean.email) | Decluttering a messy or overgrown inbox | Gmail, Outlook, IMAP | Smart filters, bulk actions, unsubscribe tool, automation rules, runs quietly in background | ✅ Limited free trial | From ~$9.99/month |
+| **Notion Mail** | [mail.notion.so](https://mail.notion.so) | Notion users who want email + tasks together | Gmail only | Inbox filtered like a database, email sequences, project-linked drafts, task integration | ✅ Free (with Notion account) | Included with Notion |
+| **Lindy** | [lindy.ai](https://lindy.ai) | Power users & small business owners | Outlook, Gmail, 1,600+ apps | Full email automation, CRM sync, meeting scheduling, no-code workflow builder | ✅ Limited free plan | From ~$49/month |
+
+## Quick Guide: Which Tool Is Right for You?
+
+| Your Situation | Recommended Tool |
+|----------------|-----------------|
+| I use Gmail and don't want to install anything new | Google Gemini |
+| I use Outlook at work | Microsoft Copilot |
+| I get 100+ emails a day and need speed | Superhuman |
+| My inbox is full of junk and old subscriptions | SaneBox or Clean Email |
+| I want a daily summary of what matters | Unboxd |
+| I already use Notion for my work | Notion Mail |
+| I want to automate my whole email workflow | Lindy |
+
+### 2.5 AI for Documents: Reading, Summarizing, and Creating
 
 Beyond email, AI is extraordinarily useful for working with longer-form written content — reports, articles, meeting notes, policy documents, proposals, and more.
 
