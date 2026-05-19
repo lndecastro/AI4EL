@@ -1,4 +1,4 @@
-# Class 2: AI as Your Daily Assistant — Emails, Documents & Spreadsheets
+# Class 2: AI as Your Daily Assistant — Emails, Documents, Spreadsheets & Career
 
 In Class 1, you learned what AI is, how it works, and wrote your first prompts. You discovered that the quality of your input shapes the quality of the output. Now it is time to put that understanding to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, navigating spreadsheet data without needing to be a data expert, tailoring your CV to a specific job opportunity, writing a cover letter, and creating a personal page.
 
@@ -826,15 +826,13 @@ If a prompt scores poorly on any criterion, refine it and test again before savi
 
 **Step 5:** Save your three final prompts somewhere accessible, such as a notes app, a document, or a dedicated folder. You now have the beginning of a Prompt Library.
 
-## Part V — AI for Your Career: Professional Pages, CVs, and Cover Letters
+## Part V — AI for Your Career: Professional Pages, CVs, Cover Letters, and Interviews
 
-The skills you have built in this class — drafting documents, working with pasted content, and using prompt templates — come together powerfully when applied to career tasks. In this section, you will use AI to create two high-value professional outputs: a personal professional page and a tailored CV with a cover letter.
+The skills you have built in this class, such as drafting documents, working with pasted content, and using prompt templates, come together powerfully when applied to career tasks. In this section, you will use AI to create two high-value professional outputs: a personal professional page and a tailored CV with a cover letter.
 
-Both activities use your **LinkedIn profile as a starting point**, so AI has your real background to work with — no need to type everything from scratch.
+Both activities use your **LinkedIn profile, or a CV you may currently have, as a starting point**, so AI has your real background to work with, no need to type everything from scratch.
 
 > **Why LinkedIn PDF?** Your LinkedIn profile is likely the most complete, up-to-date record of your professional life. Exporting it as a PDF gives AI a structured, rich input that it can transform into polished professional outputs.
-
----
 
 ### 5.1 How to Export Your LinkedIn Profile as a PDF
 
@@ -844,30 +842,28 @@ Before starting either activity in this section, you need to save your LinkedIn 
 2. Click your profile photo or your name to open **your profile page**.
 3. Click the **"More"** button (or **"Resources"** on some versions) just below your name and headline.
 4. In the dropdown menu, select **"Save to PDF"**.
-5. Your browser will download a PDF file of your complete LinkedIn profile — typically named something like `Profile.pdf`.
+5. Your browser will download a PDF file of your complete LinkedIn profile, typically named something like `Profile.pdf`.
 6. Save this file somewhere you can find it easily (your Desktop or Downloads folder).
 
-> 💡 **Tip:** The LinkedIn PDF includes your summary, work experience, education, skills, and any recommendations or certifications. The more complete your LinkedIn profile, the better the AI outputs will be. Take a few minutes to update it before exporting.
+:::{tip}
+The LinkedIn PDF includes your summary, work experience, education, skills, and any recommendations or certifications. The more complete your LinkedIn profile, the better the AI outputs will be. Take a few minutes to update it before exporting.
+:::
 
-> ⚠️ **Privacy note:** You will be uploading this PDF to an AI tool. Avoid using AI tools on shared or public computers for this task. Review the privacy settings of the tool you choose — most major platforms (ChatGPT, Claude, Gemini) do not use uploaded documents to train their models, but it is always good practice to verify.
+:::{important}
+**Privacy note:** You will be uploading this PDF to an AI tool. Avoid using AI tools on shared or public computers for this task. Review the privacy settings of the tool you choose, as most major platforms (ChatGPT, Claude, Gemini) do not use uploaded documents to train their models, but it is always good practice to verify.
+:::
 
----
+### 5.2 Activity 6: Create Your Personal Professional Page
 
-### 5.2 🛠️ Activity 6: Create Your Personal Professional Page
+**Goal:** Use AI to transform your LinkedIn PDF into a polished, formatted personal professional page, suitable as a personal website, a PDF bio, or a professional portfolio introduction.
 
-**Goal:** Use AI to transform your LinkedIn PDF into a polished, formatted personal professional page — suitable as a personal website, a PDF bio, or a professional portfolio introduction.
-
-A **personal professional page** is a single-page document (or webpage) that presents you clearly and compellingly to potential clients, collaborators, employers, or community partners. Think of it as a curated "about me" — more narrative and personal than a CV, but more structured and professional than a social media profile.
-
----
+A **personal professional page** is a single-page document (or webpage) that presents you clearly and compellingly to potential clients, collaborators, employers, or community partners. Think of it as a curated "about me", more narrative and personal than a CV, but more structured and professional than a social media profile.
 
 **Step 1 — Export your LinkedIn PDF** (see Section 5.1 above)
 
 **Step 2 — Upload the PDF to an AI tool**
 
-Open [chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai), or [gemini.google.com](https://gemini.google.com). Use the file upload button (usually a paperclip or attachment icon in the chat input) to attach your LinkedIn PDF.
-
-> 💡 **Free tiers work for this task.** All three tools listed support PDF uploads on their free tiers. If you do not see a file upload option, try the web version rather than the mobile app.
+Open your preferred LLM and use the file upload button (usually a paperclip or attachment icon in the chat input) to attach your LinkedIn PDF.
 
 **Step 3 — Use this prompt template:**
 
@@ -896,42 +892,43 @@ Read through the AI-generated page carefully:
 - Are there any inaccuracies or details that were misread from the PDF?
 - Is there anything important about you that AI missed?
 
-Make at least three edits to bring your own voice into the content.
+Make the necessary edits to bring your own voice into the content.
 
 **Step 5 — Optional: Request an HTML version**
 
 If you want a webpage you can share or host, try this follow-up prompt:
 ```
-Now please format this as a clean, modern HTML page I can open in a browser.
-Use a simple, professional design with a white background, readable fonts, 
-and soft accent colors. No external dependencies — everything inline.
+Now please format this as a clean, modern and publishable HTML page I can open in a browser and provide me with the link I can share with potential stakeholders.
+Use a simple, professional design with a white background, readable fonts, and soft accent colors. No external dependencies, everything inline.
 ```
+
+:::{tip}
+If you want you can upload a headshot and ask the LLM to include it in your webpage.
+:::
 
 **Reflect:**
 - How accurate was AI's interpretation of your professional background?
 - What did it emphasize that you would not have thought to highlight yourself?
 - How long did this take compared to writing a professional bio from scratch?
 
----
+### 5.3 Activity 7: Tailor Your CV and Write a Cover Letter for a Specific Job
 
-### 5.3 🛠️ Activity 7: Tailor Your CV and Write a Cover Letter for a Specific Job
+**Goal:** Use your LinkedIn PDF and a real job posting to have AI produce a tailored CV and a polished cover letter email, ready to review and send.
 
-**Goal:** Use your LinkedIn PDF and a real job posting to have AI produce a tailored CV and a polished cover letter email — ready to review and send.
-
-This is one of the highest-value career applications of AI. Generic CVs and cover letters rarely stand out. AI can analyze both your background and the specific requirements of a job posting, then craft documents that align the two — in minutes.
-
----
+This is one of the highest-value career applications of AI. Generic CVs and cover letters rarely stand out. AI can analyze both your background and the specific requirements of a job posting, then craft documents that align the two.
 
 **Step 1 — Export your LinkedIn PDF** (see Section 5.1 if you have not already done so)
 
 **Step 2 — Find and download a job posting**
 
-Find a real job posting you are interested in — or a realistic example role. 
+Find a real job posting you are interested in, or a realistic example role. 
 
-- Copy the **full text** of the job posting (job title, responsibilities, required skills, qualifications, and any other details).
+- Copy the **full text** of the job posting (job title, responsibilities, required skills, qualifications, and any other details) or provide the link to the LLM.
 - Save it in a text document or keep it ready to paste into the AI chat.
 
-> 💡 **Where to find job postings:** LinkedIn Jobs, Indeed, Glassdoor, your company's own careers page, or any sector-specific job board. For this activity, even a sample posting works — the key is practicing the process.
+:::{tip}
+**Where to find job postings:** LinkedIn Jobs, Indeed, Glassdoor, your company's own careers page, or any sector-specific job board. For this activity, even a sample posting works, the key is practicing the process.
+:::
 
 **Step 3 — Upload your LinkedIn PDF and paste the job posting**
 
@@ -1008,28 +1005,176 @@ more achievement-focused (using numbers or outcomes where possible).
 - What did it get wrong or overstate that you had to correct?
 - How does this compare to writing a CV and cover letter from scratch?
 
-> ⚠️ **Important reminder:** Always review and edit AI-generated application materials before submitting them. You are responsible for the accuracy of everything in your CV. AI is your drafting assistant — you are the one whose name goes on the document.
+:::{important}
+Always review and edit AI-generated application materials before submitting them. You are responsible for the accuracy of everything in your CV. AI is your drafting assistant but you are the one whose name goes on the document.
+:::
 
----
+### 5.4 Activity 8: Prepare for Your Interview
+
+You have a tailored CV. You have a polished cover letter. Now it is time to practice actually talking about yourself. This is where many people stall, even those who are genuinely well-qualified for a role.
+
+AI can help here too. In this activity, you will use two complementary approaches: a **chat-based interview simulator** that asks you questions one at a time and gives feedback on your answers, and an optional **NotebookLM audio conversation** that lets you warm up by listening to and then joining a spoken discussion about the role.
+
+Both approaches use the same materials you already have from Activities 6 and 7: your CV and the job posting.
+
+:::{tip}
+You do not need to do both approaches in the same session. Many learners find it useful to start with the NotebookLM audio warm-up (Option B) to build familiarity with the role, and then move to the chat simulator (Option A) for structured practice with feedback.
+:::
+
+#### Option A — Chat-Based Interview Simulator (Primary Method)
+
+This is the most structured and feedback-rich approach. You practice answering questions one at a time, in writing, and receive immediate coaching after each response.
+
+**Step 1 — Have your materials ready**
+
+Before opening your AI chat, make sure you have the following on hand:
+
+- Your LinkedIn PDF (exported in Section 5.1) or CV
+- The job posting text you used in Activity 7
+- Optionally, the tailored CV and cover letter AI produced in Activity 7
+
+**Step 2 — Set up the AI as your interviewer**
+
+Open your preferred AI tool (Claude, ChatGPT, or Gemini). Upload your CV, then use the following prompt to begin:
+
+```
+I am preparing for a job interview. I have attached my CV. 
+Below I am also pasting the full text of the job posting I am applying for.
+
+Please act as an experienced, professional interviewer for this role.
+
+Ground rules:
+- Ask me one interview question at a time.
+- Wait for my full answer before moving on.
+- After each answer, give me brief and honest feedback:
+  what I did well, and one specific thing I could improve.
+- Cover a realistic mix of question types:
+  - Background questions (e.g., "Walk me through your experience with...")
+  - Behavioral questions (e.g., "Tell me about a time when...")
+  - Role-specific questions based on the responsibilities in the job posting
+- Do not ask all easy questions. Include at least one or two that are 
+  genuinely challenging.
+- After 5–6 questions, give me an overall summary of my performance: 
+  my strongest moments and the areas most worth practicing further.
+
+Please begin with your first question now.
+
+Here is the job posting:
+[PASTE THE FULL JOB POSTING TEXT HERE]
+```
+
+**Step 3 — Practice answering**
+
+Type your answers as if you were speaking them aloud in a real interview. Resist the urge to look things up or polish your words too much; the goal is realistic practice, not perfect writing.
+
+:::{tip}
+A useful technique is to use the **STAR structure** for behavioral questions: describe the **Situation**, the **Task** you were responsible for, the **Action** you took, and the **Result**. If AI gives you feedback that your answer was vague, try rewriting it using this structure.
+:::
+
+**Step 4 — Ask for overall feedback**
+
+After you have answered 5–6 questions, use this prompt to request a summary:
+
+```
+Please give me an overall assessment of my interview performance so far.
+- What are my two or three strongest moments?
+- What are the one or two areas I should work on most before a real interview?
+- Are there any patterns in my answers, things I tend to over-explain, 
+  understate, or avoid?
+```
+
+**Step 5 — Revisit and strengthen weak answers**
+
+Use this follow-up prompt to rework any answer you were not happy with:
+
+```
+I want to revisit my answer to your question about [describe the question briefly].
+Here is what I said: [paste your original answer]
+
+Please help me rewrite this to be clearer, more specific, and more compelling,
+while still sounding like something I would genuinely say.
+Then explain what made the revised version stronger.
+```
+
+**Reflect:**
+
+- Which questions were harder than you expected?
+- Did AI identify any patterns in your answers — things you tend to avoid or repeat?
+- What would you do differently in your next practice session?
+
+:::{important}
+Interview simulation with AI is practice, not prediction. Real interviews are unpredictable, and human interviewers bring context and nuance that AI cannot fully replicate. Use this as a confidence-building tool, not as a guarantee of what you will be asked.
+:::
+
+#### Option B — NotebookLM as a Conversational Warm-Up (Optional)
+
+**NotebookLM** (available at [notebooklm.google.com](https://notebooklm.google.com)) is a Google AI tool that lets you upload documents and then generates an **Audio Overview**: a natural, podcast-style conversation between two AI hosts who discuss your uploaded sources.
+
+What makes this useful for interview preparation is its **Interactive Mode**, which lets you join the conversation. Once you activate it, the hosts will respond to you in real time, and if you ask them, they will put you on the spot with interview-style questions.
+
+This approach will not give you structured written feedback the way Option A does. Think of it as an audio warm-up: a way to hear the role and company discussed naturally before you practice your answers.
+
+**Step 1 — Set up your NotebookLM notebook**
+
+1. Go to [notebooklm.google.com](https://notebooklm.google.com) and sign in with a Google account.
+2. Click **"New Notebook"**.
+3. Add your sources. You can upload files, paste text, or add a website link. For this activity, add:
+   - The text of the job posting (paste it as a copied text source)
+   - The company's website URL (paste the link directly into the source field)
+   - Optionally, any additional documents about the role or company
+
+**Step 2 — Generate the Audio Overview**
+
+1. In the right-hand panel, find the **"Audio Overview"** section.
+2. Click **"Generate"** (or **"Generate Audio Overview"**).
+3. Wait while NotebookLM processes your sources and creates a short podcast episode discussing the role and company.
+4. Press play and listen. Pay attention to what the hosts emphasize, the skills, responsibilities, and company values they highlight are likely to come up in a real interview.
+
+**Step 3 — Activate Interactive Mode**
+
+1. While the audio is playing (or after it finishes), look for the **"Join"** or **"Interactive"** button in the Audio Overview panel.
+2. Click it to activate Interactive Mode. The hosts will acknowledge you and invite you into the conversation.
+3. You can now speak or type to interact with the hosts in real time.
+
+:::{tip}
+NotebookLM's Interactive Mode works best in a quiet environment with a working microphone if you choose to speak. You can also type your responses if you prefer.
+:::
+
+**Step 4 — Ask the hosts to interview you**
+
+Once you are in Interactive Mode, use a prompt like this to shift the conversation into interview practice:
+
+```
+I am preparing to interview for this role. 
+Can you ask me interview questions based on the job description and 
+what you know about this company? 
+Ask me one question at a time and respond to my answers.
+```
+
+The hosts will typically begin asking questions and respond naturally to what you say. This is less structured than Option A, but it gives you a more fluid, conversational experience, closer to an actual spoken interview.
+
+:::{important}
+NotebookLM's hosts are designed to discuss and explore content, not to conduct formal assessments. Their questions may be more open-ended and exploratory than what you would encounter in a real interview. Use Option A for structured preparation and Option B for conversational fluency practice.
+:::
 
 ## Part VI — Reflection and Wrap-Up
 
 ### 6.1 The Verification-First Mindset
 
-Everything we practiced today — emails, summaries, spreadsheet analysis — produces AI output that is a **starting point**, not a finished product.
+Everything we practiced today, emails, summaries, spreadsheet analysis, produces AI output that is a **starting point**, not a finished product.
 
 Before you use any AI-generated content:
 
 - **Re-read it.** Does it sound like you? Does it say what you intended?
 - **Check the facts.** Any specific claim, number, or name should be verified.
 - **Consider the audience.** Is the tone and content appropriate for the person who will receive it?
-- **Take ownership.** Once you send or share AI-assisted content, it represents you — not the AI.
+- **Take ownership.** Once you send or share AI-assisted content, it represents you, not the AI.
 
-This mindset — verify before you act — is not about distrust. It is about staying in control, which is exactly where you belong.
+This mindset of verify before you act, is not about distrust. It is about staying in control, which is exactly where you belong.
 
 ### 6.2 Reflection
 
-> Which of today's use cases — emails, documents, or spreadsheets — do you think will save you the most time in the next month?  
+> Which of today's use cases (emails, documents, or spreadsheets) do you think will save you the most time in the next month?  
 > Has anything we practiced today changed how you think about the role of writing and communication in your work?  
 > Where is the line between using AI to help you communicate and losing your own voice in the process?
 
@@ -1039,7 +1184,7 @@ There are no wrong answers. These are the kinds of questions thoughtful AI users
 
 In our next class, we step into the creative side of AI. You will:
 
-- Generate **images** from text descriptions for personal and professional use.
+- Generate and manipulate **images** from text descriptions for personal and professional use.
 - Build **AI-assisted presentations** in minutes.
 - Experiment with **AI music** tools and **AI avatars**.
 - Learn the copyright and ethical considerations that come with creative AI tools.
