@@ -351,7 +351,7 @@ Assume I have no background in [law / medicine / finance].
 [PASTE PARAGRAPH]
 ```
 
-### 2.5 🛠️ Activity 3: Talk to a Document
+### 2.5 Activity 3: Talk to a Document
 
 **Goal:** Experience AI as a document assistant using a real or sample document.
 
@@ -377,7 +377,9 @@ Go to any news website and copy the full text of an article on any topic that in
 - Did AI miss anything important?
 - Did it add anything that was not actually in the document?
 
-> ⚠️ **Watch Out:** AI can "hallucinate" when summarizing — occasionally adding details that are not in the original. Always check that a summary accurately reflects the source, especially before forwarding it to others.
+:::{warning}
+AI can "hallucinate" when summarizing — occasionally adding details that are not in the original. Always check that a summary accurately reflects the source, especially before forwarding it to others.
+:::
 
 ## Part III — AI for Spreadsheets: No Formulas Required
 
