@@ -316,7 +316,7 @@ Managing a busy inbox can feel overwhelming, but AI tools are making it much eas
 
 ### 2.5 AI for Documents: Reading, Summarizing, and Creating
 
-Beyond email, AI is extraordinarily useful for working with longer-form written content — reports, articles, meeting notes, policy documents, proposals, and more.
+Beyond email, AI is extraordinarily useful for working with longer-form written content, such as reports, articles, meeting notes, policy documents, proposals, and more. To illustrate, consider the paper about the use of Transfer Learning in Bioinspired Algorithms authored by Rita Xavier and Dr. Leandro de Castro, published in the Artificial Intelligence Reviews: [Download the paper](.Data/TLBIA_AIR.pdf)
 
 **What AI can do with documents:**
 
