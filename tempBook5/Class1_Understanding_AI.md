@@ -149,7 +149,7 @@ There are many general-purpose AI apps and tools available today. The good news 
 | **Grok** | x.ai | Free / Paid | Images and videos; integrated with X |
 
 :::{info}
-💡 **Which one should you use?** For this program, any of the free versions of the general-purpose models will work. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
+**Which one should you use?** For this program, any of the free versions of the general-purpose models will work. If you use Google products at work, Gemini will feel familiar. If you use Microsoft Office, Copilot is already inside your tools.
 :::
 
 ### 2.2 Basics of Prompt Engineering
