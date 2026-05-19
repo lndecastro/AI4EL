@@ -151,7 +151,7 @@ The meta-prompt transformed a one-line instruction into a fully engineered promp
 Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
 :::
 
-### 1.4 🛠️ Activity 1: Prompt Pattern Practice
+### 1.4 Activity 1: Prompt Pattern Practice
 
 **Goal:** Experience how different prompt patterns produce different responses to the same task.
 
@@ -352,12 +352,18 @@ Assume I have no background in [law / medicine / finance].
 
 *Example Paragraph 1 — Legal (Lease Agreement)*
 ```
-"Notwithstanding any other provision of this Agreement, Tenant shall indemnify, defend, and hold harmless Landlord and its respective officers, directors, employees, agents, successors, and assigns from and against any and all claims, damages, losses, costs, and expenses, including reasonable attorneys' fees, arising out of or related to Tenant's use or occupancy of the Premises, any breach or default by Tenant under this Agreement, or any act or omission of Tenant or Tenant's agents, employees, contractors, or invitees."
+"Notwithstanding any other provision of this Agreement, Tenant shall indemnify, defend, and hold harmless Landlord and its respective officers,
+directors, employees, agents, successors, and assigns from and against any and all claims, damages, losses, costs, and expenses, including
+reasonable attorneys' fees, arising out of or related to Tenant's use or occupancy of the Premises, any breach or default by Tenant under this
+Agreement, or any act or omission of Tenant or Tenant's agents, employees, contractors, or invitees."
 ```
 
 *Example Paragraph 2 — Medical (Patient Discharge Instructions)*
 ```
-"Patient presents with a diagnosis of moderate non-erosive gastroesophageal reflux disease (GERD) with associated dysphagia. Treatment protocol includes initiation of a proton pump inhibitor (PPI) regimen administered once daily prior to the first meal. Patient is advised to maintain head-of-bed elevation of no less than 30 degrees, avoid consumption of known lower esophageal sphincter (LES) relaxants including caffeine, alcohol, and high-fat foods, and to follow up with a board-certified gastroenterologist within four to six weeks for re-evaluation and potential esophageal manometry."
+"Patient presents with a diagnosis of moderate non-erosive gastroesophageal reflux disease (GERD) with associated dysphagia. Treatment protocol
+includes initiation of a proton pump inhibitor (PPI) regimen administered once daily prior to the first meal. Patient is advised to maintain
+head-of-bed elevation of no less than 30 degrees, avoid consumption of known lower esophageal sphincter (LES) relaxants including caffeine, alcohol,
+and high-fat foods, and to follow up with a board-certified gastroenterologist within four to six weeks for re-evaluation and potential esophageal manometry."
 ```
 
 ### 2.6 Activity 3: Talk to a Document
@@ -413,6 +419,7 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 | **Jasper** | [jasper.ai](https://jasper.ai) | Marketing and business teams creating branded content at scale | Web app, Google Docs extension, browser | Brand voice training, 50+ professional templates, long-form content editor, team collaboration, AI image generation | ❌ No (7-day free trial) | Creator ~$49/mo |
 | **Writesonic** | [writesonic.com](https://writesonic.com) | SEO-focused blogs, marketing copy, and high-volume content | Web app, WordPress integration | 80+ templates, built-in SEO and keyword tools, AI blog writer, ChatSonic chatbot with web access | ✅ Yes (limited) | From ~$20/mo |
 
+<p>
 **Quick Guide: Which Tool Is Right for You?**
 
 | Your Situation | Recommended Tool |
@@ -430,23 +437,232 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 
 ## Part III — AI for Spreadsheets
 
-For many people, spreadsheets are one of the most intimidating parts of professional life. AI changes this equation significantly — because you no longer need to know Excel syntax or formula logic to get useful analysis from your data.
+Spreadsheets make many people nervous. Between the formulas, the columns, and the endless rows of numbers, it can feel like you need a degree in accounting just to keep track of your own finances. The good news is that AI changes this completely.
+In this section, you will learn how to use AI as your personal spreadsheet assistant, not just to read and analyze data you already have, but to build useful tools from scratch, starting with something very practical: your own personal finance tracker.
+By the end of Part III, you will be able to ask AI to build a spreadsheet for you, populate it with real-life numbers, generate a plain-language financial summary, analyze any table of data, and write formulas without knowing a single line of syntax.
+No spreadsheet experience required.
 
-### 3.1 What AI Can Do with Spreadsheet Data
+### 3.1 Build Your Personal Finance Tracker with AI
 
-| Task | Example Prompt |
+One of the most powerful things you can do with AI is ask it to create tools you never knew how to build. A personal finance tracker is a perfect example. Most people know they *should* have one. Very few actually do, because setting one up from scratch feels too complicated.
+With AI, you can have a complete, working financial tracker in minutes, simply by describing what you need.
+In this section, you will ask AI to build a two-tab spreadsheet designed to give you a full picture of your financial year:
+
+- **Tab 1 — Cash Flow:** A monthly log of all money coming in and going out, organized by category, housing, food, transportation, savings, and more.
+- **Tab 2 — Monthly Summary:** A consolidated view, month by month, showing your total income, total expenses, and your net result (what was left over). Think of it as your personal Profit and Loss statement.
+
+Together, these two tabs give you something most people have never had: a clear, organized view of where their money actually goes.
+
+**The Prompt: Create My Finance Tracker**
+
+Use the following prompt in any AI tool that supports spreadsheet creation or file downloads. Copy it exactly, or adjust the categories to match your own situation.
+
+```
+Please build a personal finance spreadsheet for me with two tabs.
+
+TAB 1 — CASH FLOW:
+- Rows represent income and expense categories (listed below)
+- Columns represent the 12 months of the year (January through December)
+- Add a "Total" column at the far right of each row
+- At the bottom, add three summary rows:
+    Total Income (sum of all income rows for each month)
+    Total Expenses (sum of all expense rows for each month)
+    Net (Total Income minus Total Expenses for each month)
+
+Categories to include:
+
+INCOME
+  Salary / Regular Pay
+  Freelance or Side Income
+  Other Income
+
+HOUSING
+  Rent or Mortgage
+  Utilities (electricity, water, gas)
+  Internet and Phone
+
+FOOD
+  Groceries
+  Dining Out / Takeout
+
+TRANSPORTATION
+  Car Payment or Lease
+  Fuel / Gas
+  Public Transit or Rideshare
+
+HEALTH
+  Health Insurance
+  Medications and Copays
+  Gym or Fitness
+
+PERSONAL
+  Clothing and Personal Care
+  Subscriptions (streaming, apps, etc.)
+  Entertainment and Hobbies
+
+SAVINGS AND DEBT
+  Savings Contribution
+  Credit Card Payments
+  Student Loan or Other Loan Payments
+
+OTHER
+  Gifts and Donations
+  Unexpected / Miscellaneous
+
+TAB 2 — MONTHLY SUMMARY:
+- One row per month (January through December), plus a "Full Year" total row at the bottom
+- Columns: Month | Total Income | Total Expenses | Net
+- Pull these numbers automatically from Tab 1 using formulas
+- Apply a simple color rule: green background if Net is positive, red if Net is negative
+
+Please format the spreadsheet with clear headers, bold totals rows, 
+and currency formatting ($) throughout. Make it easy to read and use.
+```
+
+:::{tip}
+**Which AI tool should I use?** If you are using a paid version of ChatGPT (Plus), Claude (Pro), or Google Gemini Advanced, you may be able to download the spreadsheet directly as an Excel or Google Sheets file. If your tool does not offer file downloads, it will likely give you a table you can copy and paste into a blank spreadsheet.
+:::
+
+### Activity: Build and Populate Your Own Finance Tracker
+
+**Goal:** Use AI to create and fill in a personal finance spreadsheet with approximate numbers that reflect your real life, then see your full year at a glance.
+
+This activity has three steps.
+
+**Step 1 — Create the spreadsheet**
+
+Copy the prompt above into your AI tool and run it. Once you have the spreadsheet (either downloaded or pasted into a blank file), take a moment to look it over. Notice the two tabs, the categories, and the layout. You do not need to fill anything in yet.
+
+**Step 2 — Tell AI about your financial life**
+
+Now you will have a short conversation with AI to help it fill in the numbers. You do not need to be precise; round estimates are perfectly fine. The goal is to populate a realistic year so you can see how everything works together.
+
+Use this prompt to get started:
+
+```
+I want you to fill in my personal finance spreadsheet with approximate 
+numbers based on my real life. I will answer a few questions below. 
+Please use the answers to populate all 12 months in the Cash Flow tab 
+and the Monthly Summary tab. Use round numbers and tell me any 
+assumptions you make.
+
+My answers:
+
+1. My approximate monthly take-home income (after taxes) is:
+   [type your answer here]
+
+2. My monthly housing cost (rent or mortgage + utilities) is roughly:
+   [type your answer here]
+
+3. I spend approximately this much on food per month (groceries + eating out):
+   [type your answer here]
+
+4. My regular transportation costs each month are roughly:
+   [type your answer here]
+
+5. I have these recurring debt or loan payments each month:
+   [type your answer here — or write "none"]
+
+6. I try to save approximately this much per month:
+   [type your answer here — or write "I don't currently save regularly"]
+
+7. Some months cost more than others. For example:
+   [describe any seasonal patterns — e.g., "December is expensive for gifts,"
+   "August I pay for school supplies," or "I take a vacation in June"]
+
+8. Anything else about my finances I should know about:
+   [add anything else, or write "nothing else"]
+
+Please fill in all 12 months realistically based on these answers.
+```
+
+:::{note}
+You do not need to share your real numbers. This activity works just as well with approximate figures or even invented ones. The goal is to learn the process, how to build, populate, and work with a spreadsheet through conversation with AI.
+:::
+
+**Step 3 — Review and adjust**
+
+Once AI has filled in the spreadsheet, read through it and make corrections in plain language. For example:
+
+- *"Change my rent from $1,200 to $1,450 starting in March."*
+- *"Add a one-time expense of $800 in July for a vacation."*
+- *"I don't have a car payment, remove that row or set it to zero."*
+
+Keep adjusting until the numbers feel roughly right. You are not trying to be perfect, you are learning how to work with AI as a financial tool.
+
+**Reflection questions:**
+
+- Does the Monthly Summary tab show months where you spend more than you earn? Were you surprised?
+- Were there any expense categories you had not thought about?
+- How might this spreadsheet change how you think about your spending?
+
+### The Prompt: Your Personal Financial X-Ray
+
+Once your spreadsheet is populated, use the following prompt to generate a plain-language summary and visualization recommendations for your financial year.
+
+```
+Based on the financial data in my spreadsheet, please do three things:
+
+1. Write a "Financial X-Ray", that is, a plain-language paragraph of 5 to 6 sentences 
+   that summarizes my financial year. Include:
+   - Which months were my strongest and weakest financially
+   - Whether I am generally saving, breaking even, or overspending
+   - My single largest expense category
+   - One observation or insight I might not have noticed on my own
+
+2. Recommend 3 types of charts that would make this data easy to visualize, 
+   and explain what each one would show. For example:
+   - A bar chart comparing total income vs. total expenses by month
+   - A pie chart showing my expense breakdown by category
+   - A line chart tracking my monthly net result over the year
+
+3. If you can generate the charts directly, please do so.
+   If not, give me step-by-step instructions for how to create them 
+   in Excel or Google Sheets, simple enough for a beginner.
+```
+
+**What to look for in the output:**
+
+- Does the Financial X-Ray feel accurate to your situation?
+- Did AI notice anything you had overlooked?
+- Which chart feels most useful for your goals?
+
+:::{tip}
+Save your Financial X-Ray paragraph somewhere you can find it later. It makes a great starting point if you ever want to set a savings goal, talk to a financial advisor, or simply reflect on the year.
+:::
+
+### 3.2 What AI Can Do with Spreadsheet Data
+
+Building a spreadsheet from scratch is just one way AI can help. Once you have data, whether it came from AI, from your job, or from a file someone sent you, AI can help you make sense of it without you needing to know any formulas or technical skills.
+
+Here is a quick overview of the most useful things AI can do with spreadsheet data.
+
+| What you need | Example prompt |
 | :--- | :--- |
-| **Explain what the data means** | *"I have sales data by region and month. Tell me what patterns or trends stand out."* |
-| **Create or fix formulas** | *"I need a formula to calculate the average of column B, but only for rows where column A says 'Florida'."* |
-| **Summarize data in plain language** | *"Summarize these numbers in two sentences a non-technical manager could understand."* |
-| **Spot anomalies or outliers** | *"Look at this data and tell me if anything looks unusual or unexpected."* |
-| **Suggest how to visualize it** | *"What type of chart would best represent this data? Why?"* |
-| **Write a narrative from numbers** | *"Turn this table of monthly expenses into a short written paragraph for a report."* |
+| **Understand what the data is showing** | *"I have sales data by region and month. What patterns or trends stand out?"* |
+| **Create or fix a formula** | *"I need a formula that calculates the average of column B, but only for rows where column A says 'Florida'."* |
+| **Summarize numbers in plain language** | *"Summarize these figures in two sentences a non-technical manager could understand."* |
+| **Find anything unusual** | *"Look at this data and tell me if anything looks unusual, unexpected, or worth investigating."* |
+| **Suggest the right chart** | *"What type of chart would best represent this data, and why?"* |
+| **Turn numbers into a written narrative** | *"Turn this table of monthly expenses into a short paragraph I can include in a report."* |
 
-### 3.2 Two Ways to Use AI with Spreadsheets
+The key insight here is simple: you no longer need to know *how* to do things in a spreadsheet. You just need to know what you *want*. Then you ask.
 
-**Method 1 — Paste data directly into an AI chat**  
-For small datasets (a few dozen rows), you can copy and paste data directly into the chat window. Most AI tools handle tabular data well when pasted as plain text.
+### 3.3 Two Ways to Use AI with Spreadsheet Data
+
+When you have data you want AI to analyze, there are two practical methods depending on how much data you have and which AI tool you are using.
+
+**Method 1 — Paste Data Directly into the Chat**
+
+For smaller datasets, such as a few dozen rows or fewer, you can copy your data directly from a spreadsheet and paste it into the AI chat window. Most AI tools handle tabular data well when it is pasted as plain text.
+
+This works best when:
+
+- You have a manageable amount of data (not thousands of rows)
+- You want a quick answer without uploading a file
+- You are working with a free version of an AI tool
+
+Here is an example of what that looks like in practice:
 
 ```
 Here is my data:
@@ -458,61 +674,88 @@ March     | 51,200      | 34,100       | 17,100
 April     | 47,800      | 33,200       | 14,600
 
 Please answer the following:
-1. Which month had the highest profit margin (profit as a % of revenue)?
-2. Is there a trend in expenses over these four months?
+1. Which month had the highest profit margin (profit as a percentage of revenue)?
+2. Is there a visible trend in expenses across these four months?
 3. Write a two-sentence summary suitable for a monthly report.
 ```
 
-**Method 2 — Upload the file (ChatGPT, Claude, or Gemini with file support)**  
-Paid versions of most major AI tools allow you to upload Excel or CSV files directly. The AI can then read, analyze, and answer questions about the full dataset without you needing to paste anything.
+**Method 2 — Upload the File Directly**
 
-### 3.3 Prompt Templates for Spreadsheet Tasks
+Paid versions of most major AI tools (ChatGPT Plus, Claude Pro, Gemini Advanced) allow you to upload Excel or CSV files directly. The AI reads the entire file and can answer questions, generate summaries, and spot patterns across the full dataset, without you needing to copy or paste anything.
 
-**Template 1 — Explain this data to me:**
+This works best when:
+
+- Your dataset is large (hundreds of rows or more)
+- You want to analyze the full file without summarizing it first
+- You are working with data that has multiple columns or complex structure
+
+:::{tip}
+When uploading a file with sensitive information, remove or replace any real names, ID numbers, or personal data before sharing it with an AI tool. Use placeholder names like "Employee A" or generic labels like "Region 1" instead.
+:::
+
+### 3.4 Prompt Templates for Spreadsheet Tasks
+
+The following templates are ready to use. Copy them, fill in the bracketed sections with your own details, and paste them into any AI chat.
+
+**Template 1 — Explain This Data to Me**
+
 ```
-I am going to paste/share a table of data below.
+I am going to share a table of data below.
 I am not a data expert. Please explain:
 1. What this data appears to be tracking
 2. The two or three most interesting patterns or findings
 3. Anything that looks unusual or worth investigating further
-[PASTE DATA OR UPLOAD FILE]
+
+[PASTE YOUR DATA HERE]
 ```
 
-**Template 2 — Write a formula:**
+**Template 2 — Write a Formula for Me**
+
 ```
 I am using [Excel / Google Sheets].
-I need a formula that [describe what you need it to calculate].
-My data is in columns [describe which columns contain what].
-Please give me the formula and explain in plain language what each part does.
+I need a formula that [describe what you want it to calculate].
+My data is in columns [describe which columns contain what information].
+
+Please give me the formula and explain in plain language what each part does,
+so I understand how it works.
 ```
 
-**Template 3 — Turn numbers into a written summary:**
+**Template 3 — Turn Numbers into a Written Summary**
+
 ```
-Here is a table of data: [PASTE DATA]
-Please write a short paragraph (3–4 sentences) summarizing the key findings 
-in plain language for a non-technical audience.
-Do not use jargon. Do not list every number — focus on what matters most.
+Here is a table of data:
+
+[PASTE YOUR DATA HERE]
+
+Please write a short paragraph (3 to 4 sentences) summarizing the key findings
+in plain language for a non-technical audience. Do not use jargon. 
+Do not list every number — focus only on what matters most.
 ```
 
-**Template 4 — Spot problems in the data:**
+**Template 4 — Find Problems in the Data**
+
 ```
 Please review the following data and flag anything that looks:
 - Missing or incomplete
-- Unusually high or low compared to the rest
+- Unusually high or low compared to the rest of the dataset
 - Inconsistent with what the data should logically show
-[PASTE DATA]
+
+[PASTE YOUR DATA HERE]
 ```
 
-### 3.4 🛠️ Activity 4: AI Meets Your Spreadsheet
+### 3.5 Activity: AI Meets Your Spreadsheet
 
-**Goal:** Use AI to extract insight from a table of data without writing any formulas.
+**Goal:** Use AI to extract insight from a table of data, no formulas, no calculations, no spreadsheet skills required.
 
-**Option A — Use your own data:**  
-Find a spreadsheet you work with regularly — expense tracking, sales figures, a budget, or any table you have. Copy and paste a small section (no confidential data) into an AI chat.
+**Option A — Use Your Own Data**
 
-**Option B — Use this sample dataset:**
+Find a spreadsheet you already work with, e.g. expense tracking, sales figures, a budget, a project list, or any table of numbers. Copy and paste a small section (a few rows is enough) into an AI chat and ask a question about it.
 
-Copy and paste the following into an AI chat:
+Remember: remove or replace any confidential or personally identifying information before sharing.
+
+**Option B — Use This Sample Dataset**
+
+If you do not have a spreadsheet handy, use the table below. Copy and paste it into an AI chat and work through the prompts that follow.
 
 ```
 Employee    | Department  | Sales Q1 ($) | Sales Q2 ($) | Sales Q3 ($)
@@ -524,27 +767,35 @@ Eva         | South       | 55,800       | 58,400       | 62,100
 Frank       | East        | 38,200       | 35,900       | 41,700
 ```
 
-**Try these prompts in sequence:**
+**Try These Prompts in Sequence**
+
+Work through these one at a time, reading the AI's response before moving to the next:
+
 1. *"Who had the highest total sales across all three quarters?"*
 2. *"Which department performed best overall? Show your reasoning."*
-3. *"Is there anyone whose sales are declining? Should that be a concern?"*
+3. *"Is there anyone whose sales are consistently declining? Should that be a concern?"*
 4. *"Write a two-sentence summary of this team's performance for a quarterly report."*
 5. *"What type of chart would best visualize this data, and why?"*
 
-**Reflect:**
-- Did AI answer all questions correctly? (Check the math manually on at least one.)
+### Reflect
+
+After completing the prompts, take a moment to think about what happened:
+
+- Did AI answer all the questions correctly? (Check the math manually on at least one answer.)
 - Did it offer any insight you would not have spotted yourself?
 - What would you do differently if this were real business data?
 
-> ⚠️ **Watch Out:** Always verify AI-generated calculations. AI can make arithmetic errors — particularly with percentage calculations or when the dataset is ambiguous. Use AI for insight and direction; use the spreadsheet itself for final verified numbers.
+:::{warning}
+**Always verify AI-generated calculations.** AI can make arithmetic errors — especially with percentage calculations or when data is ambiguous. Use AI to find patterns and generate ideas. Use the spreadsheet itself to confirm the final numbers before making any decisions based on them.
+:::
 
 ## Part IV — Putting It All Together: Your Personal Prompt Library
 
-One of the most valuable outcomes of this class is building a **personal Prompt Library** — a collection of tested prompts you can reuse and adapt whenever you need them.
+One of the most valuable outcomes of this class is building a **personal Prompt Library**, a collection of tested prompts you can reuse and adapt whenever you need them.
 
 ### 4.1 Assessing Prompt Quality
 
-Before saving a prompt to your library, run it through this five-point check — adapted from the AI Literacy Program:
+Before saving a prompt to your library, run it through this five-point check, adapted from the AI Literacy Program:
 
 | Criterion | Question to Ask |
 | :--- | :--- |
@@ -556,7 +807,7 @@ Before saving a prompt to your library, run it through this five-point check —
 
 If a prompt scores poorly on any criterion, refine it and test again before saving it. A prompt library is only useful if the prompts in it actually work.
 
-### 4.2 🛠️ Activity 5: Build Your Prompt Library Starter
+### 4.2 Activity 5: Build Your Prompt Library Starter
 
 **Goal:** Leave this class with at least three tested, personally useful prompts.
 
@@ -573,7 +824,7 @@ If a prompt scores poorly on any criterion, refine it and test again before savi
 
 **Step 4:** Refine each prompt once based on what you observe.
 
-**Step 5:** Save your three final prompts somewhere accessible — a notes app, a document, or a dedicated folder. You now have the beginning of a Prompt Library.
+**Step 5:** Save your three final prompts somewhere accessible, such as a notes app, a document, or a dedicated folder. You now have the beginning of a Prompt Library.
 
 ## Part V — AI for Your Career: Professional Pages, CVs, and Cover Letters
 
