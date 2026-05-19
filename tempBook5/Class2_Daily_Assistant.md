@@ -288,7 +288,7 @@ Always re-read AI-generated emails before sending. Check for anything that does 
 
 Managing a busy inbox can feel overwhelming, but AI tools are making it much easier. Whether you want to quickly summarize a long email thread, get help writing a reply, or automatically sort out the messages that actually matter, there is now a tool designed to do exactly that. The options range from AI assistants already built into Gmail and Outlook (so nothing new to install) to dedicated apps that completely transform how you experience email. The table below gives you a side-by-side look at the most popular tools available, so you can find the best fit for your needs and comfort level.
 
-## Comparison Table
+**Comparison Table**
 
 | Tool | Website | Best For | Works With | Key Features | Free Option | Approx. Cost |
 |------|---------|----------|------------|--------------|-------------|--------------|
@@ -302,7 +302,7 @@ Managing a busy inbox can feel overwhelming, but AI tools are making it much eas
 | **Notion Mail** | [mail.notion.so](https://mail.notion.so) | Notion users who want email + tasks together | Gmail only | Inbox filtered like a database, email sequences, project-linked drafts, task integration | ✅ Free (with Notion account) | Included with Notion |
 | **Lindy** | [lindy.ai](https://lindy.ai) | Power users & small business owners | Outlook, Gmail, 1,600+ apps | Full email automation, CRM sync, meeting scheduling, no-code workflow builder | ✅ Limited free plan | From ~$49/month |
 
-## Quick Guide: Which Tool Is Right for You?
+**Quick Guide: Which Tool Is Right for You?**
 
 | Your Situation | Recommended Tool |
 |----------------|-----------------|
@@ -320,38 +320,47 @@ Beyond email, AI is extraordinarily useful for working with longer-form written 
 
 **What AI can do with documents:**
 
-**Summarizing** — Perhaps the most immediately useful skill. Instead of reading a 20-page report to find the three things that matter to you, you can paste it into an AI chat and ask for what you need:
+**Summarizing** - Perhaps the most immediately useful skill. Instead of reading a 20-page report to find the three things that matter to you, you can paste it into an AI chat and ask for what you need:
 
 ```
 Summarize this document in five bullet points, focusing on the key 
 recommendations and any action items for [your role or department].
 ```
 
-**Extracting specific information** — Instead of scanning for details:
+**Extracting specific information** - Instead of scanning for details:
 ```
-Read the document below and answer these three questions:
-1. What is the proposed budget for this project?
-2. What is the implementation timeline?
-3. Who is listed as responsible for each phase?
-[PASTE DOCUMENT]
+Read the document attached and answer these three questions:
+1. What is transfer learning?
+2. What are bioinspired algorithms?
+3. What are the main uses of bioinspired algorithms in transfer learning?
 ```
 
-**Turning notes into documents** — If you have rough meeting notes or bullet points, AI can turn them into a polished document:
+**Turning notes into documents** - If you have rough meeting notes or bullet points, AI can turn them into a polished document. To illustrate, upload the following meeting notes into your AI model and prompt it to create a meeting summary based on these notes. [Download the notes](.Data/MeetingNotes.txt)
+
 ```
-I have rough notes from a meeting below. Please turn them into a professional 
+I have rough notes from a meeting attached. Please turn them into a professional 
 meeting summary that includes: attendees, key decisions, action items, and next steps.
 Format it clearly with headings.
-[PASTE NOTES]
 ```
 
-**Explaining confusing language** — Legal, medical, or technical documents often feel impenetrable:
+**Explaining confusing language** - Legal, medical, or technical documents often feel impenetrable:
 ```
 Please explain the following paragraph in plain, everyday English.
 Assume I have no background in [law / medicine / finance].
 [PASTE PARAGRAPH]
 ```
 
-### 2.5 Activity 3: Talk to a Document
+*Example Paragraph 1 — Legal (Lease Agreement)*
+```
+"Notwithstanding any other provision of this Agreement, Tenant shall indemnify, defend, and hold harmless Landlord and its respective officers, directors, employees, agents, successors, and assigns from and against any and all claims, damages, losses, costs, and expenses, including reasonable attorneys' fees, arising out of or related to Tenant's use or occupancy of the Premises, any breach or default by Tenant under this Agreement, or any act or omission of Tenant or Tenant's agents, employees, contractors, or invitees."
+```
+
+*Example Paragraph 2 — Medical (Patient Discharge Instructions)*
+```
+"Patient presents with a diagnosis of moderate non-erosive gastroesophageal reflux disease (GERD) with associated dysphagia. Treatment protocol includes initiation of a proton pump inhibitor (PPI) regimen administered once daily prior to the first meal. Patient is advised to maintain head-of-bed elevation of no less than 30 degrees, avoid consumption of known lower esophageal sphincter (LES) relaxants including caffeine, alcohol, and high-fat foods, and to follow up with a board-certified gastroenterologist within four to six weeks for re-evaluation and potential esophageal manometry."
+```
+
+### 2.6 Activity 3: Talk to a Document
 
 **Goal:** Experience AI as a document assistant using a real or sample document.
 
@@ -378,10 +387,48 @@ Go to any news website and copy the full text of an article on any topic that in
 - Did it add anything that was not actually in the document?
 
 :::{warning}
-AI can "hallucinate" when summarizing — occasionally adding details that are not in the original. Always check that a summary accurately reflects the source, especially before forwarding it to others.
+AI can "hallucinate" when summarizing, occasionally adding details that are not in the original. Always check that a summary accurately reflects the source, especially before forwarding it to others.
 :::
 
-## Part III — AI for Spreadsheets: No Formulas Required
+### 2.7 AI Tools for Document Processing and Creation
+
+Whether you need to understand a dense document, polish a rough draft, or create content from scratch, there is now an AI tool designed for exactly that job. Some tools focus on improving what you have already written, correcting grammar, adjusting tone, and tightening sentences, while others help you generate new content quickly from a simple prompt or outline. And a growing category of tools specializes in helping you actually understand complex documents, like research papers or legal texts, by answering your questions in plain, everyday language. The table below covers some of the most popular and useful options available, so you can find the right fit for how you write and what you work with most.
+
+:::{note}
+This table is neither expected to be exhaustive nor comprehensive. A web search may reveal many other tools useful for your document context and you are advised to do such search if you want to have a more specific sample of tools potentially applicable to your context.
+:::
+
+**Comparison Table**
+
+| Tool | Website | Best For | Works With | Key Features | Free Option | Approx. Cost |
+|------|---------|----------|------------|--------------|-------------|--------------|
+| **Notion AI** | [notion.so](https://notion.so) | People who already organize their work in Notion | Notion pages and uploaded files | Summarize, draft, translate, and explain content; pulls context from your own existing notes and documents | ✅ Yes (add-on) | Notion AI add-on ~$10/mo per user |
+| **Grammarly** | [grammarly.com](https://grammarly.com) | Anyone who wants to write more clearly and confidently | Browser extension, Word, Google Docs, most email clients | Real-time grammar and spelling, tone detection, clarity suggestions, rewriting help, 100 AI prompts/mo on free plan | ✅ Yes (basic) | Premium ~$12/mo (billed annually) |
+| **NotebookLM** | [notebooklm.google.com](https://notebooklm.google.com) | Understanding and researching documents from your own sources | PDFs, Google Docs, websites, YouTube links | Upload your sources and ask questions; generates summaries, audio "podcast" overviews of documents, and deep research reports | ✅ Yes (generous free tier) | Plus ~$20/mo |
+| **Wordtune** | [wordtune.com](https://wordtune.com) | Improving and rephrasing sentences you have already written | Browser extension, Google Docs, most web editors | Rewrites and rephrases sentences, adjusts tone (formal or casual), expands or shortens text, summarizes long content | ✅ Yes (10 rewrites/day) | Unlimited ~$9.99/mo (billed annually) |
+| **SciSpace** | [scispace.com](https://scispace.com) | Reading academic papers, research reports, or any complex document | PDFs, research papers, web articles | Explains difficult papers in plain language, lets you ask questions about any document, highlights and annotates, literature search | ✅ Yes (limited) | From ~$12/mo |
+| **Reword** | [reword.co](https://reword.co) | Bloggers and content teams who want AI to write in their own voice | Web app, connects to most content management systems (CMS) | Trains on your existing articles to learn your style, collaborative AI co-writer, research assistance, SEO-optimized article drafting | ❌ No (14-day free trial) | From ~$39/mo |
+| **Surfer** | [surferseo.com](https://surferseo.com) | Creating blog posts and articles that rank well on Google | Web app, Google Docs integration | Real-time content scoring as you write, keyword and competitor analysis, content outlines built from top-ranking pages | ❌ No | From ~$69/mo (billed annually) |
+| **Rytr** | [rytr.me](https://rytr.me) | Quick, affordable content for everyday writing tasks | Web app, browser extension | 40+ templates (blog posts, emails, product descriptions, social posts), 20+ tone options, 30+ languages, plagiarism checker | ✅ Yes (10,000 characters/mo) | Saver ~$9/mo / Unlimited ~$29/mo |
+| **Jasper** | [jasper.ai](https://jasper.ai) | Marketing and business teams creating branded content at scale | Web app, Google Docs extension, browser | Brand voice training, 50+ professional templates, long-form content editor, team collaboration, AI image generation | ❌ No (7-day free trial) | Creator ~$49/mo |
+| **Writesonic** | [writesonic.com](https://writesonic.com) | SEO-focused blogs, marketing copy, and high-volume content | Web app, WordPress integration | 80+ templates, built-in SEO and keyword tools, AI blog writer, ChatSonic chatbot with web access | ✅ Yes (limited) | From ~$20/mo |
+
+**Quick Guide: Which Tool Is Right for You?**
+
+| Your Situation | Recommended Tool |
+|----------------|-----------------|
+| I want to catch grammar mistakes and write more clearly | Grammarly |
+| I need to understand a research paper or complex document without a technical background | SciSpace |
+| I have uploaded documents and want to ask questions and get summaries from them | NotebookLM |
+| I want to rephrase or rewrite a sentence without changing its meaning | Wordtune |
+| I already organize my notes and projects in Notion | Notion AI |
+| I write blog posts or articles and want AI help that sounds like *me* | Reword |
+| I need to write short content fast — emails, social posts, product descriptions | Rytr |
+| I create content for a business or marketing team with a consistent brand voice | Jasper |
+| I want my blog posts to rank higher in Google search results | Surfer |
+| I need a flexible tool for SEO blogs and marketing copy with built-in keyword data | Writesonic |
+
+## Part III — AI for Spreadsheets
 
 For many people, spreadsheets are one of the most intimidating parts of professional life. AI changes this equation significantly — because you no longer need to know Excel syntax or formula logic to get useful analysis from your data.
 
