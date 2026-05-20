@@ -222,7 +222,7 @@ AI image generators can occasionally produce images with distorted hands, incons
 
 ### 3.1 Why AI Presentation Tools Are a Game-Changer
 
-Creating a presentation has traditionally required three separate skills: organizing your ideas, designing slides that look professional, and deciding what to put on each one. AI presentation tools collapse all three into a single, guided process — often producing a complete, designed deck in under two minutes.
+Creating a presentation has traditionally required three separate skills: organizing your ideas, designing slides that look professional, and deciding what to put on each one. AI presentation tools collapse all three into a single, guided process, often producing a complete, designed deck in under two minutes.
 
 This does not mean the result is ready to present without your input. It means you skip the blank-slide problem entirely and start from something you can refine, rather than something you have to build from scratch.
 
@@ -237,7 +237,9 @@ This does not mean the result is ready to present without your input. It means y
 | **Google Slides + Gemini** | Free (Google Workspace) | AI assistance inside Google Slides for Workspace users |
 | **Tome** | Free / Paid | Story-driven presentations with a narrative focus |
 
-> 💡 **Recommendation for beginners:** Start with **Gamma** — it is free, requires no design experience, and produces impressive results from a simple text description in under 60 seconds.
+:::{tip}
+Start with **Gamma**, as it is free, requires no design experience, and produces impressive results from a simple text description in under 60 seconds.
+:::
 
 ### 3.3 How AI Builds a Presentation
 
@@ -290,7 +292,7 @@ Please review it and suggest:
 [PASTE YOUR CURRENT SLIDES' TEXT]
 ```
 
-### 3.5 🛠️ Activity 2: Build a Presentation with AI
+### 3.5 Activity 2: Build a Presentation with AI
 
 **Goal:** Experience AI-assisted presentation creation from prompt to polished deck.
 
@@ -311,7 +313,7 @@ Go through every slide. For each one, ask:
 - Does the image or visual fit?
 
 **Step 5 — Make at least three edits**  
-Change a title, rewrite a bullet point in your own voice, replace an image, or add a personal example. This step is crucial — it is what makes the presentation *yours*.
+Change a title, rewrite a bullet point in your own voice, replace an image, or add a personal example. This step is crucial; it is what makes the presentation *yours*.
 
 **Reflect:**
 - How long did the full process take, compared to building slides from scratch?
@@ -319,7 +321,9 @@ Change a title, rewrite a bullet point in your own voice, replace an image, or a
 - What required your correction or personal touch?
 - Would you use this tool again? For what situations?
 
-> ⚠️ **Watch Out:** AI-generated presentations often use generic language and stock imagery. They are strong starting points but weak final products without your editing. Never present AI-generated slides without reading every word first — errors and inaccuracies do appear.
+:::{warning}
+AI-generated presentations often use generic language and stock imagery. They are strong starting points but weak final products without your editing. Never present AI-generated slides without reading every word first, as errors and inaccuracies do appear.
+:::
 
 ## Part IV — AI Music and Audio
 
