@@ -490,13 +490,13 @@ Always check the **terms of service** of the music tool you use before sharing o
 
 ### 5.1 What AI Avatars Are
 
-An **AI avatar** is a realistic digital human — a video of a person speaking — generated entirely by AI from a text script or audio input. You provide the words; the AI creates a lifelike video of a human figure reading them.
+An **AI avatar** is a realistic digital human, that is, a video of a person speaking, generated entirely by AI from a text script or audio input. You provide the words; the AI creates a lifelike video of a human figure reading them.
 
 Similarly, **AI voice tools** can clone a voice or generate a new synthetic voice that sounds natural and human, reading any text you provide.
 
-These technologies are genuinely impressive — and they come with significant ethical responsibilities.
+These technologies are genuinely impressive, and they come with significant ethical responsibilities.
 
-### 5.2 The Major Avatar and Voice Tools
+### 5.2 Some Avatar and Voice Tools
 
 | Tool | Access | What It Does |
 | :--- | :--- | :--- |
@@ -510,34 +510,36 @@ These technologies are genuinely impressive — and they come with significant e
 
 **Where avatars and AI voices are genuinely useful:**
 
-- **Training videos** — create professional instructional content without recording yourself on camera.
-- **Presentation narration** — add a voiceover to your slides without recording a live audio track.
-- **Multilingual content** — generate the same content in multiple languages without a human translator recording it.
-- **Accessibility** — convert written content to spoken audio for audiences who prefer or need it.
-- **Personal projects** — create a narrated story, a digital greeting, or a fun creative project.
+- **Training videos**: create professional instructional content without recording yourself on camera.
+- **Presentation narration**: add a voiceover to your slides without recording a live audio track.
+- **Multilingual content**: generate the same content in multiple languages without a human translator recording it.
+- **Accessibility**: convert written content to spoken audio for audiences who prefer or need it.
+- **Personal projects**: create a narrated story, a digital greeting, or a fun creative project.
 
 **Where to be cautious:**
 
-- ❌ Creating a realistic avatar or voice of a real, identifiable person without their consent — this is a serious ethical violation and potentially illegal in many jurisdictions.
+- ❌ Creating a realistic avatar or voice of a real, identifiable person without their consent. This is a serious ethical violation and potentially illegal in many jurisdictions.
 - ❌ Using AI avatars to impersonate someone in a professional or public context.
 - ❌ Generating synthetic media designed to deceive viewers into thinking they are watching a real person.
 
-> 💡 **The deepfake problem:** AI-generated videos of real people saying things they never said — known as *deepfakes* — represent one of the most serious misuse risks of this technology. Being able to *identify* AI-generated video (look for unnatural blinking, odd lip sync, or perfect-but-somehow-wrong faces) is becoming an important general literacy skill.
+:::{warning}
+💡 **The deepfake problem:** AI-generated videos of real people saying things they never said, known as *deepfakes*, represent one of the most serious misuse risks of this technology. Being able to *identify* AI-generated video (look for unnatural blinking, odd lip sync, or perfect-but-somehow-wrong faces) is becoming an important general literacy skill.
+:::
 
-### 5.4 🛠️ Activity 4: Explore an AI Avatar or Voice Tool
+### 5.4 Activity 5: Explore an AI Avatar or Voice Tool
 
-**Goal:** Experience what AI avatar and voice technology can produce — and develop a critical eye for evaluating synthetic media.
+**Goal:** Experience what AI avatar and voice technology can produce and develop a critical eye for evaluating synthetic media.
 
 **Option A — Create a simple avatar video (HeyGen or Synthesia):**  
 Visit [heygen.com](https://heygen.com) or [synthesia.io](https://synthesia.io) and use the free trial.
 1. Choose an avatar from the available options (do not use real people).
-2. Type a short script — your name, a greeting, and one sentence about a topic you care about.
+2. Type a short script, e.g. your name, a greeting, and one sentence about a topic you care about. Feel free to prompt the script to be used by the avatar.
 3. Generate the video and watch it.
 
 **Option B — Generate an AI voice narration (ElevenLabs or Murf):**  
 Visit [elevenlabs.io](https://elevenlabs.io) (free tier available).
 1. Choose a voice from the options.
-2. Type a short paragraph — a description of your town, a tip you would share with a friend, or a personal introduction.
+2. Type a short paragraph, e.g. a description of your town, a tip you would share with a friend, or a personal introduction. Feel free to prompt the script to be used by the avatar.
 3. Generate and listen.
 
 **Reflect on both options:**
@@ -548,19 +550,15 @@ Visit [elevenlabs.io](https://elevenlabs.io) (free tier available).
 
 ## Part VI — AI for Real-Life Creative Projects
 
-Everything you have practiced in this class — generating images, building presentations, creating music, and exploring avatars — comes together when you apply it to real, meaningful projects. In this section, you will work on two hands-on creative challenges that many people encounter in everyday and professional life: a digital event invitation and building a brand from scratch.
+Everything you have practiced in this class, including generating images, building presentations, creating music, and exploring avatars, comes together when you apply it to real, meaningful projects. In this section, you will work on two hands-on creative challenges that many people encounter in everyday and professional life: a digital event invitation and building a brand from scratch.
 
-These activities are more open-ended than earlier ones. There is no single right answer. The goal is for you to practice directing AI through a multi-step creative project — and to experience the full creative loop of **Generate → Evaluate → Refine**.
+These activities are more open-ended than earlier ones. There is no single right answer. The goal is for you to practice directing AI through a multi-step creative project and to experience the full creative loop of **Generate → Evaluate → Refine**.
 
----
+### 6.1 Activity 6: Create a Digital Birthday Party Invitation
 
-### 6.1 🛠️ Activity 5: Create a Digital Birthday Party Invitation
+**Goal:** Use AI to design and produce a beautiful, interactive digital birthday party invitation, ready to share via link, email, or social media.
 
-**Goal:** Use AI to design and produce a beautiful, interactive digital birthday party invitation — ready to share via link, email, or social media.
-
-A digital invitation is a perfect creative AI project: it has a clear purpose, a real audience, a specific set of content (date, time, place, RSVP), and room for personality and visual creativity. You can choose to create this as an **interactive webpage**, a **designed graphic**, or a **structured document** — whichever best suits your needs.
-
----
+A digital invitation is a perfect creative AI project: it has a clear purpose, a real audience, a specific set of content (date, time, place, RSVP), and room for personality and visual creativity. You can choose to create this as an **interactive webpage**, a **designed graphic**, or a **structured document**, whichever best suits your needs.
 
 **Step 1 — Define the invitation details**
 
@@ -570,9 +568,9 @@ Before prompting AI, decide on the basics:
 - **What are the key details?** Date, time, location, dress code (if any), RSVP contact.
 - **What format do you want?** A styled HTML webpage, a printable card graphic, or a social media post?
 
-> 💡 **Tip:** Having clear answers to these questions before you start will dramatically improve your AI outputs. Do not skip this step — it is the "director's brief" that guides everything that follows.
-
----
+:::{tip}
+Having clear answers to these questions before you start will dramatically improve your AI outputs. Do not skip this step, as it is the "director's brief" that guides everything that follows.
+:::
 
 **Step 2 — Generate a written invitation text**
 
@@ -594,8 +592,6 @@ Include a catchy headline, the key event details,
 and a fun closing line that encourages people to come.
 ```
 
----
-
 **Step 3 — Generate the interactive digital invitation as a webpage**
 
 Once you have the text, use this prompt to create a fully designed, interactive HTML invitation:
@@ -605,14 +601,14 @@ Using the invitation text below, please create a complete,
 beautiful HTML webpage for a digital birthday party invitation.
 
 Design requirements:
-- Visually match the theme: [describe your theme again — colors, mood, imagery style]
+- Visually match the theme: [describe your theme again, i.e. colors, mood, imagery style]
 - Include animated or decorative elements appropriate to the theme 
   (e.g., floating confetti, subtle sparkle effect, or a festive background pattern)
 - Display all event details clearly: name, date, time, location, RSVP
 - Include a simple RSVP section with "Yes, I'll be there! 🎉" and 
   "Sorry, I can't make it 😢" buttons that show a friendly confirmation message when clicked
 - Mobile-friendly layout (works well on both phone and desktop)
-- No external images required — use CSS, emoji, and inline design only
+- No external images required; use CSS, emoji, and inline design only
 - Everything should be in one self-contained HTML file
 
 Invitation text:
@@ -621,21 +617,17 @@ Invitation text:
 
 > 💡 **What you get:** A single `.html` file you can open in any browser, share as an attachment, or host on a free platform like GitHub Pages, Netlify Drop, or Google Sites.
 
----
-
 **Step 4 — Optionally generate a matching visual**
 
-Use an image generation tool (DALL·E in ChatGPT, Adobe Firefly, or Canva AI) to create a matching banner or background image for your invitation:
+Use an image generation tool (ChatGPT, Grok, Adobe Firefly, or Canva AI) to create a matching banner or background image for your invitation:
 
 ```
 Create a festive illustration for a birthday party invitation with a [theme] theme.
 Style: [watercolor / flat design / photorealistic / cartoon]
 Colors: [describe the palette that matches your invitation]
-Include: [any specific elements — balloons, flowers, tropical plants, vintage patterns, etc.]
+Include: [any specific elements, e.g. balloons, flowers, tropical plants, vintage patterns, etc.]
 No text in the image. Horizontal format, suitable as a website banner.
 ```
-
----
 
 **Step 5 — Review and personalize**
 
@@ -644,7 +636,7 @@ Open the HTML file in your browser. Ask yourself:
 - Is all the information accurate and clearly readable?
 - Does the design match the theme you had in mind?
 
-Make at least two edits — change a color, adjust the wording, or add a personal touch.
+Make at least two edits, such as change a color, adjust the wording, or add a personal touch.
 
 **Reflect:**
 - How long did the full process take?
@@ -652,19 +644,15 @@ Make at least two edits — change a color, adjust the wording, or add a persona
 - What would you have done differently with the design if AI had not been involved?
 - Can you think of other events where a quick AI-generated digital invitation would save you significant time?
 
----
-
-### 6.2 🛠️ Activity 6: Plan a Company with AI — Brand Identity and Website
+### 6.2 Activity 7: Plan a Company with AI — Brand Identity and Website
 
 **Goal:** Use AI to move through three stages of building a new business or organization: strategic planning, visual identity, and website creation.
 
-This activity is one of the most expansive in the program — and one of the most practical. Whether you are dreaming of starting a business, building a side project, launching a community organization, or just exploring what is possible, AI can take you from a simple idea to a complete brand and online presence in a single session.
+This activity is one of the most expansive in the program, and one of the most practical. Whether you are dreaming of starting a business, building a side project, launching a community organization, or just exploring what is possible, AI can take you from a simple idea to a complete brand and online presence in a single session.
 
 You will work through three stages: **Plan → Brand → Build.**
 
 > 💡 **This activity is deliberately open-ended.** Use a real business idea you have been thinking about, a passion project, a community initiative, or a completely imagined concept. The process is the same regardless.
-
----
 
 #### Stage 1 — Plan: Define the Core Components of Your Company
 
@@ -691,11 +679,9 @@ Please help me define the following foundational components:
 
 Review the output, pick the name you like best, and move to Stage 2.
 
----
-
 #### Stage 2 — Brand: Create the Visual Identity
 
-With your business concept defined, use AI to develop a complete **visual identity** — the look, feel, and visual language of your brand.
+With your business concept defined, use AI to develop a complete **visual identity** - the look, feel, and visual language of your brand.
 
 **Prompt 1 — Brand personality and color palette:**
 ```
@@ -727,9 +713,9 @@ Clean white background. Professional, modern style.
 Include the company name in the logo in [your chosen font style].
 ```
 
-> 💡 **Note on AI logos:** AI image tools sometimes struggle with precise text in logos. If the text does not render correctly, generate the icon/symbol separately and add the business name using Canva, Google Slides, or any basic design tool.
-
----
+:::{note}
+AI image tools sometimes struggle with precise text in logos. If the text does not render correctly, generate the icon/symbol separately and add the business name using Canva, Google Slides, or any basic design tool.
+:::
 
 #### Stage 3 — Build: Create the Company Website
 
@@ -750,20 +736,20 @@ Brand information:
 - Brand personality: [adjectives]
 
 Website sections to include:
-1. Hero section — business name, tagline, and a prominent call-to-action button
-2. About section — who we are and what we stand for (2–3 sentences)
-3. Services/Products section — the 3–5 key offerings with a short description each
-4. Why Us section — 3 short points highlighting the unique value proposition
-5. Contact section — a simple contact form (name, email, message fields) 
+1. Hero section: business name, tagline, and a prominent call-to-action button
+2. About section: who we are and what we stand for (2–3 sentences)
+3. Services/Products section: the 3–5 key offerings with a short description each
+4. Why Us section: 3 short points highlighting the unique value proposition
+5. Contact section: a simple contact form (name, email, message fields) 
    and placeholder contact details
-6. Footer — business name, copyright year, and navigation links
+6. Footer: business name, copyright year, and navigation links
 
 Design requirements:
 - Use the brand colors throughout (header, buttons, accents)
 - Clean, modern, mobile-responsive layout
 - Professional typography matching the brand personality
 - Smooth scroll navigation
-- All in one self-contained HTML file — no external dependencies
+- All in one self-contained HTML file, no external dependencies
 ```
 
 **Review and refine:**
@@ -777,8 +763,6 @@ Please add a customer testimonials section between the Services and Why Us secti
 Make the hero section background use a subtle gradient of our primary and secondary colors.
 ```
 
----
-
 **Full Activity Reflection:**
 - What surprised you about how quickly AI could produce a business concept and brand?
 - Which stage — planning, branding, or building — did AI handle most impressively?
@@ -786,15 +770,15 @@ Make the hero section background use a subtle gradient of our primary and second
 - How would this compare to hiring a freelancer or agency to do the same work?
 - What are the risks of using AI-generated brand materials without involving a professional designer?
 
-> ⚠️ **A note on professional use:** For a real business, AI-generated brand materials are an excellent starting point — but professional designers bring strategic thinking, cultural nuance, and refinement that AI cannot fully replicate. Use AI to explore and prototype; bring in professionals when it really counts.
-
----
+:::{note}
+**A note on professional use:** For a real business, AI-generated brand materials are an excellent starting point, but professional designers bring strategic thinking, cultural nuance, and refinement that AI cannot fully replicate. Use AI to explore and prototype; bring in professionals when it really counts.
+:::
 
 ## Part VII — Putting Creative AI in Perspective
 
 ### 7.1 What Distinguishes Human Creativity from AI Generation?
 
-This is one of the most important questions of our time — and there is no single right answer. But it is worth thinking about carefully.
+This is one of the most important questions of our time, and there is no single right answer. But it is worth thinking about carefully.
 
 AI can produce:
 - Images that are technically flawless and visually striking.
@@ -802,25 +786,25 @@ AI can produce:
 - Presentations that are well-structured and professionally designed.
 - Videos of humans speaking any words you provide.
 
-What AI cannot produce — at least not yet, and perhaps not ever — is:
+What AI cannot produce, at least not yet, and perhaps not ever, is:
 
-- **Genuine intention** — the reason behind the creation, the message you are trying to send.
-- **Lived experience** — the personal history, emotion, and perspective that give creative work meaning.
-- **Ethical judgment** — the ability to decide what *should* be created, not just what *can* be created.
-- **Accountability** — the willingness to take responsibility for what the work communicates and how it is received.
+- **Genuine intention**: the reason behind the creation, the message you are trying to send.
+- **Lived experience**: the personal history, emotion, and perspective that give creative work meaning.
+- **Ethical judgment**: the ability to decide what *should* be created, not just what *can* be created.
+- **Accountability**: the willingness to take responsibility for what the work communicates and how it is received.
 
-> The most powerful creative uses of AI are the ones where your intention is clear, your judgment shapes the output, and the final result carries your voice — even if AI generated the first draft.
+> The most powerful creative uses of AI are the ones where your intention is clear, your judgment shapes the output, and the final result carries your voice, even if AI generated the first draft.
 
 ### 7.2 A Practical Creative AI Ethics Checklist
 
 Before sharing any AI-generated creative content — publicly, professionally, or personally — run through this quick check:
 
-- [ ] **Accuracy** — Does the content accurately represent what I claim it does?
-- [ ] **Consent** — Does any content involve real people? Do I have their consent?
-- [ ] **Transparency** — Am I being honest about the role AI played in creating this?
-- [ ] **Ownership** — Have I checked the tool's terms of service for commercial or public use?
-- [ ] **Harm** — Could this content mislead, deceive, demean, or harm anyone?
-- [ ] **Purpose** — Is this the right tool and the right approach for this particular goal?
+- [ ] **Accuracy**: Does the content accurately represent what I claim it does?
+- [ ] **Consent**: Does any content involve real people? Do I have their consent?
+- [ ] **Transparency**: Am I being honest about the role AI played in creating this?
+- [ ] **Ownership**: Have I checked the tool's terms of service for commercial or public use?
+- [ ] **Harm**: Could this content mislead, deceive, demean, or harm anyone?
+- [ ] **Purpose**: Is this the right tool and the right approach for this particular goal?
 
 If you can check all six boxes with a clear conscience, you are using creative AI responsibly.
 
@@ -835,7 +819,7 @@ These are not abstract philosophical questions — they are practical ones that 
 
 ### 7.4 What Is Coming in Class 4
 
-Our final class brings everything together — and adds one critical layer that ties the whole program together: **knowing when to trust AI, how to protect yourself, and how to build habits that last**.
+Our final class brings everything together, and adds one critical layer that ties the whole program together: **knowing when to trust AI, how to protect yourself, and how to build habits that last**.
 
 In Class 4, you will:
 - Apply a **verification-first framework** to any AI output, creative or otherwise.
