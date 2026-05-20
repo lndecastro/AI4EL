@@ -1,32 +1,33 @@
 # Class 3: AI Gets Creative — Images, Presentations, Music & Avatars
 
-So far in this program, you have learned what AI is, how to talk to it, and how to use it for writing and data tasks. In this class, we step into what many people find the most surprising — and most delightful — dimension of AI: **creation**.
+So far in this program, you have learned what AI is, how to talk to it, and how to use it for writing, data, and career tasks. In this class, we step into what many people find the most surprising, and most delightful, dimension of AI: **creation of visual and artistic assets**.
 
 Until recently, generating a professional image, recording a piece of music, building a polished slide deck, or creating a speaking avatar required specialized software, significant time, and often years of training. Generative AI has fundamentally changed this. Today, anyone with a free account and a well-crafted prompt can produce visual content, music, and multimedia that would have been out of reach just a few years ago.
 
-This class is about **exploring that creative frontier** — not as a passive observer, but as someone who creates, experiments, and makes thoughtful choices about when and how to use these tools.
+This class is about **exploring that creative frontier**, not as a passive observer, but as someone who creates, experiments, and makes thoughtful choices about when and how to use these tools.
 
-> **The guiding idea of this class:** AI is a creative collaborator, not a replacement for your ideas. The most powerful creative AI outputs are the ones where a human — you — provides the direction, taste, and judgment. AI supplies the execution.
+> **The guiding idea of this class:** AI is a creative collaborator, not a replacement for your ideas. The most powerful creative AI outputs are the ones where a human, that is, you, provides the direction, taste, and judgment. AI supplies the execution.
 
 ## Learning Objectives
 
 By the end of this class, you will be able to:
 
-1. Explain how Generative AI produces creative content — images, music, presentations, and avatars — in plain language.
+1. Explain how Generative AI produces creative content, such as images, music, presentations, interactive podcasts, and avatars, in plain language.
 2. Write effective text prompts to generate images that match your intent.
 3. Use an AI presentation tool to build a complete slide deck from an outline or description.
 4. Experiment with AI music generation for personal and professional use.
-5. Describe what AI avatars are and identify realistic, responsible use cases for them.
-6. Apply a practical copyright and ethics framework to any creative AI output before using or sharing it.
-7. Reflect on the boundary between human creativity and AI-assisted creation.
+5. Create and interact with AI podcasts.
+6. Describe what AI avatars are and identify realistic, responsible use cases for them.
+7. Apply a practical copyright and ethics framework to any creative AI output before using or sharing it.
+8. Reflect on the boundary between human creativity and AI-assisted creation.
 
 ## Part I — AI and Creativity: A New Kind of Partnership
 
 ### 1.1 From Analysis to Creation: What Generative AI Produces
 
-In Class 1, we introduced the idea that Generative AI — unlike traditional AI — does not just analyze or classify. It *creates*. It learns the underlying patterns in vast amounts of human-made content and uses those patterns to produce something new.
+In Class 1, we introduced the idea that Generative AI, unlike traditional AI, does not just analyze or classify. It *creates*. It learns the underlying patterns in vast amounts of human-made content and uses those patterns to produce something new.
 
-The table below — adapted from the AI Literacy Program — shows the full landscape of what today's Generative AI can create:
+The table below, adapted from the AI Literacy Program, shows a broad landscape of what today's Generative AI can create:
 
 | Input | Output | Tools You Can Use Today |
 | :--- | :--- | :--- |
@@ -35,32 +36,35 @@ The table below — adapted from the AI Literacy Program — shows the full land
 | Text outline or notes | **Presentation slides** | Gamma, Beautiful.ai, Copilot (PowerPoint), Canva AI |
 | Text description | **Video clip** | Runway, Pika, Google Veo |
 | Text script | **Talking avatar** | HeyGen, Synthesia, D-ID |
-| Text prompt | **Written content** | ChatGPT, Claude, Gemini *(covered in Class 2)* |
+| Text description | **Interactive Podcast** | NotebookLM, elevenlabs, Wondercraft |
+| Text prompt | **Written content** | ChatGPT, Claude, Gemini *(covered in Class 2)*, etc. |
 
-> 💡 **Key insight:** These tools do not think creatively — they recombine and interpolate patterns from enormous datasets of human-made content. What makes the output *creative* is the intention and judgment you bring to directing them.
+:::{tip}
+These tools do not think creatively, they recombine and interpolate patterns from enormous datasets of human-made content. What makes the output *creative* is the intention and judgment you bring to directing them.
+:::
 
 ### 1.2 The Human-AI Co-Creation Mindset
 
-Before we dive into specific tools, it is worth establishing a mindset that will serve you well across everything in this class:
+Before we explore specific tools, it is worth establishing a mindset that will serve you well across everything in this class:
 
 **You are the director. AI is the production team.**
 
-Think of yourself as a film director. You do not operate the camera, design the costumes, or compose the score yourself — but you provide the vision, make the decisions, and take responsibility for the final product. AI tools are the production team: fast, tireless, and highly capable — but entirely dependent on your direction.
+Think of yourself as a film director. You do not operate the camera, design the costumes, or compose the score yourself, but you provide the vision, make the decisions, and take responsibility for the final product. AI tools are the production team: fast, tireless, and highly capable, but entirely dependent on your direction.
 
 This means:
-- The *idea* always comes from you.
-- The *judgment* about whether the output is good, appropriate, and accurate always comes from you.
-- The *responsibility* for how the content is used always comes from you.
+- The *idea* comes from you.
+- The *judgment* about whether the output is good, appropriate, and accurate comes from you.
+- The *responsibility* for how the content is used comes from you.
 
 A good creative AI workflow follows three steps:
 
 **Generate → Evaluate → Refine.**
 
-Rarely does the first output perfectly match your vision. Expect to iterate — adjusting your prompt, trying different options, and combining AI-generated elements with your own editing and judgment.
+Rarely does the first output perfectly match your vision. Expect to iterate by adjusting your prompt, trying different options, and combining AI-generated elements with your own editing and judgment.
 
 ### 1.3 Copyright, Ethics, and Creative AI: What You Need to Know
 
-Before generating any creative content with AI, there are important practical and ethical questions to understand. This is not meant to discourage you — most everyday uses are perfectly fine. It is meant to make you a thoughtful, responsible creator.
+Before generating any creative content with AI, there are important practical and ethical questions to understand. This is not meant to discourage you, instead it is meant to make you a thoughtful, responsible creator.
 
 **Copyright and ownership:**
 
@@ -68,7 +72,7 @@ Before generating any creative content with AI, there are important practical an
 | :--- | :--- |
 | **You generate an image with AI** | In most countries, AI-generated images cannot currently be copyrighted by the user. Always check the terms of service of the tool you use. |
 | **You generate music with AI** | Ownership varies by tool. Some platforms (e.g., Suno) retain rights to the audio; others allow commercial use. Read the terms carefully. |
-| **You use AI to build a presentation** | The text, structure, and arrangement you create may be your intellectual property — but verify with the tool's terms of service. |
+| **You use AI to build a presentation** | The text, structure, and arrangement you create may be your intellectual property, but verify with the tool's terms of service. |
 | **You generate content that resembles a real person** | This raises serious ethical and potentially legal concerns. Never create realistic images or voices of identifiable people without their consent. |
 | **You train or fine-tune AI on someone else's art** | This is a rapidly evolving legal area. When in doubt, avoid using other artists' work as input without permission. |
 
@@ -76,20 +80,22 @@ Before generating any creative content with AI, there are important practical an
 
 - ✅ Generate original creative content for personal, educational, or professional use.
 - ✅ Experiment, explore, and have fun with creative tools.
-- ⚠️ Be transparent when sharing AI-generated content — especially in professional or public contexts.
+- ⚠️ Be transparent when sharing AI-generated content, especially in professional or public contexts.
 - ❌ Do not generate realistic images or audio of real, identifiable people without consent.
 - ❌ Do not use AI-generated content to deceive, mislead, or misrepresent.
 - ❌ Do not claim AI-generated work as entirely your own in contexts where that would be dishonest (academic submissions, professional portfolios).
 
-> 💡 **Practical rule:** When in doubt, disclose. Saying *"I created this with AI assistance"* is a sign of transparency and integrity — not weakness.
+:::{note}
+When in doubt, disclose. Saying *"I created this with AI assistance"* is a sign of transparency and integrity, not weakness.
+:::
 
 ## Part II — AI-Generated Images
 
-### 2.1 How Image Generation Works (Plain Language)
+### 2.1 How Image Generation Works
 
-You type a description — called a **text prompt** — and the AI generates an image that matches it. The AI was trained on hundreds of millions of images paired with text descriptions, so it has learned the visual patterns associated with an enormous range of subjects, styles, moods, and compositions.
+You type a prompt and the AI generates an image that matches it. The AI was trained on hundreds of millions of images paired with text descriptions, so it has learned the visual patterns associated with an enormous range of subjects, styles, moods, and compositions.
 
-The most widely used image generation technology today is called **diffusion** — the AI starts from random visual noise and gradually refines it, step by step, into a coherent image that fits your description. Think of it like a photograph slowly developing in a darkroom, guided by your words.
+The most widely used image generation technology today is called **diffusion**: the AI starts from random visual noise and gradually refines it, step by step, into a coherent image that fits your description. Think of it like a photograph slowly developing in a darkroom, guided by your words.
 
 ### 2.2 The Major Image Generation Tools
 
@@ -99,10 +105,13 @@ The most widely used image generation technology today is called **diffusion** �
 | **Adobe Firefly** | Free (with Adobe account) | Professional, commercially safe images; integrates with Photoshop and Canva |
 | **Canva AI** (Magic Media) | Free / Paid | Social media graphics, presentations, and marketing materials |
 | **Gemini** (Google) | Free | Image generation integrated with Google tools |
+| **Grok** (xAI / X) | Free / Paid (X Premium) | Creative and photorealistic images; integrated with X (formerly Twitter) |
 | **Midjourney** | Paid (subscription) | High-quality artistic and stylized images; popular with designers |
 | **Microsoft Designer** | Free (Microsoft account) | Image generation integrated with Microsoft 365 tools |
 
-> 💡 **Recommendation for beginners:** Start with **DALL·E inside ChatGPT** or **Canva AI**. Both are free, easy to access, and produce high-quality results without any setup.
+:::{tip}
+**Recommendation for beginners:** Start with **DALL·E inside ChatGPT** or **Canva AI**. Both are free, easy to access, and produce high-quality results without any setup.
+:::
 
 ### 2.3 Prompting for Images: Describing What You Want
 
@@ -138,15 +147,15 @@ The second prompt gives the AI enough specific detail to generate something genu
 
 **Useful style keywords to know:**
 
-- *Photorealistic* — looks like a real photograph
-- *Watercolor* — soft, painted look with visible brushstrokes
-- *Flat design* — simple, bold colors with no shadows (common in app icons and infographics)
-- *Oil painting* — rich textures, painterly feel
-- *Minimalist* — clean, simple, lots of white space
-- *Vintage / retro* — aged look, old color palettes
-- *Cinematic* — dramatic lighting, movie-like framing
+- *Photorealistic*: looks like a real photograph
+- *Watercolor*: soft, painted look with visible brushstrokes
+- *Flat design*: simple, bold colors with no shadows (common in app icons and infographics)
+- *Oil painting*: rich textures, painterly feel
+- *Minimalist*: clean, simple, lots of white space
+- *Vintage / retro*: aged look, old color palettes
+- *Cinematic*: dramatic lighting, movie-like framing
 
-### 2.4 🛠️ Activity 1: Generate Your First Image
+### 2.4 Activity 1: Generate Your First Image
 
 **Goal:** Experience image generation and learn through iteration.
 
@@ -178,12 +187,36 @@ Think of something you could genuinely use an image for:
 
 Write a prompt for that specific use case and generate it.
 
-**Step 5 — Reflect**
+**Step 5 — Request changes and see AI adapt**  
+Take the image you generated in Step 3 and ask the AI to change one element of the scene. You are not starting over, you are refining. Try prompts like these:
+
+*Change the weather:*
+```
+Change the scene to a bright sunny morning. 
+Keep everything else the same.
+```
+*Change the season:*
+```
+Make it a snowy winter evening outside the window instead of rain. 
+Keep the warm interior lighting.
+```
+*Change the mood or time of day:*
+```
+Change the lighting to late evening. 
+Add a candle on each table for a more intimate atmosphere.
+```
+
+Notice how much, or how little, the AI carries over from the original image. Does it preserve the details you wanted to keep? This is how real users work with AI image tools: not by starting from scratch every time, but by iterating toward the result they need.
+
+**Step 6 — Reflect**
 - How did adding detail change the output?
 - Did the AI interpret anything differently than you expected?
+- When you requested changes in Step 5, what did the AI keep, change, or lose?
 - Is the result something you would actually use? What would you change?
 
-> ⚠️ **Watch Out:** AI image generators can occasionally produce images with distorted hands, inconsistent text, or unintended content. Always review before sharing. If a generated image looks "almost right," try refining your prompt with more specific detail.
+:::{warning}
+AI image generators can occasionally produce images with distorted hands, inconsistent text, or unintended content. Always review before sharing. If a generated image looks "almost right," try refining your prompt with more specific detail.
+:::
 
 ## Part III — AI for Presentations
 
