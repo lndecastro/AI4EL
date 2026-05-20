@@ -325,13 +325,78 @@ Change a title, rewrite a bullet point in your own voice, replace an image, or a
 AI-generated presentations often use generic language and stock imagery. They are strong starting points but weak final products without your editing. Never present AI-generated slides without reading every word first, as errors and inaccuracies do appear.
 :::
 
+### 3.6 Activity 3: Prompt a Presentation
+
+**Goal:** Use Claude to generate a complete, slide-by-slide presentation from a single detailed prompt, then refine it through conversation.
+
+**Step 1 — Choose your topic**
+
+Pick something you might genuinely present: a project update, a community initiative, a hobby, a simple how-to, or anything you know well. You will use this same topic throughout the activity.
+
+**Step 2 — Open Claude and write your presentation prompt**
+
+Go to [claude.ai](https://claude.ai) and start a new conversation. Use the template below as your starting point. Fill in the blanks before you send it.
+
+**Full Presentation Prompt**
+```
+"Please create a complete slide-by-slide presentation on the topic of **[your topic]**.
+The audience is **[describe your audience, for example: coworkers, community members, students, neighbors]**.
+The tone should be **[choose one or two: friendly, professional, inspiring, informative, conversational]**.
+The presentation should have **[number, e.g., 6–8]** slides and last approximately **[time, e.g., 10 minutes]**.
+
+For each slide, please provide:
+- A clear slide title
+- Three to five bullet points or a short paragraph of content
+- A brief speaker note suggesting what I might say out loud
+
+Start with a title slide and end with a closing or call-to-action slide."
+```
+
+**Step 3 — Review Claude's output**
+
+Read through every slide carefully. For each one, ask yourself:
+
+- Is this content accurate and true to my topic?
+- Does it reflect what I actually want to say?
+- Is this how I would naturally say it, or does it sound generic?
+- Are the speaker notes helpful and realistic?
+- Is anything missing, off-topic, or awkward?
+
+**Step 4 — Refine your Presentation**
+
+If the model generated the PPTX file for you, you can download and refine it as you wish.
+
+**Step 5 — Make the presentation yours**
+
+Go back through every slide and make at least three personal edits:
+
+- Replace a bullet point with a specific example from your own experience.
+- Rewrite a sentence in your own voice, the way you would actually say it.
+- Add, remove, or reorder a slide based on what feels right for your audience.
+- Adjust any wording that sounds too formal, too casual, or just "not like you."
+
+This step is not optional. AI-generated content reflects a general voice, not yours. Editing is how you take ownership of the material.
+
+**Reflect:**
+
+- How did the quality of the model first output compare to what you expected?
+- Which follow-up prompts made the biggest difference?
+- What did the model handle well without being told?
+- What required your personal knowledge or judgment to fix?
+- How does working with a general-purpose LLM compare to building slides from scratch? To using a dedicated tool like Gamma?
+- In what situations would you use this approach in the future?
+
+:::{warning}
+Claude generates text based on patterns and general knowledge, but it does not know your audience, your organization, or your personal style unless you tell it. Always verify facts, names, and specific figures before presenting. A polished-sounding slide is not the same as an accurate one. Read every word before you stand in front of an audience.
+:::
+
 ## Part IV — AI Music and Audio
 
 ### 4.1 What AI Music Tools Can Do
 
-AI music generation tools create original audio — instrumentals, songs with lyrics, ambient soundscapes, and more — from a text description. You do not need to play an instrument, read music, or have any audio production skills.
+AI music generation tools create original audio, instrumentals, songs with lyrics, ambient soundscapes, and more, from a text description. You do not need to play an instrument, read music, or have any audio production skills.
 
-Modern tools like **Suno** and **Udio** can generate a two-minute song, complete with vocals, melody, and instrumentation, in less than 30 seconds — for free.
+Modern tools like **Suno** and **Udio** can generate a two-minute song, complete with vocals, melody, and instrumentation, in less than 30 seconds, and for free.
 
 **What you can create:**
 - Background music for presentations, videos, or events
@@ -352,7 +417,7 @@ Modern tools like **Suno** and **Udio** can generate a two-minute song, complete
 
 ### 4.3 Prompting for Music: Describing What You Want to Hear
 
-Music prompts describe the *sound, mood, genre, and feel* of what you want — not instructions for how to compose it.
+Music prompts describe the *sound, mood, genre, and feel* of what you want, not instructions for how to compose it.
 
 **Useful descriptive elements for music prompts:**
 
@@ -387,7 +452,7 @@ Calm lo-fi instrumental music. Soft piano, light ambient textures,
 slow tempo, no sudden changes, peaceful and focused.
 ```
 
-### 4.4 🛠️ Activity 3: Create an AI Music Piece
+### 4.4 Activity 4: Create an AI Music Piece
 
 **Goal:** Generate an original piece of audio from a text description.
 
@@ -417,7 +482,9 @@ atmosphere, saxophone and piano."
 **Step 4 — Try a second generation with a refined prompt**  
 Adjust one or two elements in your description and generate again. Compare the two outputs.
 
-> ⚠️ **Watch Out:** Always check the **terms of service** of the music tool you use before sharing or publishing AI-generated music. Free tiers of some tools (including Suno's basic plan) may restrict commercial use. For personal and educational use, this is generally not a concern.
+:::{warning} 
+Always check the **terms of service** of the music tool you use before sharing or publishing AI-generated music. Free tiers of some tools (including Suno's basic plan) may restrict commercial use. For personal and educational use, this is generally not a concern.
+:::
 
 ## Part V — AI Avatars and Synthetic Voices
 
