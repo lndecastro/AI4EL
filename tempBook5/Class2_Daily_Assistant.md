@@ -438,13 +438,13 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 
 ## Part III — AI for Everyday Search: Finding Flights, Services, and Local Help
 
-Search engines have been the default way to find information online for decades. But the way people search is changing fast. Instead of typing keywords and scrolling through a list of links, you can now describe what you need in plain language — and AI will gather, filter, and summarize the results for you.
+Search engines have been the default way to find information online for decades. But the way people search is changing fast. Instead of typing keywords and scrolling through a list of links, you can now describe what you need in plain language and AI will gather, filter, and summarize the results for you.
 
-In this section, you will learn how to use AI as a search assistant for practical, real-life tasks: finding a flight, locating a reliable plumber or AC technician, comparing home service providers, and more. No special skills required — just the ability to describe what you need.
+In this section, you will learn how to use AI as a search assistant for practical, real-life tasks: finding a flight, locating a reliable plumber or AC technician, comparing home service providers, and more. No special skills required, just the ability to describe what you need.
 
 ### 3.1 AI Search vs. Traditional Search: What Is the Difference?
 
-When you type a query into Google, you get a list of links. You still have to click, read, compare, and decide. AI-powered search tools go one step further: they read and synthesize results for you, then present a clear, consolidated answer.
+When you type a query into Google, you get a list of links. You still have to click, read, compare, and decide. AI-powered search tools go various steps further: they read and synthesize results for you, then present a clear, consolidated answer.
 
 | | Traditional Search (Google, Bing) | AI-Powered Search |
 |---|---|---|
@@ -471,19 +471,9 @@ Several AI tools are designed specifically to search the web in real time and gi
 Standard AI tools without web search draw on their training data, which has a cutoff date and cannot look up current prices, live availability, or local listings. For search tasks, make sure you are using a tool with **live web access enabled**.
 :::
 
-**Quick Guide: Which Tool Is Right for You?**
-
-| Your Situation | Recommended Tool |
-|----------------|-----------------|
-| I want sourced answers and cited links | Perplexity AI |
-| I use Gmail and Google and want everything in one place | Google Gemini |
-| I use Outlook or Microsoft 365 | Microsoft Copilot |
-| I already use ChatGPT for other tasks | ChatGPT with search enabled |
-| I want a conversational, synthesized summary | Claude with search enabled |
-
 ### 3.3 Prompt Templates for Everyday Search Tasks
 
-The key to effective AI search is being specific. The more context you give — location, budget, timing, priorities — the more targeted and useful the response will be.
+The key to effective AI search is being specific. The more context you give, e.g. location, budget, timing, priorities, the more targeted and useful the response will be.
 
 **Template 1 — Finding a Flight**
 ```
@@ -537,21 +527,21 @@ non-stop or one-stop, and my budget is around $350 round trip.
 Can you help me compare options and tell me the best booking strategy right now?
 ```
 
-AI will summarize current price ranges, suggest the best booking window, and often flag which days of the week tend to be cheaper — saving you the time of checking three or four booking sites manually.
+AI will summarize current price ranges, suggest the best booking window, and often flag which days of the week tend to be cheaper, saving you the time of checking three or four booking sites manually.
 
 **Scenario B — Finding an AC Technician**
 
-*Your air conditioning is making a strange noise and you need help fast — it is July in Southwest Florida.*
+*Your air conditioning is making a strange noise and you need help fast; it is July in Southwest Florida.*
 
 ```
 My AC unit is making a loud rattling noise and is not cooling properly.
 I need a licensed, insured HVAC technician in Cape Coral, Florida,
-as soon as possible — ideally today or tomorrow.
+as soon as possible, ideally today or tomorrow.
 What are some reputable companies in the area, and what should I ask them
 before agreeing to any work?
 ```
 
-AI can surface local service providers, summarize their review profiles, and give you a short checklist of questions to ask — like whether the diagnostic fee is waived if you proceed with the repair.
+AI can surface local service providers, summarize their review profiles, and give you a short checklist of questions to ask, like whether the diagnostic fee is waived if you proceed with the repair.
 
 **Scenario C — Finding and Vetting a Plumber**
 
@@ -580,13 +570,13 @@ customers say about them?
 **Always verify before you commit:**
 - **Prices change.** Flight prices and service quotes shift constantly. Use AI to understand the landscape, then confirm on the actual booking site or by calling directly.
 - **Reviews can be outdated.** Check Google Maps or Yelp directly for the most recent feedback.
-- **AI cannot make the booking for you.** It finds and summarizes — you still confirm and pay.
+- **AI cannot make the booking for you.** It finds and summarizes but you still confirm and pay.
 - **Hyperlocal availability varies.** A provider AI suggests may no longer operate in your area. Always call to confirm.
 :::
 
 ### 3.6 Activity 4: Search for Something Real
 
-**Goal:** Use an AI search tool to find something you actually need — and compare the experience to a traditional Google search.
+**Goal:** Use an AI search tool to find something you actually need and compare the experience to a traditional Google search.
 
 **Step 1 — Choose a real search task.** Pick one of the following, or use your own:
 - A flight you are considering in the next few months
