@@ -947,7 +947,7 @@ After completing the prompts, take a moment to think about what happened:
 - What would you do differently if this were real business data?
 
 :::{warning}
-**Always verify AI-generated calculations.** AI can make arithmetic errors — especially with percentage calculations or when data is ambiguous. Use AI to find patterns and generate ideas. Use the spreadsheet itself to confirm the final numbers before making any decisions based on them.
+**Always verify AI-generated calculations.** AI can make arithmetic errors, especially with percentage calculations or when data is ambiguous. Use AI to find patterns and generate ideas. Use the spreadsheet itself to confirm the final numbers before making any decisions based on them.
 :::
 
 ## Part V — AI for Your Career: Professional Pages, CVs, Cover Letters, and Interviews
