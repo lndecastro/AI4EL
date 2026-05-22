@@ -599,7 +599,7 @@ customers say about them?
 
 ## Part IV — What's for Dinner? AI as a Cooking and Meal Planning Assistant
 
-So far in this class, you have used AI to work with text — writing emails, summarizing documents, searching for services. But modern AI can do something even more remarkable: it can *see*. In this activity, you will show an AI a photo of ingredients — from your phone or your screen — and have a live conversation with it about what to cook.
+So far in this class, you have used AI to work with text, including writing emails, summarizing documents, searching for services. But modern AI can do something even more remarkable: it can *see and speak*. In this activity, you will show an AI a photo of ingredients, from your phone or your screen, and have a live conversation with it about what to cook.
 
 This is a great introduction to **multimodal AI**: AI that can work with more than just text, including images, voice, and live video.
 
@@ -611,7 +611,7 @@ This is a great introduction to **multimodal AI**: AI that can work with more th
 
 :::{tip}
 **What is Google AI Studio Live?**
-Google AI Studio Live ([aistudio.google.com/live](https://aistudio.google.com/live)) is a free tool that lets you have a real-time, conversational session with a powerful AI. You can type, speak, or share your camera — and the AI responds live, just like a knowledgeable friend you are chatting with.
+Google AI Studio Live ([aistudio.google.com/live](https://aistudio.google.com/live)) is a free tool that lets you have a real-time, conversational session with a powerful AI. You can type, speak, or share your camera, and the AI responds live, just like a knowledgeable friend you are chatting with.
 :::
 
 #### Before You Start
@@ -620,7 +620,7 @@ You have two options for showing the AI your ingredients. Choose whichever works
 
 **Option A — Use a photo on your screen (recommended for laptops and desktops)**
 
-1. Find or take a photo of a set of ingredients — real ones from your kitchen, or a photo you find online. It could be anything: a handful of vegetables, some pantry staples, leftovers from the fridge.
+1. Find or take a photo of a set of ingredients, real ones from your kitchen, or a photo you find online. It could be anything: a handful of vegetables, some pantry staples, leftovers from the fridge.
 2. Open the photo on your computer so it is visible on screen.
 3. You will share your screen with AI Studio during the activity.
 
@@ -649,14 +649,15 @@ Give the AI a moment to process what it sees.
 **Step 3 — Ask for a recipe suggestion**
 
 Type or say something like:
-
-> *"These are the ingredients I have available. What are one or two recipes you would suggest I make with them? Keep it simple — I'm not an expert cook."*
+```
+These are the ingredients I have available. What are one or two recipes you would suggest I make with them? Keep it simple. I'm not an expert cook.
+```
 
 Read or listen to the AI's suggestions. Notice what it picks up from the image and what it recommends.
 
 **Step 4 — Have a conversation**
 
-This is where the real magic happens. Follow up with at least two or three questions to push the conversation further. Here are some ideas — pick any that feel interesting to you:
+This is where the real magic happens. Follow up with at least two or three questions to push the conversation further. Here are some ideas, pick any that feel interesting to you:
 
 - *"I don't have [ingredient the AI mentioned]. What can I use instead?"*
 - *"Can you give me the full step-by-step recipe for [the option you liked]?"*
@@ -669,7 +670,7 @@ Feel free to keep the conversation going in whatever direction feels natural to 
 
 **Step 5 — Reflect on the experience**
 
-Before wrapping up, take a moment to think about what just happened. You showed an AI a photo, asked a question, and had a real back-and-forth conversation — no typing out a long list of ingredients, no searching through recipe websites.
+Before wrapping up, take a moment to think about what just happened. You showed an AI a photo, asked a question, and had a real back-and-forth conversation, no typing out a long list of ingredients, no searching through recipe websites.
 
 #### Reflection Questions
 
@@ -685,14 +686,17 @@ Think about or discuss with a partner:
 AI assistants are excellent at suggesting ideas and explaining steps, but they are not nutritionists or food safety experts. Always use your own judgment about dietary needs, allergies, and food freshness. If you have specific health requirements, consult a professional.
 :::
 
+:::{tip}
+You can use an assistant like this to help you with virtually any task. For example, you can share your screen and ask for help with a code, or a spreadsheet, or a task you have to solve. There is virtually no limit.
+:::
+
 #### What This Activity Shows You
 
 This activity demonstrates three important ideas:
 
-- **Multimodal AI** — Modern AI is not limited to text. It can see images, hear voices, and combine these inputs to give you richer, more useful responses.
-- **Conversational interaction** — You do not need to write the perfect prompt the first time. You can ask, follow up, refine, and redirect — just like a conversation.
-- **AI as a practical everyday helper** — Meal planning, grocery decisions, and cooking guidance are real-life tasks where AI can save you time and inspire creativity.
-
+- **Multimodal AI**: Modern AI is not limited to text. It can see images, hear voices, and combine these inputs to give you richer, more useful responses.
+- **Conversational interaction**: You do not need to write the perfect prompt the first time. You can ask, follow up, refine, and redirect, just like a conversation.
+- **AI as a practical everyday helper**: Meal planning, grocery decisions, and cooking guidance are real-life tasks where AI can save you time and inspire creativity.
 
 ## Part V — AI for Spreadsheets
 
