@@ -1,4 +1,4 @@
-# Class 1: Understanding AI Without the Fear
+# Module 1: Understanding AI Without the Fear
 
 You have probably heard a lot about Artificial Intelligence lately, in the news, at work, from family, or on social media. Some of what you have heard may feel exciting. Some of it may feel overwhelming or even a little scary. This first class is designed to cut through the noise, replace confusion with clarity, and replace fear with curiosity.
 
