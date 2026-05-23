@@ -2,7 +2,7 @@
 
 You have probably heard a lot about Artificial Intelligence lately, in the news, at work, from family, or on social media. Some of what you have heard may feel exciting. Some of it may feel overwhelming or even a little scary. This first class is designed to cut through the noise, replace confusion with clarity, and replace fear with curiosity.
 
-By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. You will also know how to communicate with AI clearly and effectively — the essential skill that makes every other use of AI more powerful. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.
+By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. You will also know how to communicate with AI clearly and effectively, the essential skill that makes every other use of AI more powerful. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.
 
 :::{note}
 **The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense is part of what you need.
@@ -48,7 +48,7 @@ None of this required you to understand AI. You were already benefiting from it.
 
 Here is the simplest honest definition:
 
-> **Artificial Intelligence (AI) is software that learns from examples or by interacting with the environment, and uses what it learned to make decisions, answer questions, or create new content. AI solutions are programmed to learn how to solve a problem, instead of being programmed to do so.**
+> Artificial Intelligence (AI) is software that learns from examples or by interacting with the environment, and uses what it learned to make decisions, answer questions, or create new content. AI solutions are programmed to learn how to solve a problem, instead of being programmed to do so.
 
 That is it. No magic. No consciousness. No feelings. Just very sophisticated learning machines.
 
@@ -72,7 +72,7 @@ You do not need to understand the math. Here is the three-step process that desc
 **Step 1 — We give it inputs (signals, examples or data)**  
 AI systems are trained on input data: text, images, sounds, numbers, etc. This is called *training data*. The more representative the data, the better the AI learns.
 
-**Step 2 — AI finds patterns**  
+**Step 2 — AI learns from it**  
 Algorithms scan all those examples and identify patterns, similarities, and relationships. This happens automatically and at incredible scale.
 
 **Step 3 — AI applies what it learned**  
@@ -238,7 +238,7 @@ By the end of this program, your Workspace will contain your personal introducti
 
 Now that you know the ingredients of a strong prompt, here is a taste of what becomes possible once you put them together in a real conversation.
 
-In Class 2, you will work through a step-by-step exercise planning a multi-generational family trip through Europe — using ten carefully designed prompts that build on each other, just like briefing a knowledgeable travel agent over several meetings. Along the way, you will learn how to:
+In Class 2, you will work through a step-by-step exercise planning a multi-generational family trip through Europe, using ten carefully designed prompts that build on each other, just like briefing a knowledgeable travel agent over several meetings. Along the way, you will learn how to:
 
 - Set up context so the AI keeps the whole group in mind throughout the conversation
 - Build a plan layer by layer — overview first, then details, then personalisation
@@ -250,9 +250,9 @@ For now, the single most important habit to build is what you are about to pract
 :::
 
 
-### 2.4 🛠️ Activity 1: Teach AI to Know You
+### 2.4 Activity 1: Teach AI to Know You
 
-**Goal:** Experience how context changes everything — and practice refining a response.
+**Goal:** Experience how context changes everything, and practice refining a response.
 
 **Step 1 — Ask AI for a recipe**  
 Type this prompt:
@@ -284,11 +284,11 @@ Can you make this version suitable for someone who does not eat onions?
 - What happened when you pushed back or asked for a change?
 - What does this tell you about how AI conversations work?
 
-> 💡 **Key insight:** AI conversations are *iterative*. You do not have to get the perfect prompt on your first try. Ask, refine, push back, and redirect — just like you would with a human assistant.
+> 💡 **Key insight:** AI conversations are *iterative*. You do not have to get the perfect prompt on your first try. Ask, refine, push back, and redirect, just like you would with a human assistant.
 
 ## Part III — Communicating With AI: Prompt Literacy
 
-Now that you know what AI is, where it already appears in your life, and which tools are available, it is time to learn the most important skill of all: how to talk to it well.
+Now that you know what AI is, where it already appears in your life, and which tools are available, it is time to learn the most important skill of all: how to communicate with it well.
 
 This part takes the five prompt ingredients you learned in Section 2.2 one step further. You will discover the *patterns* experienced AI users rely on, learn how to give AI the full picture so it responds with precision, and find out how to let AI itself help you write better prompts.
 
@@ -316,8 +316,8 @@ You do not need to pick just one pattern. The most powerful prompts often combin
 
 Think of the difference this way:
 
-> Prompt engineering is choosing the right words.  
-> Context engineering is making sure the AI understands the whole situation before it starts.
+> **Prompt engineering** is choosing the right words.  
+> **Context engineering** is making sure the AI understands the whole situation before it starts.
 
 **The key elements of context:**
 
@@ -371,8 +371,6 @@ Based on this, write me a strong, ready-to-use prompt I can give to an AI tool.
 ```
 
 **Example**: A small business owner wants to use AI to announce a new product on social media but doesn't know how to start.
-
-**Using the meta-prompt**:
 ```
 I want to use AI to help me write a prompt with the following goal:
 Announce a new product on social media.
@@ -421,7 +419,7 @@ The meta-prompt transformed a one-line instruction into a fully engineered promp
 Next time you feel stuck on how to ask AI something, type: *"Help me write a better prompt to accomplish this goal: [your goal]."* AI will ask you clarifying questions or suggest an improved prompt directly.
 :::
 
-### 3.4 🛠️ Activity 2: Prompt Pattern Practice
+### 3.4 Activity 2: Prompt Pattern Practice
 
 **Goal:** Experience how different prompt patterns produce different responses to the same task.
 
@@ -460,14 +458,14 @@ Add a sentence about what this person is passionate about outside of work.
 
 ### 4.1 What All These Examples Have in Common
 
-Looking back at everything we covered in this class — the AI tools already in your life, how AI learns, and the hands-on demos — a pattern emerges.
+Looking back at everything we covered in this class, the AI tools already in your life, how AI learns, and the hands-on demos, a pattern emerges.
 
 Every AI tool we explored:
 
-- **Supports your decisions** — it offers options, but the final choice is always yours.
-- **Adapts to your context** — the more you tell it, the more relevant its response.
-- **Reflects your inputs** — the quality of the output depends directly on the quality of what you put in.
-- **Requires your judgment** — AI is the assistant; you are the one accountable for what happens next.
+- **Supports your decisions**: it offers options, but the final choice is always yours.
+- **Adapts to your context**: the more you tell it, the more relevant its response.
+- **Reflects your inputs**: the quality of the output depends directly on the quality of what you put in.
+- **Requires your judgment**: AI is the assistant; you are the one accountable for what happens next.
 
 This is the heart of **Human-Centered AI**: the technology serves the human, not the other way around.
 
@@ -475,36 +473,36 @@ This is the heart of **Human-Centered AI**: the technology serves the human, not
 
 Before moving on, take a moment to write down your own answers to these three questions:
 
-1. **One thing I learned today that surprised me:**  
-   _________________________________
+1. One thing I learned today that surprised me:  
+   
 
-2. **One AI tool I want to try on my own this week:**  
-   _________________________________
+2. One AI tool I want to try on my own this week:  
+   
 
-3. **One question I still have about AI:**  
-   _________________________________
+3. One question I still have about AI:  
+   
 
-Hold onto these — we will revisit them at the end of Class 4.
+Hold onto these, we will revisit them at the end of Class 4.
 
 ### 4.3 Reflection
 
-> How does knowing that AI is pattern recognition — not magic — change how you feel about using it?  
+> How does knowing that AI involves pattern recognition and prediction change how you feel about using it?  
 > What responsibility do you think AI users have when sharing AI-generated content with others?  
 > Looking at the myths we busted today, which one had the biggest effect on how you thought about AI before this class?
 
-There are no wrong answers to these questions. The goal is to develop a thoughtful, grounded relationship with AI technology — one based on understanding rather than hype or fear.
+There are no wrong answers to these questions. The goal is to develop a thoughtful, grounded relationship with AI technology, one based on understanding rather than hype or fear.
 
 ### 4.4 What Is Coming in Class 2
 
 In the next class, we will put everything you have learned to work on the tasks that fill most people's daily and professional lives:
 
-- **Emails** — drafting, rewriting, improving tone, and responding to difficult messages.
-- **Documents** — summarizing long content, creating reports, and improving written communication.
-- **Search** — using AI to find flights, local services, and real-world information more efficiently than a search engine.
-- **Spreadsheets** — asking AI to explain data, generate formulas, and simplify numbers for you.
-- **Career** — tailoring your CV, writing cover letters, and preparing for interviews with AI support.
+- **Emails**: drafting, rewriting, improving tone, and responding to difficult messages.
+- **Documents**: summarizing long content, creating reports, and improving written communication.
+- **Search**: using AI to find flights, local services, and real-world information more efficiently than a search engine.
+- **Spreadsheets**: asking AI to explain data, generate formulas, and simplify numbers for you.
+- **Career**: tailoring your CV, writing cover letters, and preparing for interviews with AI support.
 
-By the end of Class 2, you will have used AI to complete real tasks you face every week — and you will walk away with a personal Prompt Library of tested, ready-to-use templates.
+By the end of Class 2, you will have used AI to complete real tasks you face every week, and you will walk away with a personal Prompt Library of tested, ready-to-use templates.
 
 ## 📋 Class 1 Summary Checklist
 
@@ -530,7 +528,7 @@ Learners who wish to explore the ideas introduced in this class are encouraged t
 - **Anthropic. (2024).** *What is Claude?* claude.ai/about.
 - **OpenAI. (2024).** *How ChatGPT Works.* openai.com.
 - **Google. (2024).** *Introduction to Generative AI.* Google Cloud Skills Boost (free, no technical background required). cloud.google.com/training.
-- **De Castro, L. N. (2026).** *Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design.* CRC Press.
+- **de Castro, L. N. (2026).** *Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design.* CRC Press.
 - **Dendritic Institute. (2025).** *AI Literacy Program — Module 2: What is AI and Its Many Branches.* FGCU AI Academy.
 - **Prompt Engineering Guide. (2024).** promptingguide.ai — a free, comprehensive reference for prompt patterns and techniques.
 - **Dendritic Institute. (2025).** *AI Literacy Program — Module 5: Fundamentals of Prompt Engineering.* FGCU AI Academy.
