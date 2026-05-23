@@ -38,7 +38,7 @@ By completing this program, you will be able to:
 
 ## Our Journey
 
-The AI4EL Program is structured as a **hands-on, progressive learning experience** across four practical classes. Each class builds on the previous one — taking you from foundational understanding to creative application and responsible, sustainable use.
+The AI4EL Program is structured as a **hands-on, progressive learning experience** across four practical classes. Each class builds on the previous one, taking you from foundational understanding to creative application and responsible, sustainable use.
 
 | Class | Theme | Focus |
 | :----: | :-------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ The AI4EL Program is structured as a **hands-on, progressive learning experience
 
 - Navigate the classes using the left-hand sidebar or the **Next/Previous** buttons at the bottom of each page.
 - Download pages as `.md` or `.pdf` for your notes and reference materials.
-- Look for **💡 Tips**, **🛠️ Hands-On Activities**, **⚠️ Watch Out** moments, and **📋 Checklists** throughout each class.
+- Look for **Tips**, **Hands-On Activities**, **Watch Out** moments, and **Checklists** throughout each class.
 - Many pages include **prompt templates** and **tool recommendations** you can try immediately with ChatGPT, Claude, Gemini, Copilot, or other AI platforms.
 - Use this book alongside live sessions, video demonstrations, and AI tool explorations offered through the **FGCU AI Academy**.
 
