@@ -4,13 +4,13 @@
 format: jb-book
 root: intro.md
 chapters:
-  - file: Class1_Understanding_AI.md
-    title: "Class 1: Understanding AI Without the Fear"
-  - file: Class2_Daily_Assistant.md
-    title: "Class 2: AI as Your Daily Assistant"
-  - file: Class3_AI_Gets_Creative.md
-    title: "Class 3: AI Gets Creative"
-  - file: Class4_Staying_Smart.md
-    title: "Class 4: Staying Smart with AI"
+  - file: Module1_Understanding_AI.md
+    title: "Module 1: Understanding AI Without the Fear"
+  - file: Module2_Daily_Assistant.md
+    title: "Module 2: AI as Your Daily Assistant"
+  - file: Module3_AI_Gets_Creative.md
+    title: "Module 3: AI Gets Creative"
+  - file: Module4_Staying_Smart.md
+    title: "Module 4: Staying Smart with AI"
   - file: Appendix.md
     title: "Appendix: In Class Activities"
