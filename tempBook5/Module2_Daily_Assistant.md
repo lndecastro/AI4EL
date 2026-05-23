@@ -389,7 +389,7 @@ Can you find a few highly-rated local plumbers and summarize what past
 customers say about them?
 ```
 
-### 2.5 What AI Search Does Well — and Where to Be Careful
+### 2.5 What AI Search Does Well and Where to Be Careful
 
 :::{tip}
 **Where AI search shines:**
@@ -429,11 +429,9 @@ customers say about them?
 - What did you still need to verify on your own?
 - Would you use AI search again for this type of task?
 
-## Part III — Worked Example: Planning a Family Trip with AI
+## Part III — Planning a Family Trip with AI
 
-This worked example brings together everything covered so far in this module — context engineering, multi-turn conversations, iterative refinement, and real-world search — and applies them to one of the most complex planning tasks many families face: a multi-generational trip abroad.
-
-Rather than asking a single question and hoping for the best, you will work through a **ten-prompt conversation** that builds a complete trip plan step by step, exactly like briefing a knowledgeable travel agent across several meetings.
+This section shows how to build a complete trip plan step by step, similarly to briefing a knowledgeable travel agent across several meetings.
 
 By the end of this exercise, you will have produced a complete, personalised trip itinerary and learned a prompting approach you can apply to almost any complex planning task.
 
@@ -450,7 +448,7 @@ By completing this exercise, you will be able to:
 ### 3.2 Before You Begin
 
 :::{note}
-Run all ten prompts in a **single, ongoing conversation**. Do not start a new chat between steps. The AI remembers everything said earlier in the thread, and that continuity is the whole point.
+Run all ten prompts in a **single, ongoing conversation**. Do not start a new chat between steps. The AI remembers everything said earlier in the thread, and that continuity brings context to the process.
 :::
 
 **The scenario:** You are helping plan a 3-week family trip through Europe for the following group:
