@@ -1,4 +1,4 @@
-# Class 2: AI as Your Daily Assistant — From Emails to Career
+# Module 2: AI as Your Daily Assistant — From Emails to Career
 
 In Class 1, you learned what AI is, how it works, and how to communicate with it effectively, from writing your first prompts to choosing the right prompt patterns and engineering context for better results. Now it is time to put those skills to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, navigating spreadsheet data without needing to be a data expert, tailoring your CV to a specific job opportunity, writing a cover letter, and creating a personal page.
 
