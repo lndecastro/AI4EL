@@ -1,4 +1,4 @@
-# Class 3: AI Gets Creative — Images, Presentations, Music & Avatars
+# Module 3: AI Gets Creative — Images, Presentations, Music & Avatars
 
 So far in this program, you have learned what AI is, how to talk to it, and how to use it for writing, data, and career tasks. In this class, we step into what many people find the most surprising, and most delightful, dimension of AI: **creation of visual and artistic assets**.
 
