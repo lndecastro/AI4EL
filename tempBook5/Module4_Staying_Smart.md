@@ -1,4 +1,4 @@
-# Class 4: Staying Smart with AI — Trust, Safety & Your Personal Toolkit
+# Module 4: Staying Smart with AI — Trust, Safety & Your Personal Toolkit
 
 Welcome to the final class of the **AI for Everyday Life** program.
 
