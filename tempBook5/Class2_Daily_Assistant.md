@@ -1,8 +1,8 @@
-# Class 2: AI as Your Daily Assistant — Emails, Documents, Spreadsheets & Career
+# Class 2: AI as Your Daily Assistant — From Emails to Career
 
-In Class 1, you learned what AI is, how it works, and how to communicate with it effectively — from writing your first prompts to choosing the right prompt patterns and engineering context for better results. Now it is time to put those skills to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, navigating spreadsheet data without needing to be a data expert, tailoring your CV to a specific job opportunity, writing a cover letter, and creating a personal page.
+In Class 1, you learned what AI is, how it works, and how to communicate with it effectively, from writing your first prompts to choosing the right prompt patterns and engineering context for better results. Now it is time to put those skills to work on the tasks that fill most people's professional and personal lives: writing and responding to emails, making sense of long documents, navigating spreadsheet data without needing to be a data expert, tailoring your CV to a specific job opportunity, writing a cover letter, and creating a personal page.
 
-By the end of this class, you will have used AI to complete tasks you face every week, and you will walk away with a personal **Prompt Library** of tested, ready-to-use templates.
+By the end of this class, you will have used AI to complete tasks you face frequently, and you will walk away with a personal **Prompt Library** of tested, ready-to-use templates.
 
 > **The central idea of this class:** AI is not a magic button. It is a skilled assistant that responds to how clearly you communicate. The better you get at expressing your needs, the more value AI delivers.
 
@@ -135,6 +135,7 @@ Managing a busy inbox can feel overwhelming, but AI tools are making it much eas
 | **Notion Mail** | [mail.notion.so](https://mail.notion.so) | Notion users who want email + tasks together | Gmail only | Inbox filtered like a database, email sequences, project-linked drafts, task integration | ✅ Free (with Notion account) | Included with Notion |
 | **Lindy** | [lindy.ai](https://lindy.ai) | Power users & small business owners | Outlook, Gmail, 1,600+ apps | Full email automation, CRM sync, meeting scheduling, no-code workflow builder | ✅ Limited free plan | From ~$49/month |
 
+
 **Quick Guide: Which Tool Is Right for You?**
 
 | Your Situation | Recommended Tool |
@@ -199,7 +200,7 @@ head-of-bed elevation of no less than 30 degrees, avoid consumption of known low
 and high-fat foods, and to follow up with a board-certified gastroenterologist within four to six weeks for re-evaluation and potential esophageal manometry."
 ```
 
-### 1.6 Activity 2: Talk to a Document
+### 1.6 Activity 2: Interact with a Document
 
 **Goal:** Experience AI as a document assistant using a real or sample document.
 
@@ -231,7 +232,7 @@ AI can "hallucinate" when summarizing, occasionally adding details that are not 
 
 ### 1.7 AI Tools for Document Processing and Creation
 
-Whether you need to understand a dense document, polish a rough draft, or create content from scratch, there is now an AI tool designed for exactly that job. Some tools focus on improving what you have already written, correcting grammar, adjusting tone, and tightening sentences, while others help you generate new content quickly from a simple prompt or outline. And a growing category of tools specializes in helping you actually understand complex documents, like research papers or legal texts, by answering your questions in plain, everyday language. The table below covers some of the most popular and useful options available, so you can find the right fit for how you write and what you work with most.
+Whether you need to understand a dense document, polish a rough draft, or create content from scratch, there may now be an AI tool designed for exactly that job. Some tools focus on improving what you have already written, correcting grammar, adjusting tone, and tightening sentences, while others help you generate new content quickly from a simple prompt or outline. And a growing category of tools specializes in helping you actually understand complex documents, like research papers or legal texts, by answering your questions in plain, everyday language. The table below covers some of the most popular and useful options available, so you can find the right fit for how you write and what you work with most.
 
 :::{note}
 This table is neither expected to be exhaustive nor comprehensive. A web search may reveal many other tools useful for your document context and you are advised to do such search if you want to have a more specific sample of tools potentially applicable to your context.
@@ -252,7 +253,7 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 | **Jasper** | [jasper.ai](https://jasper.ai) | Marketing and business teams creating branded content at scale | Web app, Google Docs extension, browser | Brand voice training, 50+ professional templates, long-form content editor, team collaboration, AI image generation | ❌ No (7-day free trial) | Creator ~$49/mo |
 | **Writesonic** | [writesonic.com](https://writesonic.com) | SEO-focused blogs, marketing copy, and high-volume content | Web app, WordPress integration | 80+ templates, built-in SEO and keyword tools, AI blog writer, ChatSonic chatbot with web access | ✅ Yes (limited) | From ~$20/mo |
 
-<p>
+
 **Quick Guide: Which Tool Is Right for You?**
 
 | Your Situation | Recommended Tool |
