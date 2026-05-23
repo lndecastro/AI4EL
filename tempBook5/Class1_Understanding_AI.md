@@ -5,7 +5,7 @@ You have probably heard a lot about Artificial Intelligence lately, in the news,
 By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.
 
 :::{note}
-**The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense are all you need.
+**The most important thing to know before we begin:** You do not need to be technical, mathematical, or "good with computers" to use AI tools well. Curiosity and common sense is part of what you need.
 :::
 
 ## Learning Objectives
@@ -17,7 +17,7 @@ By the end of this class, you will be able to:
 3. Describe how AI works at a high level, without any math or coding.
 4. Distinguish between different types of AI, particularly Generative AI.
 5. Name the most common AI chatbot tools and describe what each is used for.
-6. Write and refine your first AI prompt to complete a real-world task.
+6. Write and refine your first AI prompts to complete a real-world task.
 7. Reflect critically on what AI does well and what it gets wrong.
 
 ## Part I — AI is Already in Your Life
@@ -39,15 +39,13 @@ Consider a typical morning:
 
 None of this required you to understand AI. You were already benefiting from it.
 
-:::{info}
-💡 **Key insight:** AI is not a single thing that lives in a robot. It is a set of technologies woven quietly into the tools you already use every day.
-:::
+> **Key insight:** AI is not a single thing that lives in a robot. It is a set of technologies woven quietly into the tools you already use every day.
 
 ### 1.2 What is Artificial Intelligence? A Plain Language Definition
 
 Here is the simplest honest definition:
 
-> **Artificial Intelligence (AI) is software that learns from examples and uses what it learned to make decisions, answer questions, or create new content.**
+> **Artificial Intelligence (AI) is software that learns from examples or by interacting with the environment, and uses what it learned to make decisions, answer questions, or create new content. AI solutions are programmed to learn how to solve a problem, instead of being programmed to do so.**
 
 That is it. No magic. No consciousness. No feelings. Just very sophisticated learning machines.
 
@@ -94,6 +92,8 @@ A type of AI that can *create* new content: text, images, music, video, code, an
 **General AI (does not exist yet)**  
 A hypothetical AI that could reason across any domain the way a human can, with flexibly, common sense, and across wildly different situations. This remains a research goal, not a current reality.
 
+![Types of AI](./Data/TypesofAI.png)
+
 :::{info}
 💡 **What this means for you:** For this program, we are focused almost entirely on **Generative AI**, specifically the AI models and creative tools you can access today, for free or at low cost, without any technical background.
 :::
@@ -114,6 +114,8 @@ AI responds to exactly what you type. If your question is vague, the answer may 
 **AI is not going to replace you.**  
 AI excels at repetitive, pattern-based tasks. What it cannot replicate is your judgment, your lived experience, your relationships, your creativity, and your ethical reasoning. The realistic picture is AI as a powerful assistant, not a replacement.
 
+![Human Intelligence and Artificial Intelligence](./Data/HIAI.png)
+
 ### 1.6 Common Myths About AI - Busted
 
 | The Myth | The Reality |
@@ -130,7 +132,7 @@ AI excels at repetitive, pattern-based tasks. What it cannot replicate is your j
 Now that you understand what AI is, let us look at the specific tools you will be working with throughout this program.
 
 :::{note}
-Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.
+Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models, whenever it is possible. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.
 :::
 
 ### 2.1 The AI Tool Landscape
