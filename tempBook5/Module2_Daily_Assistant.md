@@ -1170,11 +1170,21 @@ Frank       | East        | 38,200       | 35,900       | 41,700
 
 Work through these one at a time, reading the AI's response before moving to the next:
 
-1. *"Who had the highest total sales across all three quarters?"*
-2. *"Which department performed best overall? Show your reasoning."*
-3. *"Is there anyone whose sales are consistently declining? Should that be a concern?"*
-4. *"Write a two-sentence summary of this team's performance for a quarterly report."*
-5. *"What type of chart would best visualize this data, and why?"*
+```
+Who had the highest total sales across all three quarters?
+```
+```
+Which department performed best overall? Show your reasoning.
+```
+```
+Is there anyone whose sales are consistently declining? Should that be a concern?
+```
+```
+Write a two-sentence summary of this team's performance for a quarterly report.
+```
+```
+What type of chart would best visualize this data, and why?
+```
 
 ### Reflect
 
@@ -1329,7 +1339,7 @@ email application.
 - Length: 3–4 short paragraphs. Under 300 words total.
 
 Here is the job posting:
-[PASTE THE FULL JOB POSTING TEXT HERE]
+[PASTE THE FULL JOB POSTING TEXT HERE OR THE LINK TO THE JOB POSTING]
 ```
 
 **Step 4 — Review both documents carefully**
@@ -1461,7 +1471,7 @@ Then explain what made the revised version stronger.
 **Reflect:**
 
 - Which questions were harder than you expected?
-- Did AI identify any patterns in your answers — things you tend to avoid or repeat?
+- Did AI identify any patterns in your answers, such as things you tend to avoid or repeat?
 - What would you do differently in your next practice session?
 
 :::{important}
