@@ -36,8 +36,8 @@ The table below, adapted from the AI Literacy Program, shows a broad landscape o
 | Text outline or notes | **Presentation slides** | Gamma, Beautiful.ai, Copilot (PowerPoint), Canva AI |
 | Text description | **Video clip** | Runway, Pika, Google Veo |
 | Text script | **Talking avatar** | HeyGen, Synthesia, D-ID |
-| Text description | **Interactive Podcast** | NotebookLM, elevenlabs, Wondercraft |
-| Text prompt | **Written content** | ChatGPT, Claude, Gemini *(covered in Class 2)*, etc. |
+| Text description | **Interactive Podcast** | NotebookLM, Elevenlabs, Wondercraft |
+| Text prompt | **Written content** | ChatGPT, Claude, Gemini, etc. |
 
 :::{tip}
 These tools do not think creatively, they recombine and interpolate patterns from enormous datasets of human-made content. What makes the output *creative* is the intention and judgment you bring to directing them.
@@ -47,7 +47,7 @@ These tools do not think creatively, they recombine and interpolate patterns fro
 
 Before we explore specific tools, it is worth establishing a mindset that will serve you well across everything in this class:
 
-**You are the director. AI is the production team.**
+> **You are the director. AI is the production team.**
 
 Think of yourself as a film director. You do not operate the camera, design the costumes, or compose the score yourself, but you provide the vision, make the decisions, and take responsibility for the final product. AI tools are the production team: fast, tireless, and highly capable, but entirely dependent on your direction.
 
@@ -70,7 +70,7 @@ Before generating any creative content with AI, there are important practical an
 
 | Situation | What You Need to Know |
 | :--- | :--- |
-| **You generate an image with AI** | In most countries, AI-generated images cannot currently be copyrighted by the user. Always check the terms of service of the tool you use. |
+| **You generate an image with AI** | In most countries, AI-generated images cannot currently be copyrighted by the user. Always check the terms of service of the tool you use. Furthermore, there are many applications that do not accept the use of AI-generated images. Always check the terms of service. |
 | **You generate music with AI** | Ownership varies by tool. Some platforms (e.g., Suno) retain rights to the audio; others allow commercial use. Read the terms carefully. |
 | **You use AI to build a presentation** | The text, structure, and arrangement you create may be your intellectual property, but verify with the tool's terms of service. |
 | **You generate content that resembles a real person** | This raises serious ethical and potentially legal concerns. Never create realistic images or voices of identifiable people without their consent. |
@@ -160,7 +160,7 @@ The second prompt gives the AI enough specific detail to generate something genu
 **Goal:** Experience image generation and learn through iteration.
 
 **Step 1 — Access an image generation tool**  
-Go to [chatgpt.com](https://chatgpt.com) (free, uses DALL·E) or [canva.com](https://canva.com) → Magic Media, or [designer.microsoft.com](https://designer.microsoft.com).
+Go to [chatgpt.com/images](https://chatgpt.com/images) (free, uses DALL·E) or [canva.com/ai](https://canva.com/ai) → Magic Media, or [designer.microsoft.com](https://designer.microsoft.com).
 
 **Step 2 — Try a simple prompt first**
 ```
@@ -188,7 +188,8 @@ Think of something you could genuinely use an image for:
 Write a prompt for that specific use case and generate it.
 
 **Step 5 — Request changes and see AI adapt**  
-Take the image you generated in Step 3 and ask the AI to change one element of the scene. You are not starting over, you are refining. Try prompts like these:
+Take the image you generated in Step 3 and ask the AI to change one element of the scene. 
+You are not starting over, you are refining. Try prompts like these:
 
 *Change the weather:*
 ```
@@ -220,13 +221,13 @@ AI image generators can occasionally produce images with distorted hands, incons
 
 ## Part III — AI for Presentations
 
-### 3.1 Why AI Presentation Tools Are a Game-Changer
+### 3.1 Why AI Presentation Tools Are a Game-Changer?
 
-Creating a presentation has traditionally required three separate skills: organizing your ideas, designing slides that look professional, and deciding what to put on each one. AI presentation tools collapse all three into a single, guided process, often producing a complete, designed deck in under two minutes.
+Creating a presentation has traditionally required three separate skills: organizing your ideas, designing slides that look professional, and deciding what to put on each one. AI presentation tools collapse all three into a single, guided process, often producing a complete, designed deck in a few minutes.
 
 This does not mean the result is ready to present without your input. It means you skip the blank-slide problem entirely and start from something you can refine, rather than something you have to build from scratch.
 
-### 3.2 The Major AI Presentation Tools
+### 3.2 Some Major AI Presentation Tools
 
 | Tool | Access | What Makes It Distinctive |
 | :--- | :--- | :--- |
@@ -235,10 +236,10 @@ This does not mean the result is ready to present without your input. It means y
 | **Beautiful.ai** | Paid | Sophisticated design automation; good for professional business decks |
 | **Copilot in PowerPoint** | Paid (Microsoft 365 Copilot) | AI assistance inside familiar PowerPoint; ideal if you already use Microsoft 365 |
 | **Google Slides + Gemini** | Free (Google Workspace) | AI assistance inside Google Slides for Workspace users |
-| **Tome** | Free / Paid | Story-driven presentations with a narrative focus |
+| **Tomeapp.ai** | Free / Paid | Story-driven presentations with a narrative focus |
 
 :::{tip}
-Start with **Gamma**, as it is free, requires no design experience, and produces impressive results from a simple text description in under 60 seconds.
+Start with **Gamma**, as it is free, requires no design experience, and produces fast and impressive results from a simple text description.
 :::
 
 ### 3.3 How AI Builds a Presentation
@@ -405,7 +406,7 @@ Modern tools like **Suno** and **Udio** can generate a two-minute song, complete
 - Experimental creative pieces for personal enjoyment
 - A personalized birthday or celebration song
 
-### 4.2 The Major AI Music Tools
+### 4.2 Some Major AI Music Tools
 
 | Tool | Access | What It Does |
 | :--- | :--- | :--- |
@@ -463,14 +464,19 @@ Go to [suno.com](https://suno.com) and create a free account. You receive a set 
 Click "Create" and type a prompt describing what you want to hear. You can describe the genre, mood, instruments, and any lyrics or theme.
 
 Try one of these to start:
+Option A: 
 ```
-Option A: "Cheerful tropical acoustic music, ukulele and light percussion, 
+"Cheerful tropical acoustic music, ukulele and light percussion, 
 no vocals, perfect for a summer event."
-
-Option B: "An uplifting gospel-inspired song about community and coming together, 
+```
+Option B: 
+```
+"An uplifting gospel-inspired song about community and coming together, 
 soulful female vocals, piano and choir."
-
-Option C: "Lo-fi jazz instrumental, mellow and relaxed, late night coffee shop 
+```
+Option C: 
+```
+"Lo-fi jazz instrumental, mellow and relaxed, late night coffee shop 
 atmosphere, saxophone and piano."
 ```
 
