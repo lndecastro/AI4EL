@@ -74,9 +74,10 @@ Professional emails, summaries for colleagues, documents you will share, social 
 **High stakes — verify independently:**  
 Anything medical, legal, financial, or factual that others will rely on. Never use AI output for important decisions without independently checking key claims through authoritative sources.
 
-| Stakes Level | Examples | What to Do | <p>
-| **Low** | Personal use, creative drafts, informal messages | Read and edit; spot-check tone and accuracy | <p>
-| **Medium** | Professional communications, shared documents | Verify all facts; ensure content represents you accurately | <p>
+| Stakes Level | Examples | What to Do |
+| :--- | :--- | :--- |
+| **Low** | Personal use, creative drafts, informal messages | Read and edit; spot-check tone and accuracy |
+| **Medium** | Professional communications, shared documents | Verify all facts; ensure content represents you accurately |
 | **High** | Medical, legal, financial, or policy decisions | Independently verify with authoritative sources; consult a professional |
 
 ### 1.3 A Practical Verification Toolkit
