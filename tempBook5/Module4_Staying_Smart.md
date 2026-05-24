@@ -89,7 +89,7 @@ When you need to verify an AI output, these strategies work:
 You just told me [claim]. How confident are you in this? 
 What sources support it? Is there anything you are uncertain about?
 ```
-AI will often acknowledge uncertainty when directly asked — even if it did not volunteer it.
+AI will often acknowledge uncertainty when directly asked, even if it did not volunteer it.
 
 **Ask AI to fact-check itself:**
 ```
@@ -99,23 +99,24 @@ your training data was collected.
 ```
 
 **Use a search engine or authoritative source:**  
-For any specific fact, statistic, name, date, or event — Google it, check the original source, or consult a professional. A 30-second search can prevent a costly mistake.
+For any specific fact, statistic, name, date, or event, Google it, check the original source, or consult a professional. A 30-second search can prevent a costly mistake.
 
 **Use a web-connected AI tool for current information:**  
-Perplexity.ai, Copilot, or ChatGPT with web search enabled can retrieve current information and cite their sources — far more reliable for time-sensitive facts than a standard AI chat.
+Perplexity.ai, Copilot, or ChatGPT with web search enabled can retrieve current information and cite their sources, far more reliable for time-sensitive facts than a standard AI chat.
 
 **Apply the five-point quality check** (from Class 2):
 
-| Criterion | Question |
+| **Criterion** | **Question** |
+| :--- | :--- | :--- |
 | **Relevance** | Does the response actually address what I asked? |
 | **Completeness** | Did it cover all the aspects I needed? |
 | **Clarity** | Is it clear, readable, and well-structured? |
 | **Accuracy** | Are the specific facts and figures correct? *(Verify!)* |
 | **Format** | Did it follow the format I requested? |
 
-### 1.4 🛠️ Activity 1: The Fact-Check Challenge
+### 1.4 Activity 1: The Fact-Check Challenge
 
-**Goal:** Experience AI hallucination firsthand — and practice catching it.
+**Goal:** Experience AI hallucination firsthand and practice catching it.
 
 **Step 1 — Ask AI a question with specific facts:**  
 Choose one of these prompts and run it in any AI chat:
