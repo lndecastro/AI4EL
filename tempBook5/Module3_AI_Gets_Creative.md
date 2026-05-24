@@ -821,7 +821,7 @@ If you can check all six boxes with a clear conscience, you are using creative A
 > What does it mean for something to be *your* creative work if AI generated the first draft — or most of it?  
 > Where do you think the line should be drawn between useful AI assistance and problematic AI replacement in creative fields?
 
-These are not abstract philosophical questions — they are practical ones that more and more professionals, educators, artists, and organizations are wrestling with right now. Developing your own thoughtful position on them is part of becoming a confident, responsible AI user.
+These are not abstract philosophical questions, they are practical ones that more and more professionals, educators, artists, and organizations are wrestling with right now. Developing your own thoughtful position on them is part of becoming a confident, responsible AI user.
 
 ### 7.4 What Is Coming in Class 4
 
