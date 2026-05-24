@@ -747,7 +747,9 @@ Give the AI a moment to process what it sees.
 
 Type or say something like:
 ```
-These are the ingredients I have available. What are one or two recipes you would suggest I make with them? Keep it simple. I'm not an expert cook.
+These are the ingredients I have available.
+What are one or two recipes you would suggest I make with them?
+Keep it simple. I'm not an expert cook.
 ```
 
 Read or listen to the AI's suggestions. Notice what it picks up from the image and what it recommends.
@@ -779,7 +781,7 @@ Think about or discuss with a partner:
 4. Can you think of other everyday situations where showing AI a photo and having a quick conversation would be useful?
 
 :::{note}
-**A note on AI and food safety**
+**AI and food safety** <p>
 AI assistants are excellent at suggesting ideas and explaining steps, but they are not nutritionists or food safety experts. Always use your own judgment about dietary needs, allergies, and food freshness. If you have specific health requirements, consult a professional.
 :::
 
@@ -815,7 +817,7 @@ Together, these two tabs give you something most people have never had: a clear,
 
 **The Prompt: Create My Finance Tracker**
 
-Use the following prompt in any AI tool that supports spreadsheet creation or file downloads. Copy it exactly, or adjust the categories to match your own situation.
+Use the following prompt in any AI tool that supports spreadsheet creation or file downloads. Copy it and adjust the categories to match your own situation, if necessary.
 
 ```
 Please build a personal finance spreadsheet for me with two tabs.
@@ -944,11 +946,15 @@ You do not need to share your real numbers. This activity works just as well wit
 
 Once AI has filled in the spreadsheet, read through it and make corrections in plain language. For example:
 
-- *"Change my rent from $1,200 to $1,450 starting in March."*
-- *"Add a one-time expense of $800 in July for a vacation."*
+- *"Change my rent from US1,200 to US1,450 starting in March."*
+- *"Add a one-time expense of US800 in July for a vacation."*
 - *"I don't have a car payment, remove that row or set it to zero."*
 
 Keep adjusting until the numbers feel roughly right. You are not trying to be perfect, you are learning how to work with AI as a financial tool.
+
+:::{tip}
+Instead of prompting the adjustments, you can open the spreadsheet and adjust the numbers within the spreadsheet. Be careful not to replace cells with formulas by fixed values, because some cells are made to be updated automatically based on a certain formula or logic.
+:::
 
 **Reflection questions:**
 
@@ -956,7 +962,7 @@ Keep adjusting until the numbers feel roughly right. You are not trying to be pe
 - Were there any expense categories you had not thought about?
 - How might this spreadsheet change how you think about your spending?
 
-### The Prompt: Your Personal Financial X-Ray
+### Your Personal Financial X-Ray and Dashboard
 
 Once your spreadsheet is populated, use the following prompt to generate a plain-language summary and visualization recommendations for your financial year.
 
@@ -989,6 +995,39 @@ Based on the financial data in my spreadsheet, please do three things:
 
 :::{tip}
 Save your Financial X-Ray paragraph somewhere you can find it later. It makes a great starting point if you ever want to set a savings goal, talk to a financial advisor, or simply reflect on the year.
+:::
+
+Finally, let's use your financial data to create an interactive dashboard that will allow you to play with your revenue streams and expenses such that you can study different scenarios in your financial life.
+```
+Based on my personal financial data (the same spreadsheet/X-Ray we built earlier), I want you to build me an **interactive financial scenario dashboard** that I can open in any browser.
+
+The dashboard must include:
+
+**1. Revenue Streams Panel**
+A set of editable sliders or input fields, one per income source, so I can increase or decrease each stream independently (e.g., salary, freelance, rental income, dividends). Show both the individual values and a live-updating total income.
+
+**2. Expenses Panel**
+A set of editable sliders or input fields, one per expense category (e.g., housing, food, transport, subscriptions, savings contributions). Show each value and a live-updating total expenses figure.
+
+**3. Scenario Engine**
+Let me save and name up to 5 different scenarios (e.g., "Current Reality", "Best Case", "Job Loss", "Side Hustle Active") so I can switch between them and compare. Each scenario should store its own set of revenue and expense values.
+
+**4. Summary & Health Metrics Panel**
+Always visible, always updating in real time as I move sliders. Show:
+- Net Cash Flow (Income − Expenses)
+- Savings Rate (%)
+- Monthly surplus or deficit
+- A simple color-coded status indicator (green = healthy, yellow = tight, red = deficit)
+
+**5. Visual Charts**
+- A donut or pie chart showing expense breakdown by category
+- A bar chart comparing income vs. expenses across my saved scenarios
+
+Make the design polished, modern, and easy to read at a glance. All logic should be in pure HTML/CSS/JavaScript, with no external dependencies except a CDN-hosted chart library if needed. Populate the initial values from my financial data.
+```
+
+:::{tip}
+Try stress-testing questions like *"What if I lost one income stream?"* or *"What if my rent doubled?"* by adjusting the sliders and watching the health metrics update in real time.
 :::
 
 ### 5.2 What AI Can Do with Spreadsheet Data
