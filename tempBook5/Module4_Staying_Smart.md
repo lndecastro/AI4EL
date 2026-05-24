@@ -1,12 +1,12 @@
 # Module 4: Staying Smart with AI — Trust, Safety & Your Personal Toolkit
 
-Welcome to the final class of the **AI for Everyday Life** program.
+Welcome to the final module of the **AI for Everyday Life** program.
 
-Over the past three classes, you have built a substantial foundation. You understand what AI is and how it works. You can write effective prompts and use AI to draft emails, summarize documents, and analyze data. You have experimented with image generation, AI music, and presentation tools. You have a personal Prompt Library taking shape.
+Over the past three modules, you have built a substantial foundation. You understand what AI is and how it works. You can write effective prompts and use AI to draft emails, summarize documents, and analyze data. You have experimented with image generation, AI music, and presentation tools. You have a personal Prompt Library taking shape.
 
-This final class is where we zoom out — and ask the deeper questions that make the difference between someone who *uses* AI and someone who uses it *wisely*.
+This final class is where we zoom out and ask the deeper questions that make the difference between someone who *uses* AI and someone who uses it *wisely*.
 
-We will explore why AI goes wrong and how to catch it. We will build a clear, practical framework for privacy and responsible use. We will organize your personal AI toolkit. And we will close the program the way it began: with you at the center — curious, capable, and in control.
+We will explore why AI goes wrong and how to catch it. We will build a clear, practical framework for privacy and responsible use. We will organize your personal AI toolkit. And we will close the program the way it began: with you at the center, curious, capable, and in control.
 
 > **The central idea of this class:** Being a great AI user is not about knowing the most tools. It is about maintaining your judgment, protecting your privacy, and building habits that serve you well as the technology keeps changing.
 
@@ -17,7 +17,7 @@ By the end of this class, you will be able to:
 1. Explain why AI produces errors, including hallucinations, bias, and outdated information.
 2. Apply a practical verification framework to evaluate any AI output before acting on it.
 3. Identify what personal and professional information should never be shared with AI tools.
-4. Describe in plain language how AI tools use your data — and what you can do about it.
+4. Describe in plain language how AI tools use your data and what you can do about it.
 5. Apply core responsible AI principles to your own daily use.
 6. Articulate a realistic, balanced view of AI's impact on work and employment.
 7. Assemble a personal AI toolkit matched to your actual needs and habits.
@@ -27,7 +27,7 @@ By the end of this class, you will be able to:
 
 ### 1.1 Why AI Gets Things Wrong
 
-AI tools are genuinely impressive — but they are not infallible. Understanding *why* they make mistakes is the key to catching those mistakes before they cause problems.
+AI tools are genuinely impressive but they are not infallible. Understanding *why* they make mistakes is the key to catching those mistakes before they cause problems.
 
 **Hallucinations**
 
@@ -35,29 +35,31 @@ The most well-known AI failure mode is *hallucination*: the AI produces confiden
 
 - Inventing statistics, studies, or citations that do not exist.
 - Describing events that never happened.
-- Providing incorrect dates, names, or facts — while sounding completely certain.
+- Providing incorrect dates, names, or facts while sounding completely certain.
 
 Why does this happen? AI language models do not "look up" facts. They generate the most statistically likely next word based on patterns in their training data. Sometimes those patterns lead to plausible-sounding but incorrect outputs. The model has no internal mechanism for knowing when it is wrong.
 
-> ⚠️ **This is critical:** AI does not know when it is making things up. It sounds equally confident whether it is correct or completely wrong. You are the error-detection system.
+:::{warning}
+AI does not know when it is making things up. It sounds equally confident whether it is correct or completely wrong. **You are the error-detection system**.
+:::
 
 **Bias**
 
-AI systems learn from human-generated data — which means they absorb the biases, assumptions, and blind spots present in that data. This can appear as:
+AI systems learn from human-generated data, which means they absorb the biases, assumptions, and blind spots present in that data. This can appear as:
 
-- Stereotyped portrayals of people by gender, race, age, or profession.
+- Stereotyped portrayals of people by gender, race, age, political preference, or profession.
 - Unequal quality of responses about different cultures or communities.
 - Assumptions baked into recommendations that reflect one group's experience more than others'.
 
-Understanding that AI reflects human biases — rather than being an objective authority — is essential for critical use.
+Understanding that AI reflects human biases, rather than being an objective authority, is essential for critical use.
 
 **Outdated Knowledge**
 
-Most AI models have a *training cutoff date* — a point beyond which they have no knowledge of events. If you ask an AI about recent news, new laws, current prices, or anything that may have changed, you risk receiving confidently stated but outdated information.
+Most AI models have a *training cutoff date*, that is, a point beyond which they have no knowledge of events. If you ask an AI about recent news, new laws, current prices, or anything that may have changed, you risk receiving confidently stated but outdated information.
 
 **Context Misunderstanding**
 
-AI takes your words literally. Ambiguous questions receive ambiguous answers. Missing context leads to missing relevance. The AI cannot read what you meant — only what you wrote.
+AI takes your words literally. Ambiguous questions receive ambiguous answers. Missing context leads to missing relevance. The AI cannot read what you meant, only what you wrote.
 
 ### 1.2 The Trust or Verify Framework
 
@@ -72,9 +74,9 @@ Professional emails, summaries for colleagues, documents you will share, social 
 **High stakes — verify independently:**  
 Anything medical, legal, financial, or factual that others will rely on. Never use AI output for important decisions without independently checking key claims through authoritative sources.
 
-| Stakes Level | Examples | What to Do |
-| **Low** | Personal use, creative drafts, informal messages | Read and edit; spot-check tone and accuracy |
-| **Medium** | Professional communications, shared documents | Verify all facts; ensure content represents you accurately |
+| Stakes Level | Examples | What to Do | <p>
+| **Low** | Personal use, creative drafts, informal messages | Read and edit; spot-check tone and accuracy | <p>
+| **Medium** | Professional communications, shared documents | Verify all facts; ensure content represents you accurately | <p>
 | **High** | Medical, legal, financial, or policy decisions | Independently verify with authoritative sources; consult a professional |
 
 ### 1.3 A Practical Verification Toolkit
