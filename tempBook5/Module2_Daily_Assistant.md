@@ -269,6 +269,47 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 | I want my blog posts to rank higher in Google search results | Surfer |
 | I need a flexible tool for SEO blogs and marketing copy with built-in keyword data | Writesonic |
 
+### Exploring NotebookLM
+
+**NotebookLM** is a free AI tool from Google that lets you upload documents and then interact with them in powerful ways. Instead of reading every page yourself, you can ask questions, generate summaries, create study materials, and even listen to your documents as a podcast, all from the same place.
+
+In this section, you will explore NotebookLM using two real-world documents:
+
+- **Dietary Guidelines for Americans 2020–2025**: the public-facing guide published by the U.S. Departments of Agriculture and Health and Human Services. ![Download here](.Data/DGA.pdf)
+- **Scientific Report of the 2020 Dietary Guidelines Advisory Committee**: the 835-page technical report written by scientists that informed the guidelines above. ![Download here](.Data/ScientificReport_of_the_2020.pdf)
+
+Together, these two documents give us a perfect opportunity to see just how much NotebookLM can do. The first document is written for the general public; the second is dense, technical, and packed with research data. NotebookLM can help you make sense of both.
+
+:::{tip}
+You can upload both documents to the same NotebookLM notebook. Once uploaded, all the features below will draw from both sources at the same time, allowing you to compare, contrast, and synthesize information across them.
+:::
+
+Once you have set up your NotebookLM environment, feel free to test all features available: Audio Overview, Slide Deck, Video Overview, Mind Map, Reports, Flashcards, Quiz, Infographic, and Data Table.
+
+:::{note}
+You do not need to use every feature in one session. Think of NotebookLM as a toolkit, different tools work better for different purposes. Use the **Audio Overview** when you are on the go, the **Quiz** when you want to test yourself, and the **Reports** when you need to go deep on a specific topic.
+:::
+
+### Exploring SciSpace
+
+**SciSpace** is an AI-powered platform designed to help anyone, not just scientists, read, understand, and work with academic and scientific documents. Its database spans over 280 million research papers, and it can transform dense, jargon-filled text into clear, accessible language.
+
+While NotebookLM works well with a wide variety of documents, SciSpace is purpose-built for academic and scientific literature. That makes it the ideal tool for our second document:
+
+- **Scientific Report of the 2020 Dietary Guidelines Advisory Committee**: an 835-page technical report written by scientists and researchers that served as the evidence base for the public Dietary Guidelines. ![Download here](.Data/ScientificReport_of_the_2020.pdf)
+
+This document is packed with research findings, statistical data, scientific terminology, and methodological detail. Without a tool like SciSpace, most readers would find it overwhelming. With SciSpace, that same document becomes navigable and understandable, even for someone with no scientific background.
+
+:::{tip}
+You can use SciSpace in two ways: by uploading a PDF directly, or by searching its database of 280 million papers. For this exploration, we will upload the Advisory Committee Scientific Report as a PDF to unlock the full range of features.
+:::
+
+Once you have set up your SciSpace environment, feel free to test the features available: Chat with PDF, Explain, Summarize, Literature Search, Deep Review, Paraphraser, Citation Generator, AI Detector, etc.
+
+:::{note}
+SciSpace and NotebookLM complement each other rather than compete. Use **SciSpace** when you need to navigate, understand, or research academic and scientific literature. Use **NotebookLM** when you want to explore and remix a set of documents in multiple formats — summaries, podcasts, quizzes, and more. Together, they cover nearly every stage of reading and learning from complex material.
+:::
+
 ## Part II — AI for Everyday Search: Finding Flights, Services, and Local Help
 
 Search engines have been the default way to find information online for decades. But the way people search is changing fast. Instead of typing keywords and scrolling through a list of links, you can now describe what you need in plain language and AI will gather, filter, and summarize the results for you.
