@@ -275,8 +275,10 @@ This table is neither expected to be exhaustive nor comprehensive. A web search 
 
 In this section, you will explore NotebookLM using two real-world documents:
 
-- **Dietary Guidelines for Americans 2020–2025**: the public-facing guide published by the U.S. Departments of Agriculture and Health and Human Services. ![Download here](.Data/DGA.pdf)
-- **Scientific Report of the 2020 Dietary Guidelines Advisory Committee**: the 835-page technical report written by scientists that informed the guidelines above. ![Download here](.Data/ScientificReport_of_the_2020.pdf)
+- **Dietary Guidelines for Americans 2020–2025**: the public-facing guide published by the U.S. Departments of Agriculture and Health and Human Services.
+[Download here](.Data/DGA.pdf)
+- **Scientific Report of the 2020 Dietary Guidelines Advisory Committee**: the 835-page technical report written by scientists that informed the guidelines above.
+[Download here](.Data/ScientificReport_of_the_2020.pdf)
 
 Together, these two documents give us a perfect opportunity to see just how much NotebookLM can do. The first document is written for the general public; the second is dense, technical, and packed with research data. NotebookLM can help you make sense of both.
 
