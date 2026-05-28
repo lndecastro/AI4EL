@@ -308,7 +308,7 @@ Most people starting out can accomplish a great deal with free tiers. Here is an
 
 **Our recommendation:** Start free. Use the tools for 4–6 weeks. If you are regularly hitting limits or want more capability, then consider a paid plan.
 
-### 3.3 🛠️ Activity 2: Set Up Your Personal AI Toolkit
+### 3.3 Activity 2: Set Up Your Personal AI Toolkit
 
 **Goal:** Leave this class with a working, personalized AI setup.
 
@@ -362,7 +362,7 @@ Treat every AI output as a draft, not a final product. This takes 30 seconds for
 **Habit 3: Keep a running prompt library and add to it weekly.**  
 Every time you craft a prompt that works really well, save it. Over weeks and months, your personal Prompt Library becomes one of the most valuable professional tools you own — because it is tailored to exactly your work, your voice, and your needs.
 
-### 4.3 🛠️ Activity 3: Your Personal AI Action Plan
+### 4.3 Activity 3: Your Personal AI Action Plan
 
 **Goal:** Leave this class with a concrete, written commitment to three AI habits you will begin this week.
 
@@ -399,20 +399,20 @@ This is the capstone activity of the entire program. Take it seriously — a wri
 
 ## Part V — Program Wrap-Up and Reflection
 
-### 5.1 Looking Back Across Four Classes
+### 5.1 Looking Back Across Four Modules
 
 Let us take a moment to acknowledge how far you have come.
 
-**Class 1 — Understanding AI Without the Fear**  
+**Module 1 — Understanding AI Without the Fear**  
 You learned what AI actually is, how it learns from patterns, what types of AI exist, and where it already appears in your daily life. You wrote your first prompts and had your first AI conversations.
 
-**Class 2 — AI as Your Daily Assistant**  
+**Module 2 — AI as Your Daily Assistant**  
 You learned prompt patterns and context engineering. You drafted and improved emails, summarized documents, and used AI to make sense of spreadsheet data. You built the foundation of a personal Prompt Library.
 
-**Class 3 — AI Gets Creative**  
+**Module 3 — AI Gets Creative**  
 You generated images, built AI-assisted presentations, experimented with AI music, and explored avatar and voice tools. You developed a practical framework for copyright, transparency, and responsible creative use.
 
-**Class 4 — Staying Smart with AI**  
+**Module 4 — Staying Smart with AI**  
 You deepened your understanding of why AI fails and how to catch those failures. You built a clear framework for privacy and responsible use. You assembled your personal AI toolkit and wrote a concrete action plan.
 
 That is a complete arc — from curiosity to capability, from confusion to confidence.
@@ -460,11 +460,11 @@ AI is evolving fast. The tools available today will look different in six months
 - **Share what you learn** — Teaching is the fastest way to deepen your own understanding. The person you named in your Action Plan is a great place to start.
 - **Stay connected to the Dendritic Institute** — Visit [fgcu.edu/eng/dendritic-institute](https://www.fgcu.edu/eng/dendritic-institute) for upcoming workshops, events, and resources.
 
-## Class 4 and Program Summary Checklist
+## Module 4 and Program Summary Checklist
 
 Before you close this book, confirm that you can do the following:
 
-**From Class 4:**
+**From Module 4:**
 - [ ] Explain three reasons why AI produces errors (hallucinations, bias, outdated knowledge).
 - [ ] Apply the Trust or Verify Framework to match verification effort to stakes level.
 - [ ] List five categories of information never to share with a public AI tool.
@@ -493,7 +493,7 @@ Before you close this book, confirm that you can do the following:
 - **Partnership on AI. (2023).** *Responsible Practices for Synthetic Media.* partnershiponai.org.
 - **Mollick, E. (ongoing).** *One Useful Thing newsletter.* oneusefulthing.org. *(Practical, accessible AI updates for non-technical readers — one of the best resources available.)*
 
-## 🎓 Congratulations
+## Congratulations
 
 You have completed the **AI for Everyday Life Program**.
 
@@ -504,5 +504,5 @@ The future of AI is being shaped right now, not just by engineers and researcher
 Go use it well.
 
 ```{note}
-*Class 4 is the capstone of the AI for Everyday Life Program, offered by the Dendritic Institute for Human-Centered AI & Data Science at Florida Gulf Coast University. Participants who complete all four classes are encouraged to explore the AI Literacy Program and Data Analysis with AI Program for continued growth through the FGCU AI Academy.*
+*Module 4 is the capstone of the AI for Everyday Life Program, offered by the Dendritic Institute for Human-Centered AI & Data Science at Florida Gulf Coast University. Participants who complete all four classes are encouraged to explore the AI Literacy Program and Data Analysis with AI Program for continued growth through the FGCU AI Academy.*
 ```
