@@ -1,0 +1,1158 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Module 4: Staying Smart with AI — Trust, Safety &amp; Your Personal Toolkit &#8212; AI for Everyday Life</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Module4_Staying_Smart';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Appendix - In Class Activities" href="Appendix.html" />
+    <link rel="prev" title="Module 3: AI Gets Creative — Images, Presentations, Music &amp; Avatars" href="Module3_AI_Gets_Creative.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="AI for Everyday Life - Home"/>
+    <img src="_static/dendritic_logo.png" class="logo__image only-dark pst-js-only" alt="AI for Everyday Life - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    AI for Everyday Life
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Module1_Understanding_AI.html">Module 1: Understanding AI Without the Fear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module2_Daily_Assistant.html">Module 2: AI as Your Daily Assistant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module3_AI_Gets_Creative.html">Module 3: AI Gets Creative</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 4: Staying Smart with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix.html">Appendix: In Class Activities</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL/edit/main/tempBook5/Module4_Staying_Smart.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Module4_Staying_Smart.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 4: Staying Smart with AI — Trust, Safety & Your Personal Toolkit</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-the-verification-first-mindset">Part I — The Verification-First Mindset</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-ai-gets-things-wrong">1.1 Why AI Gets Things Wrong</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-trust-or-verify-framework">1.2 The Trust or Verify Framework</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-practical-verification-toolkit">1.3 A Practical Verification Toolkit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-the-fact-check-challenge">1.4 Activity 1: The Fact-Check Challenge</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-privacy-safety-responsible-use">Part II — Privacy, Safety &amp; Responsible Use</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-not-to-share-with-ai-tools">2.1 What Not to Share with AI Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-your-data-is-used-plain-language">2.2 How Your Data is Used: Plain Language</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-at-work-organizational-responsibilities">2.3 AI at Work: Organizational Responsibilities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#core-principles-for-responsible-everyday-ai-use">2.4 Core Principles for Responsible Everyday AI Use</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-and-jobs-a-realistic-reassuring-view">2.5 AI and Jobs: A Realistic, Reassuring View</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-building-your-personal-ai-toolkit">Part III — Building Your Personal AI Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-the-right-tool-for-the-right-job">3.1 Choosing the Right Tool for the Right Job</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#free-vs-paid-what-is-worth-it">3.2 Free vs. Paid: What Is Worth It?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-set-up-your-personal-ai-toolkit">3.3 Activity 2: Set Up Your Personal AI Toolkit</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-building-habits-that-last">Part IV — Building Habits That Last</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-aware-ai-enabled-progression">4.1 The AI-Aware → AI-Enabled Progression</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#three-habits-of-effective-ai-users">4.2 Three Habits of Effective AI Users</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-your-personal-ai-action-plan">4.3 Activity 3: Your Personal AI Action Plan</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-v-program-wrap-up-and-reflection">Part V — Program Wrap-Up and Reflection</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#looking-back-across-four-modules">5.1 Looking Back Across Four Modules</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-have-built">5.2 What You Have Built</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#final-reflection">5.3 Final Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuing-your-learning">5.4 Continuing Your Learning</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-and-program-summary-checklist">Module 4 and Program Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#congratulations">Congratulations</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-4-staying-smart-with-ai-trust-safety-your-personal-toolkit">
+<h1>Module 4: Staying Smart with AI — Trust, Safety &amp; Your Personal Toolkit<a class="headerlink" href="#module-4-staying-smart-with-ai-trust-safety-your-personal-toolkit" title="Link to this heading">#</a></h1>
+<p>Welcome to the final module of the <strong>AI for Everyday Life</strong> program.</p>
+<p>Over the past three modules, you have built a substantial foundation. You understand what AI is and how it works. You can write effective prompts and use AI to draft emails, summarize documents, and analyze data. You have experimented with image generation, AI music, and presentation tools. You have a personal Prompt Library taking shape.</p>
+<p>This final class is where we zoom out and ask the deeper questions that make the difference between someone who <em>uses</em> AI and someone who uses it <em>wisely</em>.</p>
+<p>We will explore why AI goes wrong and how to catch it. We will build a clear, practical framework for privacy and responsible use. We will organize your personal AI toolkit. And we will close the program the way it began: with you at the center, curious, capable, and in control.</p>
+<blockquote>
+<div><p><strong>The central idea of this class:</strong> Being a great AI user is not about knowing the most tools. It is about maintaining your judgment, protecting your privacy, and building habits that serve you well as the technology keeps changing.</p>
+</div></blockquote>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<p>By the end of this class, you will be able to:</p>
+<ol class="arabic simple">
+<li><p>Explain why AI produces errors, including hallucinations, bias, and outdated information.</p></li>
+<li><p>Apply a practical verification framework to evaluate any AI output before acting on it.</p></li>
+<li><p>Identify what personal and professional information should never be shared with AI tools.</p></li>
+<li><p>Describe in plain language how AI tools use your data and what you can do about it.</p></li>
+<li><p>Apply core responsible AI principles to your own daily use.</p></li>
+<li><p>Articulate a realistic, balanced view of AI’s impact on work and employment.</p></li>
+<li><p>Assemble a personal AI toolkit matched to your actual needs and habits.</p></li>
+<li><p>Leave the program with a written Personal AI Action Plan you can start using immediately.</p></li>
+</ol>
+</section>
+<section id="part-i-the-verification-first-mindset">
+<h2>Part I — The Verification-First Mindset<a class="headerlink" href="#part-i-the-verification-first-mindset" title="Link to this heading">#</a></h2>
+<section id="why-ai-gets-things-wrong">
+<h3>1.1 Why AI Gets Things Wrong<a class="headerlink" href="#why-ai-gets-things-wrong" title="Link to this heading">#</a></h3>
+<p>AI tools are genuinely impressive but they are not infallible. Understanding <em>why</em> they make mistakes is the key to catching those mistakes before they cause problems.</p>
+<p><strong>Hallucinations</strong></p>
+<p>The most well-known AI failure mode is <em>hallucination</em>: the AI produces confident-sounding information that is simply false. This includes:</p>
+<ul class="simple">
+<li><p>Inventing statistics, studies, or citations that do not exist.</p></li>
+<li><p>Describing events that never happened.</p></li>
+<li><p>Providing incorrect dates, names, or facts while sounding completely certain.</p></li>
+</ul>
+<p>Why does this happen? AI language models do not “look up” facts. They generate the most statistically likely next word based on patterns in their training data. Sometimes those patterns lead to plausible-sounding but incorrect outputs. The model has no internal mechanism for knowing when it is wrong.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>AI does not know when it is making things up. It sounds equally confident whether it is correct or completely wrong. <strong>You are the error-detection system</strong>.</p>
+</div>
+<p><strong>Bias</strong></p>
+<p>AI systems learn from human-generated data, which means they absorb the biases, assumptions, and blind spots present in that data. This can appear as:</p>
+<ul class="simple">
+<li><p>Stereotyped portrayals of people by gender, race, age, political preference, or profession.</p></li>
+<li><p>Unequal quality of responses about different cultures or communities.</p></li>
+<li><p>Assumptions baked into recommendations that reflect one group’s experience more than others’.</p></li>
+</ul>
+<p>Understanding that AI reflects human biases, rather than being an objective authority, is essential for critical use.</p>
+<p><strong>Outdated Knowledge</strong></p>
+<p>Most AI models have a <em>training cutoff date</em>, that is, a point beyond which they have no knowledge of events. If you ask an AI about recent news, new laws, current prices, or anything that may have changed, you risk receiving confidently stated but outdated information.</p>
+<p><strong>Context Misunderstanding</strong></p>
+<p>AI takes your words literally. Ambiguous questions receive ambiguous answers. Missing context leads to missing relevance. The AI cannot read what you meant, only what you wrote.</p>
+</section>
+<section id="the-trust-or-verify-framework">
+<h3>1.2 The Trust or Verify Framework<a class="headerlink" href="#the-trust-or-verify-framework" title="Link to this heading">#</a></h3>
+<p>Not everything AI produces needs to be verified to the same degree. A good mental model is to match your level of scrutiny to the stakes involved.</p>
+<p><strong>Low stakes — spot-check:</strong><br />
+Creative writing, brainstorming, informal emails, personal use. Read it, edit it if needed, and use it. A minor error in a birthday card invitation is not a crisis.</p>
+<p><strong>Medium stakes — review carefully:</strong><br />
+Professional emails, summaries for colleagues, documents you will share, social media posts. Read every word, check key facts, and make sure the tone and content represent you accurately.</p>
+<p><strong>High stakes — verify independently:</strong><br />
+Anything medical, legal, financial, or factual that others will rely on. Never use AI output for important decisions without independently checking key claims through authoritative sources.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Stakes Level</p></th>
+<th class="head text-left"><p>Examples</p></th>
+<th class="head text-left"><p>What to Do</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Low</strong></p></td>
+<td class="text-left"><p>Personal use, creative drafts, informal messages</p></td>
+<td class="text-left"><p>Read and edit; spot-check tone and accuracy</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Medium</strong></p></td>
+<td class="text-left"><p>Professional communications, shared documents</p></td>
+<td class="text-left"><p>Verify all facts; ensure content represents you accurately</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>High</strong></p></td>
+<td class="text-left"><p>Medical, legal, financial, or policy decisions</p></td>
+<td class="text-left"><p>Independently verify with authoritative sources; consult a professional</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="a-practical-verification-toolkit">
+<h3>1.3 A Practical Verification Toolkit<a class="headerlink" href="#a-practical-verification-toolkit" title="Link to this heading">#</a></h3>
+<p>When you need to verify an AI output, these strategies work:</p>
+<p><strong>Ask AI to explain itself:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You just told me [claim]. How confident are you in this? 
+What sources support it? Is there anything you are uncertain about?
+</pre></div>
+</div>
+<p>AI will often acknowledge uncertainty when directly asked, even if it did not volunteer it.</p>
+<p><strong>Ask AI to fact-check itself:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Please</span> <span class="n">review</span> <span class="n">your</span> <span class="n">previous</span> <span class="n">response</span> <span class="ow">and</span> <span class="n">flag</span> <span class="nb">any</span> <span class="n">claim</span> <span class="n">that</span> 
+<span class="n">you</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">fully</span> <span class="n">certain</span> <span class="n">about</span> <span class="ow">or</span> <span class="n">that</span> <span class="n">may</span> <span class="n">have</span> <span class="n">changed</span> <span class="n">since</span> 
+<span class="n">your</span> <span class="n">training</span> <span class="n">data</span> <span class="n">was</span> <span class="n">collected</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Use a search engine or authoritative source:</strong><br />
+For any specific fact, statistic, name, date, or event, Google it, check the original source, or consult a professional. A 30-second search can prevent a costly mistake.</p>
+<p><strong>Use a web-connected AI tool for current information:</strong><br />
+<a class="reference external" href="http://Perplexity.ai">Perplexity.ai</a>, Copilot, or ChatGPT with web search enabled can retrieve current information and cite their sources, far more reliable for time-sensitive facts than a standard AI chat.</p>
+<p><strong>Apply the five-point quality check</strong> (from Class 2):</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Criterion</strong></p></th>
+<th class="head text-left"><p><strong>Question</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Relevance</strong></p></td>
+<td class="text-left"><p>Does the response actually address what I asked?</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Completeness</strong></p></td>
+<td class="text-left"><p>Did it cover all the aspects I needed?</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Clarity</strong></p></td>
+<td class="text-left"><p>Is it clear, readable, and well-structured?</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Accuracy</strong></p></td>
+<td class="text-left"><p>Are the specific facts and figures correct? <em>(Verify!)</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Format</strong></p></td>
+<td class="text-left"><p>Did it follow the format I requested?</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="activity-1-the-fact-check-challenge">
+<h3>1.4 Activity 1: The Fact-Check Challenge<a class="headerlink" href="#activity-1-the-fact-check-challenge" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience AI hallucination firsthand and practice catching it.</p>
+<p><strong>Step 1 — Ask AI a question with specific facts:</strong><br />
+Choose one of these prompts and run it in any AI chat:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Option</span> <span class="n">A</span><span class="p">:</span> <span class="s2">&quot;Tell me about three scientific studies that prove [any health claim you have heard recently].&quot;</span>
+
+<span class="n">Option</span> <span class="n">B</span><span class="p">:</span> <span class="s2">&quot;What are the current interest rates for a 30-year fixed mortgage in the United States?&quot;</span>
+
+<span class="n">Option</span> <span class="n">C</span><span class="p">:</span> <span class="s2">&quot;Who is the current mayor of [name your city or a nearby city]?&quot;</span>
+
+<span class="n">Option</span> <span class="n">D</span><span class="p">:</span> <span class="s2">&quot;Summarize a recent news article about [any topic in the news this month].&quot;</span>
+</pre></div>
+</div>
+<p><strong>Step 2 — Write down the specific claims AI made:</strong><br />
+List at least three factual statements from its response: names, dates, numbers, sources, or events.</p>
+<p><strong>Step 3 — Verify each one:</strong><br />
+For each claim, spend one to two minutes searching for independent confirmation. Use Google, a government website, a news outlet, or any authoritative source.</p>
+<p><strong>Step 4 — Record your findings:</strong></p>
+<p>| AI’s Claim | True / False / Partly True / Unverifiable | Source You Used |
+| | |
+| | |
+| | |</p>
+<p><strong>Reflect:</strong></p>
+<ul class="simple">
+<li><p>Were any claims wrong or unverifiable?</p></li>
+<li><p>Did anything surprise you about the AI’s confidence level?</p></li>
+<li><p>How would you have acted if you had used this information without checking?</p></li>
+</ul>
+<blockquote>
+<div><p>💡 <strong>Key insight:</strong> This exercise is not meant to make you distrust AI — it is meant to make you a <em>calibrated</em> user who knows when to trust and when to verify. Both skills matter equally.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="part-ii-privacy-safety-responsible-use">
+<h2>Part II — Privacy, Safety &amp; Responsible Use<a class="headerlink" href="#part-ii-privacy-safety-responsible-use" title="Link to this heading">#</a></h2>
+<section id="what-not-to-share-with-ai-tools">
+<h3>2.1 What Not to Share with AI Tools<a class="headerlink" href="#what-not-to-share-with-ai-tools" title="Link to this heading">#</a></h3>
+<p>Every time you type something into an AI chat, that text becomes input to the system — and depending on the platform’s policies, may be stored, used to improve the model, reviewed by humans, or retained for extended periods.</p>
+<p>This does not mean AI tools are dangerous. It means they require the same thoughtfulness about sharing information as any online platform.</p>
+<p><strong>What to keep private — always:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Category</p></th>
+<th class="head text-left"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Personal identification</strong></p></td>
+<td class="text-left"><p>Social Security numbers, passport numbers, driver’s license numbers</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Financial information</strong></p></td>
+<td class="text-left"><p>Bank account details, credit card numbers, PINs, financial passwords</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Login credentials</strong></p></td>
+<td class="text-left"><p>Passwords, security questions and answers</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Sensitive personal health</strong></p></td>
+<td class="text-left"><p>Detailed medical records or conditions (especially if combined with identifying information)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Private information about others</strong></p></td>
+<td class="text-left"><p>Other people’s personal details without their knowledge or consent</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Confidential professional information</strong></p></td>
+<td class="text-left"><p>Client names, proprietary business data, internal company documents, trade secrets</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Children’s information</strong></p></td>
+<td class="text-left"><p>Never share identifying information about minors</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>A practical test before you type:</strong><br />
+<em>“Would I be comfortable if this text were posted publicly, or reviewed by an employee of this company?”</em><br />
+If the answer is no — do not type it.</p>
+</section>
+<section id="how-your-data-is-used-plain-language">
+<h3>2.2 How Your Data is Used: Plain Language<a class="headerlink" href="#how-your-data-is-used-plain-language" title="Link to this heading">#</a></h3>
+<p>Different AI platforms have different data policies. Here are the most important things to know:</p>
+<p><strong>Free tiers often use your data for training:</strong><br />
+On many free AI platforms, conversations may be used to improve the model. This means human reviewers or automated systems may access your inputs. Check the privacy settings — most platforms allow you to opt out of training data collection.</p>
+<p><strong>Paid tiers and enterprise plans typically offer stronger privacy:</strong><br />
+Business and enterprise versions of most major AI tools (ChatGPT Enterprise, Claude for Work, Copilot for Microsoft 365) typically offer stronger data protection, including commitments not to use your data for training.</p>
+<p><strong>Incognito or temporary modes help:</strong><br />
+ChatGPT and some other platforms offer a mode where conversations are not saved. Use this for any sensitive discussion.</p>
+<p><strong>Where to find your privacy settings:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Platform</p></th>
+<th class="head text-left"><p>Where to Find It</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>ChatGPT</strong></p></td>
+<td class="text-left"><p>Settings → Data Controls → Improve the model for everyone</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Claude</strong></p></td>
+<td class="text-left"><p>Settings → Privacy → Conversation history</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Gemini</strong></p></td>
+<td class="text-left"><p>Gemini Apps Activity → Activity controls</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Copilot</strong></p></td>
+<td class="text-left"><p>Microsoft Privacy Dashboard → Bing search history</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<div><p>💡 <strong>Simple rule:</strong> Treat your AI chat window like a postcard, not a sealed envelope. Write accordingly.</p>
+</div></blockquote>
+</section>
+<section id="ai-at-work-organizational-responsibilities">
+<h3>2.3 AI at Work: Organizational Responsibilities<a class="headerlink" href="#ai-at-work-organizational-responsibilities" title="Link to this heading">#</a></h3>
+<p>If you use AI tools in a professional context, there is an additional layer of responsibility:</p>
+<p><strong>Check your organization’s AI policy before you start.</strong><br />
+Many companies, schools, hospitals, and government agencies have policies about which AI tools are approved for use, what kinds of data can be processed by them, and what disclosures are required when AI-generated content is used.</p>
+<p><strong>Never input client, patient, or student data into a public AI tool</strong><br />
+without explicit organizational approval. This applies to names, case details, medical records, academic records, and any other information that belongs to the people your organization serves.</p>
+<p><strong>Be transparent with colleagues and clients</strong><br />
+when AI has played a significant role in producing work product. This is good professional ethics — and increasingly, it is good risk management.</p>
+<p><strong>Maintain your professional judgment.</strong><br />
+AI does not hold a license. Doctors, lawyers, accountants, engineers, educators, and other professionals are still responsible for the advice and work they produce — even if AI assisted in producing it.</p>
+</section>
+<section id="core-principles-for-responsible-everyday-ai-use">
+<h3>2.4 Core Principles for Responsible Everyday AI Use<a class="headerlink" href="#core-principles-for-responsible-everyday-ai-use" title="Link to this heading">#</a></h3>
+<p>Drawn from leading AI ethics frameworks and adapted for everyday users, these five principles can guide every AI interaction:</p>
+<p><strong>1. Fairness</strong> — Be aware that AI may reflect biases, and actively consider whether outputs treat all people equitably. Do not use AI in ways that discriminate or exclude.</p>
+<p><strong>2. Transparency</strong> — Be honest when AI played a significant role in producing content you share. Disclose AI assistance in contexts where it is relevant — professionally, academically, or publicly.</p>
+<p><strong>3. Accountability</strong> — You are responsible for what you do with AI outputs. The AI is the tool; you are the decision-maker. Own the outcomes.</p>
+<p><strong>4. Safety</strong> — Verify before you act. Never rely on unverified AI output for high-stakes decisions involving health, finances, safety, or legal matters.</p>
+<p><strong>5. Human dignity</strong> — Never use AI to demean, deceive, manipulate, or harm other people. This includes generating fake content about real people, spreading AI-generated misinformation, or using AI to impersonate others.</p>
+</section>
+<section id="ai-and-jobs-a-realistic-reassuring-view">
+<h3>2.5 AI and Jobs: A Realistic, Reassuring View<a class="headerlink" href="#ai-and-jobs-a-realistic-reassuring-view" title="Link to this heading">#</a></h3>
+<p>One of the most common concerns people bring to this program is: <em>“Will AI take my job?”</em></p>
+<p>The most accurate and honest answer, based on current evidence and expert consensus, is: <strong>it depends on the job, and the change will be gradual.</strong></p>
+<p>Here is what the evidence actually suggests:</p>
+<p><strong>AI is more likely to change jobs than eliminate them.</strong><br />
+Most roles involve a mix of tasks — some of which AI can assist with, others where human judgment, relationships, and physical presence remain essential. AI tends to automate specific <em>tasks</em>, not entire <em>jobs</em>.</p>
+<p><strong>The jobs most affected are those involving repetitive, pattern-based cognitive work.</strong><br />
+Highly routine document processing, basic data entry, simple customer queries — these are already being changed. The humans in those roles who use AI effectively will be better positioned than those who do not.</p>
+<p><strong>New roles are also being created.</strong><br />
+AI trainers, prompt engineers, AI ethics reviewers, AI output editors, and AI literacy educators are all emerging roles that did not exist five years ago.</p>
+<p><strong>Adaptability is the most durable career skill.</strong><br />
+Learning to work effectively <em>with</em> AI — as you are doing in this program — is precisely the kind of adaptability that will matter most over the next decade.</p>
+<blockquote>
+<div><p>The future of work is not AI <em>instead of</em> people. It is AI <em>with</em> people — where the people who understand how to use AI thoughtfully and ethically will have a real advantage.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="part-iii-building-your-personal-ai-toolkit">
+<h2>Part III — Building Your Personal AI Toolkit<a class="headerlink" href="#part-iii-building-your-personal-ai-toolkit" title="Link to this heading">#</a></h2>
+<section id="choosing-the-right-tool-for-the-right-job">
+<h3>3.1 Choosing the Right Tool for the Right Job<a class="headerlink" href="#choosing-the-right-tool-for-the-right-job" title="Link to this heading">#</a></h3>
+<p>One of the most practical things you can do as an AI user is develop a clear sense of which tool to reach for in which situation. You do not need all of them — you need the right two or three for your life.</p>
+<p><strong>General AI chatbots — your everyday starting point:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Tool</p></th>
+<th class="head text-left"><p>Best For</p></th>
+<th class="head text-left"><p>Free Tier?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>ChatGPT</strong> (<a class="reference external" href="http://chat.openai.com">chat.openai.com</a>)</p></td>
+<td class="text-left"><p>Versatile tasks; great for brainstorming, drafting, image generation (DALL·E), and data analysis</p></td>
+<td class="text-left"><p>✅ Yes</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Claude</strong> (<a class="reference external" href="http://claude.ai">claude.ai</a>)</p></td>
+<td class="text-left"><p>Long documents; nuanced writing; thoughtful, careful responses</p></td>
+<td class="text-left"><p>✅ Yes</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Gemini</strong> (<a class="reference external" href="http://gemini.google.com">gemini.google.com</a>)</p></td>
+<td class="text-left"><p>Google Workspace users; integration with Gmail, Docs, and Sheets</p></td>
+<td class="text-left"><p>✅ Yes</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Copilot</strong> (<a class="reference external" href="http://copilot.microsoft.com">copilot.microsoft.com</a>)</p></td>
+<td class="text-left"><p>Microsoft 365 users; integrated into Word, Excel, Outlook, and Teams</p></td>
+<td class="text-left"><p>✅ Yes (basic)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Perplexity</strong> (<a class="reference external" href="http://perplexity.ai">perplexity.ai</a>)</p></td>
+<td class="text-left"><p>Research and fact-finding; provides cited, sourced answers</p></td>
+<td class="text-left"><p>✅ Yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Creative tools — for specific creative tasks:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Task</p></th>
+<th class="head text-left"><p>Recommended Tool</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Image generation</p></td>
+<td class="text-left"><p>DALL·E (inside ChatGPT), Adobe Firefly, Canva AI</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Presentation building</p></td>
+<td class="text-left"><p>Gamma (gamma.app), Canva AI</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Music generation</p></td>
+<td class="text-left"><p>Suno (<a class="reference external" href="http://suno.com">suno.com</a>), Udio</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Document-to-audio (podcast style)</p></td>
+<td class="text-left"><p>NotebookLM (<a class="reference external" href="http://notebooklm.google.com">notebooklm.google.com</a>)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Avatar / voiceover videos</p></td>
+<td class="text-left"><p>HeyGen (<a class="reference external" href="http://heygen.com">heygen.com</a>), ElevenLabs (<a class="reference external" href="http://elevenlabs.io">elevenlabs.io</a>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Productivity integrations — AI built into tools you already use:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>If You Use…</p></th>
+<th class="head text-left"><p>AI Is Already There</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Microsoft 365 (Word, Excel, Outlook)</p></td>
+<td class="text-left"><p>Copilot (requires Microsoft 365 subscription with Copilot add-on)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Google Workspace (Gmail, Docs, Sheets)</p></td>
+<td class="text-left"><p>Gemini (available in Workspace accounts)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Canva</p></td>
+<td class="text-left"><p>Magic Write, Magic Media (AI image generation)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Adobe products</p></td>
+<td class="text-left"><p>Adobe Firefly (integrated into Photoshop, Illustrator, Express)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<div><p>💡 <strong>Your starter recommendation:</strong> If you are just getting started, pick <strong>one general chatbot</strong> (ChatGPT or Claude for most people) and use it consistently for two weeks. Depth with one tool is more valuable than surface-level familiarity with ten.</p>
+</div></blockquote>
+</section>
+<section id="free-vs-paid-what-is-worth-it">
+<h3>3.2 Free vs. Paid: What Is Worth It?<a class="headerlink" href="#free-vs-paid-what-is-worth-it" title="Link to this heading">#</a></h3>
+<p>Most people starting out can accomplish a great deal with free tiers. Here is an honest assessment:</p>
+<p><strong>Free tiers are excellent for:</strong></p>
+<ul class="simple">
+<li><p>Drafting and editing text</p></li>
+<li><p>Answering questions and brainstorming</p></li>
+<li><p>Basic image generation</p></li>
+<li><p>Summarizing documents</p></li>
+<li><p>Learning and experimenting</p></li>
+</ul>
+<p><strong>Paid tiers are worth considering when:</strong></p>
+<ul class="simple">
+<li><p>You hit daily or message limits on the free tier regularly</p></li>
+<li><p>You need to process longer documents (paid tiers typically allow much longer inputs)</p></li>
+<li><p>You need stronger privacy guarantees (especially for professional use)</p></li>
+<li><p>You need access to the most capable model versions</p></li>
+<li><p>You are using AI heavily enough that the time savings justify the cost (typically $20–30/month)</p></li>
+</ul>
+<p><strong>Our recommendation:</strong> Start free. Use the tools for 4–6 weeks. If you are regularly hitting limits or want more capability, then consider a paid plan.</p>
+</section>
+<section id="activity-2-set-up-your-personal-ai-toolkit">
+<h3>3.3 Activity 2: Set Up Your Personal AI Toolkit<a class="headerlink" href="#activity-2-set-up-your-personal-ai-toolkit" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Leave this class with a working, personalized AI setup.</p>
+<p><strong>Step 1 — Choose your primary AI tool</strong><br />
+Based on the tools you have tried in this program, pick <em>one</em> general AI chatbot as your main tool. Create an account if you have not already.</p>
+<p><strong>Step 2 — Adjust your privacy settings</strong><br />
+Using the table in Section 2.2, find and review the data/privacy settings for your chosen tool. Make any adjustments you are comfortable with (e.g., opting out of training data use).</p>
+<p><strong>Step 3 — Organize your Prompt Library</strong><br />
+Create a simple document, note, or folder where you save your tested prompts from across all four classes. Organize them by category:</p>
+<ul class="simple">
+<li><p>Emails and communication</p></li>
+<li><p>Document summarizing and creation</p></li>
+<li><p>Spreadsheet and data tasks</p></li>
+<li><p>Creative tasks (images, presentations, music)</p></li>
+<li><p>Research and fact-checking</p></li>
+</ul>
+<p><strong>Step 4 — Bookmark your tools</strong><br />
+Create a browser bookmark folder called “My AI Toolkit” with links to the two or three tools you plan to use regularly.</p>
+<p><strong>Step 5 — Set a reminder</strong><br />
+Schedule one 20-minute “AI experiment” session per week for the next month. Use it to try a new use case, test a new prompt, or simply practice with a task from your week.</p>
+</section>
+</section>
+<section id="part-iv-building-habits-that-last">
+<h2>Part IV — Building Habits That Last<a class="headerlink" href="#part-iv-building-habits-that-last" title="Link to this heading">#</a></h2>
+<section id="the-ai-aware-ai-enabled-progression">
+<h3>4.1 The AI-Aware → AI-Enabled Progression<a class="headerlink" href="#the-ai-aware-ai-enabled-progression" title="Link to this heading">#</a></h3>
+<p>AI literacy is not a destination — it is a direction. There are three recognizable stages in how people develop their relationship with AI:</p>
+<p><strong>Stage 1 — AI-Aware</strong><br />
+You know AI exists and is increasingly part of life. You may feel curious, cautious, or uncertain. You are not yet using it regularly. <em>This was where most participants started this program.</em></p>
+<p><strong>Stage 2 — AI-Engaged</strong><br />
+You are experimenting regularly. You have a few tools you turn to for specific tasks. You sometimes get great results, sometimes not — and you are learning from both. <em>This is where you are now.</em></p>
+<p><strong>Stage 3 — AI-Enabled</strong><br />
+AI is a natural, integrated part of how you work and create. You know which tools to use, when to trust the output, and when to verify or discard it. You are continuously learning as the tools evolve. <em>This is where consistent practice takes you.</em></p>
+<p>The distance between Stage 2 and Stage 3 is not talent — it is regular, intentional practice.</p>
+</section>
+<section id="three-habits-of-effective-ai-users">
+<h3>4.2 Three Habits of Effective AI Users<a class="headerlink" href="#three-habits-of-effective-ai-users" title="Link to this heading">#</a></h3>
+<p>After four classes of practice, three habits stand out as the most impactful for long-term AI effectiveness:</p>
+<p><strong>Habit 1: Reach for AI early in the process, not at the end.</strong><br />
+Use AI to help you <em>start</em> — to generate a first draft, brainstorm options, or frame a problem. This is where it saves the most time. Using it to polish something already written is valuable but less transformative than using it to overcome the blank-page problem.</p>
+<p><strong>Habit 2: Always read what AI gives you before using it.</strong><br />
+Treat every AI output as a draft, not a final product. This takes 30 seconds for short content and a few minutes for longer pieces — and it is the single most important habit for avoiding embarrassing errors.</p>
+<p><strong>Habit 3: Keep a running prompt library and add to it weekly.</strong><br />
+Every time you craft a prompt that works really well, save it. Over weeks and months, your personal Prompt Library becomes one of the most valuable professional tools you own — because it is tailored to exactly your work, your voice, and your needs.</p>
+</section>
+<section id="activity-3-your-personal-ai-action-plan">
+<h3>4.3 Activity 3: Your Personal AI Action Plan<a class="headerlink" href="#activity-3-your-personal-ai-action-plan" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Leave this class with a concrete, written commitment to three AI habits you will begin this week.</p>
+<p>This is the capstone activity of the entire program. Take it seriously — a written plan dramatically increases the likelihood that you will follow through.</p>
+<p><strong>Complete the following:</strong></p>
+<p><strong>My Personal AI Action Plan</strong></p>
+<p><em>Name:</em><br />
+<em>Date:</em></p>
+<p><strong>The one AI tool I will use as my primary tool:</strong></p>
+<p><strong>Three tasks from my real life where I will use AI in the next 7 days:</strong></p>
+<ol class="arabic simple">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<p><strong>One thing I will NEVER input into a public AI tool:</strong></p>
+<p><strong>My plan for verifying AI outputs before I use them:</strong></p>
+<p><strong>One AI skill I want to get better at in the next 30 days:</strong></p>
+<p><strong>Three AI habits I am committing to starting this week:</strong></p>
+<ol class="arabic simple">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<p><strong>One person I will share something I learned in this program with:</strong></p>
+<blockquote>
+<div><p>💡 <strong>Keep this plan somewhere you will see it</strong> — a sticky note on your monitor, a photo on your phone, or the first page of a notebook. Revisit it in 30 days and see how you are doing.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="part-v-program-wrap-up-and-reflection">
+<h2>Part V — Program Wrap-Up and Reflection<a class="headerlink" href="#part-v-program-wrap-up-and-reflection" title="Link to this heading">#</a></h2>
+<section id="looking-back-across-four-modules">
+<h3>5.1 Looking Back Across Four Modules<a class="headerlink" href="#looking-back-across-four-modules" title="Link to this heading">#</a></h3>
+<p>Let us take a moment to acknowledge how far you have come.</p>
+<p><strong>Module 1 — Understanding AI Without the Fear</strong><br />
+You learned what AI actually is, how it learns from patterns, what types of AI exist, and where it already appears in your daily life. You wrote your first prompts and had your first AI conversations.</p>
+<p><strong>Module 2 — AI as Your Daily Assistant</strong><br />
+You learned prompt patterns and context engineering. You drafted and improved emails, summarized documents, and used AI to make sense of spreadsheet data. You built the foundation of a personal Prompt Library.</p>
+<p><strong>Module 3 — AI Gets Creative</strong><br />
+You generated images, built AI-assisted presentations, experimented with AI music, and explored avatar and voice tools. You developed a practical framework for copyright, transparency, and responsible creative use.</p>
+<p><strong>Module 4 — Staying Smart with AI</strong><br />
+You deepened your understanding of why AI fails and how to catch those failures. You built a clear framework for privacy and responsible use. You assembled your personal AI toolkit and wrote a concrete action plan.</p>
+<p>That is a complete arc — from curiosity to capability, from confusion to confidence.</p>
+</section>
+<section id="what-you-have-built">
+<h3>5.2 What You Have Built<a class="headerlink" href="#what-you-have-built" title="Link to this heading">#</a></h3>
+<p>By completing this program, you now have:</p>
+<ul class="simple">
+<li><p><strong>AI literacy</strong> — a solid, honest understanding of what AI is and what it is not.</p></li>
+<li><p><strong>Prompt fluency</strong> — the ability to communicate effectively with AI tools across a wide range of tasks.</p></li>
+<li><p><strong>A personal Prompt Library</strong> — tested, reusable prompts tailored to your real needs.</p></li>
+<li><p><strong>Creative AI skills</strong> — the ability to generate images, presentations, music, and more.</p></li>
+<li><p><strong>A verification habit</strong> — the practice of reviewing and checking AI outputs before acting on them.</p></li>
+<li><p><strong>A privacy framework</strong> — clear rules for what to share and what to protect.</p></li>
+<li><p><strong>A personal AI toolkit</strong> — the right two or three tools set up and ready to use.</p></li>
+<li><p><strong>A Personal AI Action Plan</strong> — a written commitment to the habits that will sustain your growth.</p></li>
+</ul>
+<p>These are not abstract skills. They are practical, transferable, and immediately useful — today, in the life you are actually living.</p>
+</section>
+<section id="final-reflection">
+<h3>5.3 Final Reflection<a class="headerlink" href="#final-reflection" title="Link to this heading">#</a></h3>
+<p>Take a few minutes to write your honest answers to these questions. You were asked some of them at the start of Class 1. See how your thinking may have shifted.</p>
+<blockquote>
+<div><p>Looking back at where you started, what has changed most in how you think about AI?</p>
+</div></blockquote>
+<blockquote>
+<div><p>What is the one thing from this program you are most likely to use every single week?</p>
+</div></blockquote>
+<blockquote>
+<div><p>What questions do you still have — about AI, about specific tools, or about how this technology will evolve?</p>
+</div></blockquote>
+<blockquote>
+<div><p>What would you tell a friend or family member who says: <em>“I don’t think AI is for people like me”</em>?</p>
+</div></blockquote>
+<blockquote>
+<div><p>What responsibility do you feel as someone who now understands AI better than most of the people around you?</p>
+</div></blockquote>
+<p>There is no right answer to any of these. The fact that you are asking them — thoughtfully, critically, from a place of genuine understanding — is the whole point.</p>
+</section>
+<section id="continuing-your-learning">
+<h3>5.4 Continuing Your Learning<a class="headerlink" href="#continuing-your-learning" title="Link to this heading">#</a></h3>
+<p>AI is evolving fast. The tools available today will look different in six months, and significantly different in two years. The best way to stay current is not to take another course every few months — it is to stay curious and keep experimenting.</p>
+<p><strong>Ways to continue growing:</strong></p>
+<ul class="simple">
+<li><p><strong>Read widely</strong> — Follow one or two trusted voices on AI in plain language. Ethan Mollick’s newsletter <em>One Useful Thing</em> (<a class="reference external" href="http://oneusefulthing.org">oneusefulthing.org</a>) is one of the best.</p></li>
+<li><p><strong>Experiment weekly</strong> — Your 20-minute weekly AI session is the single most effective way to keep growing.</p></li>
+<li><p><strong>Explore the FGCU AI Academy</strong> — The AI Literacy Program and Data Analysis with AI Program offer deeper dives into the concepts introduced here. The Summer Academy offers intensive, structured pathways for learners who want to go further.</p></li>
+<li><p><strong>Share what you learn</strong> — Teaching is the fastest way to deepen your own understanding. The person you named in your Action Plan is a great place to start.</p></li>
+<li><p><strong>Stay connected to the Dendritic Institute</strong> — Visit <a class="reference external" href="https://www.fgcu.edu/eng/dendritic-institute">fgcu.edu/eng/dendritic-institute</a> for upcoming workshops, events, and resources.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-4-and-program-summary-checklist">
+<h2>Module 4 and Program Summary Checklist<a class="headerlink" href="#module-4-and-program-summary-checklist" title="Link to this heading">#</a></h2>
+<p>Before you close this book, confirm that you can do the following:</p>
+<p><strong>From Module 4:</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Explain three reasons why AI produces errors (hallucinations, bias, outdated knowledge).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Apply the Trust or Verify Framework to match verification effort to stakes level.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> List five categories of information never to share with a public AI tool.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Describe in plain language how AI platforms use your data and where to find privacy settings.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Articulate the five core principles for responsible AI use.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Offer a realistic, nuanced view of AI’s impact on employment.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Assemble a personal AI toolkit with at least two chosen tools and organized prompts.</p></li>
+</ul>
+<p><strong>From the full program:</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Explain what AI is and how it works — without jargon.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Write effective prompts using Role, Context, Task, and Format.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use AI for emails, documents, and spreadsheet data with confidence.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Generate images, build presentations, and explore creative AI tools.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Verify AI outputs before using them in important situations.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Maintain your privacy and professional responsibilities when using AI.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Apply a personal AI action plan with three concrete habits.</p></li>
+</ul>
+</section>
+<section id="further-reading">
+<h2>📘 Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Mollick, E. (2024).</strong> <em>Co-Intelligence: Living and Working with AI.</em> Portfolio/Penguin. <em>(The most accessible and insightful book on AI for general readers — highly recommended for continuing your journey.)</em></p></li>
+<li><p><strong>Malone, T. W., &amp; Vaccaro, M. (2024).</strong> <em>When humans and AI work best together — and when each is better alone.</em> MIT Sloan Management Review.</p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Ethics and Responsible AI (Appendix).</em> FGCU AI Academy.</p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Full Program.</em> FGCU AI Academy. <em>(The next step for learners who want a deeper conceptual foundation.)</em></p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>Data Analysis with AI Program.</em> FGCU AI Academy. <em>(For learners who want to develop data analysis skills alongside AI.)</em></p></li>
+<li><p><strong>European Commission. (2019).</strong> <em>Ethics Guidelines for Trustworthy AI.</em> <a class="reference external" href="http://digital-strategy.ec.europa.eu">digital-strategy.ec.europa.eu</a>.</p></li>
+<li><p><strong>Partnership on AI. (2023).</strong> <em>Responsible Practices for Synthetic Media.</em> <a class="reference external" href="http://partnershiponai.org">partnershiponai.org</a>.</p></li>
+<li><p><strong>Mollick, E. (ongoing).</strong> <em>One Useful Thing newsletter.</em> <a class="reference external" href="http://oneusefulthing.org">oneusefulthing.org</a>. <em>(Practical, accessible AI updates for non-technical readers — one of the best resources available.)</em></p></li>
+</ul>
+</section>
+<section id="congratulations">
+<h2>Congratulations<a class="headerlink" href="#congratulations" title="Link to this heading">#</a></h2>
+<p>You have completed the <strong>AI for Everyday Life Program</strong>.</p>
+<p>You came in as someone learning about AI. You are leaving as someone who uses it — thoughtfully, critically, and with genuine confidence.</p>
+<p>The future of AI is being shaped right now, not just by engineers and researchers, but by the millions of people who decide how to use it, what to demand of it, and where to draw the line. You are now one of those people.</p>
+<p>Go use it well.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Module 4 is the capstone of the AI for Everyday Life Program, offered by the Dendritic Institute for Human-Centered AI &amp; Data Science at Florida Gulf Coast University. Participants who complete all four classes are encouraged to explore the AI Literacy Program and Data Analysis with AI Program for continued growth through the FGCU AI Academy.</em></p>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Module3_AI_Gets_Creative.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 3: AI Gets Creative — Images, Presentations, Music &amp; Avatars</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Appendix.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Appendix - In Class Activities</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-the-verification-first-mindset">Part I — The Verification-First Mindset</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-ai-gets-things-wrong">1.1 Why AI Gets Things Wrong</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-trust-or-verify-framework">1.2 The Trust or Verify Framework</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-practical-verification-toolkit">1.3 A Practical Verification Toolkit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-the-fact-check-challenge">1.4 Activity 1: The Fact-Check Challenge</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-privacy-safety-responsible-use">Part II — Privacy, Safety &amp; Responsible Use</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-not-to-share-with-ai-tools">2.1 What Not to Share with AI Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-your-data-is-used-plain-language">2.2 How Your Data is Used: Plain Language</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-at-work-organizational-responsibilities">2.3 AI at Work: Organizational Responsibilities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#core-principles-for-responsible-everyday-ai-use">2.4 Core Principles for Responsible Everyday AI Use</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-and-jobs-a-realistic-reassuring-view">2.5 AI and Jobs: A Realistic, Reassuring View</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-building-your-personal-ai-toolkit">Part III — Building Your Personal AI Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-the-right-tool-for-the-right-job">3.1 Choosing the Right Tool for the Right Job</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#free-vs-paid-what-is-worth-it">3.2 Free vs. Paid: What Is Worth It?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-set-up-your-personal-ai-toolkit">3.3 Activity 2: Set Up Your Personal AI Toolkit</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-building-habits-that-last">Part IV — Building Habits That Last</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-aware-ai-enabled-progression">4.1 The AI-Aware → AI-Enabled Progression</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#three-habits-of-effective-ai-users">4.2 Three Habits of Effective AI Users</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-your-personal-ai-action-plan">4.3 Activity 3: Your Personal AI Action Plan</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-v-program-wrap-up-and-reflection">Part V — Program Wrap-Up and Reflection</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#looking-back-across-four-modules">5.1 Looking Back Across Four Modules</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-have-built">5.2 What You Have Built</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#final-reflection">5.3 Final Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuing-your-learning">5.4 Continuing Your Learning</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-and-program-summary-checklist">Module 4 and Program Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#congratulations">Congratulations</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,1211 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Module 1: Understanding AI Without the Fear &#8212; AI for Everyday Life</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Module1_Understanding_AI';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Module 2: AI as Your Daily Assistant — From Emails to Career" href="Module2_Daily_Assistant.html" />
+    <link rel="prev" title="AI for Everyday Life" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="AI for Everyday Life - Home"/>
+    <img src="_static/dendritic_logo.png" class="logo__image only-dark pst-js-only" alt="AI for Everyday Life - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    AI for Everyday Life
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 1: Understanding AI Without the Fear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module2_Daily_Assistant.html">Module 2: AI as Your Daily Assistant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module3_AI_Gets_Creative.html">Module 3: AI Gets Creative</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module4_Staying_Smart.html">Module 4: Staying Smart with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix.html">Appendix: In Class Activities</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL/edit/main/tempBook5/Module1_Understanding_AI.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Module1_Understanding_AI.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 1: Understanding AI Without the Fear</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-ai-is-already-in-your-life">Part I — AI is Already in Your Life</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#you-are-already-an-ai-user">1.1 You Are Already an AI User</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-artificial-intelligence-a-plain-language-definition">1.2 What is Artificial Intelligence? A Plain Language Definition</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-works-the-big-picture">1.3 How AI Works: The Big Picture</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-ai-a-simple-map">1.4 Types of AI: A Simple Map</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-is-not">1.5 What AI Is Not</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-myths-about-ai-busted">1.6 Common Myths About AI - Busted</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-meeting-the-tools-your-ai-toolkit">Part II — Meeting the Tools: Your AI Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-tool-landscape">2.1 The AI Tool Landscape</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-prompt-engineering">2.2 Basics of Prompt Engineering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-workspace-your-personal-learning-environment">2.3 The AI Workspace: Your Personal Learning Environment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-ai-workspace">Setting Up Your AI Workspace</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-teach-ai-to-know-you">2.4 Activity 1: Teach AI to Know You</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-communicating-with-ai-prompt-literacy">Part III — Communicating With AI: Prompt Literacy</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-patterns-choosing-the-right-approach">3.1 Prompt Patterns: Choosing the Right Approach</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#context-engineering-giving-ai-the-full-picture">3.2 Context Engineering: Giving AI the Full Picture</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-prompting-let-ai-create-and-or-improve-your-prompts">3.3 Meta-Prompting: Let AI Create and/or Improve Your Prompts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-prompt-pattern-practice">3.4 Activity 2: Prompt Pattern Practice</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-reflection-and-wrap-up">Part IV — Reflection and Wrap-Up</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-all-these-examples-have-in-common">4.1 What All These Examples Have in Common</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-personal-takeaways">4.2 Your Personal Takeaways</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">4.3 Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-coming-in-class-2">4.4 What Is Coming in Class 2</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#class-1-summary-checklist">📋 Class 1 Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-1-understanding-ai-without-the-fear">
+<h1>Module 1: Understanding AI Without the Fear<a class="headerlink" href="#module-1-understanding-ai-without-the-fear" title="Link to this heading">#</a></h1>
+<p>You have probably heard a lot about Artificial Intelligence lately, in the news, at work, from family, or on social media. Some of what you have heard may feel exciting. Some of it may feel overwhelming or even a little scary. This first class is designed to cut through the noise, replace confusion with clarity, and replace fear with curiosity.</p>
+<p>By the end of this class, you will understand what AI is, how it works in plain everyday language, where it already shows up in your life, and what it cannot do. You will also know how to communicate with AI clearly and effectively, the essential skill that makes every other use of AI more powerful. Most importantly, you will have your very first real conversation with an AI tool, and you will have done it confidently, on your own.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>The most important thing to know before we begin:</strong> You do not need to be technical, mathematical, or “good with computers” to use AI tools well. Curiosity and common sense is part of what you need.</p>
+</div>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<p>By the end of this class, you will be able to:</p>
+<ol class="arabic simple">
+<li><p>Identify AI tools and systems you already interact with in daily life.</p></li>
+<li><p>Explain what Artificial Intelligence is in plain, jargon-free language.</p></li>
+<li><p>Describe how AI works at a high level, without any math or coding.</p></li>
+<li><p>Distinguish between different types of AI, particularly Generative AI.</p></li>
+<li><p>Name the most common AI chatbot tools and describe what each is used for.</p></li>
+<li><p>Write and refine your first AI prompts to complete a real-world task.</p></li>
+<li><p>Apply different prompt patterns to get more targeted, useful responses from AI.</p></li>
+<li><p>Use context engineering to adapt AI’s tone, role, and output to your specific situation.</p></li>
+<li><p>Use meta-prompting to let AI help you design or improve your own prompts.</p></li>
+<li><p>Reflect critically on what AI does well and what it gets wrong.</p></li>
+</ol>
+</section>
+<section id="part-i-ai-is-already-in-your-life">
+<h2>Part I — AI is Already in Your Life<a class="headerlink" href="#part-i-ai-is-already-in-your-life" title="Link to this heading">#</a></h2>
+<p>Before we define AI, let us start somewhere more personal: your own daily routine.</p>
+<section id="you-are-already-an-ai-user">
+<h3>1.1 You Are Already an AI User<a class="headerlink" href="#you-are-already-an-ai-user" title="Link to this heading">#</a></h3>
+<p>Most people who say “I have never used AI” are surprised to discover they use it every single day, they just did not know it had a name.</p>
+<p>Consider a typical morning:</p>
+<ul class="simple">
+<li><p>You wake up and check the <strong>weather app</strong> → AI predicted that forecast.</p></li>
+<li><p>You open <strong>email</strong> and notice that spam never reaches your inbox → AI filtered it out.</p></li>
+<li><p>You search for something on <strong>Google or Bing</strong> → AI ranked those results for you.</p></li>
+<li><p>You open <strong>Spotify, YouTube or Netflix</strong> → AI selected those recommendations based on what you have watched or listened to before.</p></li>
+<li><p>You use <strong>Google Maps</strong> to avoid traffic → AI calculated the fastest route in real time.</p></li>
+<li><p>You ask <strong>Siri, Alexa, or Google</strong> a question → AI understood your voice and generated an answer.</p></li>
+</ul>
+<p>None of this required you to understand AI. You were already benefiting from it.</p>
+<blockquote>
+<div><p><strong>Key insight:</strong> AI is not a single thing that lives in a robot. It is a set of technologies woven quietly into the tools you already use every day.</p>
+</div></blockquote>
+</section>
+<section id="what-is-artificial-intelligence-a-plain-language-definition">
+<h3>1.2 What is Artificial Intelligence? A Plain Language Definition<a class="headerlink" href="#what-is-artificial-intelligence-a-plain-language-definition" title="Link to this heading">#</a></h3>
+<p>Here is the simplest honest definition:</p>
+<blockquote>
+<div><p>Artificial Intelligence (AI) is software that learns from examples or by interacting with the environment, and uses what it learned to make decisions, answer questions, or create new content. AI solutions are programmed to learn how to solve a problem, instead of being programmed to do so.</p>
+</div></blockquote>
+<p>That is it. No magic. No consciousness. No feelings. Just very sophisticated learning machines.</p>
+<p>Think of it this way: when you were a child learning to recognize cats, someone showed you many pictures and said “cat” or “not a cat.” Over time, you learned to spot a cat anywhere, even cartoon cats, tiny cats, cats in the dark. This is one of the many ways we can learn, and AI can learn the same way.</p>
+<p><strong>What makes AI different from regular software?</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Regular Software</p></th>
+<th class="head text-left"><p>Artificial Intelligence</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Is programmed to do something specific</p></td>
+<td class="text-left"><p>Learns what it should do based on examples or interactions with the environment</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Does exactly what it is told</p></td>
+<td class="text-left"><p>Can adapt and improve over time</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Cannot handle situations it was not programmed for</p></td>
+<td class="text-left"><p>Can generalize to new, unseen situations</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Output is fixed and predictable</p></td>
+<td class="text-left"><p>Output can vary and surprise even its creators</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A calculator, for example, is not AI, it follows precise rules every time. A spam filter that learns which emails are junk based on your behavior <em>is</em> AI.</p>
+</section>
+<section id="how-ai-works-the-big-picture">
+<h3>1.3 How AI Works: The Big Picture<a class="headerlink" href="#how-ai-works-the-big-picture" title="Link to this heading">#</a></h3>
+<p>You do not need to understand the math. Here is the three-step process that describes how almost every AI system works:</p>
+<p><strong>Step 1 — We give it inputs (signals, examples or data)</strong><br />
+AI systems are trained on input data: text, images, sounds, numbers, etc. This is called <em>training data</em>. The more representative the data, the better the AI learns.</p>
+<p><strong>Step 2 — AI learns from it</strong><br />
+Algorithms scan all those examples and identify patterns, similarities, and relationships. This happens automatically and at incredible scale.</p>
+<p><strong>Step 3 — AI applies what it learned</strong><br />
+When you ask AI a question or give it a task, it uses the patterns it learned during training to generate a response, make a decision, or create content.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>AI is making its best guess based on patterns, it is not accessing the internet in real time (unless specifically told to), it is not thinking, and it does not “know” things the way humans do. It can be wrong and thus your judgment always matters.</p>
+</div>
+</section>
+<section id="types-of-ai-a-simple-map">
+<h3>1.4 Types of AI: A Simple Map<a class="headerlink" href="#types-of-ai-a-simple-map" title="Link to this heading">#</a></h3>
+<p>The word “AI” covers many different technologies. Here are the ones most relevant to everyday life:</p>
+<p><strong>Narrow AI (most AI you encounter today)</strong><br />
+Designed to do one specific task very well. Examples: facial recognition in your phone, the algorithm that sorts your email, a chess-playing program. Narrow AI is extremely good at its one job but cannot do anything outside of it.</p>
+<p><strong>Generative AI (the newest wave and what this program focuses on)</strong><br />
+A type of AI that can <em>create</em> new content: text, images, music, video, code, and more. When you hear about ChatGPT, Claude, Gemini, or Copilot, these are all Generative AI tools. Instead of just analyzing, segmenting or classifying, they generate something new in response to what you ask.</p>
+<p><strong>General AI (does not exist yet)</strong><br />
+A hypothetical AI that could reason across any domain the way a human can, with flexibly, common sense, and across wildly different situations. This remains a research goal, not a current reality.</p>
+<p><img alt="Types of AI" src="_images/TypesofAI.png" /></p>
+</section>
+<section id="what-ai-is-not">
+<h3>1.5 What AI Is Not<a class="headerlink" href="#what-ai-is-not" title="Link to this heading">#</a></h3>
+<p>As important as understanding what AI is, is understanding what it is not. Several common beliefs about AI are simply wrong, and those misunderstandings are the source of most unnecessary fear.</p>
+<p><strong>AI is not conscious or self-aware.</strong><br />
+There is no awareness, no feelings, and no inner experience inside an AI system. When ChatGPT says “I think…” or “I feel…”, it is generating text that sounds human because it was trained on human writing. It is not actually thinking or feeling anything.</p>
+<p><strong>AI is not always right.</strong><br />
+This is one of the most important things to internalize. AI can produce confident-sounding answers that are completely wrong. This phenomenon even has a name: <em>hallucination</em>. We will practice spotting and verifying AI output throughout this program.</p>
+<p><strong>AI is not reading your mind.</strong><br />
+AI responds to exactly what you type. If your question is vague, the answer may be vague. If your question is specific and well-structured, the answer may be far more useful. This is why learning to communicate well with AI matters.</p>
+<p><strong>AI is not going to replace you.</strong><br />
+AI excels at repetitive, pattern-based tasks. What it cannot replicate is your judgment, your lived experience, your relationships, your creativity, and your ethical reasoning. The realistic picture is AI as a powerful assistant, not a replacement.</p>
+<p><img alt="Human Intelligence and Artificial Intelligence" src="_images/HIAI.png" /></p>
+</section>
+<section id="common-myths-about-ai-busted">
+<h3>1.6 Common Myths About AI - Busted<a class="headerlink" href="#common-myths-about-ai-busted" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>The Myth</p></th>
+<th class="head text-left"><p>The Reality</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>“AI knows everything.”</p></td>
+<td class="text-left"><p>AI knows patterns from its training data. It has a knowledge cutoff and can confidently say false things.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>“You need to be tech-savvy to use AI.”</p></td>
+<td class="text-left"><p>If you can type a sentence, you can use AI. The skill is knowing what to ask, not how to code.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>“AI is always objective and unbiased.”</p></td>
+<td class="text-left"><p>AI learns from human-generated data, which contains human biases. AI can and does reflect those biases.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>“AI is dangerous and out of control.”</p></td>
+<td class="text-left"><p>Current AI tools are software applications with significant limitations. They require human input and oversight.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>“AI will make my job disappear overnight.”</p></td>
+<td class="text-left"><p>Change is gradual. AI is more likely to change <em>how</em> you work than to eliminate the need for you entirely.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>“If AI said it, it must be true.”</p></td>
+<td class="text-left"><p>Not always. Always verify important AI outputs before acting on them.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="part-ii-meeting-the-tools-your-ai-toolkit">
+<h2>Part II — Meeting the Tools: Your AI Toolkit<a class="headerlink" href="#part-ii-meeting-the-tools-your-ai-toolkit" title="Link to this heading">#</a></h2>
+<p>Now that you understand what AI is, let us look at the specific tools you will be working with throughout this program.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Many of the tasks that we are going to discuss here can be performed by specialized GenAI tools. Despite that, our program choice was to show you how to do the same tasks using general-purpose AI models, whenever it is possible. This will give you the knowledge and skills necessary to learn how to use AI independently of specialized AI tools.</p>
+</div>
+<section id="the-ai-tool-landscape">
+<h3>2.1 The AI Tool Landscape<a class="headerlink" href="#the-ai-tool-landscape" title="Link to this heading">#</a></h3>
+<p>There are many general-purpose AI apps and tools available today. The good news is that they work in very similar ways and if you learn to use one, you will adapt quickly to the others. Furthermore, if you know how to perform a task using general-purpose models, you can use any specialized AI tool that you want, it is just a matter of learning how to operate them.</p>
+<p><strong>The major general-purpose AI platforms:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Platform</p></th>
+<th class="head text-left"><p>Made By</p></th>
+<th class="head text-left"><p>Access</p></th>
+<th class="head text-left"><p>Best Known For</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>ChatGPT</strong></p></td>
+<td class="text-left"><p>OpenAI</p></td>
+<td class="text-left"><p>Free / Paid (Plus)</p></td>
+<td class="text-left"><p>Most widely used; versatile; strong general tasks</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Claude</strong></p></td>
+<td class="text-left"><p>Anthropic</p></td>
+<td class="text-left"><p>Free / Paid (Pro)</p></td>
+<td class="text-left"><p>Long documents; thoughtful, nuanced responses</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Gemini</strong></p></td>
+<td class="text-left"><p>Google</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Integration with Google Workspace (Docs, Gmail)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Copilot</strong></p></td>
+<td class="text-left"><p>Microsoft</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Integration with Microsoft 365 (Word, Excel, Outlook)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Perplexity</strong></p></td>
+<td class="text-left"><p>Perplexity AI</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Web search + AI answers with cited sources</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Grok</strong></p></td>
+<td class="text-left"><p><a class="reference external" href="http://x.ai">x.ai</a></p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Images and videos; integrated with X</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="basics-of-prompt-engineering">
+<h3>2.2 Basics of Prompt Engineering<a class="headerlink" href="#basics-of-prompt-engineering" title="Link to this heading">#</a></h3>
+<p>A <strong>prompt</strong> is simply what you type to an AI. It is your instruction, question, or request.</p>
+<p>Think of it like talking to a very knowledgeable assistant who has just started working with you today. They have never met you, they do not know your preferences, and they take your words literally. The more clearly you explain what you need, the better the result.</p>
+<p><strong>The five ingredients of a strong prompt:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Ingredient</p></th>
+<th class="head text-left"><p>What it Does</p></th>
+<th class="head text-left"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Role</strong></p></td>
+<td class="text-left"><p>Tells AI who to act as</p></td>
+<td class="text-left"><p><em>“Act as a friendly travel agent…”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Context</strong></p></td>
+<td class="text-left"><p>Gives background information</p></td>
+<td class="text-left"><p><em>“I am planning a 5-day trip to Portugal with my elderly mother…”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Instruction</strong></p></td>
+<td class="text-left"><p>Specifies exactly what to do</p></td>
+<td class="text-left"><p><em>“…create a day-by-day itinerary…”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Input Data</strong></p></td>
+<td class="text-left"><p>The content the model will work with</p></td>
+<td class="text-left"><p><em>“Here is a list of places we would like to visit”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Format</strong></p></td>
+<td class="text-left"><p>Describes how to present the answer</p></td>
+<td class="text-left"><p><em>“…organized by day, with morning, afternoon, and evening suggestions.”</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>You do not always need all of them, but the more you include, the better the AI’s response tend to be.</p>
+<p><strong>Weak prompt vs. strong prompt — a comparison:</strong></p>
+<p><em>Weak:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Tell</span> <span class="n">me</span> <span class="n">about</span> <span class="n">Portugal</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>Strong:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Act</span> <span class="k">as</span> <span class="n">a</span> <span class="n">friendly</span> <span class="n">travel</span> <span class="n">agent</span><span class="o">.</span> <span class="n">I</span> <span class="n">am</span> <span class="n">planning</span> <span class="n">a</span> <span class="mi">5</span><span class="o">-</span><span class="n">day</span> <span class="n">trip</span> <span class="n">to</span> <span class="n">Lisbon</span><span class="p">,</span> <span class="n">Portugal</span> 
+<span class="ow">in</span> <span class="n">October</span> <span class="k">with</span> <span class="n">my</span> <span class="mi">72</span><span class="o">-</span><span class="n">year</span><span class="o">-</span><span class="n">old</span> <span class="n">mother</span> <span class="n">who</span> <span class="n">has</span> <span class="n">difficulty</span> <span class="n">walking</span> <span class="n">long</span> <span class="n">distances</span><span class="o">.</span> 
+<span class="n">We</span> <span class="n">enjoy</span> <span class="n">history</span><span class="p">,</span> <span class="n">local</span> <span class="n">food</span><span class="p">,</span> <span class="ow">and</span> <span class="n">calm</span> <span class="n">neighborhoods</span><span class="o">.</span> 
+<span class="n">Create</span> <span class="n">a</span> <span class="n">day</span><span class="o">-</span><span class="n">by</span><span class="o">-</span><span class="n">day</span> <span class="n">itinerary</span> <span class="k">with</span> <span class="n">low</span><span class="o">-</span><span class="n">activity</span> <span class="n">options</span><span class="p">,</span> <span class="n">including</span> <span class="n">restaurant</span> 
+<span class="n">suggestions</span> <span class="k">for</span> <span class="n">each</span> <span class="n">evening</span><span class="o">.</span> <span class="n">Format</span> <span class="n">it</span> <span class="k">as</span> <span class="n">a</span> <span class="n">daily</span> <span class="n">plan</span> <span class="k">with</span> <span class="n">morning</span><span class="p">,</span> 
+<span class="n">afternoon</span><span class="p">,</span> <span class="ow">and</span> <span class="n">evening</span> <span class="n">sections</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The second prompt gives the AI a role, context, a specific task, input data, and a format. The output will be dramatically more useful and assertive.</p>
+</section>
+<section id="the-ai-workspace-your-personal-learning-environment">
+<h3>2.3 The AI Workspace: Your Personal Learning Environment<a class="headerlink" href="#the-ai-workspace-your-personal-learning-environment" title="Link to this heading">#</a></h3>
+<p>One of the most powerful, and most overlooked, features of modern AI platforms is the ability to create a <strong>persistent AI Workspace</strong>: a dedicated space where your AI assistant remembers who you are, what you are working on, and what you have already done together across multiple conversations.</p>
+<p>Think of it this way:</p>
+<blockquote>
+<div><p>A generic AI chat is like calling a helpline and starting from scratch every time. An AI Workspace is like having a knowledgeable friend you have been talking with for long, one who remembers your preferences, knows your situation, and picks up exactly where you left off.</p>
+</div></blockquote>
+<p>In this program, you will set up your <strong>AI Workspace</strong> at the beginning of Class 1 and use it across all classes. As you complete each activity and build your personal AI toolkit, you will bring that context into your Workspace. So, by the last class, your AI Workspace knows your goals, your preferred tools, your prompt library, and your learning journey.</p>
+<section id="setting-up-your-ai-workspace">
+<h4>Setting Up Your AI Workspace<a class="headerlink" href="#setting-up-your-ai-workspace" title="Link to this heading">#</a></h4>
+<p>Different AI platforms offer this feature under different names, but they all work the same way:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Platform</p></th>
+<th class="head"><p>Workspace Feature</p></th>
+<th class="head"><p>How to Access</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claude (Anthropic)</p></td>
+<td><p>Projects</p></td>
+<td><p><a class="reference external" href="http://claude.ai">claude.ai</a> → New Project</p></td>
+</tr>
+<tr class="row-odd"><td><p>ChatGPT (OpenAI)</p></td>
+<td><p>Projects</p></td>
+<td><p><a class="reference external" href="http://chatgpt.com">chatgpt.com</a> → Projects</p></td>
+</tr>
+<tr class="row-even"><td><p>Perplexity</p></td>
+<td><p>Spaces</p></td>
+<td><p><a class="reference external" href="http://perplexity.com">perplexity.com</a> → Spaces</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grok (<a class="reference external" href="http://X.ai">X.ai</a>)</p></td>
+<td><p>Projects</p></td>
+<td><p><a class="reference external" href="http://x.ai">x.ai</a> → Projects</p></td>
+</tr>
+<tr class="row-even"><td><p>Copilot (Microsoft)</p></td>
+<td><p>Projects</p></td>
+<td><p><a class="reference external" href="http://copilot.microsoft.com">copilot.microsoft.com</a> → Projects</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Regardless of the platform you choose, the setup follows the same simple logic:</p>
+<ol class="arabic simple">
+<li><p><strong>Create a new Workspace</strong> and give it a meaningful name, such as “My AI Learning Space” or “AI for Everyday Life — [Your Name].”</p></li>
+<li><p><strong>Write a short introduction about yourself.</strong> This is a brief paragraph, two to four sentences, that tells the AI who you are, what you are hoping to learn, and how you plan to use it. You will draft this in the first hands-on activity of this class.</p></li>
+<li><p><strong>Add context as you go.</strong> After each class, bring your notes, your best prompts, and your key takeaways back into the Workspace. The AI will build on what you have already shared.</p></li>
+<li><p><strong>Run all program activities inside this Workspace</strong>, not in a generic chat window. Start a new conversation (thread) for each class or topic, and give it a descriptive name. This is what keeps your experience organized and makes the AI genuinely useful over time, rather than just a one-off tool.</p></li>
+</ol>
+<p><strong>Why this matters:</strong></p>
+<blockquote>
+<div><p>A generic AI chat has no memory of you and starts fresh every time. Your AI Workspace does not. The difference between a frustrating AI experience and a genuinely helpful one is context, and you are going to build that context deliberately, class by class.</p>
+</div></blockquote>
+<p>By the end of this program, your Workspace will contain your personal introduction, your preferred communication style, your most useful prompts, and a set of everyday AI habits that work for your life. That is not just a learning exercise, it is a practical tool you will keep using long after the program ends.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><strong>A Glimpse of What’s Coming</strong></p>
+<p>Now that you know the ingredients of a strong prompt, here is a taste of what becomes possible once you put them together in a real conversation.</p>
+<p>In Class 2, you will work through a step-by-step exercise planning a multi-generational family trip through Europe, using ten carefully designed prompts that build on each other, just like briefing a knowledgeable travel agent over several meetings. Along the way, you will learn how to:</p>
+<ul class="simple">
+<li><p>Set up context so the AI keeps the whole group in mind throughout the conversation</p></li>
+<li><p>Build a plan layer by layer — overview first, then details, then personalisation</p></li>
+<li><p>Ask the AI to focus on different people’s needs separately</p></li>
+<li><p>Prompt the AI to <em>challenge its own suggestions</em> and flag what might go wrong</p></li>
+<li><p>Turn the conversation into a shareable, practical artefact you could use on the trip</p></li>
+</ul>
+<p>For now, the single most important habit to build is what you are about to practise in Activity 2: <strong>giving AI enough context, then refining as you go.</strong> Everything else grows from there.</p>
+</div>
+</section>
+</section>
+<section id="activity-1-teach-ai-to-know-you">
+<h3>2.4 Activity 1: Teach AI to Know You<a class="headerlink" href="#activity-1-teach-ai-to-know-you" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience how context changes everything, and practice refining a response.</p>
+<p><strong>Step 1 — Ask AI for a recipe</strong><br />
+Type this prompt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Suggest</span> <span class="n">a</span> <span class="n">recipe</span> <span class="k">for</span> <span class="n">dinner</span> <span class="n">tonight</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Step 2 — Refine with context</strong><br />
+Now try:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="n">have</span> <span class="n">chicken</span><span class="p">,</span> <span class="n">garlic</span><span class="p">,</span> <span class="n">tomatoes</span><span class="p">,</span> <span class="n">pasta</span><span class="p">,</span> <span class="ow">and</span> <span class="n">olive</span> <span class="n">oil</span> <span class="ow">in</span> <span class="n">my</span> <span class="n">kitchen</span><span class="o">.</span>
+<span class="n">I</span> <span class="n">am</span> <span class="n">cooking</span> <span class="k">for</span> <span class="n">two</span> <span class="n">people</span> <span class="ow">and</span> <span class="n">need</span> <span class="n">something</span> <span class="n">ready</span> <span class="ow">in</span> <span class="n">under</span> <span class="mi">30</span> <span class="n">minutes</span><span class="o">.</span>
+<span class="n">I</span> <span class="n">prefer</span> <span class="n">Mediterranean</span><span class="o">-</span><span class="n">style</span> <span class="n">food</span><span class="o">.</span> <span class="n">Please</span> <span class="n">suggest</span> <span class="n">one</span> <span class="n">recipe</span> <span class="k">with</span> 
+<span class="n">step</span><span class="o">-</span><span class="n">by</span><span class="o">-</span><span class="n">step</span> <span class="n">instructions</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Step 3 — Push it further</strong><br />
+If the recipe includes something you do not like or do not have, type a follow-up:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>I do not have [ingredient]. What can I substitute?
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Can you make this version suitable for someone who does not eat onions?
+</pre></div>
+</div>
+<p><strong>Discussion questions:</strong></p>
+<ul class="simple">
+<li><p>How did the first and second responses compare?</p></li>
+<li><p>What happened when you pushed back or asked for a change?</p></li>
+<li><p>What does this tell you about how AI conversations work?</p></li>
+</ul>
+<blockquote>
+<div><p>💡 <strong>Key insight:</strong> AI conversations are <em>iterative</em>. You do not have to get the perfect prompt on your first try. Ask, refine, push back, and redirect, just like you would with a human assistant.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="part-iii-communicating-with-ai-prompt-literacy">
+<h2>Part III — Communicating With AI: Prompt Literacy<a class="headerlink" href="#part-iii-communicating-with-ai-prompt-literacy" title="Link to this heading">#</a></h2>
+<p>Now that you know what AI is, where it already appears in your life, and which tools are available, it is time to learn the most important skill of all: how to communicate with it well.</p>
+<p>This part takes the five prompt ingredients you learned in Section 2.2 one step further. You will discover the <em>patterns</em> experienced AI users rely on, learn how to give AI the full picture so it responds with precision, and find out how to let AI itself help you write better prompts.</p>
+<section id="prompt-patterns-choosing-the-right-approach">
+<h3>3.1 Prompt Patterns: Choosing the Right Approach<a class="headerlink" href="#prompt-patterns-choosing-the-right-approach" title="Link to this heading">#</a></h3>
+<p>A <strong>prompt pattern</strong> is a reusable structure you can adapt to different situations. Think of them like sentence templates for communicating with AI. You do not need to memorize all of them, you just need to know which one fits the job.</p>
+<p><strong>The five most useful prompt patterns for everyday tasks:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Pattern</p></th>
+<th class="head text-left"><p>When to Use It</p></th>
+<th class="head text-left"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Instructional</strong></p></td>
+<td class="text-left"><p>Simple, clear tasks with a single output</p></td>
+<td class="text-left"><p><em>“Summarize this email thread in three bullet points.”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Role-Based</strong></p></td>
+<td class="text-left"><p>You want a specific tone, expertise, or perspective</p></td>
+<td class="text-left"><p><em>“Act as a professional editor. Improve the tone of this email.”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Chain-of-Thought</strong></p></td>
+<td class="text-left"><p>Complex tasks where reasoning matters</p></td>
+<td class="text-left"><p><em>“Think step by step. First identify the main issue in this complaint, then suggest a response.”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Few-Shot</strong></p></td>
+<td class="text-left"><p>You want the AI to match a specific style or format</p></td>
+<td class="text-left"><p><em>“Here is an example of the tone I want: [example]. Now write a similar email for this situation: [situation].”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Iterative</strong></p></td>
+<td class="text-left"><p>You want to refine the output through conversation</p></td>
+<td class="text-left"><p>Start with a draft, then: <em>“Make it shorter.” / “Change the tone to be warmer.” / “Add a call to action.”</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You do not need to pick just one pattern. The most powerful prompts often combine several, for example, a <em>role-based</em> prompt with <em>chain-of-thought</em> reasoning and a specific <em>output format</em>.</p>
+</div>
+</section>
+<section id="context-engineering-giving-ai-the-full-picture">
+<h3>3.2 Context Engineering: Giving AI the Full Picture<a class="headerlink" href="#context-engineering-giving-ai-the-full-picture" title="Link to this heading">#</a></h3>
+<p><strong>Prompt engineering</strong> is about how you phrase your instruction. <strong>Context engineering</strong> goes further, it is about everything that <em>surrounds</em> your instruction: the role you assign, the background you provide, the audience you define, and the constraints you set.</p>
+<p>Think of the difference this way:</p>
+<blockquote>
+<div><p><strong>Prompt engineering</strong> is choosing the right words.<br />
+<strong>Context engineering</strong> is making sure the AI understands the whole situation before it starts.</p>
+</div></blockquote>
+<p><strong>The key elements of context:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Element</p></th>
+<th class="head text-left"><p>What It Does</p></th>
+<th class="head text-left"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Role</strong></p></td>
+<td class="text-left"><p>Defines who the AI is acting as</p></td>
+<td class="text-left"><p><em>“You are a patient and professional customer service representative…”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Audience</strong></p></td>
+<td class="text-left"><p>Defines who will read the output</p></td>
+<td class="text-left"><p><em>“…writing to a frustrated customer who has been waiting two weeks for a refund.”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Purpose</strong></p></td>
+<td class="text-left"><p>Clarifies the goal</p></td>
+<td class="text-left"><p><em>“The goal is to acknowledge the issue, apologize sincerely, and offer a clear next step.”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Tone</strong></p></td>
+<td class="text-left"><p>Sets the emotional register</p></td>
+<td class="text-left"><p><em>“Keep the tone warm, empathetic, and professional, never defensive.”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Constraints</strong></p></td>
+<td class="text-left"><p>Sets limits on length, content, or style</p></td>
+<td class="text-left"><p><em>“Keep the email to three short paragraphs. Do not promise a specific timeline.”</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Context engineering in action — a before and after:</strong></p>
+<p><em>Without context:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Write</span> <span class="n">an</span> <span class="n">apology</span> <span class="n">email</span> <span class="n">to</span> <span class="n">a</span> <span class="n">customer</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>With context:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">You</span> <span class="n">are</span> <span class="n">a</span> <span class="n">customer</span> <span class="n">service</span> <span class="n">representative</span> <span class="k">for</span> <span class="n">a</span> <span class="n">small</span> <span class="n">online</span> <span class="n">retail</span> <span class="n">business</span><span class="o">.</span>
+<span class="n">A</span> <span class="n">customer</span> <span class="n">named</span> <span class="n">Maria</span> <span class="n">ordered</span> <span class="n">a</span> <span class="n">birthday</span> <span class="n">gift</span> <span class="n">two</span> <span class="n">weeks</span> <span class="n">ago</span> <span class="ow">and</span> <span class="n">it</span> <span class="n">has</span> <span class="ow">not</span> <span class="n">arrived</span><span class="o">.</span>
+<span class="n">She</span> <span class="n">has</span> <span class="n">emailed</span> <span class="n">twice</span> <span class="ow">and</span> <span class="ow">is</span> <span class="n">understandably</span> <span class="n">frustrated</span><span class="o">.</span>
+<span class="n">Write</span> <span class="n">a</span> <span class="n">professional</span><span class="p">,</span> <span class="n">warm</span><span class="p">,</span> <span class="ow">and</span> <span class="n">sincere</span> <span class="n">apology</span> <span class="n">email</span> <span class="n">that</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">Acknowledges</span> <span class="n">the</span> <span class="n">delay</span> <span class="ow">and</span> <span class="n">her</span> <span class="n">frustration</span> <span class="n">without</span> <span class="n">making</span> <span class="n">excuses</span>
+<span class="o">-</span> <span class="n">Confirms</span> <span class="n">you</span> <span class="n">are</span> <span class="n">investigating</span> <span class="n">the</span> <span class="n">shipment</span> <span class="n">status</span>
+<span class="o">-</span> <span class="n">Offers</span> <span class="n">her</span> <span class="n">a</span> <span class="mi">15</span><span class="o">%</span> <span class="n">discount</span> <span class="n">on</span> <span class="n">her</span> <span class="nb">next</span> <span class="n">order</span> <span class="k">as</span> <span class="n">a</span> <span class="n">goodwill</span> <span class="n">gesture</span>
+<span class="o">-</span> <span class="n">Keeps</span> <span class="n">the</span> <span class="n">tone</span> <span class="n">empathetic</span> <span class="ow">and</span> <span class="n">never</span> <span class="n">defensive</span>
+<span class="o">-</span> <span class="n">Is</span> <span class="n">no</span> <span class="n">longer</span> <span class="n">than</span> <span class="n">three</span> <span class="n">short</span> <span class="n">paragraphs</span>
+</pre></div>
+</div>
+<p>The second version gives the AI everything it needs to produce something genuinely useful, not just a generic apology.</p>
+</section>
+<section id="meta-prompting-let-ai-create-and-or-improve-your-prompts">
+<h3>3.3 Meta-Prompting: Let AI Create and/or Improve Your Prompts<a class="headerlink" href="#meta-prompting-let-ai-create-and-or-improve-your-prompts" title="Link to this heading">#</a></h3>
+<p>One of the most powerful and underused techniques is <strong>meta-prompting</strong>: asking AI to help you write or improve a prompt before you use it.</p>
+<p>This is especially helpful when you know what you want to accomplish but are not sure how to phrase it.</p>
+<p><strong>Meta-Prompt Template — Create a Prompt from Scratch:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="n">want</span> <span class="n">to</span> <span class="n">use</span> <span class="n">AI</span> <span class="n">to</span> <span class="n">help</span> <span class="n">me</span> <span class="k">with</span> <span class="n">the</span> <span class="n">following</span> <span class="n">goal</span><span class="p">:</span>
+<span class="p">[</span><span class="n">DESCRIBE</span> <span class="n">WHAT</span> <span class="n">YOU</span> <span class="n">WANT</span> <span class="n">TO</span> <span class="n">ACCOMPLISH</span><span class="p">]</span>
+
+<span class="n">My</span> <span class="n">audience</span> <span class="ow">is</span><span class="p">:</span> <span class="p">[</span><span class="n">WHO</span> <span class="n">WILL</span> <span class="n">READ</span> <span class="n">OR</span> <span class="n">BENEFIT</span> <span class="n">FROM</span> <span class="n">THE</span> <span class="n">OUTPUT</span><span class="p">]</span>
+<span class="n">The</span> <span class="n">tone</span> <span class="n">should</span> <span class="n">be</span><span class="p">:</span> <span class="p">[</span><span class="n">FORMAL</span> <span class="o">/</span> <span class="n">FRIENDLY</span> <span class="o">/</span> <span class="n">PERSUASIVE</span> <span class="o">/</span> <span class="n">INFORMATIVE</span> <span class="o">/</span> <span class="n">ETC</span><span class="o">.</span><span class="p">]</span>
+<span class="n">The</span> <span class="nb">format</span> <span class="n">I</span> <span class="n">need</span> <span class="ow">is</span><span class="p">:</span> <span class="p">[</span><span class="n">EMAIL</span> <span class="o">/</span> <span class="n">LIST</span> <span class="o">/</span> <span class="n">PLAN</span> <span class="o">/</span> <span class="n">SUMMARY</span> <span class="o">/</span> <span class="n">SOCIAL</span> <span class="n">POST</span> <span class="o">/</span> <span class="n">ETC</span><span class="o">.</span><span class="p">]</span>
+<span class="n">Any</span> <span class="n">important</span> <span class="n">details</span> <span class="ow">or</span> <span class="n">constraints</span><span class="p">:</span> <span class="p">[</span><span class="n">LENGTH</span><span class="p">,</span> <span class="n">STYLE</span><span class="p">,</span> <span class="n">THINGS</span> <span class="n">TO</span> <span class="n">INCLUDE</span> <span class="n">OR</span> <span class="n">AVOID</span><span class="p">]</span>
+
+<span class="n">Based</span> <span class="n">on</span> <span class="n">this</span><span class="p">,</span> <span class="n">write</span> <span class="n">me</span> <span class="n">a</span> <span class="n">strong</span><span class="p">,</span> <span class="n">ready</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">use</span> <span class="n">prompt</span> <span class="n">I</span> <span class="n">can</span> <span class="n">give</span> <span class="n">to</span> <span class="n">an</span> <span class="n">AI</span> <span class="n">tool</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Example</strong>: A small business owner wants to use AI to announce a new product on social media but doesn’t know how to start.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>I want to use AI to help me write a prompt with the following goal:
+Announce a new product on social media.
+
+My audience is: local customers in Southwest Florida, mostly 30–55 years old
+The tone should be: excited, friendly, and a little playful
+The format I need is: a short social media post (Instagram/Facebook)
+Any important details or constraints: the product is a new tropical fruit smoothie at
+my café, I want to include a call to action, keep it under 100 words, and use 2–3 emojis
+</pre></div>
+</div>
+<p><strong>Meta-Prompt Template — Improve a Weak Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Here</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">prompt</span> <span class="n">I</span> <span class="n">wrote</span><span class="p">:</span>
+
+<span class="p">[</span><span class="n">PASTE</span> <span class="n">YOUR</span> <span class="n">PROMPT</span> <span class="n">HERE</span><span class="p">]</span>
+
+<span class="n">My</span> <span class="n">goal</span> <span class="ow">is</span><span class="p">:</span> <span class="p">[</span><span class="n">DESCRIBE</span> <span class="n">WHAT</span> <span class="n">YOU</span> <span class="n">ARE</span> <span class="n">TRYING</span> <span class="n">TO</span> <span class="n">ACHIEVE</span><span class="p">]</span>
+<span class="n">My</span> <span class="n">audience</span> <span class="ow">is</span><span class="p">:</span> <span class="p">[</span><span class="n">DESCRIBE</span> <span class="n">WHO</span> <span class="n">WILL</span> <span class="n">READ</span> <span class="n">THE</span> <span class="n">OUTPUT</span><span class="p">]</span>
+
+<span class="n">Please</span> <span class="n">rewrite</span> <span class="n">this</span> <span class="n">prompt</span> <span class="n">to</span> <span class="n">make</span> <span class="n">it</span> <span class="n">more</span> <span class="n">effective</span><span class="o">.</span> 
+<span class="n">Explain</span> <span class="n">what</span> <span class="n">you</span> <span class="n">changed</span> <span class="ow">and</span> <span class="n">why</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Example:</strong> A participant in a community organization wants AI to help write a fundraising email but is not sure how to prompt it:</p>
+<p><em>Their original prompt:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Write</span> <span class="n">a</span> <span class="n">fundraising</span> <span class="n">email</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>After using the meta-prompt:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You are a warm and persuasive nonprofit communications writer.
+Write a fundraising appeal email for a local food bank serving Lee County, Florida.
+The email is addressed to past donors who gave between $25 and $100 last year.
+The goal is to inspire a repeat gift before the end of the fiscal year.
+Include: a compelling opening with a specific story or statistic, a clear call to action 
+with a donation link placeholder, and a warm, grateful closing.
+Tone: heartfelt, urgent but not pushy. Length: 250–300 words.
+</pre></div>
+</div>
+<p>The meta-prompt transformed a one-line instruction into a fully engineered prompt, and the resulting email was ready to use with minimal editing.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Next time you feel stuck on how to ask AI something, type: <em>“Help me write a better prompt to accomplish this goal: [your goal].”</em> AI will ask you clarifying questions or suggest an improved prompt directly.</p>
+</div>
+</section>
+<section id="activity-2-prompt-pattern-practice">
+<h3>3.4 Activity 2: Prompt Pattern Practice<a class="headerlink" href="#activity-2-prompt-pattern-practice" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience how different prompt patterns produce different responses to the same task.</p>
+<p><strong>The task:</strong> Ask AI to help you write a short professional bio for yourself (or an imaginary persona).</p>
+<p><strong>Round 1 — Instructional:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Write</span> <span class="n">a</span> <span class="n">short</span> <span class="n">professional</span> <span class="n">bio</span> <span class="k">for</span> <span class="n">me</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Round 2 — Role-Based:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">You</span> <span class="n">are</span> <span class="n">a</span> <span class="n">professional</span> <span class="n">copywriter</span> <span class="n">specializing</span> <span class="ow">in</span> <span class="n">personal</span> <span class="n">branding</span><span class="o">.</span>
+<span class="n">Write</span> <span class="n">a</span> <span class="n">compelling</span> <span class="mi">100</span><span class="o">-</span><span class="n">word</span> <span class="n">professional</span> <span class="n">bio</span> <span class="k">for</span> <span class="p">[</span><span class="n">name</span><span class="p">],</span> 
+<span class="n">who</span> <span class="n">works</span> <span class="k">as</span> <span class="n">a</span> <span class="p">[</span><span class="n">job</span> <span class="n">title</span><span class="p">]</span> <span class="k">with</span> <span class="p">[</span><span class="n">X</span><span class="p">]</span> <span class="n">years</span> <span class="n">of</span> <span class="n">experience</span> <span class="ow">in</span> <span class="p">[</span><span class="n">field</span><span class="p">]</span><span class="o">.</span>
+<span class="n">Tone</span><span class="p">:</span> <span class="n">confident</span><span class="p">,</span> <span class="n">approachable</span><span class="p">,</span> <span class="ow">and</span> <span class="n">human</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Round 3 — Iterative refinement:</strong>
+After reading Round 2’s output, give one follow-up instruction:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Make</span> <span class="n">it</span> <span class="n">sound</span> <span class="n">less</span> <span class="n">formal</span> <span class="ow">and</span> <span class="n">more</span> <span class="n">conversational</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Then another:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Add</span> <span class="n">a</span> <span class="n">sentence</span> <span class="n">about</span> <span class="n">what</span> <span class="n">this</span> <span class="n">person</span> <span class="ow">is</span> <span class="n">passionate</span> <span class="n">about</span> <span class="n">outside</span> <span class="n">of</span> <span class="n">work</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Reflect:</strong></p>
+<ul class="simple">
+<li><p>Which round produced the most useful result?</p></li>
+<li><p>How much did each follow-up instruction change the output?</p></li>
+<li><p>What does this tell you about how AI conversations work?</p></li>
+</ul>
+</section>
+</section>
+<section id="part-iv-reflection-and-wrap-up">
+<h2>Part IV — Reflection and Wrap-Up<a class="headerlink" href="#part-iv-reflection-and-wrap-up" title="Link to this heading">#</a></h2>
+<section id="what-all-these-examples-have-in-common">
+<h3>4.1 What All These Examples Have in Common<a class="headerlink" href="#what-all-these-examples-have-in-common" title="Link to this heading">#</a></h3>
+<p>Looking back at everything we covered in this class, the AI tools already in your life, how AI learns, and the hands-on demos, a pattern emerges.</p>
+<p>Every AI tool we explored:</p>
+<ul class="simple">
+<li><p><strong>Supports your decisions</strong>: it offers options, but the final choice is always yours.</p></li>
+<li><p><strong>Adapts to your context</strong>: the more you tell it, the more relevant its response.</p></li>
+<li><p><strong>Reflects your inputs</strong>: the quality of the output depends directly on the quality of what you put in.</p></li>
+<li><p><strong>Requires your judgment</strong>: AI is the assistant; you are the one accountable for what happens next.</p></li>
+</ul>
+<p>This is the heart of <strong>Human-Centered AI</strong>: the technology serves the human, not the other way around.</p>
+</section>
+<section id="your-personal-takeaways">
+<h3>4.2 Your Personal Takeaways<a class="headerlink" href="#your-personal-takeaways" title="Link to this heading">#</a></h3>
+<p>Before moving on, take a moment to write down your own answers to these three questions:</p>
+<ol class="arabic simple">
+<li><p>One thing I learned today that surprised me:</p></li>
+<li><p>One AI tool I want to try on my own this week:</p></li>
+<li><p>One question I still have about AI:</p></li>
+</ol>
+<p>Hold onto these, we will revisit them at the end of Class 4.</p>
+</section>
+<section id="reflection">
+<h3>4.3 Reflection<a class="headerlink" href="#reflection" title="Link to this heading">#</a></h3>
+<blockquote>
+<div><p>How does knowing that AI involves pattern recognition and prediction change how you feel about using it?<br />
+What responsibility do you think AI users have when sharing AI-generated content with others?<br />
+Looking at the myths we busted today, which one had the biggest effect on how you thought about AI before this class?</p>
+</div></blockquote>
+<p>There are no wrong answers to these questions. The goal is to develop a thoughtful, grounded relationship with AI technology, one based on understanding rather than hype or fear.</p>
+</section>
+<section id="what-is-coming-in-class-2">
+<h3>4.4 What Is Coming in Class 2<a class="headerlink" href="#what-is-coming-in-class-2" title="Link to this heading">#</a></h3>
+<p>In the next class, we will put everything you have learned to work on the tasks that fill most people’s daily and professional lives:</p>
+<ul class="simple">
+<li><p><strong>Emails</strong>: drafting, rewriting, improving tone, and responding to difficult messages.</p></li>
+<li><p><strong>Documents</strong>: summarizing long content, creating reports, and improving written communication.</p></li>
+<li><p><strong>Search</strong>: using AI to find flights, local services, and real-world information more efficiently than a search engine.</p></li>
+<li><p><strong>Spreadsheets</strong>: asking AI to explain data, generate formulas, and simplify numbers for you.</p></li>
+<li><p><strong>Career</strong>: tailoring your CV, writing cover letters, and preparing for interviews with AI support.</p></li>
+</ul>
+<p>By the end of Class 2, you will have used AI to complete real tasks you face every week, and you will walk away with a personal Prompt Library of tested, ready-to-use templates.</p>
+</section>
+</section>
+<section id="class-1-summary-checklist">
+<h2>📋 Class 1 Summary Checklist<a class="headerlink" href="#class-1-summary-checklist" title="Link to this heading">#</a></h2>
+<p>Before you move on, confirm that you can do the following:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Name at least three AI tools you already use in daily life.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Explain what AI is in one sentence, without using technical jargon.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Describe how AI learns in three simple steps.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> List at least three things AI is <em>not</em> (bust three myths).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Name two or more AI chatbot platforms and describe what each does.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Write a prompt using at least three of the five ingredients (Role, Context, Task, Input Data, Format).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Name and apply at least three prompt patterns (instructional, role-based, iterative).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use context engineering to set role, audience, tone, and constraints in a prompt.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use a meta-prompt to let AI improve or generate a prompt for you.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Reflect on one thing AI did well and one thing it got wrong in your hands-on activities.</p></li>
+</ul>
+</section>
+<section id="further-reading">
+<h2>📘 Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<p>Learners who wish to explore the ideas introduced in this class are encouraged to consult:</p>
+<ul class="simple">
+<li><p><strong>Mollick, E. (2024).</strong> <em>Co-Intelligence: Living and Working with AI.</em> Portfolio/Penguin. <em>(Highly recommended — written for a general audience.)</em></p></li>
+<li><p><strong>Senior Planet. (2024).</strong> <em>AI Guide for Older Adults.</em> <a class="reference external" href="http://seniorplanet.org">seniorplanet.org</a>.</p></li>
+<li><p><strong>Anthropic. (2024).</strong> <em>What is Claude?</em> <a class="reference external" href="http://claude.ai/about">claude.ai/about</a>.</p></li>
+<li><p><strong>OpenAI. (2024).</strong> <em>How ChatGPT Works.</em> <a class="reference external" href="http://openai.com">openai.com</a>.</p></li>
+<li><p><strong>Google. (2024).</strong> <em>Introduction to Generative AI.</em> Google Cloud Skills Boost (free, no technical background required). <a class="reference external" href="http://cloud.google.com/training">cloud.google.com/training</a>.</p></li>
+<li><p><strong>de Castro, L. N. (2026).</strong> <em>Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design.</em> CRC Press.</p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Module 2: What is AI and Its Many Branches.</em> FGCU AI Academy.</p></li>
+<li><p><strong>Prompt Engineering Guide. (2024).</strong> <a class="reference external" href="http://promptingguide.ai">promptingguide.ai</a> — a free, comprehensive reference for prompt patterns and techniques.</p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Module 5: Fundamentals of Prompt Engineering.</em> FGCU AI Academy.</p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Module 6: Context Engineering.</em> FGCU AI Academy.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Class 1 is part of the AI for Everyday Life Program, offered by the Dendritic Institute for Human-Centered AI &amp; Data Science at Florida Gulf Coast University. No technical background is required. All hands-on activities can be completed using free AI tools.</em></p>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">AI for Everyday Life</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Module2_Daily_Assistant.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Module 2: AI as Your Daily Assistant — From Emails to Career</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-ai-is-already-in-your-life">Part I — AI is Already in Your Life</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#you-are-already-an-ai-user">1.1 You Are Already an AI User</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-artificial-intelligence-a-plain-language-definition">1.2 What is Artificial Intelligence? A Plain Language Definition</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-works-the-big-picture">1.3 How AI Works: The Big Picture</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-ai-a-simple-map">1.4 Types of AI: A Simple Map</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-is-not">1.5 What AI Is Not</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-myths-about-ai-busted">1.6 Common Myths About AI - Busted</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-meeting-the-tools-your-ai-toolkit">Part II — Meeting the Tools: Your AI Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-tool-landscape">2.1 The AI Tool Landscape</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-prompt-engineering">2.2 Basics of Prompt Engineering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-ai-workspace-your-personal-learning-environment">2.3 The AI Workspace: Your Personal Learning Environment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-ai-workspace">Setting Up Your AI Workspace</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-teach-ai-to-know-you">2.4 Activity 1: Teach AI to Know You</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-communicating-with-ai-prompt-literacy">Part III — Communicating With AI: Prompt Literacy</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-patterns-choosing-the-right-approach">3.1 Prompt Patterns: Choosing the Right Approach</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#context-engineering-giving-ai-the-full-picture">3.2 Context Engineering: Giving AI the Full Picture</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-prompting-let-ai-create-and-or-improve-your-prompts">3.3 Meta-Prompting: Let AI Create and/or Improve Your Prompts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-prompt-pattern-practice">3.4 Activity 2: Prompt Pattern Practice</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-reflection-and-wrap-up">Part IV — Reflection and Wrap-Up</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-all-these-examples-have-in-common">4.1 What All These Examples Have in Common</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-personal-takeaways">4.2 Your Personal Takeaways</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">4.3 Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-coming-in-class-2">4.4 What Is Coming in Class 2</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#class-1-summary-checklist">📋 Class 1 Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

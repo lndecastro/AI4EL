@@ -1,0 +1,1630 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Module 3: AI Gets Creative — Images, Presentations, Music &amp; Avatars &#8212; AI for Everyday Life</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Module3_AI_Gets_Creative';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Module 4: Staying Smart with AI — Trust, Safety &amp; Your Personal Toolkit" href="Module4_Staying_Smart.html" />
+    <link rel="prev" title="Module 2: AI as Your Daily Assistant — From Emails to Career" href="Module2_Daily_Assistant.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="AI for Everyday Life - Home"/>
+    <img src="_static/dendritic_logo.png" class="logo__image only-dark pst-js-only" alt="AI for Everyday Life - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    AI for Everyday Life
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Module1_Understanding_AI.html">Module 1: Understanding AI Without the Fear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module2_Daily_Assistant.html">Module 2: AI as Your Daily Assistant</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 3: AI Gets Creative</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module4_Staying_Smart.html">Module 4: Staying Smart with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix.html">Appendix: In Class Activities</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL/edit/main/tempBook5/Module3_AI_Gets_Creative.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Module3_AI_Gets_Creative.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 3: AI Gets Creative — Images, Presentations, Music & Avatars</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-ai-and-creativity-a-new-kind-of-partnership">Part I — AI and Creativity: A New Kind of Partnership</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-analysis-to-creation-what-generative-ai-produces">1.1 From Analysis to Creation: What Generative AI Produces</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-human-ai-co-creation-mindset">1.2 The Human-AI Co-Creation Mindset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copyright-ethics-and-creative-ai-what-you-need-to-know">1.3 Copyright, Ethics, and Creative AI: What You Need to Know</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-ai-generated-images">Part II — AI-Generated Images</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-image-generation-works">2.1 How Image Generation Works</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-major-image-generation-tools">2.2 The Major Image Generation Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompting-for-images-describing-what-you-want">2.3 Prompting for Images: Describing What You Want</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-generate-your-first-image">2.4 Activity 1: Generate Your First Image</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-ai-for-presentations">Part III — AI for Presentations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-ai-presentation-tools-are-a-game-changer">3.1 Why AI Presentation Tools Are a Game-Changer?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-major-ai-presentation-tools">3.2 Some Major AI Presentation Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-builds-a-presentation">3.3 How AI Builds a Presentation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-templates-for-ai-presentations">3.4 Prompt Templates for AI Presentations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-build-a-presentation-with-ai">3.5 Activity 2: Build a Presentation with AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-prompt-a-presentation">3.6 Activity 3: Prompt a Presentation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-ai-music-and-audio">Part IV — AI Music and Audio</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-music-tools-can-do">4.1 What AI Music Tools Can Do</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-major-ai-music-tools">4.2 Some Major AI Music Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompting-for-music-describing-what-you-want-to-hear">4.3 Prompting for Music: Describing What You Want to Hear</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-4-create-an-ai-music-piece">4.4 Activity 4: Create an AI Music Piece</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-v-ai-avatars-and-synthetic-voices">Part V — AI Avatars and Synthetic Voices</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-avatars-are">5.1 What AI Avatars Are</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-avatar-and-voice-tools">5.2 Some Avatar and Voice Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#realistic-use-cases">5.3 Realistic Use Cases</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-5-explore-an-ai-avatar-or-voice-tool">5.4 Activity 5: Explore an AI Avatar or Voice Tool</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-vi-ai-for-real-life-creative-projects">Part VI — AI for Real-Life Creative Projects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-6-create-a-digital-birthday-party-invitation">6.1 Activity 6: Create a Digital Birthday Party Invitation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-7-plan-a-company-with-ai-brand-identity-and-website">6.2 Activity 7: Plan a Company with AI — Brand Identity and Website</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-1-plan-define-the-core-components-of-your-company">Stage 1 — Plan: Define the Core Components of Your Company</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-2-brand-create-the-visual-identity">Stage 2 — Brand: Create the Visual Identity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-3-build-create-the-company-website">Stage 3 — Build: Create the Company Website</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-vii-putting-creative-ai-in-perspective">Part VII — Putting Creative AI in Perspective</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-distinguishes-human-creativity-from-ai-generation">7.1 What Distinguishes Human Creativity from AI Generation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-practical-creative-ai-ethics-checklist">7.2 A Practical Creative AI Ethics Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">7.3 Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-coming-in-class-4">7.4 What Is Coming in Class 4</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#class-3-summary-checklist">📋 Class 3 Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-3-ai-gets-creative-images-presentations-music-avatars">
+<h1>Module 3: AI Gets Creative — Images, Presentations, Music &amp; Avatars<a class="headerlink" href="#module-3-ai-gets-creative-images-presentations-music-avatars" title="Link to this heading">#</a></h1>
+<p>So far in this program, you have learned what AI is, how to talk to it, and how to use it for writing, data, and career tasks. In this class, we step into what many people find the most surprising, and most delightful, dimension of AI: <strong>creation of visual and artistic assets</strong>.</p>
+<p>Until recently, generating a professional image, recording a piece of music, building a polished slide deck, or creating a speaking avatar required specialized software, significant time, and often years of training. Generative AI has fundamentally changed this. Today, anyone with a free account and a well-crafted prompt can produce visual content, music, and multimedia that would have been out of reach just a few years ago.</p>
+<p>This class is about <strong>exploring that creative frontier</strong>, not as a passive observer, but as someone who creates, experiments, and makes thoughtful choices about when and how to use these tools.</p>
+<blockquote>
+<div><p><strong>The guiding idea of this class:</strong> AI is a creative collaborator, not a replacement for your ideas. The most powerful creative AI outputs are the ones where a human, that is, you, provides the direction, taste, and judgment. AI supplies the execution.</p>
+</div></blockquote>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<p>By the end of this class, you will be able to:</p>
+<ol class="arabic simple">
+<li><p>Explain how Generative AI produces creative content, such as images, music, presentations, interactive podcasts, and avatars, in plain language.</p></li>
+<li><p>Write effective text prompts to generate images that match your intent.</p></li>
+<li><p>Use an AI presentation tool to build a complete slide deck from an outline or description.</p></li>
+<li><p>Experiment with AI music generation for personal and professional use.</p></li>
+<li><p>Create and interact with AI podcasts.</p></li>
+<li><p>Describe what AI avatars are and identify realistic, responsible use cases for them.</p></li>
+<li><p>Apply a practical copyright and ethics framework to any creative AI output before using or sharing it.</p></li>
+<li><p>Reflect on the boundary between human creativity and AI-assisted creation.</p></li>
+</ol>
+</section>
+<section id="part-i-ai-and-creativity-a-new-kind-of-partnership">
+<h2>Part I — AI and Creativity: A New Kind of Partnership<a class="headerlink" href="#part-i-ai-and-creativity-a-new-kind-of-partnership" title="Link to this heading">#</a></h2>
+<section id="from-analysis-to-creation-what-generative-ai-produces">
+<h3>1.1 From Analysis to Creation: What Generative AI Produces<a class="headerlink" href="#from-analysis-to-creation-what-generative-ai-produces" title="Link to this heading">#</a></h3>
+<p>In Class 1, we introduced the idea that Generative AI, unlike traditional AI, does not just analyze or classify. It <em>creates</em>. It learns the underlying patterns in vast amounts of human-made content and uses those patterns to produce something new.</p>
+<p>The table below, adapted from the AI Literacy Program, shows a broad landscape of what today’s Generative AI can create:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Input</p></th>
+<th class="head text-left"><p>Output</p></th>
+<th class="head text-left"><p>Tools You Can Use Today</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Text description</p></td>
+<td class="text-left"><p><strong>Image</strong></p></td>
+<td class="text-left"><p>DALL·E (ChatGPT), Midjourney, Adobe Firefly, Canva AI, Gemini</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Text description</p></td>
+<td class="text-left"><p><strong>Music or audio</strong></p></td>
+<td class="text-left"><p>Suno, Udio, MusicLM</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Text outline or notes</p></td>
+<td class="text-left"><p><strong>Presentation slides</strong></p></td>
+<td class="text-left"><p>Gamma, <a class="reference external" href="http://Beautiful.ai">Beautiful.ai</a>, Copilot (PowerPoint), Canva AI</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Text description</p></td>
+<td class="text-left"><p><strong>Video clip</strong></p></td>
+<td class="text-left"><p>Runway, Pika, Google Veo</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Text script</p></td>
+<td class="text-left"><p><strong>Talking avatar</strong></p></td>
+<td class="text-left"><p>HeyGen, Synthesia, D-ID</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Text description</p></td>
+<td class="text-left"><p><strong>Interactive Podcast</strong></p></td>
+<td class="text-left"><p>NotebookLM, Elevenlabs, Wondercraft</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Text prompt</p></td>
+<td class="text-left"><p><strong>Written content</strong></p></td>
+<td class="text-left"><p>ChatGPT, Claude, Gemini, etc.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>These tools do not think creatively, they recombine and interpolate patterns from enormous datasets of human-made content. What makes the output <em>creative</em> is the intention and judgment you bring to directing them.</p>
+</div>
+</section>
+<section id="the-human-ai-co-creation-mindset">
+<h3>1.2 The Human-AI Co-Creation Mindset<a class="headerlink" href="#the-human-ai-co-creation-mindset" title="Link to this heading">#</a></h3>
+<p>Before we explore specific tools, it is worth establishing a mindset that will serve you well across everything in this class:</p>
+<blockquote>
+<div><p><strong>You are the director. AI is the production team.</strong></p>
+</div></blockquote>
+<p>Think of yourself as a film director. You do not operate the camera, design the costumes, or compose the score yourself, but you provide the vision, make the decisions, and take responsibility for the final product. AI tools are the production team: fast, tireless, and highly capable, but entirely dependent on your direction.</p>
+<p>This means:</p>
+<ul class="simple">
+<li><p>The <em>idea</em> comes from you.</p></li>
+<li><p>The <em>judgment</em> about whether the output is good, appropriate, and accurate comes from you.</p></li>
+<li><p>The <em>responsibility</em> for how the content is used comes from you.</p></li>
+</ul>
+<p>A good creative AI workflow follows three steps:</p>
+<p><strong>Generate → Evaluate → Refine.</strong></p>
+<p>Rarely does the first output perfectly match your vision. Expect to iterate by adjusting your prompt, trying different options, and combining AI-generated elements with your own editing and judgment.</p>
+</section>
+<section id="copyright-ethics-and-creative-ai-what-you-need-to-know">
+<h3>1.3 Copyright, Ethics, and Creative AI: What You Need to Know<a class="headerlink" href="#copyright-ethics-and-creative-ai-what-you-need-to-know" title="Link to this heading">#</a></h3>
+<p>Before generating any creative content with AI, there are important practical and ethical questions to understand. This is not meant to discourage you, instead it is meant to make you a thoughtful, responsible creator.</p>
+<p><strong>Copyright and ownership:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Situation</p></th>
+<th class="head text-left"><p>What You Need to Know</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>You generate an image with AI</strong></p></td>
+<td class="text-left"><p>In most countries, AI-generated images cannot currently be copyrighted by the user. Always check the terms of service of the tool you use. Furthermore, there are many applications that do not accept the use of AI-generated images. Always check the terms of service.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>You generate music with AI</strong></p></td>
+<td class="text-left"><p>Ownership varies by tool. Some platforms (e.g., Suno) retain rights to the audio; others allow commercial use. Read the terms carefully.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>You use AI to build a presentation</strong></p></td>
+<td class="text-left"><p>The text, structure, and arrangement you create may be your intellectual property, but verify with the tool’s terms of service.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>You generate content that resembles a real person</strong></p></td>
+<td class="text-left"><p>This raises serious ethical and potentially legal concerns. Never create realistic images or voices of identifiable people without their consent.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>You train or fine-tune AI on someone else’s art</strong></p></td>
+<td class="text-left"><p>This is a rapidly evolving legal area. When in doubt, avoid using other artists’ work as input without permission.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Ethical guardrails for this class:</strong></p>
+<ul class="simple">
+<li><p>✅ Generate original creative content for personal, educational, or professional use.</p></li>
+<li><p>✅ Experiment, explore, and have fun with creative tools.</p></li>
+<li><p>⚠️ Be transparent when sharing AI-generated content, especially in professional or public contexts.</p></li>
+<li><p>❌ Do not generate realistic images or audio of real, identifiable people without consent.</p></li>
+<li><p>❌ Do not use AI-generated content to deceive, mislead, or misrepresent.</p></li>
+<li><p>❌ Do not claim AI-generated work as entirely your own in contexts where that would be dishonest (academic submissions, professional portfolios).</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When in doubt, disclose. Saying <em>“I created this with AI assistance”</em> is a sign of transparency and integrity, not weakness.</p>
+</div>
+</section>
+</section>
+<section id="part-ii-ai-generated-images">
+<h2>Part II — AI-Generated Images<a class="headerlink" href="#part-ii-ai-generated-images" title="Link to this heading">#</a></h2>
+<section id="how-image-generation-works">
+<h3>2.1 How Image Generation Works<a class="headerlink" href="#how-image-generation-works" title="Link to this heading">#</a></h3>
+<p>You type a prompt and the AI generates an image that matches it. The AI was trained on hundreds of millions of images paired with text descriptions, so it has learned the visual patterns associated with an enormous range of subjects, styles, moods, and compositions.</p>
+<p>The most widely used image generation technology today is called <strong>diffusion</strong>: the AI starts from random visual noise and gradually refines it, step by step, into a coherent image that fits your description. Think of it like a photograph slowly developing in a darkroom, guided by your words.</p>
+</section>
+<section id="the-major-image-generation-tools">
+<h3>2.2 The Major Image Generation Tools<a class="headerlink" href="#the-major-image-generation-tools" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Tool</p></th>
+<th class="head text-left"><p>Access</p></th>
+<th class="head text-left"><p>Best For</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>DALL·E</strong> (inside ChatGPT)</p></td>
+<td class="text-left"><p>Free / Paid (ChatGPT Plus)</p></td>
+<td class="text-left"><p>Quick generation; easy to use; integrated with ChatGPT</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Adobe Firefly</strong></p></td>
+<td class="text-left"><p>Free (with Adobe account)</p></td>
+<td class="text-left"><p>Professional, commercially safe images; integrates with Photoshop and Canva</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Canva AI</strong> (Magic Media)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Social media graphics, presentations, and marketing materials</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Gemini</strong> (Google)</p></td>
+<td class="text-left"><p>Free</p></td>
+<td class="text-left"><p>Image generation integrated with Google tools</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Grok</strong> (xAI / X)</p></td>
+<td class="text-left"><p>Free / Paid (X Premium)</p></td>
+<td class="text-left"><p>Creative and photorealistic images; integrated with X (formerly Twitter)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Midjourney</strong></p></td>
+<td class="text-left"><p>Paid (subscription)</p></td>
+<td class="text-left"><p>High-quality artistic and stylized images; popular with designers</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Microsoft Designer</strong></p></td>
+<td class="text-left"><p>Free (Microsoft account)</p></td>
+<td class="text-left"><p>Image generation integrated with Microsoft 365 tools</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Recommendation for beginners:</strong> Start with <strong>DALL·E inside ChatGPT</strong> or <strong>Canva AI</strong>. Both are free, easy to access, and produce high-quality results without any setup.</p>
+</div>
+</section>
+<section id="prompting-for-images-describing-what-you-want">
+<h3>2.3 Prompting for Images: Describing What You Want<a class="headerlink" href="#prompting-for-images-describing-what-you-want" title="Link to this heading">#</a></h3>
+<p>Image prompting is different from text prompting. Instead of instructions, you are writing a <em>description of what you want to see</em>. The more vivid and specific your description, the more precise the result.</p>
+<p><strong>The anatomy of an effective image prompt:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Element</p></th>
+<th class="head text-left"><p>What It Does</p></th>
+<th class="head text-left"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Subject</strong></p></td>
+<td class="text-left"><p>What is the main focus of the image?</p></td>
+<td class="text-left"><p><em>“a golden retriever puppy”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Setting</strong></p></td>
+<td class="text-left"><p>Where is it? What is the environment?</p></td>
+<td class="text-left"><p><em>“sitting on a sunlit porch in a Florida neighborhood”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Style</strong></p></td>
+<td class="text-left"><p>What visual style do you want?</p></td>
+<td class="text-left"><p><em>“watercolor painting”</em> / <em>“professional photograph”</em> / <em>“flat design illustration”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Mood or lighting</strong></p></td>
+<td class="text-left"><p>What feeling or atmosphere?</p></td>
+<td class="text-left"><p><em>“warm, golden hour light”</em> / <em>“moody and dramatic”</em></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Composition</strong></p></td>
+<td class="text-left"><p>Any specific framing or angle?</p></td>
+<td class="text-left"><p><em>“close-up portrait”</em> / <em>“wide landscape shot”</em></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Color palette</strong></p></td>
+<td class="text-left"><p>Any specific colors?</p></td>
+<td class="text-left"><p><em>“soft pastel tones”</em> / <em>“black and white”</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>From weak to strong — image prompt example:</strong></p>
+<p><em>Weak prompt:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">dog</span> <span class="n">on</span> <span class="n">a</span> <span class="n">porch</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>Strong prompt:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">golden</span> <span class="n">retriever</span> <span class="n">puppy</span> <span class="n">sitting</span> <span class="n">on</span> <span class="n">a</span> <span class="n">sunlit</span> <span class="n">wooden</span> <span class="n">porch</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">quiet</span> 
+<span class="n">Florida</span> <span class="n">suburban</span> <span class="n">neighborhood</span><span class="p">,</span> <span class="n">surrounded</span> <span class="n">by</span> <span class="n">potted</span> <span class="n">tropical</span> <span class="n">plants</span><span class="o">.</span> 
+<span class="n">Warm</span> <span class="n">golden</span> <span class="n">hour</span> <span class="n">light</span><span class="o">.</span> <span class="n">Professional</span> <span class="n">lifestyle</span> <span class="n">photograph</span><span class="o">.</span> 
+<span class="n">Shallow</span> <span class="n">depth</span> <span class="n">of</span> <span class="n">field</span><span class="p">,</span> <span class="n">soft</span> <span class="n">background</span> <span class="n">blur</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The second prompt gives the AI enough specific detail to generate something genuinely close to what you envision.</p>
+<p><strong>Useful style keywords to know:</strong></p>
+<ul class="simple">
+<li><p><em>Photorealistic</em>: looks like a real photograph</p></li>
+<li><p><em>Watercolor</em>: soft, painted look with visible brushstrokes</p></li>
+<li><p><em>Flat design</em>: simple, bold colors with no shadows (common in app icons and infographics)</p></li>
+<li><p><em>Oil painting</em>: rich textures, painterly feel</p></li>
+<li><p><em>Minimalist</em>: clean, simple, lots of white space</p></li>
+<li><p><em>Vintage / retro</em>: aged look, old color palettes</p></li>
+<li><p><em>Cinematic</em>: dramatic lighting, movie-like framing</p></li>
+</ul>
+</section>
+<section id="activity-1-generate-your-first-image">
+<h3>2.4 Activity 1: Generate Your First Image<a class="headerlink" href="#activity-1-generate-your-first-image" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience image generation and learn through iteration.</p>
+<p><strong>Step 1 — Access an image generation tool</strong><br />
+Go to <a class="reference external" href="https://chatgpt.com/images">chatgpt.com/images</a> (free, uses DALL·E) or <a class="reference external" href="https://canva.com/ai">canva.com/ai</a> → Magic Media, or <a class="reference external" href="https://designer.microsoft.com">designer.microsoft.com</a>.</p>
+<p><strong>Step 2 — Try a simple prompt first</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">cozy</span> <span class="n">coffee</span> <span class="n">shop</span> <span class="n">on</span> <span class="n">a</span> <span class="n">rainy</span> <span class="n">afternoon</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Observe the result. What did AI decide about style, color, and mood that you did not specify?</p>
+<p><strong>Step 3 — Add detail and specificity</strong><br />
+Now try a richer version of the same scene:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">cozy</span> <span class="n">independent</span> <span class="n">coffee</span> <span class="n">shop</span> <span class="n">interior</span> <span class="n">on</span> <span class="n">a</span> <span class="n">rainy</span> <span class="n">afternoon</span><span class="o">.</span> 
+<span class="n">Warm</span> <span class="n">amber</span> <span class="n">lighting</span> <span class="kn">from</span><span class="w"> </span><span class="nn">hanging</span> <span class="n">Edison</span> <span class="n">bulbs</span><span class="o">.</span> 
+<span class="n">Wooden</span> <span class="n">tables</span><span class="p">,</span> <span class="n">steaming</span> <span class="n">mugs</span><span class="p">,</span> <span class="ow">and</span> <span class="n">large</span> <span class="n">rain</span><span class="o">-</span><span class="n">streaked</span> <span class="n">windows</span> 
+<span class="n">showing</span> <span class="n">a</span> <span class="n">blurred</span> <span class="n">city</span> <span class="n">street</span> <span class="n">outside</span><span class="o">.</span> 
+<span class="n">Photorealistic</span> <span class="n">style</span><span class="o">.</span> <span class="n">No</span> <span class="n">people</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">image</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Step 4 — Try a practical use case</strong><br />
+Think of something you could genuinely use an image for:</p>
+<ul class="simple">
+<li><p>A social media post for a community event</p></li>
+<li><p>A background for a presentation slide</p></li>
+<li><p>A greeting card illustration</p></li>
+<li><p>A logo concept for a small business or hobby</p></li>
+</ul>
+<p>Write a prompt for that specific use case and generate it.</p>
+<p><strong>Step 5 — Request changes and see AI adapt</strong><br />
+Take the image you generated in Step 3 and ask the AI to change one element of the scene.
+You are not starting over, you are refining. Try prompts like these:</p>
+<p><em>Change the weather:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Change</span> <span class="n">the</span> <span class="n">scene</span> <span class="n">to</span> <span class="n">a</span> <span class="n">bright</span> <span class="n">sunny</span> <span class="n">morning</span><span class="o">.</span> 
+<span class="n">Keep</span> <span class="n">everything</span> <span class="k">else</span> <span class="n">the</span> <span class="n">same</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>Change the season:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Make</span> <span class="n">it</span> <span class="n">a</span> <span class="n">snowy</span> <span class="n">winter</span> <span class="n">evening</span> <span class="n">outside</span> <span class="n">the</span> <span class="n">window</span> <span class="n">instead</span> <span class="n">of</span> <span class="n">rain</span><span class="o">.</span> 
+<span class="n">Keep</span> <span class="n">the</span> <span class="n">warm</span> <span class="n">interior</span> <span class="n">lighting</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>Change the mood or time of day:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Change</span> <span class="n">the</span> <span class="n">lighting</span> <span class="n">to</span> <span class="n">late</span> <span class="n">evening</span><span class="o">.</span> 
+<span class="n">Add</span> <span class="n">a</span> <span class="n">candle</span> <span class="n">on</span> <span class="n">each</span> <span class="n">table</span> <span class="k">for</span> <span class="n">a</span> <span class="n">more</span> <span class="n">intimate</span> <span class="n">atmosphere</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Notice how much, or how little, the AI carries over from the original image. Does it preserve the details you wanted to keep? This is how real users work with AI image tools: not by starting from scratch every time, but by iterating toward the result they need.</p>
+<p><strong>Step 6 — Reflect</strong></p>
+<ul class="simple">
+<li><p>How did adding detail change the output?</p></li>
+<li><p>Did the AI interpret anything differently than you expected?</p></li>
+<li><p>When you requested changes in Step 5, what did the AI keep, change, or lose?</p></li>
+<li><p>Is the result something you would actually use? What would you change?</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>AI image generators can occasionally produce images with distorted hands, inconsistent text, or unintended content. Always review before sharing. If a generated image looks “almost right,” try refining your prompt with more specific detail.</p>
+</div>
+</section>
+</section>
+<section id="part-iii-ai-for-presentations">
+<h2>Part III — AI for Presentations<a class="headerlink" href="#part-iii-ai-for-presentations" title="Link to this heading">#</a></h2>
+<section id="why-ai-presentation-tools-are-a-game-changer">
+<h3>3.1 Why AI Presentation Tools Are a Game-Changer?<a class="headerlink" href="#why-ai-presentation-tools-are-a-game-changer" title="Link to this heading">#</a></h3>
+<p>Creating a presentation has traditionally required three separate skills: organizing your ideas, designing slides that look professional, and deciding what to put on each one. AI presentation tools collapse all three into a single, guided process, often producing a complete, designed deck in a few minutes.</p>
+<p>This does not mean the result is ready to present without your input. It means you skip the blank-slide problem entirely and start from something you can refine, rather than something you have to build from scratch.</p>
+</section>
+<section id="some-major-ai-presentation-tools">
+<h3>3.2 Some Major AI Presentation Tools<a class="headerlink" href="#some-major-ai-presentation-tools" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Tool</p></th>
+<th class="head text-left"><p>Access</p></th>
+<th class="head text-left"><p>What Makes It Distinctive</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Gamma</strong> (gamma.app)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Best overall for speed and design quality; generates full decks from a prompt or outline</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Canva AI</strong></p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Strong design templates; integrates with existing Canva workflows</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong><a class="reference external" href="http://Beautiful.ai">Beautiful.ai</a></strong></p></td>
+<td class="text-left"><p>Paid</p></td>
+<td class="text-left"><p>Sophisticated design automation; good for professional business decks</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Copilot in PowerPoint</strong></p></td>
+<td class="text-left"><p>Paid (Microsoft 365 Copilot)</p></td>
+<td class="text-left"><p>AI assistance inside familiar PowerPoint; ideal if you already use Microsoft 365</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Google Slides + Gemini</strong></p></td>
+<td class="text-left"><p>Free (Google Workspace)</p></td>
+<td class="text-left"><p>AI assistance inside Google Slides for Workspace users</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong><a class="reference external" href="http://Tomeapp.ai">Tomeapp.ai</a></strong></p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Story-driven presentations with a narrative focus</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Start with <strong>Gamma</strong>, as it is free, requires no design experience, and produces fast and impressive results from a simple text description.</p>
+</div>
+</section>
+<section id="how-ai-builds-a-presentation">
+<h3>3.3 How AI Builds a Presentation<a class="headerlink" href="#how-ai-builds-a-presentation" title="Link to this heading">#</a></h3>
+<p>Most AI presentation tools follow this workflow:</p>
+<p><strong>Step 1 — You describe what you need</strong><br />
+Either in a text prompt (<em>“Create a 6-slide presentation about the benefits of volunteering in your local community”</em>) or by pasting an outline, a document, or even bullet points.</p>
+<p><strong>Step 2 — AI generates a structured deck</strong><br />
+The tool creates a slide-by-slide structure with titles, content, and visual design. Slides are organized logically based on your input.</p>
+<p><strong>Step 3 — AI selects or generates visuals</strong><br />
+Most tools automatically add images, icons, or illustrations to complement each slide’s content.</p>
+<p><strong>Step 4 — You review, edit, and refine</strong><br />
+This step is critical. Review every slide. Edit any content that is inaccurate, generic, or does not sound like you. Replace placeholder images that do not fit. Add your own examples, data, or stories.</p>
+<p><strong>Step 5 — Export and present</strong><br />
+Most tools export to PDF, PowerPoint, or Google Slides.</p>
+</section>
+<section id="prompt-templates-for-ai-presentations">
+<h3>3.4 Prompt Templates for AI Presentations<a class="headerlink" href="#prompt-templates-for-ai-presentations" title="Link to this heading">#</a></h3>
+<p><strong>Template 1 — Build from a topic:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Create a [X]-slide presentation about [topic].
+Audience: [describe who will see it — colleagues, community members, students, etc.]
+Purpose: [inform / persuade / train / inspire]
+Tone: [professional / friendly / educational / conversational]
+Include: an opening slide, [specific sections you want], and a closing slide 
+with key takeaways or a call to action.
+</pre></div>
+</div>
+<p><strong>Template 2 — Build from your own content:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="n">have</span> <span class="n">the</span> <span class="n">following</span> <span class="n">notes</span> <span class="ow">and</span> <span class="n">bullet</span> <span class="n">points</span><span class="o">.</span> 
+<span class="n">Please</span> <span class="n">turn</span> <span class="n">them</span> <span class="n">into</span> <span class="n">a</span> <span class="n">structured</span> <span class="p">[</span><span class="n">X</span><span class="p">]</span><span class="o">-</span><span class="n">slide</span> <span class="n">presentation</span><span class="o">.</span>
+<span class="n">Organize</span> <span class="n">the</span> <span class="n">content</span> <span class="n">logically</span><span class="p">,</span> <span class="n">write</span> <span class="n">clear</span> <span class="n">slide</span> <span class="n">titles</span><span class="p">,</span>
+<span class="ow">and</span> <span class="n">suggest</span> <span class="n">one</span> <span class="n">image</span> <span class="ow">or</span> <span class="n">visual</span> <span class="n">concept</span> <span class="k">for</span> <span class="n">each</span> <span class="n">slide</span><span class="o">.</span>
+<span class="n">Here</span> <span class="n">are</span> <span class="n">my</span> <span class="n">notes</span><span class="p">:</span>
+<span class="p">[</span><span class="n">PASTE</span> <span class="n">YOUR</span> <span class="n">NOTES</span> <span class="n">OR</span> <span class="n">OUTLINE</span><span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Template 3 — Improve an existing presentation:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Here</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">content</span> <span class="kn">from</span><span class="w"> </span><span class="nn">my</span> <span class="n">current</span> <span class="n">presentation</span><span class="o">.</span>
+<span class="n">Please</span> <span class="n">review</span> <span class="n">it</span> <span class="ow">and</span> <span class="n">suggest</span><span class="p">:</span>
+<span class="mf">1.</span> <span class="n">A</span> <span class="n">more</span> <span class="n">compelling</span> <span class="n">title</span> <span class="k">for</span> <span class="n">each</span> <span class="n">slide</span>
+<span class="mf">2.</span> <span class="n">Any</span> <span class="n">content</span> <span class="n">that</span> <span class="n">could</span> <span class="n">be</span> <span class="n">cut</span> <span class="n">to</span> <span class="n">reduce</span> <span class="n">clutter</span>
+<span class="mf">3.</span> <span class="n">A</span> <span class="n">stronger</span> <span class="n">opening</span> <span class="n">slide</span> <span class="n">that</span> <span class="n">immediately</span> <span class="n">engages</span> <span class="n">the</span> <span class="n">audience</span>
+<span class="p">[</span><span class="n">PASTE</span> <span class="n">YOUR</span> <span class="n">CURRENT</span> <span class="n">SLIDES</span><span class="s1">&#39; TEXT]</span>
+</pre></div>
+</div>
+</section>
+<section id="activity-2-build-a-presentation-with-ai">
+<h3>3.5 Activity 2: Build a Presentation with AI<a class="headerlink" href="#activity-2-build-a-presentation-with-ai" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience AI-assisted presentation creation from prompt to polished deck.</p>
+<p><strong>Step 1 — Choose your topic</strong><br />
+Pick something you might genuinely present: a project update, a community initiative, a hobby, a simple how-to, or anything you know well.</p>
+<p><strong>Step 2 — Go to Gamma.app</strong><br />
+Visit <a class="reference external" href="https://gamma.app">gamma.app</a> and create a free account. Click “New AI” and choose “Presentation.”</p>
+<p><strong>Step 3 — Enter your prompt</strong><br />
+Using Template 1 as a guide, write a clear description of what you need. Be specific about audience, tone, and what you want on each slide.</p>
+<p><strong>Step 4 — Review the generated deck</strong><br />
+Go through every slide. For each one, ask:</p>
+<ul class="simple">
+<li><p>Is this content accurate?</p></li>
+<li><p>Does it reflect what I actually want to say?</p></li>
+<li><p>Is this how I would say it?</p></li>
+<li><p>Does the image or visual fit?</p></li>
+</ul>
+<p><strong>Step 5 — Make at least three edits</strong><br />
+Change a title, rewrite a bullet point in your own voice, replace an image, or add a personal example. This step is crucial; it is what makes the presentation <em>yours</em>.</p>
+<p><strong>Reflect:</strong></p>
+<ul class="simple">
+<li><p>How long did the full process take, compared to building slides from scratch?</p></li>
+<li><p>What did AI get right without being told?</p></li>
+<li><p>What required your correction or personal touch?</p></li>
+<li><p>Would you use this tool again? For what situations?</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>AI-generated presentations often use generic language and stock imagery. They are strong starting points but weak final products without your editing. Never present AI-generated slides without reading every word first, as errors and inaccuracies do appear.</p>
+</div>
+</section>
+<section id="activity-3-prompt-a-presentation">
+<h3>3.6 Activity 3: Prompt a Presentation<a class="headerlink" href="#activity-3-prompt-a-presentation" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Use Claude to generate a complete, slide-by-slide presentation from a single detailed prompt, then refine it through conversation.</p>
+<p><strong>Step 1 — Choose your topic</strong></p>
+<p>Pick something you might genuinely present: a project update, a community initiative, a hobby, a simple how-to, or anything you know well. You will use this same topic throughout the activity.</p>
+<p><strong>Step 2 — Open Claude and write your presentation prompt</strong></p>
+<p>Go to <a class="reference external" href="https://claude.ai">claude.ai</a> and start a new conversation. Use the template below as your starting point. Fill in the blanks before you send it.</p>
+<p><strong>Full Presentation Prompt</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&quot;Please create a complete slide-by-slide presentation on the topic of **[your topic]**.
+The audience is **[describe your audience, for example: coworkers, community members, students, neighbors]**.
+The tone should be **[choose one or two: friendly, professional, inspiring, informative, conversational]**.
+The presentation should have **[number, e.g., 6–8]** slides and last approximately **[time, e.g., 10 minutes]**.
+
+For each slide, please provide:
+- A clear slide title
+- Three to five bullet points or a short paragraph of content
+- A brief speaker note suggesting what I might say out loud
+
+Start with a title slide and end with a closing or call-to-action slide.&quot;
+</pre></div>
+</div>
+<p><strong>Step 3 — Review Claude’s output</strong></p>
+<p>Read through every slide carefully. For each one, ask yourself:</p>
+<ul class="simple">
+<li><p>Is this content accurate and true to my topic?</p></li>
+<li><p>Does it reflect what I actually want to say?</p></li>
+<li><p>Is this how I would naturally say it, or does it sound generic?</p></li>
+<li><p>Are the speaker notes helpful and realistic?</p></li>
+<li><p>Is anything missing, off-topic, or awkward?</p></li>
+</ul>
+<p><strong>Step 4 — Refine your Presentation</strong></p>
+<p>If the model generated the PPTX file for you, you can download and refine it as you wish.</p>
+<p><strong>Step 5 — Make the presentation yours</strong></p>
+<p>Go back through every slide and make at least three personal edits:</p>
+<ul class="simple">
+<li><p>Replace a bullet point with a specific example from your own experience.</p></li>
+<li><p>Rewrite a sentence in your own voice, the way you would actually say it.</p></li>
+<li><p>Add, remove, or reorder a slide based on what feels right for your audience.</p></li>
+<li><p>Adjust any wording that sounds too formal, too casual, or just “not like you.”</p></li>
+</ul>
+<p>This step is not optional. AI-generated content reflects a general voice, not yours. Editing is how you take ownership of the material.</p>
+<p><strong>Reflect:</strong></p>
+<ul class="simple">
+<li><p>How did the quality of the model first output compare to what you expected?</p></li>
+<li><p>Which follow-up prompts made the biggest difference?</p></li>
+<li><p>What did the model handle well without being told?</p></li>
+<li><p>What required your personal knowledge or judgment to fix?</p></li>
+<li><p>How does working with a general-purpose LLM compare to building slides from scratch? To using a dedicated tool like Gamma?</p></li>
+<li><p>In what situations would you use this approach in the future?</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Claude generates text based on patterns and general knowledge, but it does not know your audience, your organization, or your personal style unless you tell it. Always verify facts, names, and specific figures before presenting. A polished-sounding slide is not the same as an accurate one. Read every word before you stand in front of an audience.</p>
+</div>
+</section>
+</section>
+<section id="part-iv-ai-music-and-audio">
+<h2>Part IV — AI Music and Audio<a class="headerlink" href="#part-iv-ai-music-and-audio" title="Link to this heading">#</a></h2>
+<section id="what-ai-music-tools-can-do">
+<h3>4.1 What AI Music Tools Can Do<a class="headerlink" href="#what-ai-music-tools-can-do" title="Link to this heading">#</a></h3>
+<p>AI music generation tools create original audio, instrumentals, songs with lyrics, ambient soundscapes, and more, from a text description. You do not need to play an instrument, read music, or have any audio production skills.</p>
+<p>Modern tools like <strong>Suno</strong> and <strong>Udio</strong> can generate a two-minute song, complete with vocals, melody, and instrumentation, in a short period of time and for free.</p>
+<p><strong>What you can create:</strong></p>
+<ul class="simple">
+<li><p>Background music for presentations, videos, or events</p></li>
+<li><p>A simple jingle for a small business or community organization</p></li>
+<li><p>Ambient sound for focus or relaxation</p></li>
+<li><p>Experimental creative pieces for personal enjoyment</p></li>
+<li><p>A personalized birthday or celebration song</p></li>
+</ul>
+</section>
+<section id="some-major-ai-music-tools">
+<h3>4.2 Some Major AI Music Tools<a class="headerlink" href="#some-major-ai-music-tools" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Tool</p></th>
+<th class="head text-left"><p>Access</p></th>
+<th class="head text-left"><p>What It Does</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Suno</strong> (<a class="reference external" href="http://suno.com">suno.com</a>)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>Full songs with vocals and instrumentation from a text prompt; extremely easy to use</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Udio</strong> (<a class="reference external" href="http://udio.com">udio.com</a>)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>High-quality music generation; strong for varied genres</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>MusicLM</strong> (Google)</p></td>
+<td class="text-left"><p>Via Google Labs</p></td>
+<td class="text-left"><p>Research-grade music generation; accessible through Google tools</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Mubert</strong></p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>AI-generated royalty-free background music for videos and content</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Soundraw</strong></p></td>
+<td class="text-left"><p>Paid</p></td>
+<td class="text-left"><p>Customizable AI music for creators and content producers</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="prompting-for-music-describing-what-you-want-to-hear">
+<h3>4.3 Prompting for Music: Describing What You Want to Hear<a class="headerlink" href="#prompting-for-music-describing-what-you-want-to-hear" title="Link to this heading">#</a></h3>
+<p>Music prompts describe the <em>sound, mood, genre, and feel</em> of what you want, not instructions for how to compose it.</p>
+<p><strong>Useful descriptive elements for music prompts:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Element</p></th>
+<th class="head text-left"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Genre</strong></p></td>
+<td class="text-left"><p>Jazz, classical, pop, lo-fi, folk, gospel, electronic, bossa nova</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Mood</strong></p></td>
+<td class="text-left"><p>Uplifting, melancholic, energetic, peaceful, dramatic, playful</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Tempo</strong></p></td>
+<td class="text-left"><p>Slow and gentle, mid-tempo, fast and driving</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Instruments</strong></p></td>
+<td class="text-left"><p>Piano, acoustic guitar, strings, brass, synthesizer</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Vocals</strong></p></td>
+<td class="text-left"><p>Instrumental only, female vocals, male vocals, choral</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Setting or use</strong></p></td>
+<td class="text-left"><p>Background music for a presentation, party music, study music</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Example music prompts:</strong></p>
+<p><em>For a community event:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Uplifting</span> <span class="ow">and</span> <span class="n">warm</span> <span class="n">acoustic</span> <span class="n">folk</span> <span class="n">music</span><span class="p">,</span> <span class="n">gentle</span> <span class="n">guitar</span> <span class="ow">and</span> <span class="n">light</span> <span class="n">percussion</span><span class="p">,</span>
+<span class="n">moderate</span> <span class="n">tempo</span><span class="p">,</span> <span class="n">feel</span><span class="o">-</span><span class="n">good</span> <span class="ow">and</span> <span class="n">community</span><span class="o">-</span><span class="n">spirited</span><span class="p">,</span> <span class="n">no</span> <span class="n">vocals</span><span class="p">,</span> 
+<span class="n">suitable</span> <span class="k">as</span> <span class="n">background</span> <span class="n">music</span> <span class="k">for</span> <span class="n">a</span> <span class="n">neighborhood</span> <span class="n">gathering</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>For a fun birthday song:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">playful</span><span class="p">,</span> <span class="n">catchy</span> <span class="n">birthday</span> <span class="n">song</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">pop</span> <span class="n">style</span><span class="o">.</span> 
+<span class="n">Happy</span> <span class="ow">and</span> <span class="n">celebratory</span> <span class="n">lyrics</span> <span class="n">about</span> <span class="n">turning</span> <span class="n">another</span> <span class="n">year</span> <span class="n">older</span><span class="o">.</span>
+<span class="n">Upbeat</span> <span class="n">tempo</span><span class="p">,</span> <span class="n">bright</span> <span class="n">piano</span> <span class="n">melody</span><span class="p">,</span> <span class="n">clapping</span> <span class="n">rhythm</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><em>For focus while working:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Calm</span> <span class="n">lo</span><span class="o">-</span><span class="n">fi</span> <span class="n">instrumental</span> <span class="n">music</span><span class="o">.</span> <span class="n">Soft</span> <span class="n">piano</span><span class="p">,</span> <span class="n">light</span> <span class="n">ambient</span> <span class="n">textures</span><span class="p">,</span>
+<span class="n">slow</span> <span class="n">tempo</span><span class="p">,</span> <span class="n">no</span> <span class="n">sudden</span> <span class="n">changes</span><span class="p">,</span> <span class="n">peaceful</span> <span class="ow">and</span> <span class="n">focused</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="activity-4-create-an-ai-music-piece">
+<h3>4.4 Activity 4: Create an AI Music Piece<a class="headerlink" href="#activity-4-create-an-ai-music-piece" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Generate an original piece of audio from a text description.</p>
+<p><strong>Step 1 — Visit Suno</strong><br />
+Go to <a class="reference external" href="https://suno.com">suno.com</a> and create a free account. You receive a set of free generation credits each day.</p>
+<p><strong>Step 2 — Describe your music</strong><br />
+Click “Create” and type a prompt describing what you want to hear. You can describe the genre, mood, instruments, and any lyrics or theme.</p>
+<p>Try one of these to start:
+Option A:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Cheerful tropical acoustic music, ukulele and light percussion, </span>
+<span class="n">no</span> <span class="n">vocals</span><span class="p">,</span> <span class="n">perfect</span> <span class="k">for</span> <span class="n">a</span> <span class="n">summer</span> <span class="n">event</span><span class="o">.</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p>Option B:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;An uplifting gospel-inspired song about community and coming together, </span>
+<span class="n">soulful</span> <span class="n">female</span> <span class="n">vocals</span><span class="p">,</span> <span class="n">piano</span> <span class="ow">and</span> <span class="n">choir</span><span class="o">.</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p>Option C:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Lo-fi jazz instrumental, mellow and relaxed, late night coffee shop </span>
+<span class="n">atmosphere</span><span class="p">,</span> <span class="n">saxophone</span> <span class="ow">and</span> <span class="n">piano</span><span class="o">.</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p><strong>Step 3 — Listen and evaluate</strong></p>
+<ul class="simple">
+<li><p>Does it match the mood you imagined?</p></li>
+<li><p>Is there anything you would change about the description to get a different result?</p></li>
+<li><p>Can you think of a real situation where you might use music like this?</p></li>
+</ul>
+<p><strong>Step 4 — Try a second generation with a refined prompt</strong><br />
+Adjust one or two elements in your description and generate again. Compare the two outputs.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Always check the <strong>terms of service</strong> of the music tool you use before sharing or publishing AI-generated music. Free tiers of some tools (including Suno’s basic plan) may restrict commercial use. For personal and educational use, this is generally not a concern.</p>
+</div>
+</section>
+</section>
+<section id="part-v-ai-avatars-and-synthetic-voices">
+<h2>Part V — AI Avatars and Synthetic Voices<a class="headerlink" href="#part-v-ai-avatars-and-synthetic-voices" title="Link to this heading">#</a></h2>
+<section id="what-ai-avatars-are">
+<h3>5.1 What AI Avatars Are<a class="headerlink" href="#what-ai-avatars-are" title="Link to this heading">#</a></h3>
+<p>An <strong>AI avatar</strong> is a realistic digital human, that is, a video of a person speaking, generated entirely by AI from a text script or audio input. You provide the words; the AI creates a lifelike video of a human figure reading them.</p>
+<p>Similarly, <strong>AI voice tools</strong> can clone a voice or generate a new synthetic voice that sounds natural and human, reading any text you provide.</p>
+<p>These technologies are genuinely impressive, and they come with significant ethical responsibilities.</p>
+</section>
+<section id="some-avatar-and-voice-tools">
+<h3>5.2 Some Avatar and Voice Tools<a class="headerlink" href="#some-avatar-and-voice-tools" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Tool</p></th>
+<th class="head text-left"><p>Access</p></th>
+<th class="head text-left"><p>What It Does</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>HeyGen</strong> (<a class="reference external" href="http://heygen.com">heygen.com</a>)</p></td>
+<td class="text-left"><p>Free trial / Paid</p></td>
+<td class="text-left"><p>Generates realistic avatar videos from a text script; multiple avatar styles</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Synthesia</strong> (<a class="reference external" href="http://synthesia.io">synthesia.io</a>)</p></td>
+<td class="text-left"><p>Free trial / Paid</p></td>
+<td class="text-left"><p>Professional avatar video creation; widely used in corporate training</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>D-ID</strong> (<a class="reference external" href="http://d-id.com">d-id.com</a>)</p></td>
+<td class="text-left"><p>Free trial / Paid</p></td>
+<td class="text-left"><p>Animates still photos to speak; generates avatar videos</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>ElevenLabs</strong> (<a class="reference external" href="http://elevenlabs.io">elevenlabs.io</a>)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>High-quality AI voice generation and voice cloning</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Murf AI</strong> (<a class="reference external" href="http://murf.ai">murf.ai</a>)</p></td>
+<td class="text-left"><p>Free / Paid</p></td>
+<td class="text-left"><p>AI voiceovers for presentations and videos</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="realistic-use-cases">
+<h3>5.3 Realistic Use Cases<a class="headerlink" href="#realistic-use-cases" title="Link to this heading">#</a></h3>
+<p><strong>Where avatars and AI voices are genuinely useful:</strong></p>
+<ul class="simple">
+<li><p><strong>Training videos</strong>: create professional instructional content without recording yourself on camera.</p></li>
+<li><p><strong>Presentation narration</strong>: add a voiceover to your slides without recording a live audio track.</p></li>
+<li><p><strong>Multilingual content</strong>: generate the same content in multiple languages without a human translator recording it.</p></li>
+<li><p><strong>Accessibility</strong>: convert written content to spoken audio for audiences who prefer or need it.</p></li>
+<li><p><strong>Personal projects</strong>: create a narrated story, a digital greeting, or a fun creative project.</p></li>
+</ul>
+<p><strong>Where to be cautious:</strong></p>
+<ul class="simple">
+<li><p>❌ Creating a realistic avatar or voice of a real, identifiable person without their consent. This is a serious ethical violation and potentially illegal in many jurisdictions.</p></li>
+<li><p>❌ Using AI avatars to impersonate someone in a professional or public context.</p></li>
+<li><p>❌ Generating synthetic media designed to deceive viewers into thinking they are watching a real person.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>💡 <strong>The deepfake problem:</strong> AI-generated videos of real people saying things they never said, known as <em>deepfakes</em>, represent one of the most serious misuse risks of this technology. Being able to <em>identify</em> AI-generated video (look for unnatural blinking, odd lip sync, or perfect-but-somehow-wrong faces) is becoming an important general literacy skill.</p>
+</div>
+</section>
+<section id="activity-5-explore-an-ai-avatar-or-voice-tool">
+<h3>5.4 Activity 5: Explore an AI Avatar or Voice Tool<a class="headerlink" href="#activity-5-explore-an-ai-avatar-or-voice-tool" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Experience what AI avatar and voice technology can produce and develop a critical eye for evaluating synthetic media.</p>
+<p><strong>Option A — Create a simple avatar video (HeyGen or Synthesia):</strong><br />
+Visit <a class="reference external" href="https://heygen.com">heygen.com</a> or <a class="reference external" href="https://synthesia.io">synthesia.io</a> and use the free trial.</p>
+<ol class="arabic simple">
+<li><p>Choose an avatar from the available options (do not use real people).</p></li>
+<li><p>Type a short script, e.g. your name, a greeting, and one sentence about a topic you care about. Feel free to prompt the script to be used by the avatar.</p></li>
+<li><p>Generate the video and watch it.</p></li>
+</ol>
+<p><strong>Option B — Generate an AI voice narration (ElevenLabs or Murf):</strong><br />
+Visit <a class="reference external" href="https://elevenlabs.io">elevenlabs.io</a> (free tier available).</p>
+<ol class="arabic simple">
+<li><p>Choose a voice from the options.</p></li>
+<li><p>Type a short paragraph, e.g. a description of your town, a tip you would share with a friend, or a personal introduction. Feel free to prompt the script to be used by the avatar.</p></li>
+<li><p>Generate and listen.</p></li>
+</ol>
+<p><strong>Reflect on both options:</strong></p>
+<ul class="simple">
+<li><p>How realistic does the result feel to you?</p></li>
+<li><p>What tells you (if anything) that this is not a real person?</p></li>
+<li><p>What are two legitimate uses of this technology you can imagine?</p></li>
+<li><p>What is one misuse scenario that concerns you?</p></li>
+</ul>
+</section>
+</section>
+<section id="part-vi-ai-for-real-life-creative-projects">
+<h2>Part VI — AI for Real-Life Creative Projects<a class="headerlink" href="#part-vi-ai-for-real-life-creative-projects" title="Link to this heading">#</a></h2>
+<p>Everything you have practiced in this class, including generating images, building presentations, creating music, and exploring avatars, comes together when you apply it to real, meaningful projects. In this section, you will work on two hands-on creative challenges that many people encounter in everyday and professional life: a digital event invitation and building a brand from scratch.</p>
+<p>These activities are more open-ended than earlier ones. There is no single right answer. The goal is for you to practice directing AI through a multi-step creative project and to experience the full creative loop of <strong>Generate → Evaluate → Refine</strong>.</p>
+<section id="activity-6-create-a-digital-birthday-party-invitation">
+<h3>6.1 Activity 6: Create a Digital Birthday Party Invitation<a class="headerlink" href="#activity-6-create-a-digital-birthday-party-invitation" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Use AI to design and produce a beautiful, interactive digital birthday party invitation, ready to share via link, email, or social media.</p>
+<p>A digital invitation is a perfect creative AI project: it has a clear purpose, a real audience, a specific set of content (date, time, place, RSVP), and room for personality and visual creativity. You can choose to create this as an <strong>interactive webpage</strong>, a <strong>designed graphic</strong>, or a <strong>structured document</strong>, whichever best suits your needs.</p>
+<p><strong>Step 1 — Define the invitation details</strong></p>
+<p>Before prompting AI, decide on the basics:</p>
+<ul class="simple">
+<li><p><strong>Whose birthday is it?</strong> (Use a real name, a nickname, or make one up for practice.)</p></li>
+<li><p><strong>What is the theme or vibe?</strong> (Elegant, tropical, kids’ party, cozy gathering, surprise party, outdoor barbecue, etc.)</p></li>
+<li><p><strong>What are the key details?</strong> Date, time, location, dress code (if any), RSVP contact.</p></li>
+<li><p><strong>What format do you want?</strong> A styled HTML webpage, a printable card graphic, or a social media post?</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Having clear answers to these questions before you start will dramatically improve your AI outputs. Do not skip this step, as it is the “director’s brief” that guides everything that follows.</p>
+</div>
+<p><strong>Step 2 — Generate a written invitation text</strong></p>
+<p>Start by asking AI to write the invitation copy:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Please write a fun, warm, and creative birthday party invitation for the following event:
+
+Name: [Name]
+Theme/vibe: [e.g., tropical luau, elegant garden party, surprise 80s party]
+Date: [Date]
+Time: [Time]
+Location: [Address or venue name]
+RSVP: [Contact method — phone, email, or &quot;None for practice&quot;]
+Special note: [e.g., &quot;Surprise party — please don&#39;t tell!&quot;, &quot;Kids welcome&quot;, &quot;Casual dress&quot;]
+
+Write the invitation in a tone that matches the theme. 
+Include a catchy headline, the key event details, 
+and a fun closing line that encourages people to come.
+</pre></div>
+</div>
+<p><strong>Step 3 — Generate the interactive digital invitation as a webpage</strong></p>
+<p>Once you have the text, use this prompt to create a fully designed, interactive HTML invitation:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Using</span> <span class="n">the</span> <span class="n">invitation</span> <span class="n">text</span> <span class="n">below</span><span class="p">,</span> <span class="n">please</span> <span class="n">create</span> <span class="n">a</span> <span class="n">complete</span><span class="p">,</span> 
+<span class="n">beautiful</span> <span class="n">HTML</span> <span class="n">webpage</span> <span class="k">for</span> <span class="n">a</span> <span class="n">digital</span> <span class="n">birthday</span> <span class="n">party</span> <span class="n">invitation</span><span class="o">.</span>
+
+<span class="n">Design</span> <span class="n">requirements</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">Visually</span> <span class="n">match</span> <span class="n">the</span> <span class="n">theme</span><span class="p">:</span> <span class="p">[</span><span class="n">describe</span> <span class="n">your</span> <span class="n">theme</span> <span class="n">again</span><span class="p">,</span> <span class="n">i</span><span class="o">.</span><span class="n">e</span><span class="o">.</span> <span class="n">colors</span><span class="p">,</span> <span class="n">mood</span><span class="p">,</span> <span class="n">imagery</span> <span class="n">style</span><span class="p">]</span>
+<span class="o">-</span> <span class="n">Include</span> <span class="n">animated</span> <span class="ow">or</span> <span class="n">decorative</span> <span class="n">elements</span> <span class="n">appropriate</span> <span class="n">to</span> <span class="n">the</span> <span class="n">theme</span> 
+  <span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span><span class="p">,</span> <span class="n">floating</span> <span class="n">confetti</span><span class="p">,</span> <span class="n">subtle</span> <span class="n">sparkle</span> <span class="n">effect</span><span class="p">,</span> <span class="ow">or</span> <span class="n">a</span> <span class="n">festive</span> <span class="n">background</span> <span class="n">pattern</span><span class="p">)</span>
+<span class="o">-</span> <span class="n">Display</span> <span class="nb">all</span> <span class="n">event</span> <span class="n">details</span> <span class="n">clearly</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span> <span class="n">date</span><span class="p">,</span> <span class="n">time</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">RSVP</span>
+<span class="o">-</span> <span class="n">Include</span> <span class="n">a</span> <span class="n">simple</span> <span class="n">RSVP</span> <span class="n">section</span> <span class="k">with</span> <span class="s2">&quot;Yes, I&#39;ll be there! 🎉&quot;</span> <span class="ow">and</span> 
+  <span class="s2">&quot;Sorry, I can&#39;t make it 😢&quot;</span> <span class="n">buttons</span> <span class="n">that</span> <span class="n">show</span> <span class="n">a</span> <span class="n">friendly</span> <span class="n">confirmation</span> <span class="n">message</span> <span class="n">when</span> <span class="n">clicked</span>
+<span class="o">-</span> <span class="n">Mobile</span><span class="o">-</span><span class="n">friendly</span> <span class="n">layout</span> <span class="p">(</span><span class="n">works</span> <span class="n">well</span> <span class="n">on</span> <span class="n">both</span> <span class="n">phone</span> <span class="ow">and</span> <span class="n">desktop</span><span class="p">)</span>
+<span class="o">-</span> <span class="n">No</span> <span class="n">external</span> <span class="n">images</span> <span class="n">required</span><span class="p">;</span> <span class="n">use</span> <span class="n">CSS</span><span class="p">,</span> <span class="n">emoji</span><span class="p">,</span> <span class="ow">and</span> <span class="n">inline</span> <span class="n">design</span> <span class="n">only</span>
+<span class="o">-</span> <span class="n">Everything</span> <span class="n">should</span> <span class="n">be</span> <span class="ow">in</span> <span class="n">one</span> <span class="bp">self</span><span class="o">-</span><span class="n">contained</span> <span class="n">HTML</span> <span class="n">file</span>
+
+<span class="n">Invitation</span> <span class="n">text</span><span class="p">:</span>
+<span class="p">[</span><span class="n">PASTE</span> <span class="n">YOUR</span> <span class="n">INVITATION</span> <span class="n">TEXT</span> <span class="n">FROM</span> <span class="n">STEP</span> <span class="mi">2</span><span class="p">]</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>💡 <strong>What you get:</strong> A single <code class="docutils literal notranslate"><span class="pre">.html</span></code> file you can open in any browser, share as an attachment, or host on a free platform like GitHub Pages, Netlify Drop, or Google Sites.</p>
+</div></blockquote>
+<p><strong>Step 4 — Optionally generate a matching visual</strong></p>
+<p>Use an image generation tool (ChatGPT, Grok, Adobe Firefly, or Canva AI) to create a matching banner or background image for your invitation:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Create</span> <span class="n">a</span> <span class="n">festive</span> <span class="n">illustration</span> <span class="k">for</span> <span class="n">a</span> <span class="n">birthday</span> <span class="n">party</span> <span class="n">invitation</span> <span class="k">with</span> <span class="n">a</span> <span class="p">[</span><span class="n">theme</span><span class="p">]</span> <span class="n">theme</span><span class="o">.</span>
+<span class="n">Style</span><span class="p">:</span> <span class="p">[</span><span class="n">watercolor</span> <span class="o">/</span> <span class="n">flat</span> <span class="n">design</span> <span class="o">/</span> <span class="n">photorealistic</span> <span class="o">/</span> <span class="n">cartoon</span><span class="p">]</span>
+<span class="n">Colors</span><span class="p">:</span> <span class="p">[</span><span class="n">describe</span> <span class="n">the</span> <span class="n">palette</span> <span class="n">that</span> <span class="n">matches</span> <span class="n">your</span> <span class="n">invitation</span><span class="p">]</span>
+<span class="n">Include</span><span class="p">:</span> <span class="p">[</span><span class="nb">any</span> <span class="n">specific</span> <span class="n">elements</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span> <span class="n">balloons</span><span class="p">,</span> <span class="n">flowers</span><span class="p">,</span> <span class="n">tropical</span> <span class="n">plants</span><span class="p">,</span> <span class="n">vintage</span> <span class="n">patterns</span><span class="p">,</span> <span class="n">etc</span><span class="o">.</span><span class="p">]</span>
+<span class="n">No</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">image</span><span class="o">.</span> <span class="n">Horizontal</span> <span class="nb">format</span><span class="p">,</span> <span class="n">suitable</span> <span class="k">as</span> <span class="n">a</span> <span class="n">website</span> <span class="n">banner</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Step 5 — Review and personalize</strong></p>
+<p>Open the HTML file in your browser. Ask yourself:</p>
+<ul class="simple">
+<li><p>Does it feel right for the person and the occasion?</p></li>
+<li><p>Is all the information accurate and clearly readable?</p></li>
+<li><p>Does the design match the theme you had in mind?</p></li>
+</ul>
+<p>Make at least two edits, such as change a color, adjust the wording, or add a personal touch.</p>
+<p><strong>Reflect:</strong></p>
+<ul class="simple">
+<li><p>How long did the full process take?</p></li>
+<li><p>What did AI get right about the theme and design without being told?</p></li>
+<li><p>What would you have done differently with the design if AI had not been involved?</p></li>
+<li><p>Can you think of other events where a quick AI-generated digital invitation would save you significant time?</p></li>
+</ul>
+</section>
+<section id="activity-7-plan-a-company-with-ai-brand-identity-and-website">
+<h3>6.2 Activity 7: Plan a Company with AI — Brand Identity and Website<a class="headerlink" href="#activity-7-plan-a-company-with-ai-brand-identity-and-website" title="Link to this heading">#</a></h3>
+<p><strong>Goal:</strong> Use AI to move through three stages of building a new business or organization: strategic planning, visual identity, and website creation.</p>
+<p>This activity is one of the most expansive in the program, and one of the most practical. Whether you are dreaming of starting a business, building a side project, launching a community organization, or just exploring what is possible, AI can take you from a simple idea to a complete brand and online presence in a single session.</p>
+<p>You will work through three stages: <strong>Plan → Brand → Build.</strong></p>
+<blockquote>
+<div><p>💡 <strong>This activity is deliberately open-ended.</strong> Use a real business idea you have been thinking about, a passion project, a community initiative, or a completely imagined concept. The process is the same regardless.</p>
+</div></blockquote>
+<section id="stage-1-plan-define-the-core-components-of-your-company">
+<h4>Stage 1 — Plan: Define the Core Components of Your Company<a class="headerlink" href="#stage-1-plan-define-the-core-components-of-your-company" title="Link to this heading">#</a></h4>
+<p><strong>Start with this prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>I want to start a [type of business or organization]. 
+Here is what I have in mind so far: [1–3 sentences describing your idea].
+
+Please help me define the following foundational components:
+
+1. Business name: Suggest 5 creative, memorable name options that reflect 
+   the nature and values of this business. For each, explain the reasoning.
+2. Mission statement: One sentence that captures what the business does 
+   and why it matters.
+3. Vision statement: One sentence about the long-term impact or aspiration.
+4. Core values: 3–5 values with a one-line explanation each.
+5. Target audience: Who are the ideal customers or clients? 
+   Describe them in plain terms (age range, needs, lifestyle, goals).
+6. Key products or services: List 3–5 core offerings with a one-line description each.
+7. Unique value proposition: In one sentence, what makes this business 
+   different from others in the same space?
+</pre></div>
+</div>
+<p>Review the output, pick the name you like best, and move to Stage 2.</p>
+</section>
+<section id="stage-2-brand-create-the-visual-identity">
+<h4>Stage 2 — Brand: Create the Visual Identity<a class="headerlink" href="#stage-2-brand-create-the-visual-identity" title="Link to this heading">#</a></h4>
+<p>With your business concept defined, use AI to develop a complete <strong>visual identity</strong> - the look, feel, and visual language of your brand.</p>
+<p><strong>Prompt 1 — Brand personality and color palette:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Based on this business concept: [paste your mission, audience, and value proposition from Stage 1]
+
+Please create a complete brand personality and visual identity guide including:
+
+1. Brand personality: Describe the brand in 5 adjectives and explain 
+   what they mean for how the brand should look and communicate.
+2. Color palette: Suggest a primary color, a secondary color, 
+   and an accent color. For each, provide the hex code, the name, 
+   and explain why it fits this brand.
+3. Typography suggestion: Recommend a heading font and a body text font 
+   (use Google Fonts options). Explain the choice.
+4. Logo concept: Describe in words a logo concept that fits this brand — 
+   the symbol or mark, the style, and how the name would appear alongside it.
+5. Visual style guide: In 3–4 sentences, describe the overall visual direction 
+   (photography style, illustration style, layout feel) for this brand.
+</pre></div>
+</div>
+<p><strong>Prompt 2 — Generate a logo concept image:</strong></p>
+<p>Take the logo description from the AI’s response and use it to generate a visual with an image tool:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Create</span> <span class="n">a</span> <span class="n">minimalist</span> <span class="n">logo</span> <span class="k">for</span> <span class="n">a</span> <span class="n">company</span> <span class="n">called</span> <span class="s2">&quot;[Your Business Name]&quot;</span><span class="o">.</span>
+<span class="p">[</span><span class="n">Paste</span> <span class="n">the</span> <span class="n">logo</span> <span class="n">concept</span> <span class="n">description</span> <span class="kn">from</span><span class="w"> </span><span class="nn">the</span> <span class="n">AI</span><span class="s1">&#39;s brand guide.]</span>
+<span class="n">Clean</span> <span class="n">white</span> <span class="n">background</span><span class="o">.</span> <span class="n">Professional</span><span class="p">,</span> <span class="n">modern</span> <span class="n">style</span><span class="o">.</span>
+<span class="n">Include</span> <span class="n">the</span> <span class="n">company</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">logo</span> <span class="ow">in</span> <span class="p">[</span><span class="n">your</span> <span class="n">chosen</span> <span class="n">font</span> <span class="n">style</span><span class="p">]</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>AI image tools sometimes struggle with precise text in logos. If the text does not render correctly, generate the icon/symbol separately and add the business name using Canva, Google Slides, or any basic design tool.</p>
+</div>
+</section>
+<section id="stage-3-build-create-the-company-website">
+<h4>Stage 3 — Build: Create the Company Website<a class="headerlink" href="#stage-3-build-create-the-company-website" title="Link to this heading">#</a></h4>
+<p>With your brand identity in place, use AI to build a complete one-page company website.</p>
+<p><strong>Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Using the brand information below, please create a complete, 
+professional one-page company website as a single HTML file.
+
+Brand information:
+- Business name: [name]
+- Mission: [mission statement]
+- Target audience: [description]
+- Products/services: [list]
+- Unique value proposition: [statement]
+- Color palette: Primary: [hex], Secondary: [hex], Accent: [hex]
+- Brand personality: [adjectives]
+
+Website sections to include:
+1. Hero section: business name, tagline, and a prominent call-to-action button
+2. About section: who we are and what we stand for (2–3 sentences)
+3. Services/Products section: the 3–5 key offerings with a short description each
+4. Why Us section: 3 short points highlighting the unique value proposition
+5. Contact section: a simple contact form (name, email, message fields) 
+   and placeholder contact details
+6. Footer: business name, copyright year, and navigation links
+
+Design requirements:
+- Use the brand colors throughout (header, buttons, accents)
+- Clean, modern, mobile-responsive layout
+- Professional typography matching the brand personality
+- Smooth scroll navigation
+- All in one self-contained HTML file, no external dependencies
+</pre></div>
+</div>
+<p><strong>Review and refine:</strong></p>
+<ul class="simple">
+<li><p>Does the website accurately represent the business idea?</p></li>
+<li><p>Does the design feel consistent with the brand personality?</p></li>
+<li><p>What would you change, add, or remove?</p></li>
+</ul>
+<p>Use follow-up prompts to make specific adjustments:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Please</span> <span class="n">add</span> <span class="n">a</span> <span class="n">customer</span> <span class="n">testimonials</span> <span class="n">section</span> <span class="n">between</span> <span class="n">the</span> <span class="n">Services</span> <span class="ow">and</span> <span class="n">Why</span> <span class="n">Us</span> <span class="n">sections</span><span class="o">.</span>
+<span class="n">Make</span> <span class="n">the</span> <span class="n">hero</span> <span class="n">section</span> <span class="n">background</span> <span class="n">use</span> <span class="n">a</span> <span class="n">subtle</span> <span class="n">gradient</span> <span class="n">of</span> <span class="n">our</span> <span class="n">primary</span> <span class="ow">and</span> <span class="n">secondary</span> <span class="n">colors</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>Full Activity Reflection:</strong></p>
+<ul class="simple">
+<li><p>What surprised you about how quickly AI could produce a business concept and brand?</p></li>
+<li><p>Which stage — planning, branding, or building — did AI handle most impressively?</p></li>
+<li><p>Which stage required the most of your own judgment and editing?</p></li>
+<li><p>How would this compare to hiring a freelancer or agency to do the same work?</p></li>
+<li><p>What are the risks of using AI-generated brand materials without involving a professional designer?</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>A note on professional use:</strong> For a real business, AI-generated brand materials are an excellent starting point, but professional designers bring strategic thinking, cultural nuance, and refinement that AI cannot fully replicate. Use AI to explore and prototype; bring in professionals when it really counts.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="part-vii-putting-creative-ai-in-perspective">
+<h2>Part VII — Putting Creative AI in Perspective<a class="headerlink" href="#part-vii-putting-creative-ai-in-perspective" title="Link to this heading">#</a></h2>
+<section id="what-distinguishes-human-creativity-from-ai-generation">
+<h3>7.1 What Distinguishes Human Creativity from AI Generation?<a class="headerlink" href="#what-distinguishes-human-creativity-from-ai-generation" title="Link to this heading">#</a></h3>
+<p>This is one of the most important questions of our time, and there is no single right answer. But it is worth thinking about carefully.</p>
+<p>AI can produce:</p>
+<ul class="simple">
+<li><p>Images that are technically flawless and visually striking.</p></li>
+<li><p>Music that follows established harmonic and rhythmic patterns.</p></li>
+<li><p>Presentations that are well-structured and professionally designed.</p></li>
+<li><p>Videos of humans speaking any words you provide.</p></li>
+</ul>
+<p>What AI cannot produce, at least not yet, and perhaps not ever, is:</p>
+<ul class="simple">
+<li><p><strong>Genuine intention</strong>: the reason behind the creation, the message you are trying to send.</p></li>
+<li><p><strong>Lived experience</strong>: the personal history, emotion, and perspective that give creative work meaning.</p></li>
+<li><p><strong>Ethical judgment</strong>: the ability to decide what <em>should</em> be created, not just what <em>can</em> be created.</p></li>
+<li><p><strong>Accountability</strong>: the willingness to take responsibility for what the work communicates and how it is received.</p></li>
+</ul>
+<blockquote>
+<div><p>The most powerful creative uses of AI are the ones where your intention is clear, your judgment shapes the output, and the final result carries your voice, even if AI generated the first draft.</p>
+</div></blockquote>
+</section>
+<section id="a-practical-creative-ai-ethics-checklist">
+<h3>7.2 A Practical Creative AI Ethics Checklist<a class="headerlink" href="#a-practical-creative-ai-ethics-checklist" title="Link to this heading">#</a></h3>
+<p>Before sharing any AI-generated creative content — publicly, professionally, or personally — run through this quick check:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Accuracy</strong>: Does the content accurately represent what I claim it does?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Consent</strong>: Does any content involve real people? Do I have their consent?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Transparency</strong>: Am I being honest about the role AI played in creating this?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Ownership</strong>: Have I checked the tool’s terms of service for commercial or public use?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Harm</strong>: Could this content mislead, deceive, demean, or harm anyone?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Purpose</strong>: Is this the right tool and the right approach for this particular goal?</p></li>
+</ul>
+<p>If you can check all six boxes with a clear conscience, you are using creative AI responsibly.</p>
+</section>
+<section id="reflection">
+<h3>7.3 Reflection<a class="headerlink" href="#reflection" title="Link to this heading">#</a></h3>
+<blockquote>
+<div><p>What surprised you most about what AI can create today?<br />
+Where do you see yourself using any of these creative tools in the next month — personally or professionally?<br />
+What does it mean for something to be <em>your</em> creative work if AI generated the first draft — or most of it?<br />
+Where do you think the line should be drawn between useful AI assistance and problematic AI replacement in creative fields?</p>
+</div></blockquote>
+<p>These are not abstract philosophical questions, they are practical ones that more and more professionals, educators, artists, and organizations are wrestling with right now. Developing your own thoughtful position on them is part of becoming a confident, responsible AI user.</p>
+</section>
+<section id="what-is-coming-in-class-4">
+<h3>7.4 What Is Coming in Class 4<a class="headerlink" href="#what-is-coming-in-class-4" title="Link to this heading">#</a></h3>
+<p>Our final class brings everything together, and adds one critical layer that ties the whole program together: <strong>knowing when to trust AI, how to protect yourself, and how to build habits that last</strong>.</p>
+<p>In Class 4, you will:</p>
+<ul class="simple">
+<li><p>Apply a <strong>verification-first framework</strong> to any AI output, creative or otherwise.</p></li>
+<li><p>Learn what to keep private and how your data is used by AI tools.</p></li>
+<li><p>Build your <strong>personal AI toolkit</strong> — a curated set of tools, prompts, and habits tailored to your life.</p></li>
+<li><p>Leave with a <strong>Personal AI Action Plan</strong>: three concrete habits you will start this week.</p></li>
+</ul>
+</section>
+</section>
+<section id="class-3-summary-checklist">
+<h2>📋 Class 3 Summary Checklist<a class="headerlink" href="#class-3-summary-checklist" title="Link to this heading">#</a></h2>
+<p>Before you move on, confirm that you can do the following:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Describe, in plain language, how AI generates images, music, and video from text prompts.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Write an effective image prompt using subject, setting, style, mood, and composition.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use an AI presentation tool to generate a structured slide deck from a prompt or outline.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Generate a short AI music piece using descriptive prompts for genre, mood, and instruments.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Describe at least two legitimate use cases for AI avatars or synthetic voice tools.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Apply the six-point creative AI ethics checklist before sharing AI-generated content.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Articulate in your own words what distinguishes human creative intent from AI generation.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use AI to create a themed, interactive digital invitation as a self-contained HTML webpage.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use AI to define the core components of a business (name, mission, values, audience, services).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use AI to generate a brand identity guide including color palette, typography, and logo concept.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use AI to build a complete one-page company website from a brand brief.</p></li>
+</ul>
+</section>
+<section id="further-reading">
+<h2>📘 Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Mollick, E. (2024).</strong> <em>Co-Intelligence: Living and Working with AI.</em> Portfolio/Penguin. <em>(Chapter 5 addresses AI and creative work in depth.)</em></p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Module 4: Generative AI and Large Language Models.</em> FGCU AI Academy. <em>(Full treatment of how generative models create content.)</em></p></li>
+<li><p><strong>Dendritic Institute. (2025).</strong> <em>AI Literacy Program — Module 7: Foundational Models and General-Purpose LLMs.</em> FGCU AI Academy. <em>(Comparative overview of all major AI platforms covered in this class.)</em></p></li>
+<li><p><strong>Adobe. (2024).</strong> <em>Content Credentials: Understanding AI-Generated and Edited Content.</em> <a class="reference external" href="http://adobe.com/content-credentials">adobe.com/content-credentials</a>.</p></li>
+<li><p><strong>Creative Commons. (2024).</strong> <em>AI and Copyright: What Creators Need to Know.</em> <a class="reference external" href="http://creativecommons.org">creativecommons.org</a>.</p></li>
+<li><p><strong>Suno AI. (2024).</strong> <em>Terms of Service and Creator Rights.</em> <a class="reference external" href="http://suno.com/terms">suno.com/terms</a>.</p></li>
+<li><p><strong>Synthesia. (2024).</strong> <em>Ethical AI Policy for Avatar Creation.</em> <a class="reference external" href="http://synthesia.io/ethical-policy">synthesia.io/ethical-policy</a>.</p></li>
+<li><p><strong>Partnership on AI. (2023).</strong> <em>Responsible Practices for Synthetic Media.</em> <a class="reference external" href="http://partnershiponai.org">partnershiponai.org</a>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Class 3 is part of the AI for Everyday Life Program, offered by the Dendritic Institute for Human-Centered AI &amp; Data Science at Florida Gulf Coast University. All hands-on activities in this class can be completed using free tiers of the tools listed. No design, music, or technical background is required.</em></p>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Module2_Daily_Assistant.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 2: AI as Your Daily Assistant — From Emails to Career</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Module4_Staying_Smart.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Module 4: Staying Smart with AI — Trust, Safety &amp; Your Personal Toolkit</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-ai-and-creativity-a-new-kind-of-partnership">Part I — AI and Creativity: A New Kind of Partnership</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-analysis-to-creation-what-generative-ai-produces">1.1 From Analysis to Creation: What Generative AI Produces</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-human-ai-co-creation-mindset">1.2 The Human-AI Co-Creation Mindset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copyright-ethics-and-creative-ai-what-you-need-to-know">1.3 Copyright, Ethics, and Creative AI: What You Need to Know</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-ai-generated-images">Part II — AI-Generated Images</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-image-generation-works">2.1 How Image Generation Works</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-major-image-generation-tools">2.2 The Major Image Generation Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompting-for-images-describing-what-you-want">2.3 Prompting for Images: Describing What You Want</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-generate-your-first-image">2.4 Activity 1: Generate Your First Image</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iii-ai-for-presentations">Part III — AI for Presentations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-ai-presentation-tools-are-a-game-changer">3.1 Why AI Presentation Tools Are a Game-Changer?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-major-ai-presentation-tools">3.2 Some Major AI Presentation Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-builds-a-presentation">3.3 How AI Builds a Presentation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-templates-for-ai-presentations">3.4 Prompt Templates for AI Presentations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-build-a-presentation-with-ai">3.5 Activity 2: Build a Presentation with AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-prompt-a-presentation">3.6 Activity 3: Prompt a Presentation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-iv-ai-music-and-audio">Part IV — AI Music and Audio</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-music-tools-can-do">4.1 What AI Music Tools Can Do</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-major-ai-music-tools">4.2 Some Major AI Music Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompting-for-music-describing-what-you-want-to-hear">4.3 Prompting for Music: Describing What You Want to Hear</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-4-create-an-ai-music-piece">4.4 Activity 4: Create an AI Music Piece</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-v-ai-avatars-and-synthetic-voices">Part V — AI Avatars and Synthetic Voices</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-ai-avatars-are">5.1 What AI Avatars Are</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-avatar-and-voice-tools">5.2 Some Avatar and Voice Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#realistic-use-cases">5.3 Realistic Use Cases</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-5-explore-an-ai-avatar-or-voice-tool">5.4 Activity 5: Explore an AI Avatar or Voice Tool</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-vi-ai-for-real-life-creative-projects">Part VI — AI for Real-Life Creative Projects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-6-create-a-digital-birthday-party-invitation">6.1 Activity 6: Create a Digital Birthday Party Invitation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-7-plan-a-company-with-ai-brand-identity-and-website">6.2 Activity 7: Plan a Company with AI — Brand Identity and Website</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-1-plan-define-the-core-components-of-your-company">Stage 1 — Plan: Define the Core Components of Your Company</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-2-brand-create-the-visual-identity">Stage 2 — Brand: Create the Visual Identity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-3-build-create-the-company-website">Stage 3 — Build: Create the Company Website</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-vii-putting-creative-ai-in-perspective">Part VII — Putting Creative AI in Perspective</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-distinguishes-human-creativity-from-ai-generation">7.1 What Distinguishes Human Creativity from AI Generation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-practical-creative-ai-ethics-checklist">7.2 A Practical Creative AI Ethics Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">7.3 Reflection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-coming-in-class-4">7.4 What Is Coming in Class 4</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#class-3-summary-checklist">📋 Class 3 Summary Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">📘 Further Reading</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

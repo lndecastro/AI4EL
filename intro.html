@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AI for Everyday Life &#8212; AI for Everyday Life</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Module 1: Understanding AI Without the Fear" href="Module1_Understanding_AI.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="AI for Everyday Life - Home"/>
+    <img src="_static/dendritic_logo.png" class="logo__image only-dark pst-js-only" alt="AI for Everyday Life - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    AI for Everyday Life
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Module1_Understanding_AI.html">Module 1: Understanding AI Without the Fear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module2_Daily_Assistant.html">Module 2: AI as Your Daily Assistant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module3_AI_Gets_Creative.html">Module 3: AI Gets Creative</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module4_Staying_Smart.html">Module 4: Staying Smart with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix.html">Appendix: In Class Activities</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AI4EL/edit/main/tempBook5/intro.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>AI for Everyday Life</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-goals">Program Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-journey">Our Journey</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-this-jupyter-book">How to Use This Jupyter Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#human-centered-ai">Human-Centered AI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-philosophy-and-approach">Learning Philosophy and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-roadmap-at-a-glance">Program Roadmap at a Glance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-take-home">What You Will Take Home</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-dr-leandro-nunes-de-castro">About the Instructor – Dr. Leandro Nunes de Castro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">Further Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">🧾 Acknowledgements</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ai-for-everyday-life">
+<h1>AI for Everyday Life<a class="headerlink" href="#ai-for-everyday-life" title="Link to this heading">#</a></h1>
+<p>Welcome to the <strong>AI for Everyday Life Program (AI4EL)</strong>, part of the <strong>FGCU AI Academy</strong> led by the <strong>Dendritic Institute for Human-Centered AI &amp; Data Science</strong> at Florida Gulf Coast University.</p>
+<p>The <strong>AI4EL Program</strong> is the <em>practical, applied offering</em> of the <strong>FGCU AI Academy</strong>, designed for learners of all backgrounds who want to use Artificial Intelligence tools confidently in their daily and professional lives. This program was designed to require no technical background and also be tool agnostic. Positioned alongside the <strong>AI Literacy Program</strong> (which builds conceptual and historical foundations), the AI4EL Program focuses on a different, equally essential question: <em>How do I actually use AI to get things done?</em> Through hands-on practice, real-world demonstrations, and a human-centered philosophy, participants move from curiosity to capability, learning to draft emails, generate images, create presentations, plan tasks, and much more, always with critical thinking and responsible use at the core.</p>
+<p>This Jupyter Book is designed to be your <strong>practical companion</strong> through the world of AI tools, from understanding what AI is and how to talk to it, to creating rich multimedia content and building habits that last.</p>
+<section id="program-goals">
+<h2>Program Goals<a class="headerlink" href="#program-goals" title="Link to this heading">#</a></h2>
+<p>The goal of this program is to <strong>equip everyday learners with the confidence, skills, and mindset to use AI tools effectively and responsibly in their personal and professional lives</strong>. By the end of this journey, you will:</p>
+<ul class="simple">
+<li><p>Understand what AI is, and what it is not, in plain, jargon-free language.</p></li>
+<li><p>Know how to communicate with AI tools to get useful, high-quality results.</p></li>
+<li><p>Use AI to complete real tasks: writing emails, summarizing documents, creating spreadsheets, generating images, building presentations, and much more.</p></li>
+<li><p>Recognize when to trust AI outputs, and when to question them.</p></li>
+<li><p>Build a personal AI toolkit and a set of habits that you can apply immediately.</p></li>
+</ul>
+<p>This program is for <strong>everyone</strong>, whether you have never used an AI tool before or you have experimented a little and want to go further with confidence.</p>
+</section>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<p>By completing this program, you will be able to:</p>
+<ul class="simple">
+<li><p>Explain what AI is and describe how it works in everyday terms, without technical jargon.</p></li>
+<li><p>Use <strong>prompt engineering</strong> techniques to get better results from AI tools.</p></li>
+<li><p>Apply AI to <strong>written communication</strong>: drafting and improving emails, documents, and reports.</p></li>
+<li><p>Use AI to <strong>create, analyze and simplify spreadsheets</strong>.</p></li>
+<li><p>Use AI to create a <strong>personal professional page</strong> and a <strong>tailored CV and cover letter</strong> from your LinkedIn profile.</p></li>
+<li><p>Create <strong>AI-generated images</strong> for personal and professional use.</p></li>
+<li><p>Build <strong>AI-assisted presentations</strong> faster and more effectively.</p></li>
+<li><p>Design a <strong>digital event invitation</strong> as an interactive webpage using AI.</p></li>
+<li><p>Plan the core components of a <strong>company or organization</strong> with AI, then build its <strong>brand identity and website</strong>.</p></li>
+<li><p>Experiment with <strong>AI music and avatar tools</strong> for content creation.</p></li>
+<li><p>Apply a <strong>verification-first mindset</strong> to evaluate AI outputs critically.</p></li>
+<li><p>Protect your <strong>privacy and data</strong> when using AI tools.</p></li>
+<li><p>Design a <strong>personal AI action plan</strong> with habits you can start using right away.</p></li>
+</ul>
+</section>
+<section id="our-journey">
+<h2>Our Journey<a class="headerlink" href="#our-journey" title="Link to this heading">#</a></h2>
+<p>The AI4EL Program is structured as a <strong>hands-on, progressive learning experience</strong> across four practical classes. Each class builds on the previous one, taking you from foundational understanding to creative application and responsible, sustainable use.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Class</p></th>
+<th class="head text-left"><p>Theme</p></th>
+<th class="head text-left"><p>Focus</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p><strong>1</strong></p></td>
+<td class="text-left"><p><em>Understanding AI Without the Fear</em></p></td>
+<td class="text-left"><p>What AI is, how it works in plain language, and your very first hands-on experience with a chatbot.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p><strong>2</strong></p></td>
+<td class="text-left"><p><em>AI as Your Daily Assistant</em></p></td>
+<td class="text-left"><p>Using AI for emails, documents, spreadsheets, professional pages, tailored CVs, and cover letters.</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p><strong>3</strong></p></td>
+<td class="text-left"><p><em>AI Gets Creative</em></p></td>
+<td class="text-left"><p>Generating images, building presentations, creating digital invitations, designing brand identities, and building company websites. AI as a creative partner.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p><strong>4</strong></p></td>
+<td class="text-left"><p><em>Staying Smart with AI</em></p></td>
+<td class="text-left"><p>Verifying AI outputs, protecting your privacy, and building an AI toolkit and habits that last.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="how-to-use-this-jupyter-book">
+<h2>How to Use This Jupyter Book<a class="headerlink" href="#how-to-use-this-jupyter-book" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Navigate the classes using the left-hand sidebar or the <strong>Next/Previous</strong> buttons at the bottom of each page.</p></li>
+<li><p>Download pages as <code class="docutils literal notranslate"><span class="pre">.md</span></code> or <code class="docutils literal notranslate"><span class="pre">.pdf</span></code> for your notes and reference materials.</p></li>
+<li><p>Look for <strong>Tips</strong>, <strong>Hands-On Activities</strong>, <strong>Watch Out</strong> moments, and <strong>Checklists</strong> throughout each class.</p></li>
+<li><p>Many pages include <strong>prompt templates</strong> and <strong>tool recommendations</strong> you can try immediately with ChatGPT, Claude, Gemini, Copilot, or other AI platforms.</p></li>
+<li><p>Use this book alongside live sessions, video demonstrations, and AI tool explorations offered through the <strong>FGCU AI Academy</strong>.</p></li>
+</ul>
+<p>No installation, no coding, and no prior technical knowledge is required to use this book or to participate in the program.</p>
+</section>
+<section id="human-centered-ai">
+<h2>Human-Centered AI<a class="headerlink" href="#human-centered-ai" title="Link to this heading">#</a></h2>
+<p>This program is built on a fundamental belief:</p>
+<blockquote>
+<div><p><strong>AI is not here to replace people. It is here to amplify what people can think, create, and accomplish.</strong></p>
+</div></blockquote>
+<p>Every class in this program keeps the human being at the center of the conversation. You will learn that AI works best when paired with your own judgment, values, lived experience, and critical thinking. The final decisions (professional, creative, or personal) always remain yours.</p>
+<p>As you move through these classes, keep reflecting on:</p>
+<ul class="simple">
+<li><p>How can AI help me do things I already do, but faster, better, or with less stress?</p></li>
+<li><p>When should I trust an AI output and when should I verify, edit, or discard it?</p></li>
+<li><p>What does it mean to use AI responsibly, for myself and for others?</p></li>
+</ul>
+</section>
+<section id="learning-philosophy-and-approach">
+<h2>Learning Philosophy and Approach<a class="headerlink" href="#learning-philosophy-and-approach" title="Link to this heading">#</a></h2>
+<p>This program adopts a <strong>demo-first, practice-centered approach</strong> to learning. The emphasis is not on memorizing tool names or technical concepts, but on doing, experimenting, reflecting, and building transferable skills.</p>
+<p>Key principles guiding this program include:</p>
+<ul class="simple">
+<li><p><strong>Concepts before features</strong><br />
+Understanding <em>how</em> to do something independently of platform and <em>why</em> a tool behaves as it does makes you a better user of every tool, not just the ones covered here.</p></li>
+<li><p><strong>Verification before action</strong><br />
+AI outputs are starting points, not final answers. Every class reinforces the habit of reviewing and critically evaluating what AI produces.</p></li>
+<li><p><strong>Practice over performance</strong><br />
+The goal is not to impress but to build genuine, lasting confidence through repeated, real-world application.</p></li>
+<li><p><strong>Human judgment always</strong><br />
+Creativity, ethics, context, and accountability are uniquely human. AI supports these, it does not replace them.</p></li>
+</ul>
+</section>
+<section id="program-roadmap-at-a-glance">
+<h2>Program Roadmap at a Glance<a class="headerlink" href="#program-roadmap-at-a-glance" title="Link to this heading">#</a></h2>
+<p>The program follows a clear and practical progression:</p>
+<ol class="arabic simple">
+<li><p><strong>Class 1</strong>: Demystifying AI and your first prompt conversation</p></li>
+<li><p><strong>Class 2</strong>: AI for emails, documents, spreadsheets, professional pages, CVs, and cover letters</p></li>
+<li><p><strong>Class 3</strong>: AI for images, presentations, music, avatars, digital invitations, brand identity, and websites</p></li>
+<li><p><strong>Class 4</strong>: Verification, privacy, and building your personal AI toolkit</p></li>
+</ol>
+<p>By the end of the program, you will have practiced AI across the most common use cases in everyday and professional life, and you will leave with a personal action plan to keep growing.</p>
+</section>
+<section id="what-you-will-take-home">
+<h2>What You Will Take Home<a class="headerlink" href="#what-you-will-take-home" title="Link to this heading">#</a></h2>
+<p>Across all four classes, participants build a personal <strong>AI Starter Pack</strong>:</p>
+<ul class="simple">
+<li><p><strong>Prompt Library</strong>: tested prompts for emails, documents, and creative tasks</p></li>
+<li><p><strong>Verification Checklist</strong>: a practical framework for reviewing AI outputs before using them</p></li>
+<li><p><strong>AI Tool Map</strong>: a plain-language guide to which AI tool to use for which task</p></li>
+<li><p><strong>Responsible Use Guide</strong>: clear, practical guidelines for privacy and ethical AI use</p></li>
+<li><p><strong>Personal AI Action Plan</strong>: your own commitment to three AI habits you will start this week</p></li>
+</ul>
+</section>
+<section id="about-the-instructor-dr-leandro-nunes-de-castro">
+<h2>About the Instructor – Dr. Leandro Nunes de Castro<a class="headerlink" href="#about-the-instructor-dr-leandro-nunes-de-castro" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Professor in the <strong>Department of Computing and Software Engineering</strong>, U.A. Whitaker College of Engineering, FGCU.</p></li>
+<li><p>Ph.D. in Computer Engineering with 30 years of experience in <strong>Artificial Intelligence, Data Science, and Natural Computing</strong>.</p></li>
+<li><p>Director of the <strong>Dendritic Institute for Artificial Intelligence and Data Science</strong> at FGCU.</p></li>
+<li><p>Author of various AI and Data Science books and papers, and recognized among the <strong>Top 2% most influential researchers in Computer Science worldwide</strong>.</p></li>
+<li><p>Experienced entrepreneur, researcher, and educator with a focus on applying AI for innovation, business, and societal impact.</p></li>
+<li><p>Active mentor and collaborator with international academic and industry partners.</p></li>
+</ul>
+</section>
+<section id="further-reading">
+<h2>Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<p>Learners who wish to continue exploring the topics introduced in this program are encouraged to consult:</p>
+<ul class="simple">
+<li><p><strong>Mollick, E. (2024).</strong> <em>Co-Intelligence: Living and Working with AI</em>. Portfolio/Penguin.</p></li>
+<li><p><strong>Anthropic. (2024).</strong> <em>Claude’s Model Spec and Usage Guidelines.</em> <a class="reference external" href="http://anthropic.com">anthropic.com</a>.</p></li>
+<li><p><strong>OpenAI. (2024).</strong> <em>ChatGPT: Using AI Responsibly.</em> <a class="reference external" href="http://openai.com">openai.com</a>.</p></li>
+<li><p><strong>Senior Planet. (2024).</strong> <em>AI Guide for Older Adults.</em> <a class="reference external" href="http://seniorplanet.org">seniorplanet.org</a>.</p></li>
+<li><p><strong>De Castro, L. N. (2026).</strong> <em>Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design</em>. CRC Press.</p></li>
+</ul>
+<p>These readings offer complementary perspectives on AI use, human-AI collaboration, responsible AI practices, and the growing role of AI literacy as a life skill.</p>
+</section>
+<section id="acknowledgements">
+<h2>🧾 Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<p>Developed by <strong>Dr. Leandro Nunes de Castro</strong>©️ for the <strong>Dendritic Institute for Human-Centered AI &amp; Data Science</strong>, within the <strong>U.A. Whitaker College of Engineering at Florida Gulf Coast University</strong>.</p>
+<p>Content curated with support from large language models such as ChatGPT, Claude, Gemini, Perplexity, <a class="reference external" href="http://Gamma.ai">Gamma.ai</a>, Napkin, and CoPilot, following ethical and pedagogical review. All rights reserved.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>This Jupyter Book is part of the Dendritic AI Academy’s Applied AI Track, designed to help learners at all levels engage confidently, critically, and responsibly with AI tools in their everyday and professional lives.</em></p>
+</div>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="Module1_Understanding_AI.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Module 1: Understanding AI Without the Fear</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-goals">Program Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-journey">Our Journey</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-this-jupyter-book">How to Use This Jupyter Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#human-centered-ai">Human-Centered AI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-philosophy-and-approach">Learning Philosophy and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-roadmap-at-a-glance">Program Roadmap at a Glance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-take-home">What You Will Take Home</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-dr-leandro-nunes-de-castro">About the Instructor – Dr. Leandro Nunes de Castro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">Further Reading</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">🧾 Acknowledgements</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
