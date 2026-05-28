@@ -397,7 +397,7 @@ Claude generates text based on patterns and general knowledge, but it does not k
 
 AI music generation tools create original audio, instrumentals, songs with lyrics, ambient soundscapes, and more, from a text description. You do not need to play an instrument, read music, or have any audio production skills.
 
-Modern tools like **Suno** and **Udio** can generate a two-minute song, complete with vocals, melody, and instrumentation, in less than 30 seconds, and for free.
+Modern tools like **Suno** and **Udio** can generate a two-minute song, complete with vocals, melody, and instrumentation, in a short period of time and for free.
 
 **What you can create:**
 - Background music for presentations, videos, or events
