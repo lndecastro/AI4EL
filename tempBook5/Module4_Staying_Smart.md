@@ -107,7 +107,7 @@ Perplexity.ai, Copilot, or ChatGPT with web search enabled can retrieve current 
 **Apply the five-point quality check** (from Class 2):
 
 | **Criterion** | **Question** |
-| :--- | :--- | :--- |
+| :--- | :--- | 
 | **Relevance** | Does the response actually address what I asked? |
 | **Completeness** | Did it cover all the aspects I needed? |
 | **Clarity** | Is it clear, readable, and well-structured? |
@@ -140,9 +140,9 @@ For each claim, spend one to two minutes searching for independent confirmation.
 **Step 4 — Record your findings:**
 
 | AI's Claim | True / False / Partly True / Unverifiable | Source You Used |
-| | | |
-| | | |
-| | | |
+| | |
+| | |
+| | |
 
 **Reflect:**
 - Were any claims wrong or unverifiable?
@@ -162,6 +162,7 @@ This does not mean AI tools are dangerous. It means they require the same though
 **What to keep private — always:**
 
 | Category | Examples |
+| :--- | :--- |
 | **Personal identification** | Social Security numbers, passport numbers, driver's license numbers |
 | **Financial information** | Bank account details, credit card numbers, PINs, financial passwords |
 | **Login credentials** | Passwords, security questions and answers |
@@ -190,6 +191,7 @@ ChatGPT and some other platforms offer a mode where conversations are not saved.
 **Where to find your privacy settings:**
 
 | Platform | Where to Find It |
+| :--- | :--- |
 | **ChatGPT** | Settings → Data Controls → Improve the model for everyone |
 | **Claude** | Settings → Privacy → Conversation history |
 | **Gemini** | Gemini Apps Activity → Activity controls |
@@ -258,6 +260,7 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **General AI chatbots — your everyday starting point:**
 
 | Tool | Best For | Free Tier? |
+| :--- | :--- | :--- |
 | **ChatGPT** (chat.openai.com) | Versatile tasks; great for brainstorming, drafting, image generation (DALL·E), and data analysis | ✅ Yes |
 | **Claude** (claude.ai) | Long documents; nuanced writing; thoughtful, careful responses | ✅ Yes |
 | **Gemini** (gemini.google.com) | Google Workspace users; integration with Gmail, Docs, and Sheets | ✅ Yes |
@@ -267,6 +270,7 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **Creative tools — for specific creative tasks:**
 
 | Task | Recommended Tool |
+| :--- | :--- |
 | Image generation | DALL·E (inside ChatGPT), Adobe Firefly, Canva AI |
 | Presentation building | Gamma (gamma.app), Canva AI |
 | Music generation | Suno (suno.com), Udio |
@@ -276,6 +280,7 @@ One of the most practical things you can do as an AI user is develop a clear sen
 **Productivity integrations — AI built into tools you already use:**
 
 | If You Use... | AI Is Already There |
+| :--- | :--- |
 | Microsoft 365 (Word, Excel, Outlook) | Copilot (requires Microsoft 365 subscription with Copilot add-on) |
 | Google Workspace (Gmail, Docs, Sheets) | Gemini (available in Workspace accounts) |
 | Canva | Magic Write, Magic Media (AI image generation) |
